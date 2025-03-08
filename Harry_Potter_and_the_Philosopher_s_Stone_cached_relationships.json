@@ -1,0 +1,3903 @@
+{
+    "Family_PARENT_OF": [
+        {
+            "parent_id": "CHAR_02",
+            "child_id": "CHAR_04",
+            "legitimacy": "legitimate",
+            "confirmed": true
+        },
+        {
+            "parent_id": "CHAR_03",
+            "child_id": "CHAR_04",
+            "legitimacy": "legitimate",
+            "confirmed": true
+        },
+        {
+            "parent_id": "CHAR_09",
+            "child_id": "CHAR_01",
+            "legitimacy": "legitimate",
+            "confirmed": true
+        },
+        {
+            "parent_id": "CHAR_10",
+            "child_id": "CHAR_01",
+            "legitimacy": "legitimate",
+            "confirmed": true
+        }
+    ],
+    "Family_SIBLING_OF": [
+        {
+            "sibling1_id": "CHAR_02",
+            "sibling2_id": "CHAR_03",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_13",
+            "sibling2_id": "CHAR_33",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_13",
+            "sibling2_id": "CHAR_34",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_13",
+            "sibling2_id": "CHAR_35",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_13",
+            "sibling2_id": "CHAR_36",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_13",
+            "sibling2_id": "CHAR_37",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_13",
+            "sibling2_id": "CHAR_38",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_33",
+            "sibling2_id": "CHAR_34",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_33",
+            "sibling2_id": "CHAR_35",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_33",
+            "sibling2_id": "CHAR_36",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_33",
+            "sibling2_id": "CHAR_37",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_33",
+            "sibling2_id": "CHAR_38",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_34",
+            "sibling2_id": "CHAR_35",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_34",
+            "sibling2_id": "CHAR_36",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_34",
+            "sibling2_id": "CHAR_37",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_34",
+            "sibling2_id": "CHAR_38",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_35",
+            "sibling2_id": "CHAR_36",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_35",
+            "sibling2_id": "CHAR_37",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_35",
+            "sibling2_id": "CHAR_38",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_36",
+            "sibling2_id": "CHAR_37",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_36",
+            "sibling2_id": "CHAR_38",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_37",
+            "sibling2_id": "CHAR_38",
+            "relation": "full",
+            "confirmed": true
+        },
+        {
+            "sibling1_id": "CHAR_03",
+            "sibling2_id": "CHAR_10",
+            "relation": "full",
+            "confirmed": true
+        }
+    ],
+    "Family_MARRIED_TO": [
+        {
+            "spouse1_id": "CHAR_02",
+            "spouse2_id": "CHAR_03",
+            "status": "active",
+            "political": false,
+            "confirmed": true,
+            "chapter": "Chapter 1"
+        },
+        {
+            "spouse1_id": "CHAR_09",
+            "spouse2_id": "CHAR_10",
+            "status": "deceased",
+            "political": false,
+            "confirmed": true,
+            "chapter": "Chapter 1"
+        },
+        {
+            "spouse1_id": "CHAR_30",
+            "spouse2_id": "CHAR_31",
+            "status": "active",
+            "political": false,
+            "confirmed": true,
+            "chapter": "Chapter 13"
+        }
+    ],
+    "Emotional_LOVES": [
+        {
+            "lover_id": "CHAR_09",
+            "beloved_id": "CHAR_10",
+            "intensity": 10,
+            "unrequited": false,
+            "chapters": [
+                "Chapter 1",
+                "Chapter 4",
+                "Chapter 5",
+                "Chapter 11",
+                "Chapter 15",
+                "Chapter 17",
+                "Chapter 20"
+            ]
+        },
+        {
+            "lover_id": "CHAR_10",
+            "beloved_id": "CHAR_09",
+            "intensity": 10,
+            "unrequited": false,
+            "chapters": [
+                "Chapter 1",
+                "Chapter 4",
+                "Chapter 5",
+                "Chapter 11",
+                "Chapter 15",
+                "Chapter 17",
+                "Chapter 20"
+            ]
+        },
+        {
+            "lover_id": "CHAR_02",
+            "beloved_id": "CHAR_03",
+            "intensity": 7,
+            "unrequited": false,
+            "chapters": [
+                "Chapter 1",
+                "Chapter 2",
+                "Chapter 3",
+                "Chapter 6",
+                "Chapter 16",
+                "Chapter 20"
+            ]
+        },
+        {
+            "lover_id": "CHAR_03",
+            "beloved_id": "CHAR_02",
+            "intensity": 7,
+            "unrequited": false,
+            "chapters": [
+                "Chapter 1",
+                "Chapter 2",
+                "Chapter 3",
+                "Chapter 6",
+                "Chapter 16",
+                "Chapter 20"
+            ]
+        },
+        {
+            "lover_id": "CHAR_03",
+            "beloved_id": "CHAR_04",
+            "intensity": 9,
+            "unrequited": false,
+            "chapters": [
+                "Chapter 1",
+                "Chapter 2",
+                "Chapter 3",
+                "Chapter 6",
+                "Chapter 20"
+            ]
+        },
+        {
+            "lover_id": "CHAR_02",
+            "beloved_id": "CHAR_04",
+            "intensity": 9,
+            "unrequited": false,
+            "chapters": [
+                "Chapter 1",
+                "Chapter 2",
+                "Chapter 3",
+                "Chapter 6",
+                "Chapter 20"
+            ]
+        },
+        {
+            "lover_id": "CHAR_30",
+            "beloved_id": "CHAR_31",
+            "intensity": 10,
+            "unrequited": false,
+            "chapters": [
+                "Chapter 13",
+                "Chapter 17"
+            ]
+        },
+        {
+            "lover_id": "CHAR_31",
+            "beloved_id": "CHAR_30",
+            "intensity": 10,
+            "unrequited": false,
+            "chapters": [
+                "Chapter 13",
+                "Chapter 17"
+            ]
+        },
+        {
+            "lover_id": "CHAR_07",
+            "beloved_id": "CHAR_10",
+            "intensity": 8,
+            "unrequited": true,
+            "chapters": [
+                "Chapter 1",
+                "Chapter 11",
+                "Chapter 15"
+            ]
+        }
+    ],
+    "Emotional_TRUSTS": [
+        {
+            "trustor_id": "CHAR_05",
+            "trusted_id": "CHAR_07",
+            "level": 10,
+            "chapters": [
+                "Chapter 1"
+            ],
+            "source": "I would trust Hagrid with my life."
+        }
+    ],
+    "Interaction_INTERACTED_WITH": [
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_03",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_04",
+            "interaction_type": "Affection",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_03",
+            "character2_id": "CHAR_04",
+            "interaction_type": "Caregiving",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_12",
+            "interaction_type": "Encounter",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_05",
+            "character2_id": "CHAR_06",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_05",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_06",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_07",
+            "character2_id": "CHAR_08",
+            "interaction_type": "Receiving an object",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Affection",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_05",
+            "interaction_type": "Receiving an object",
+            "chapter": "Chapter 1",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_02",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 2",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_03",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 2",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_04",
+            "interaction_type": "Conflict",
+            "chapter": "Chapter 2",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_03",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 2",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_04",
+            "interaction_type": "Affection",
+            "chapter": "Chapter 2",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_03",
+            "character2_id": "CHAR_04",
+            "interaction_type": "Caregiving",
+            "chapter": "Chapter 2",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_11",
+            "interaction_type": "Shared experience",
+            "chapter": "Chapter 2",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_04",
+            "character2_id": "CHAR_11",
+            "interaction_type": "Shared experience",
+            "chapter": "Chapter 2",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_02",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 3",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_03",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 3",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_04",
+            "interaction_type": "Conflict",
+            "chapter": "Chapter 3",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_03",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 3",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_04",
+            "interaction_type": "Affection",
+            "chapter": "Chapter 3",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_02",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 4",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 4",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_07",
+            "character2_id": "CHAR_08",
+            "interaction_type": "Receiving an object",
+            "chapter": "Chapter 4",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 5",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_15",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 5",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 6",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 6",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 6",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 6",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_15",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 6",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 7",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 7",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 7",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Visual Confirmation",
+            "chapter": "Chapter 7",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 8",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 8",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 8",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_20",
+            "interaction_type": "Antagonism",
+            "chapter": "Chapter 8",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 8",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 8",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 9",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 9",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 9",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_15",
+            "interaction_type": "Antagonism",
+            "chapter": "Chapter 9",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_15",
+            "interaction_type": "Antagonism",
+            "chapter": "Chapter 9",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 10",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 10",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 10",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Shared experience",
+            "chapter": "Chapter 10",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Shared experience",
+            "chapter": "Chapter 10",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_14",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Shared experience",
+            "chapter": "Chapter 10",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 11",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 11",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 11",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_19",
+            "interaction_type": "Cooperation",
+            "chapter": "Chapter 11",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 12",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 12",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 12",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 12",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_05",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 12",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 13",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 13",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 13",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 13",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 13",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_14",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 13",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 14",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 14",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 14",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 14",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 14",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_14",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 14",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 15",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 15",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 15",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Shared experience",
+            "chapter": "Chapter 15",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Shared experience",
+            "chapter": "Chapter 15",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_14",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Shared experience",
+            "chapter": "Chapter 15",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_07",
+            "character2_id": "CHAR_15",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 15",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 16",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 16",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 16",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 16",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Conflict",
+            "chapter": "Chapter 16",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Conflict",
+            "chapter": "Chapter 16",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_14",
+            "character2_id": "CHAR_18",
+            "interaction_type": "Confrontation",
+            "chapter": "Chapter 16",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_21",
+            "interaction_type": "Encounter",
+            "chapter": "Chapter 16",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_20",
+            "interaction_type": "Encounter",
+            "chapter": "Chapter 17",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_32",
+            "interaction_type": "Confrontation",
+            "chapter": "Chapter 17",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_05",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 17",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 17",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 17",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 17",
+            "timestamp": null
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "interaction_type": "Conversation",
+            "chapter": "Chapter 17",
+            "timestamp": null
+        }
+    ],
+    "Interaction_APPEARED_TOGETHER": [
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_03",
+            "chapter": "Chapter 1",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 1",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_03",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 1",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_05",
+            "character2_id": "CHAR_06",
+            "chapter": "Chapter 1",
+            "context": "Discussing the Potters and Voldemort in Privet Drive"
+        },
+        {
+            "character1_id": "CHAR_05",
+            "character2_id": "CHAR_07",
+            "chapter": "Chapter 1",
+            "context": "Bringing Harry to the Dursleys"
+        },
+        {
+            "character1_id": "CHAR_06",
+            "character2_id": "CHAR_07",
+            "chapter": "Chapter 1",
+            "context": "Bringing Harry to the Dursleys"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_02",
+            "chapter": "Chapter 2",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_03",
+            "chapter": "Chapter 2",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 2",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_03",
+            "chapter": "Chapter 2",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 2",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_03",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 2",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_02",
+            "chapter": "Chapter 3",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_03",
+            "chapter": "Chapter 3",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 3",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_03",
+            "chapter": "Chapter 3",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 3",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_03",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 3",
+            "context": "At home"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 5",
+            "context": "Trip to Diagon Alley"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "chapter": "Chapter 5",
+            "context": "Trip to Diagon Alley"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_15",
+            "chapter": "Chapter 5",
+            "context": "Meeting at Madam Malkin's"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "chapter": "Chapter 6",
+            "context": "Traveling to King's Cross"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_02",
+            "chapter": "Chapter 6",
+            "context": "Getting a ride to King's Cross"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_03",
+            "chapter": "Chapter 6",
+            "context": "Getting a ride to King's Cross"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 6",
+            "context": "Getting a ride to King's Cross"
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_03",
+            "chapter": "Chapter 6",
+            "context": "Getting a ride to King's Cross"
+        },
+        {
+            "character1_id": "CHAR_02",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 6",
+            "context": "Getting a ride to King's Cross"
+        },
+        {
+            "character1_id": "CHAR_03",
+            "character2_id": "CHAR_04",
+            "chapter": "Chapter 6",
+            "context": "Getting a ride to King's Cross"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 6",
+            "context": "On the Hogwarts Express"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 6",
+            "context": "On the Hogwarts Express"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 6",
+            "context": "On the Hogwarts Express"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 7",
+            "context": "Sorting Ceremony"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 7",
+            "context": "Sorting Ceremony"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 7",
+            "context": "Sorting Ceremony"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 8",
+            "context": "Potions Class"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 8",
+            "context": "Various classes"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 8",
+            "context": "Various classes"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 9",
+            "context": "Flying Lesson and after"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 9",
+            "context": "Flying Lesson and after"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 9",
+            "context": "Flying Lesson and after"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 10",
+            "context": "Quidditch practice and Halloween Feast"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 10",
+            "context": "Quidditch practice and Halloween Feast"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 10",
+            "context": "Quidditch practice and Halloween Feast"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 11",
+            "context": "Discussing Nicolas Flamel"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 11",
+            "context": "Discussing Nicolas Flamel"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 11",
+            "context": "Discussing Nicolas Flamel"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "chapter": "Chapter 14",
+            "context": "Discussing Norbert"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 14",
+            "context": "Discussing Norbert"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 14",
+            "context": "Discussing Norbert"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 14",
+            "context": "Discussing Norbert"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 15",
+            "context": "Detention in the Forbidden Forest"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 15",
+            "context": "Detention in the Forbidden Forest"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_18",
+            "chapter": "Chapter 15",
+            "context": "Detention in the Forbidden Forest"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 15",
+            "context": "Detention in the Forbidden Forest"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_18",
+            "chapter": "Chapter 15",
+            "context": "Detention in the Forbidden Forest"
+        },
+        {
+            "character1_id": "CHAR_14",
+            "character2_id": "CHAR_18",
+            "chapter": "Chapter 15",
+            "context": "Detention in the Forbidden Forest"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 16",
+            "context": "Protecting the Philosopher's Stone"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 16",
+            "context": "Protecting the Philosopher's Stone"
+        },
+        {
+            "character1_id": "CHAR_13",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 16",
+            "context": "Protecting the Philosopher's Stone"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_20",
+            "chapter": "Chapter 16",
+            "context": "Confrontation about the Philosopher's Stone"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_20",
+            "chapter": "Chapter 17",
+            "context": "Protecting the Philosopher's Stone"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_32",
+            "chapter": "Chapter 17",
+            "context": "Confrontation over the Philosopher's Stone"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_05",
+            "chapter": "Chapter 17",
+            "context": "Recovering in the hospital wing"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_07",
+            "chapter": "Chapter 17",
+            "context": "Recovering in the hospital wing"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_13",
+            "chapter": "Chapter 17",
+            "context": "Recovering in the hospital wing"
+        },
+        {
+            "character1_id": "CHAR_01",
+            "character2_id": "CHAR_14",
+            "chapter": "Chapter 17",
+            "context": "Recovering in the hospital wing"
+        }
+    ],
+    "Location_PRESENT_AT": [
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_01",
+            "role": "resident",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_02",
+            "location_id": "LOCA_01",
+            "role": "resident",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_03",
+            "location_id": "LOCA_01",
+            "role": "resident",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_04",
+            "location_id": "LOCA_01",
+            "role": "resident",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_02",
+            "role": "resident",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_02",
+            "location_id": "LOCA_02",
+            "role": "resident",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_03",
+            "location_id": "LOCA_02",
+            "role": "resident",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_04",
+            "location_id": "LOCA_02",
+            "role": "resident",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_03",
+            "role": "resident",
+            "chapter": "Chapter 2"
+        },
+        {
+            "character_id": "CHAR_05",
+            "location_id": "LOCA_01",
+            "role": "visitor",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_06",
+            "location_id": "LOCA_01",
+            "role": "visitor",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_01",
+            "role": "visitor",
+            "chapter": "Chapter 1"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_02",
+            "role": "resident",
+            "chapter": "Chapter 2"
+        },
+        {
+            "character_id": "CHAR_02",
+            "location_id": "LOCA_02",
+            "role": "resident",
+            "chapter": "Chapter 2"
+        },
+        {
+            "character_id": "CHAR_03",
+            "location_id": "LOCA_02",
+            "role": "resident",
+            "chapter": "Chapter 2"
+        },
+        {
+            "character_id": "CHAR_04",
+            "location_id": "LOCA_02",
+            "role": "resident",
+            "chapter": "Chapter 2"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_22",
+            "role": "visitor",
+            "chapter": "null"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_23",
+            "role": "visitor",
+            "chapter": "null"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_04",
+            "role": "student",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_13",
+            "location_id": "LOCA_04",
+            "role": "student",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_14",
+            "location_id": "LOCA_04",
+            "role": "student",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_15",
+            "location_id": "LOCA_04",
+            "role": "student",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_18",
+            "location_id": "LOCA_04",
+            "role": "student",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_05",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_05",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_06",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_06",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_07",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_07",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_08",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_15",
+            "location_id": "LOCA_08",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_09",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_09",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_10",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_10",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_11",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_11",
+            "role": "visitor",
+            "chapter": "Chapter 5"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_12",
+            "role": "visitor",
+            "chapter": "Chapter 6"
+        },
+        {
+            "character_id": "CHAR_13",
+            "location_id": "LOCA_12",
+            "role": "visitor",
+            "chapter": "Chapter 6"
+        },
+        {
+            "character_id": "CHAR_14",
+            "location_id": "LOCA_12",
+            "role": "visitor",
+            "chapter": "Chapter 6"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_13",
+            "role": "passenger",
+            "chapter": "Chapter 6"
+        },
+        {
+            "character_id": "CHAR_13",
+            "location_id": "LOCA_13",
+            "role": "passenger",
+            "chapter": "Chapter 6"
+        },
+        {
+            "character_id": "CHAR_14",
+            "location_id": "LOCA_13",
+            "role": "passenger",
+            "chapter": "Chapter 6"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_14",
+            "role": "visitor",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_13",
+            "location_id": "LOCA_14",
+            "role": "visitor",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_14",
+            "location_id": "LOCA_14",
+            "role": "visitor",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_15",
+            "role": "resident",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_13",
+            "location_id": "LOCA_15",
+            "role": "resident",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_14",
+            "location_id": "LOCA_15",
+            "role": "resident",
+            "chapter": "Chapter 7"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_16",
+            "role": "visitor",
+            "chapter": "Chapter 8"
+        },
+        {
+            "character_id": "CHAR_13",
+            "location_id": "LOCA_16",
+            "role": "visitor",
+            "chapter": "Chapter 8"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_17",
+            "role": "visitor",
+            "chapter": "Chapter 9"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_18",
+            "role": "visitor",
+            "chapter": "Chapter 15"
+        },
+        {
+            "character_id": "CHAR_14",
+            "location_id": "LOCA_18",
+            "role": "visitor",
+            "chapter": "Chapter 15"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_18",
+            "role": "visitor",
+            "chapter": "Chapter 15"
+        },
+        {
+            "character_id": "CHAR_15",
+            "location_id": "LOCA_18",
+            "role": "visitor",
+            "chapter": "Chapter 15"
+        },
+        {
+            "character_id": "CHAR_18",
+            "location_id": "LOCA_18",
+            "role": "visitor",
+            "chapter": "Chapter 15"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_19",
+            "role": "visitor",
+            "chapter": "Chapter 9"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_20",
+            "role": "visitor",
+            "chapter": "Chapter 12"
+        },
+        {
+            "character_id": "CHAR_13",
+            "location_id": "LOCA_20",
+            "role": "visitor",
+            "chapter": "Chapter 12"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_21",
+            "role": "patient",
+            "chapter": "Chapter 12"
+        },
+        {
+            "character_id": "CHAR_18",
+            "location_id": "LOCA_21",
+            "role": "patient",
+            "chapter": "Chapter 9"
+        }
+    ],
+    "Location_LIVES_IN": [
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_02",
+            "start_chapter": "Chapter 1",
+            "end_chapter": null,
+            "status": "permanent"
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_03",
+            "start_chapter": "Chapter 1",
+            "end_chapter": "Chapter 3",
+            "status": "permanent"
+        },
+        {
+            "character_id": "CHAR_02",
+            "location_id": "LOCA_02",
+            "start_chapter": "Chapter 1",
+            "end_chapter": null,
+            "status": "permanent"
+        },
+        {
+            "character_id": "CHAR_03",
+            "location_id": "LOCA_02",
+            "start_chapter": "Chapter 1",
+            "end_chapter": null,
+            "status": "permanent"
+        },
+        {
+            "character_id": "CHAR_04",
+            "location_id": "LOCA_02",
+            "start_chapter": "Chapter 1",
+            "end_chapter": null,
+            "status": "permanent"
+        },
+        {
+            "character_id": "CHAR_07",
+            "location_id": "LOCA_16",
+            "start_chapter": "Chapter 1",
+            "end_chapter": null,
+            "status": "permanent"
+        }
+    ],
+    "Location_TRAVELED_TO": [
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_06",
+            "from_location": "LOCA_01",
+            "start_date": null,
+            "end_date": null,
+            "means": null,
+            "chapters": [
+                "Chapter 5"
+            ]
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_05",
+            "from_location": "LOCA_06",
+            "start_date": null,
+            "end_date": null,
+            "means": null,
+            "chapters": [
+                "Chapter 5"
+            ]
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_07",
+            "from_location": "LOCA_05",
+            "start_date": null,
+            "end_date": null,
+            "means": null,
+            "chapters": [
+                "Chapter 5"
+            ]
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_08",
+            "from_location": "LOCA_05",
+            "start_date": null,
+            "end_date": null,
+            "means": null,
+            "chapters": [
+                "Chapter 5"
+            ]
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_10",
+            "from_location": "LOCA_05",
+            "start_date": null,
+            "end_date": null,
+            "means": null,
+            "chapters": [
+                "Chapter 5"
+            ]
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_09",
+            "from_location": "LOCA_05",
+            "start_date": null,
+            "end_date": null,
+            "means": null,
+            "chapters": [
+                "Chapter 5"
+            ]
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_11",
+            "from_location": "LOCA_05",
+            "start_date": null,
+            "end_date": null,
+            "means": null,
+            "chapters": [
+                "Chapter 5"
+            ]
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_04",
+            "from_location": "LOCA_02",
+            "start_date": null,
+            "end_date": null,
+            "means": "Hogwarts Express",
+            "chapters": [
+                "Chapter 6"
+            ]
+        },
+        {
+            "character_id": "CHAR_01",
+            "location_id": "LOCA_18",
+            "from_location": "LOCA_04",
+            "start_date": null,
+            "end_date": null,
+            "means": null,
+            "chapters": [
+                "Chapter 15"
+            ]
+        }
+    ],
+    "Event_WITNESSED": [
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_01",
+            "perspective": "Confused and disturbed",
+            "chapter": "Chapter 1",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_01",
+            "perspective": "Confused and disturbed",
+            "chapter": "Chapter 1",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_03",
+            "perspective": "Annoyed and determined to stop it",
+            "chapter": "Chapter 3",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_03",
+            "perspective": "Annoyed and worried",
+            "chapter": "Chapter 3",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_03",
+            "perspective": "Curious and amazed",
+            "chapter": "Chapter 3",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_03",
+            "perspective": "Excited and curious",
+            "chapter": "Chapter 3",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_02",
+            "perspective": "Amused and surprised",
+            "chapter": "Chapter 2",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_02",
+            "perspective": "Angry and blaming",
+            "chapter": "Chapter 2",
+            "distance": "Observed from nearby"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_02",
+            "perspective": "Angry and blaming",
+            "chapter": "Chapter 2",
+            "distance": "Observed from nearby"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_02",
+            "perspective": "Frightened and exaggerating",
+            "chapter": "Chapter 2",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_11",
+            "event_id": "EVEN_02",
+            "perspective": "Frightened and exaggerating",
+            "chapter": "Chapter 2",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_04",
+            "perspective": "Amazed and curious",
+            "chapter": "Chapter 4",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_04",
+            "perspective": "Angry and demanding",
+            "chapter": "Chapter 4",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_04",
+            "perspective": "Frightened and submissive",
+            "chapter": "Chapter 4",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_04",
+            "perspective": "Frightened and submissive",
+            "chapter": "Chapter 4",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_06",
+            "event_id": "EVEN_01",
+            "perspective": "Sad and concerned",
+            "chapter": "Chapter 1",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_01",
+            "perspective": "Sad and emotional",
+            "chapter": "Chapter 1",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_05",
+            "event_id": "EVEN_01",
+            "perspective": "Solemn and hopeful",
+            "chapter": "Chapter 1",
+            "distance": "Directly involved"
+        },
+        {
+            "character_id": "CHAR_08",
+            "event_id": "EVEN_01",
+            "perspective": "Not specified in text provided",
+            "chapter": "Chapter 1",
+            "distance": "Mentioned as lending Hagrid his motorbike"
+        }
+    ],
+    "Event_PARTICIPATED_IN": [
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_01",
+            "role": "subject",
+            "chapter": "Chapter 1",
+            "outcome": "Left on the Dursleys' doorstep"
+        },
+        {
+            "character_id": "CHAR_05",
+            "event_id": "EVEN_01",
+            "role": "deliverer",
+            "chapter": "Chapter 1",
+            "outcome": "Successfully delivered Harry"
+        },
+        {
+            "character_id": "CHAR_06",
+            "event_id": "EVEN_01",
+            "role": "witness",
+            "chapter": "Chapter 1",
+            "outcome": "Witnessed Harry's delivery"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_01",
+            "role": "recipient (indirect)",
+            "chapter": "Chapter 1",
+            "outcome": "Became Harry's guardian"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_01",
+            "role": "recipient (indirect)",
+            "chapter": "Chapter 1",
+            "outcome": "Became Harry's guardian"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_02",
+            "role": "instigator",
+            "chapter": "Chapter 2",
+            "outcome": "Punished by the Dursleys"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_02",
+            "role": "observer",
+            "chapter": "Chapter 2",
+            "outcome": "Witnessed the event"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_02",
+            "role": "observer",
+            "chapter": "Chapter 2",
+            "outcome": "Witnessed the event"
+        },
+        {
+            "character_id": "CHAR_11",
+            "event_id": "EVEN_02",
+            "role": "observer",
+            "chapter": "Chapter 2",
+            "outcome": "Witnessed the event"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_03",
+            "role": "recipient",
+            "chapter": "Chapter 3",
+            "outcome": "Learned about Hogwarts"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_03",
+            "role": "interceptor",
+            "chapter": "Chapter 3",
+            "outcome": "Tried to prevent Harry from reading the letters"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_03",
+            "role": "interceptor",
+            "chapter": "Chapter 3",
+            "outcome": "Tried to prevent Harry from reading the letters"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_03",
+            "role": "observer",
+            "chapter": "Chapter 3",
+            "outcome": "Witnessed the event"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_04",
+            "role": "recipient",
+            "chapter": "Chapter 4",
+            "outcome": "Learned about his wizarding heritage"
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_04",
+            "role": "deliverer",
+            "chapter": "Chapter 4",
+            "outcome": "Delivered the news and cake"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_04",
+            "role": "observer",
+            "chapter": "Chapter 4",
+            "outcome": "Unsuccessfully tried to stop Hagrid"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_04",
+            "role": "observer",
+            "chapter": "Chapter 4",
+            "outcome": "Horrified by the revelation"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_04",
+            "role": "observer",
+            "chapter": "Chapter 4",
+            "outcome": "Witnessed the event"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_05",
+            "role": "customer",
+            "chapter": "Chapter 5",
+            "outcome": "Acquired school supplies"
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_05",
+            "role": "guide",
+            "chapter": "Chapter 5",
+            "outcome": "Helped Harry navigate Diagon Alley"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_06",
+            "role": "passenger",
+            "chapter": "Chapter 6",
+            "outcome": "Arrived at Hogwarts"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_06",
+            "role": "passenger",
+            "chapter": "Chapter 6",
+            "outcome": "Met Harry and Hermione"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_06",
+            "role": "passenger",
+            "chapter": "Chapter 6",
+            "outcome": "Met Harry and Ron"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_07",
+            "role": "initiate",
+            "chapter": "Chapter 7",
+            "outcome": "Sorted into Gryffindor"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_07",
+            "role": "initiate",
+            "chapter": "Chapter 7",
+            "outcome": "Sorted into Gryffindor"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_07",
+            "role": "initiate",
+            "chapter": "Chapter 7",
+            "outcome": "Sorted into Gryffindor"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_08",
+            "role": "explorer",
+            "chapter": "Chapter 9",
+            "outcome": "Encountered Fluffy and Filch"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_08",
+            "role": "explorer",
+            "chapter": "Chapter 9",
+            "outcome": "Encountered Fluffy and Filch"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_08",
+            "role": "explorer",
+            "chapter": "Chapter 9",
+            "outcome": "Encountered Fluffy and Filch"
+        },
+        {
+            "character_id": "CHAR_15",
+            "event_id": "EVEN_08",
+            "role": "challenger",
+            "chapter": "Chapter 9",
+            "outcome": "Failed to duel Harry"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_09",
+            "role": "seeker",
+            "chapter": "Chapter 11",
+            "outcome": "Won the match"
+        },
+        {
+            "character_id": "CHAR_20",
+            "event_id": "EVEN_09",
+            "role": "saboteur (suspected)",
+            "chapter": "Chapter 11",
+            "outcome": "Failed to prevent Harry from winning"
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_10",
+            "role": "caretaker",
+            "chapter": "Chapter 14",
+            "outcome": "Sent Norbert away"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_10",
+            "role": "helper",
+            "chapter": "Chapter 14",
+            "outcome": "Helped send Norbert away"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_10",
+            "role": "helper",
+            "chapter": "Chapter 14",
+            "outcome": "Helped send Norbert away"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_10",
+            "role": "helper",
+            "chapter": "Chapter 14",
+            "outcome": "Helped send Norbert away"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_11",
+            "role": "explorer",
+            "chapter": "Chapter 15",
+            "outcome": "Encountered Voldemort"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_11",
+            "role": "explorer",
+            "chapter": "Chapter 15",
+            "outcome": "Witnessed the unicorn's death"
+        },
+        {
+            "character_id": "CHAR_18",
+            "event_id": "EVEN_11",
+            "role": "explorer",
+            "chapter": "Chapter 15",
+            "outcome": "Witnessed the unicorn's death"
+        },
+        {
+            "character_id": "CHAR_15",
+            "event_id": "EVEN_11",
+            "role": "explorer",
+            "chapter": "Chapter 15",
+            "outcome": "Witnessed the unicorn's death"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_12",
+            "role": "protector",
+            "chapter": "Chapter 16",
+            "outcome": "Confronted Quirrell/Voldemort"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_12",
+            "role": "protector",
+            "chapter": "Chapter 16",
+            "outcome": "Injured by the chess set"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_12",
+            "role": "protector",
+            "chapter": "Chapter 16",
+            "outcome": "Helped Harry overcome the challenges"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_13",
+            "role": "hero",
+            "chapter": "Chapter 17",
+            "outcome": "Defeated Quirrell/Voldemort"
+        },
+        {
+            "character_id": "CHAR_32",
+            "event_id": "EVEN_13",
+            "role": "villain",
+            "chapter": "Chapter 17",
+            "outcome": "Disembodied"
+        }
+    ],
+    "Event_CAUSED": [
+        {
+            "character_id": "CHAR_05",
+            "event_id": "EVEN_01",
+            "intention": "intentional",
+            "chapter": "1",
+            "method": "Dumbledore leaves Harry at the Dursleys' doorstep after the death of his parents."
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_02",
+            "intention": "unintentional",
+            "chapter": "2",
+            "method": "Harry unintentionally makes the glass disappear by talking to the snake."
+        },
+        {
+            "character_id": "CHAR_06",
+            "event_id": "EVEN_03",
+            "intention": "intentional",
+            "chapter": "3",
+            "method": "McGonagall sends the letters to Harry, informing him of his acceptance to Hogwarts."
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_03",
+            "intention": "intentional",
+            "chapter": "3",
+            "method": "Vernon intercepts and destroys the letters."
+        },
+        {
+            "character_id": "CHAR_05",
+            "event_id": "EVEN_04",
+            "intention": "intentional",
+            "chapter": "4",
+            "method": "Dumbledore sends Hagrid to deliver Harry's letter and retrieve him from the Dursleys."
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_05",
+            "intention": "intentional",
+            "chapter": "5",
+            "method": "Hagrid takes Harry to Diagon Alley to purchase school supplies."
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_06",
+            "intention": "intentional",
+            "chapter": "6",
+            "method": "Hagrid ensures Harry gets on the Hogwarts Express."
+        },
+        {
+            "character_id": "CHAR_06",
+            "event_id": "EVEN_07",
+            "intention": "intentional",
+            "chapter": "7",
+            "method": "McGonagall conducts the Sorting Ceremony."
+        },
+        {
+            "character_id": "CHAR_20",
+            "event_id": "EVEN_09",
+            "intention": "intentional",
+            "chapter": "9",
+            "method": "Snape jinxes Harry's broom during the match (suspected)."
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_10",
+            "intention": "intentional",
+            "chapter": "11",
+            "method": "Hagrid acquires a dragon egg, leading to the events surrounding Norbert."
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_11",
+            "intention": "indirect",
+            "chapter": "11",
+            "method": "Harry, Ron, and Hermione's actions with Norbert lead to their detention in the Forbidden Forest."
+        },
+        {
+            "character_id": "CHAR_32",
+            "event_id": "EVEN_11",
+            "intention": "intentional",
+            "chapter": "11",
+            "method": "Voldemort's presence in the forest causes the unicorns to be attacked."
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_12",
+            "intention": "intentional",
+            "chapter": "12",
+            "method": "Harry's discovery of Flamel's identity leads him to try and protect the Stone."
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_13",
+            "intention": "intentional",
+            "chapter": "13",
+            "method": "Harry confronts and defeats Quirrell/Voldemort."
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_12",
+            "intention": "unintentional",
+            "chapter": "14",
+            "method": "Hagrid reveals how to get past Fluffy."
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_12",
+            "intention": "indirect",
+            "chapter": "16",
+            "method": "Hermione's knowledge of Devil's Snare allows them to pass the first obstacle."
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_12",
+            "intention": "indirect",
+            "chapter": "16",
+            "method": "Ron's chess skills allow them to pass the chessboard challenge."
+        }
+    ],
+    "Event_AFFECTED_BY": [
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_01",
+            "impact": "Learns about his wizarding heritage and the death of his parents.",
+            "chapter": "Chapter 1",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_01",
+            "impact": "Begins to fear the return of the Potters and their world.",
+            "chapter": "Chapter 1",
+            "duration": "Ongoing"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_01",
+            "impact": "Is reminded of her sister's magical abilities and fears Harry will be the same.",
+            "chapter": "Chapter 1",
+            "duration": "Ongoing"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_02",
+            "impact": "Is punished and confined to his cupboard.",
+            "chapter": "Chapter 2",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_02",
+            "impact": "Becomes frightened of Harry.",
+            "chapter": "Chapter 2",
+            "duration": "Ongoing"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_03",
+            "impact": "Is moved to Dudley's second bedroom.",
+            "chapter": "Chapter 3",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_03",
+            "impact": "Becomes increasingly paranoid and takes extreme measures to prevent Harry from receiving letters.",
+            "chapter": "Chapter 3",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_03",
+            "impact": "Is shocked and amazed by the number of letters addressed to Harry.",
+            "chapter": "Chapter 3",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_04",
+            "impact": "Learns the truth about his past and his magical abilities.",
+            "chapter": "Chapter 4",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_02",
+            "event_id": "EVEN_04",
+            "impact": "Is enraged by Hagrid's arrival and revelation.",
+            "chapter": "Chapter 4",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_03",
+            "event_id": "EVEN_04",
+            "impact": "Is forced to confront the truth about her sister and Harry's magic.",
+            "chapter": "Chapter 4",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_04",
+            "event_id": "EVEN_04",
+            "impact": "Is given a pig's tail by Hagrid's magic.",
+            "chapter": "Chapter 4",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_05",
+            "impact": "Acquires his school supplies and learns more about the wizarding world.",
+            "chapter": "Chapter 5",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_06",
+            "impact": "Meets Ron and Hermione and learns more about Hogwarts and the wizarding world.",
+            "chapter": "Chapter 6",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_06",
+            "impact": "Meets Harry and Hermione and begins a lifelong friendship.",
+            "chapter": "Chapter 6",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_06",
+            "impact": "Meets Harry and Ron and begins a lifelong friendship.",
+            "chapter": "Chapter 6",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_07",
+            "impact": "Is sorted into Gryffindor house.",
+            "chapter": "Chapter 7",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_07",
+            "impact": "Is sorted into Gryffindor house.",
+            "chapter": "Chapter 7",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_07",
+            "impact": "Is sorted into Gryffindor house.",
+            "chapter": "Chapter 7",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_08",
+            "impact": "Learns about Fluffy guarding the trapdoor.",
+            "chapter": "Chapter 8",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_08",
+            "impact": "Learns about Fluffy guarding the trapdoor.",
+            "chapter": "Chapter 8",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_14",
+            "event_id": "EVEN_08",
+            "impact": "Learns about Fluffy guarding the trapdoor.",
+            "chapter": "Chapter 8",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_09",
+            "impact": "Becomes Gryffindor's Seeker.",
+            "chapter": "Chapter 9",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_15",
+            "event_id": "EVEN_09",
+            "impact": "Is angered and humiliated by Harry's skill and acceptance onto the Quidditch team.",
+            "chapter": "Chapter 9",
+            "duration": "Ongoing"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_11",
+            "impact": "Learns about Voldemort drinking unicorn blood and is saved by Firenze.",
+            "chapter": "Chapter 11",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_15",
+            "event_id": "EVEN_11",
+            "impact": "Is frightened by the Forbidden Forest and the potential dangers within.",
+            "chapter": "Chapter 11",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_18",
+            "event_id": "EVEN_11",
+            "impact": "Is frightened by the Forbidden Forest and Malfoy's prank.",
+            "chapter": "Chapter 11",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_12",
+            "impact": "Confronts Quirrell and Voldemort.",
+            "chapter": "Chapter 12",
+            "duration": "Permanent"
+        },
+        {
+            "character_id": "CHAR_13",
+            "event_id": "EVEN_12",
+            "impact": "Is injured by the white queen during the chess game.",
+            "chapter": "Chapter 12",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_13",
+            "impact": "Defeats Quirrell/Voldemort and is unconscious for three days.",
+            "chapter": "Chapter 13",
+            "duration": "Temporary"
+        },
+        {
+            "character_id": "CHAR_07",
+            "event_id": "EVEN_10",
+            "impact": "Feels remorseful for revealing Fluffy's secret to the stranger.",
+            "chapter": "Chapter 14",
+            "duration": "Ongoing"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_13",
+            "impact": "Develops chronic nightmares.",
+            "chapter": "Chapter 14",
+            "duration": "Ongoing"
+        },
+        {
+            "character_id": "CHAR_01",
+            "event_id": "EVEN_11",
+            "impact": "Experiences increased pain from his scar.",
+            "chapter": "Chapter 16",
+            "duration": "Ongoing"
+        }
+    ],
+    "Event_DIED_AT": [
+        {
+            "character_id": "CHAR_09",
+            "event_id": "EVEN_13",
+            "cause": "Killed by Voldemort",
+            "chapter": "Chapter 1",
+            "impact": "Motivates Harry's journey and provides backstory"
+        },
+        {
+            "character_id": "CHAR_10",
+            "event_id": "EVEN_13",
+            "cause": "Killed by Voldemort",
+            "chapter": "Chapter 1",
+            "impact": "Motivates Harry's journey and provides backstory"
+        }
+    ],
+    "Organization_MEMBER_OF": [
+        {
+            "character_id": "CHAR_01",
+            "organization_id": "ORGA_01",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_01",
+            "organization_id": "ORGA_09",
+            "role": "Seeker",
+            "join_chapter": "Chapter 11",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_04",
+            "organization_id": "ORGA_03",
+            "role": "Student",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_05",
+            "organization_id": "ORGA_01",
+            "role": "Headmaster",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_06",
+            "organization_id": "ORGA_01",
+            "role": "Deputy Headmistress, Transfiguration teacher",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_11",
+            "organization_id": "ORGA_03",
+            "role": "Student",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_13",
+            "organization_id": "ORGA_01",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_13",
+            "organization_id": "ORGA_09",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_14",
+            "organization_id": "ORGA_01",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_14",
+            "organization_id": "ORGA_09",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_15",
+            "organization_id": "ORGA_01",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_15",
+            "organization_id": "ORGA_12",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_16",
+            "organization_id": "ORGA_01",
+            "role": "Student",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_16",
+            "organization_id": "ORGA_12",
+            "role": "Student",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_17",
+            "organization_id": "ORGA_01",
+            "role": "Student",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_17",
+            "organization_id": "ORGA_12",
+            "role": "Student",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_18",
+            "organization_id": "ORGA_01",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_18",
+            "organization_id": "ORGA_09",
+            "role": "Student",
+            "join_chapter": "Chapter 7",
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_19",
+            "organization_id": "ORGA_01",
+            "role": "Student, Quidditch Captain (Keeper)",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_20",
+            "organization_id": "ORGA_01",
+            "role": "Potions Master",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_20",
+            "organization_id": "ORGA_12",
+            "role": "Head of House",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_34",
+            "organization_id": "ORGA_01",
+            "role": "Student, Prefect",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_35",
+            "organization_id": "ORGA_01",
+            "role": "Student, Beater",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_36",
+            "organization_id": "ORGA_01",
+            "role": "Student, Beater",
+            "join_chapter": null,
+            "status": "active"
+        },
+        {
+            "character_id": "CHAR_38",
+            "organization_id": "ORGA_06",
+            "role": "employee",
+            "join_chapter": null,
+            "status": "active"
+        }
+    ],
+    "Creature_BELONGS_TO_SPECIES": [
+        {
+            "character_id": "CHAR_01",
+            "creature_id": "CREA_01",
+            "purity": "Half-blood",
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_02",
+            "creature_id": "CREA_03",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_03",
+            "creature_id": "CREA_03",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_04",
+            "creature_id": "CREA_03",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_05",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_06",
+            "creature_id": "CREA_02",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_07",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_08",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_09",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_10",
+            "creature_id": "CREA_02",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_12",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_22",
+            "creature_id": "CREA_07",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_26",
+            "creature_id": "CREA_04",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_27",
+            "creature_id": "CREA_16",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_28",
+            "creature_id": "CREA_04",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_29",
+            "creature_id": "CREA_05",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_32",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 1",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_08",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 4",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_11",
+            "creature_id": "CREA_03",
+            "purity": null,
+            "chapter": "Chapter 5",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_20",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 8",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_30",
+            "creature_id": "CREA_01",
+            "purity": null,
+            "chapter": "Chapter 13",
+            "traits": []
+        },
+        {
+            "character_id": "CHAR_31",
+            "creature_id": "CREA_02",
+            "purity": null,
+            "chapter": "Chapter 13",
+            "traits": []
+        }
+    ],
+    "Concept_HAS_ABILITY": [
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_01",
+            "proficiency": "beginner",
+            "chapter": "Chapter 17",
+            "source": "inherent ability",
+            "limitations": null
+        },
+        {
+            "character_id": "CHAR_14",
+            "concept_id": "CONC_01",
+            "proficiency": "beginner",
+            "chapter": "Chapter 10",
+            "source": "Hogwarts education",
+            "limitations": null
+        },
+        {
+            "character_id": "CHAR_13",
+            "concept_id": "CONC_01",
+            "proficiency": "beginner",
+            "chapter": "Chapter 11",
+            "source": "Hogwarts education",
+            "limitations": null
+        },
+        {
+            "character_id": "CHAR_20",
+            "concept_id": "CONC_02",
+            "proficiency": "expert",
+            "chapter": "Chapter 11",
+            "source": null,
+            "limitations": null
+        },
+        {
+            "character_id": "CHAR_32",
+            "concept_id": "CONC_02",
+            "proficiency": "expert",
+            "chapter": "Chapter 4",
+            "source": null,
+            "limitations": null
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_04",
+            "proficiency": "protected",
+            "chapter": "Chapter 1",
+            "source": "mother's sacrifice",
+            "limitations": null
+        },
+        {
+            "character_id": "CHAR_05",
+            "concept_id": "CONC_01",
+            "proficiency": "expert",
+            "chapter": "Chapter 1",
+            "source": null,
+            "limitations": null
+        },
+        {
+            "character_id": "CHAR_07",
+            "concept_id": "CONC_01",
+            "proficiency": "limited",
+            "chapter": "Chapter 4",
+            "source": "Hogwarts education (expelled)",
+            "limitations": "not allowed to use magic"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_01",
+            "proficiency": "advanced",
+            "chapter": "Chapter 11",
+            "source": "inherent ability, Hogwarts education",
+            "limitations": null
+        }
+    ],
+    "Concept_BELIEVES_IN": [
+        {
+            "character_id": "CHAR_02",
+            "concept_id": "CONC_01",
+            "strength": "questioning",
+            "chapter": "Chapter 1",
+            "manifestation": "Vernon questions the existence of magic and expresses disbelief in it after seeing a cat reading a map."
+        },
+        {
+            "character_id": "CHAR_12",
+            "concept_id": "CONC_01",
+            "strength": "devout",
+            "chapter": "Chapter 1",
+            "manifestation": "Dedalus Diggle celebrates the fall of Voldemort openly in the street, showing his belief in the power of wizardry."
+        },
+        {
+            "character_id": "CHAR_05",
+            "concept_id": "CONC_01",
+            "strength": "devout",
+            "chapter": "Chapter 1",
+            "manifestation": "Dumbledore uses magic openly and discusses the wizarding world with McGonagall."
+        },
+        {
+            "character_id": "CHAR_06",
+            "concept_id": "CONC_01",
+            "strength": "devout",
+            "chapter": "Chapter 1",
+            "manifestation": "McGonagall, as a witch, discusses the wizarding world and expresses concern about Muggles finding out about magic."
+        },
+        {
+            "character_id": "CHAR_07",
+            "concept_id": "CONC_01",
+            "strength": "devout",
+            "chapter": "Chapter 1",
+            "manifestation": "Hagrid arrives on a flying motorbike and mentions magical events."
+        },
+        {
+            "character_id": "CHAR_02",
+            "concept_id": "CONC_01",
+            "strength": "questioning",
+            "chapter": "Chapter 2",
+            "manifestation": "Vernon dismisses Harry's dream about a flying motorbike, reflecting his disbelief in magic."
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_01",
+            "strength": "questioning",
+            "chapter": "Chapter 4",
+            "manifestation": "Harry initially questions whether he can be a wizard, despite Hagrid's insistence."
+        },
+        {
+            "character_id": "CHAR_07",
+            "concept_id": "CONC_01",
+            "strength": "devout",
+            "chapter": "Chapter 4",
+            "manifestation": "Hagrid reveals Harry's wizarding heritage and explains the existence of Hogwarts and the magical world."
+        },
+        {
+            "character_id": "CHAR_03",
+            "concept_id": "CONC_01",
+            "strength": "questioning",
+            "chapter": "Chapter 4",
+            "manifestation": "Petunia reveals her knowledge of the wizarding world, but views it negatively and refers to magic users as \"freaks.\""
+        },
+        {
+            "character_id": "CHAR_02",
+            "concept_id": "CONC_01",
+            "strength": "questioning",
+            "chapter": "Chapter 4",
+            "manifestation": "Vernon continues to deny and reject magic, even after Hagrid's revelations."
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_06",
+            "strength": "moderate",
+            "chapter": "Chapter 5",
+            "manifestation": "Harry expresses wonder and excitement about Hogwarts after learning about it from Hagrid."
+        },
+        {
+            "character_id": "CHAR_07",
+            "concept_id": "CONC_06",
+            "strength": "devout",
+            "chapter": "Chapter 5",
+            "manifestation": "Hagrid speaks highly of Hogwarts and its importance in the wizarding world."
+        },
+        {
+            "character_id": "CHAR_15",
+            "concept_id": "CONC_08",
+            "strength": "moderate",
+            "chapter": "Chapter 5",
+            "manifestation": "Draco Malfoy discusses house rivalry and expresses disdain for Hufflepuff."
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_06",
+            "strength": "moderate",
+            "chapter": "Chapter 6",
+            "manifestation": "Harry is excited about going to Hogwarts and views it as a positive escape from the Dursleys."
+        },
+        {
+            "character_id": "CHAR_02",
+            "concept_id": "CONC_06",
+            "strength": "questioning",
+            "chapter": "Chapter 6",
+            "manifestation": "Vernon expresses disbelief about the existence of Platform Nine and Three-Quarters and mocks the idea of a wizarding school."
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_05",
+            "strength": "moderate",
+            "chapter": "Chapter 13",
+            "manifestation": "Harry, Ron, and Hermione discover that the three-headed dog is guarding the Philosopher's Stone."
+        },
+        {
+            "character_id": "CHAR_20",
+            "concept_id": "CONC_05",
+            "strength": "moderate",
+            "chapter": "Chapter 13",
+            "manifestation": "Snape's interest in the three-headed dog and his actions suggest he believes in the Philosopher's Stone and its value."
+        },
+        {
+            "character_id": "CHAR_07",
+            "concept_id": "CONC_05",
+            "strength": "moderate",
+            "chapter": "Chapter 14",
+            "manifestation": "Hagrid accidentally reveals that Fluffy is guarding the Philosopher's Stone."
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_05",
+            "strength": "moderate",
+            "chapter": "Chapter 16",
+            "manifestation": "Harry's determination to protect the Stone shows his belief in its importance and the danger it represents."
+        },
+        {
+            "character_id": "CHAR_20",
+            "concept_id": "CONC_05",
+            "strength": "moderate",
+            "chapter": "Chapter 16",
+            "manifestation": "Snape's continued pursuit of the Stone reinforces his belief in its power."
+        },
+        {
+            "character_id": "CHAR_32",
+            "concept_id": "CONC_05",
+            "strength": "devout",
+            "chapter": "Chapter 17",
+            "manifestation": "Voldemort's desire to obtain the Stone demonstrates his belief in its ability to restore his power and grant immortality."
+        },
+        {
+            "character_id": "CHAR_05",
+            "concept_id": "CONC_05",
+            "strength": "moderate",
+            "chapter": "Chapter 17",
+            "manifestation": "Dumbledore acknowledges the Stone's power but chooses to destroy it, recognizing its potential for harm."
+        }
+    ],
+    "Concept_RESISTS": [
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_03",
+            "success": "Complete",
+            "chapter": "Chapter 1",
+            "method": "Love's sacrifice",
+            "cost": "Orphaned"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_02",
+            "success": "Complete",
+            "chapter": "Chapter 17",
+            "method": "Love's protection, inherent goodness",
+            "cost": "Physical pain"
+        },
+        {
+            "character_id": "CHAR_18",
+            "concept_id": "CONC_02",
+            "success": "Failing",
+            "chapter": "Chapter 9",
+            "method": "None",
+            "cost": "Public humiliation"
+        }
+    ],
+    "Concept_INFLUENCED_BY": [
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_02",
+            "nature": "corrupting",
+            "chapter": "Chapter 1",
+            "awareness": false,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_04",
+            "nature": "inspiring",
+            "chapter": "Chapter 1",
+            "awareness": false,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_06",
+            "nature": "inspiring",
+            "chapter": "Chapter 1",
+            "awareness": false,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_05",
+            "nature": "inspiring",
+            "chapter": "Chapter 1",
+            "awareness": false,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_09",
+            "nature": "confusing",
+            "chapter": "Chapter 4",
+            "awareness": false,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_01",
+            "nature": "inspiring",
+            "chapter": "Chapter 4",
+            "awareness": true,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_07",
+            "nature": "confusing",
+            "chapter": "Chapter 7",
+            "awareness": true,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_08",
+            "nature": "inspiring",
+            "chapter": "Chapter 8",
+            "awareness": true,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_13",
+            "concept_id": "CONC_08",
+            "nature": "inspiring",
+            "chapter": "Chapter 9",
+            "awareness": true,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_01",
+            "concept_id": "CONC_08",
+            "nature": "inspiring",
+            "chapter": "Chapter 9",
+            "awareness": true,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_14",
+            "concept_id": "CONC_08",
+            "nature": "inspiring",
+            "chapter": "Chapter 9",
+            "awareness": true,
+            "resistance": "None"
+        },
+        {
+            "character_id": "CHAR_18",
+            "concept_id": "CONC_08",
+            "nature": "inspiring",
+            "chapter": "Chapter 9",
+            "awareness": true,
+            "resistance": "None"
+        }
+    ],
+    "Item_POSSESSES": [
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_01",
+            "acquisition_chapter": "Chapter 3",
+            "current": false,
+            "method": "gifted"
+        },
+        {
+            "character_id": "CHAR_04",
+            "item_id": "ITEM_05",
+            "acquisition_chapter": "Chapter 2",
+            "current": true,
+            "method": "gifted"
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_02",
+            "acquisition_chapter": "Chapter 1",
+            "current": false,
+            "method": "gifted"
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_03",
+            "acquisition_chapter": null,
+            "current": true,
+            "method": null
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_04",
+            "acquisition_chapter": null,
+            "current": false,
+            "method": "gifted"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_07",
+            "acquisition_chapter": "Chapter 5",
+            "current": true,
+            "method": "found"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_08",
+            "acquisition_chapter": "Chapter 3",
+            "current": false,
+            "method": "gifted"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_10",
+            "acquisition_chapter": "Chapter 5",
+            "current": true,
+            "method": "inherited"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_11",
+            "acquisition_chapter": "Chapter 5",
+            "current": true,
+            "method": "found"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_12",
+            "acquisition_chapter": "Chapter 5",
+            "current": true,
+            "method": "gifted"
+        },
+        {
+            "character_id": "CHAR_18",
+            "item_id": "ITEM_14",
+            "acquisition_chapter": "Chapter 10",
+            "current": true,
+            "method": "gifted"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_15",
+            "acquisition_chapter": "Chapter 10",
+            "current": true,
+            "method": "gifted"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_17",
+            "acquisition_chapter": "Chapter 12",
+            "current": true,
+            "method": "inherited"
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_20",
+            "acquisition_chapter": "Chapter 14",
+            "current": false,
+            "method": "found"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_22",
+            "acquisition_chapter": "Chapter 5",
+            "current": true,
+            "method": "found"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_25",
+            "acquisition_chapter": "Chapter 12",
+            "current": true,
+            "method": "gifted"
+        }
+    ],
+    "Item_CREATED": [
+        {
+            "character_id": "CHAR_05",
+            "item_id": "ITEM_02",
+            "chapter": "Chapter 1",
+            "location": "Privet Drive",
+            "purpose": "Turning off street lamps",
+            "materials": []
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_09",
+            "chapter": "Chapter 4",
+            "location": "Hut-on-the-Rock",
+            "purpose": "Giving to Harry",
+            "materials": []
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_25",
+            "chapter": "Chapter 27",
+            "location": "Hagrid's Hut",
+            "purpose": "Giving to Harry",
+            "materials": []
+        },
+        {
+            "character_id": "CHAR_30",
+            "item_id": "ITEM_18",
+            "chapter": "Chapter 13",
+            "location": null,
+            "purpose": null,
+            "materials": []
+        },
+        {
+            "character_id": "CHAR_09",
+            "item_id": "ITEM_17",
+            "chapter": "Chapter 16",
+            "location": null,
+            "purpose": null,
+            "materials": []
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_20",
+            "chapter": "Chapter 14",
+            "location": "Hagrid's Hut",
+            "purpose": null,
+            "materials": []
+        }
+    ],
+    "Item_SEEKS": [
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_01",
+            "motivation": "To learn about his acceptance to Hogwarts.",
+            "start_chapter": "Chapter 3",
+            "end_chapter": "Chapter 4",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_18",
+            "motivation": "To prevent Voldemort from obtaining it.",
+            "start_chapter": "Chapter 16",
+            "end_chapter": "Chapter 17",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_32",
+            "item_id": "ITEM_18",
+            "motivation": "To regain his full strength and power and achieve immortality.",
+            "start_chapter": "Chapter 13",
+            "end_chapter": "Chapter 17",
+            "success": false
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_23",
+            "motivation": "To unlock the door to the next chamber.",
+            "start_chapter": "Chapter 16",
+            "end_chapter": "Chapter 16",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_20",
+            "motivation": "To raise and care for it.",
+            "start_chapter": "Chapter 14",
+            "end_chapter": "Chapter 14",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_15",
+            "motivation": "To improve Gryffindor's Quidditch team and his own flying skills.",
+            "start_chapter": "Chapter 10",
+            "end_chapter": "Chapter 10",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_20",
+            "motivation": "Hagrid seeks a way to transport Norbert safely.",
+            "start_chapter": "Chapter 14",
+            "end_chapter": "Chapter 14",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_14",
+            "motivation": "To retrieve it from Malfoy.",
+            "start_chapter": "Chapter 9",
+            "end_chapter": "Chapter 9",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_18",
+            "motivation": "To protect it for Dumbledore.",
+            "start_chapter": "Chapter 13",
+            "end_chapter": "Chapter 16",
+            "success": false
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_25",
+            "motivation": "To learn more about his parents.",
+            "start_chapter": "Chapter 17",
+            "end_chapter": "Chapter 17",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_21",
+            "motivation": "To see his family again.",
+            "start_chapter": "Chapter 12",
+            "end_chapter": "Chapter 12",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_20",
+            "motivation": "To find a new home for Norbert.",
+            "start_chapter": "Chapter 14",
+            "end_chapter": "Chapter 15",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_08",
+            "motivation": "To learn what the letters say.",
+            "start_chapter": "Chapter 3",
+            "end_chapter": "Chapter 4",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_21",
+            "motivation": "To learn about Nicolas Flamel.",
+            "start_chapter": "Chapter 12",
+            "end_chapter": "Chapter 13",
+            "success": false
+        },
+        {
+            "character_id": "CHAR_18",
+            "item_id": "ITEM_14",
+            "motivation": "Neville is trying to remember what he has forgotten.",
+            "start_chapter": "Chapter 9",
+            "end_chapter": "Chapter 9",
+            "success": false
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_30",
+            "motivation": "To learn about the Philosopher's Stone and Snape's intentions.",
+            "start_chapter": "Chapter 13",
+            "end_chapter": "Chapter 13",
+            "success": true
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_20",
+            "motivation": "To add a dragon to his collection of creatures.",
+            "start_chapter": "Chapter 14",
+            "end_chapter": "Chapter 14",
+            "success": true
+        }
+    ],
+    "Item_DESTROYED": [
+        {
+            "character_id": "CHAR_02",
+            "item_id": "ITEM_01",
+            "chapter": "Chapter 3",
+            "location": "4 Privet Drive",
+            "method": "Burning",
+            "motivation": "Prevent Harry from going to Hogwarts"
+        },
+        {
+            "character_id": "CHAR_02",
+            "item_id": "ITEM_08",
+            "chapter": "Chapter 3",
+            "location": "4 Privet Drive",
+            "method": "Tearing, shredding, burning",
+            "motivation": "Prevent Harry from going to Hogwarts"
+        },
+        {
+            "character_id": "CHAR_05",
+            "item_id": "ITEM_18",
+            "chapter": "Chapter 17",
+            "location": "Not specified, implied Hogwarts",
+            "method": "Not specified",
+            "motivation": "Prevent Voldemort's return"
+        }
+    ],
+    "Item_USED_IN": [
+        {
+            "character_id": "CHAR_05",
+            "item_id": "ITEM_02",
+            "event_id": null,
+            "chapter": "Chapter 1",
+            "purpose": "Turn off street lamps",
+            "effectiveness": "Fully effective",
+            "significance": "Conceals Dumbledore's arrival and activities"
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_04",
+            "event_id": null,
+            "chapter": "Chapter 1",
+            "purpose": "Transport Harry to Privet Drive",
+            "effectiveness": "Fully effective",
+            "significance": "Brings Harry to his aunt and uncle's care"
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_03",
+            "event_id": null,
+            "chapter": "Chapter 14",
+            "purpose": "Threaten the Dursleys",
+            "effectiveness": "Fully effective",
+            "significance": "Silences Vernon when he insults Dumbledore"
+        },
+        {
+            "character_id": "CHAR_07",
+            "item_id": "ITEM_03",
+            "event_id": null,
+            "chapter": "Chapter 4",
+            "purpose": "Turn Dudley into a pig",
+            "effectiveness": "Partially effective",
+            "significance": "Dudley grows a pig's tail"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_11",
+            "event_id": null,
+            "chapter": "Chapter 17",
+            "purpose": "Defend against Quirrell",
+            "effectiveness": "Fully effective",
+            "significance": "Quirrell is unable to harm Harry due to Lily's love protection"
+        },
+        {
+            "character_id": "CHAR_14",
+            "item_id": "ITEM_11",
+            "event_id": null,
+            "chapter": "Chapter 9",
+            "purpose": "Set Snape's robes on fire",
+            "effectiveness": "Fully effective",
+            "significance": "Breaks Snape's eye contact, which stops him from jinxing Harry's broom"
+        },
+        {
+            "character_id": "CHAR_13",
+            "item_id": "ITEM_11",
+            "event_id": null,
+            "chapter": "Chapter 11",
+            "purpose": "Levitate the troll's club",
+            "effectiveness": "Fully effective",
+            "significance": "Knocks out the troll, saving Harry and Hermione"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_11",
+            "event_id": null,
+            "chapter": "Chapter 11",
+            "purpose": "Poke the troll's nose",
+            "effectiveness": "Fully effective",
+            "significance": "Distracts the troll, allowing Ron to knock it out"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_17",
+            "event_id": null,
+            "chapter": "Chapter 12",
+            "purpose": "Explore Hogwarts unseen",
+            "effectiveness": "Fully effective",
+            "significance": "Allows Harry to discover the Mirror of Erised"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_17",
+            "event_id": null,
+            "chapter": "Chapter 14",
+            "purpose": "Hide Norbert",
+            "effectiveness": "Fully effective",
+            "significance": "Essential for transporting Norbert unseen"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_15",
+            "event_id": null,
+            "chapter": "Chapter 9",
+            "purpose": "Fly",
+            "effectiveness": "Fully effective",
+            "significance": "Allows Harry to retrieve Neville's Remembrall and impresses McGonagall"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_15",
+            "event_id": null,
+            "chapter": "Chapter 11",
+            "purpose": "Play Quidditch",
+            "effectiveness": "Fully effective, despite being jinxed",
+            "significance": "Harry wins the match for Gryffindor"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_15",
+            "event_id": null,
+            "chapter": "Chapter 13",
+            "purpose": "Play Quidditch",
+            "effectiveness": "Jinxed by Snape, but ultimately effective",
+            "significance": "Harry wins the match despite Snape's interference"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_15",
+            "event_id": null,
+            "chapter": "Chapter 15",
+            "purpose": "Follow Snape",
+            "effectiveness": "Fully effective",
+            "significance": "Allows Harry to overhear Snape and Quirrell's conversation"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_25",
+            "event_id": null,
+            "chapter": "Chapter 13",
+            "purpose": "Learn about Nicolas Flamel",
+            "effectiveness": "Fully effective",
+            "significance": "Reveals the connection between Flamel and the Philosopher's Stone"
+        },
+        {
+            "character_id": "CHAR_01",
+            "item_id": "ITEM_22",
+            "event_id": null,
+            "chapter": "Chapter 8",
+            "purpose": "Make a potion",
+            "effectiveness": "Ineffective due to Neville's mistake",
+            "significance": "Neville melts Seamus's cauldron and gets boils"
+        }
+    ]
+}
