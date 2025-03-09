@@ -1,0 +1,9 @@
+nx_arangodb
+arango-datasets
+langchain_community
+langchain-openai
+langchain-google-genai
+gradio
+PyPDF2
+asyncio
+streamlit
