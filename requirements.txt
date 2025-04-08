@@ -7,3 +7,4 @@ gradio
 PyPDF2
 asyncio
 streamlit
+matplotlib
