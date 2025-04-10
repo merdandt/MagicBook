@@ -1,4 +1,5 @@
-from extractor.entity_relationships_schema import EntityType
+from model.entity_types import EntityType
+
 
 entity_prompts_map = {
     EntityType.CHARACTER: """

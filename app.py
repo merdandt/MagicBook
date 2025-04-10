@@ -1,451 +1,836 @@
 import streamlit as st
-import pandas as pd
 import networkx as nx
-import matplotlib.pyplot as plt
+import pandas as pd
 import time
+import asyncio
+import os
 import logging
-import io
-from dataclasses import dataclass
-from typing import Dict, List, Any, Optional
+import plotly.graph_objects as go
+from pathlib import Path
+from datetime import datetime
 
 # Set up logging
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, 
+                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
-# Define data structures
-@dataclass
-class BookMetadata:
-    book_name: str
-    author: str
-    pages_count: int
-    time_to_process: str
-    summary: str
-    entities_map: Optional[Dict[str, List[Dict[str, Any]]]] = None
-    relationships_map: Optional[Dict[str, List[Dict[str, Any]]]] = None
+# Import local modules
+from utils.file_utils import extract_text_from_pdf
+from utils.embedding import load_embedding_model
+from model.book_metadata import BookMetadata
+from services.cache_service import (load_cached_books, get_cached_book_list, 
+                                   select_cached_book, save_book_metadata,
+                                   delete_cached_book)
+from services.graph_service import (create_graph_from_book_metadata, create_graph_from_text, 
+                                   create_interactive_visualization,
+                                   analyze_book_entities, analyze_book_relationships)
+from services.db_service import is_db_connected, create_arango_graph
+from core.visualizer import create_tree_display
 
-# Global variables (using session_state)
-if 'BOOK_METADATA_COLLECTION' not in st.session_state:
-    st.session_state.BOOK_METADATA_COLLECTION = []
-if 'CURRENT_BOOK_METADATA' not in st.session_state:
-    st.session_state.CURRENT_BOOK_METADATA = None
-if 'BOOK_NAME' not in st.session_state:
-    st.session_state.BOOK_NAME = ""
+import asyncio
+import threading
+import warnings
+
+# Filter out the torch.classes warning
+warnings.filterwarnings("ignore", message="Examining the path of torch.classes")
+
+# Set page configuration
+st.set_page_config(
+    page_title="MagicBook: Dynamic Book Relationship Visualization",
+    page_icon="📚",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
+
+# Custom CSS with dark mode support
+st.markdown("""
+<style>
+    /* Base styles that work for both light and dark mode */
+    .main-header {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .sub-header {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* Message boxes with dark mode support */
+    .success-message {
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .error-message {
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .info-message {
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    
+    /* Tab styling */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 1px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        height: 50px;
+        white-space: pre-wrap;
+        border-radius: 4px 4px 0 0;
+        gap: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    /* Light mode styles */
+    @media (prefers-color-scheme: light) {
+        .main-header {
+            color: #1E3D59;
+        }
+        .sub-header {
+            color: #1E3D59;
+        }
+        .success-message {
+            color: #155724;
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+        .error-message {
+            color: #721c24;
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+        }
+        .info-message {
+            color: #0c5460;
+            background-color: #d1ecf1;
+            border-color: #bee5eb;
+        }
+        .stTabs [data-baseweb="tab"] {
+            background-color: #F5F5F5;
+        }
+        .stTabs [aria-selected="true"] {
+            background-color: #4c78a8;
+            color: white;
+        }
+    }
+    
+    /* Dark mode styles */
+    @media (prefers-color-scheme: dark) {
+        .main-header {
+            color: #7FDBFF;
+        }
+        .sub-header {
+            color: #7FDBFF;
+        }
+        .success-message {
+            color: #d4edda;
+            background-color: #155724;
+            border-color: #0f4c19;
+        }
+        .error-message {
+            color: #f8d7da;
+            background-color: #721c24;
+            border-color: #5c171d;
+        }
+        .info-message {
+            color: #d1ecf1;
+            background-color: #0c5460;
+            border-color: #0a444d;
+        }
+        .stTabs [data-baseweb="tab"] {
+            background-color: #2E2E2E;
+            color: #E1E1E1;
+        }
+        .stTabs [aria-selected="true"] {
+            background-color: #1E88E5;
+            color: #FFFFFF;
+        }
+        
+        /* Additional dark mode adjustments for Streamlit elements */
+        .stDataFrame {
+            border: 1px solid #444;
+        }
+        .stMarkdown code {
+            background-color: #2E2E2E !important;
+            color: #E1E1E1 !important;
+        }
+        .stButton>button {
+            border: 1px solid #555 !important;
+        }
+        .stTextInput>div>div>input {
+            background-color: #333 !important;
+            color: #E1E1E1 !important;
+        }
+        .stSelectbox>div>div>div {
+            background-color: #333 !important;
+            color: #E1E1E1 !important;
+        }
+    }
+    
+    /* Custom styling for plots to ensure visibility in dark mode */
+    .js-plotly-plot .plotly .modebar {
+        background-color: transparent !important;
+    }
+    
+    /* Ensure expandable sections are visible in dark mode */
+    .streamlit-expanderHeader {
+        background-color: transparent !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# Initialize session state variables if they don't exist
 if 'current_graph' not in st.session_state:
     st.session_state.current_graph = None
-if 'current_entities' not in st.session_state:
-    st.session_state.current_entities = {}
-if 'current_relationships' not in st.session_state:
-    st.session_state.current_relationships = {}
+if 'current_book_metadata' not in st.session_state:
+    st.session_state.current_book_metadata = None
+if 'processing_status' not in st.session_state:
+    st.session_state.processing_status = ""
+if 'is_processing' not in st.session_state:
+    st.session_state.is_processing = False
+if 'current_book_name' not in st.session_state:
+    st.session_state.current_book_name = ""
+if 'error_message' not in st.session_state:
+    st.session_state.error_message = ""
 
-# Helper functions
-def create_tree_display(entities, relationships):
-    """Creates a hierarchical tree display of entities and relationships."""
-    if not entities or not relationships:
-        return "No entities or relationships to display"
+# Load embedding model on startup
+load_embedding_model()
 
-    tree_text = []
+# Define the main app
+def main():
+    # Display MagicBook header
+    st.markdown('<div class="main-header">📚 MagicBook</div>', unsafe_allow_html=True)
+    st.markdown('### Dynamic Book Relationship Visualization System')
+    st.markdown('Explore the intricate network of characters, locations, events, and more from your favorite books.')
     
-    # ENTITIES TREE
-    tree_text.append("ENTITIES")
-    tree_text.append("========")
+    # Create tabs for the app
+    tabs = st.tabs(["Book Selection", "Graph Visualization", "Entity Explorer", "Analysis", "Settings"])
     
-    entity_types = sorted(list(entities.keys()))
+    # Book Selection Tab
+    with tabs[0]:
+        book_selection_tab()
     
-    for entity_type in entity_types:
-        entities_of_type = entities[entity_type]
-        count = len(entities_of_type)
-        tree_text.append(f"├── {entity_type} ({count})")
+    # Graph Visualization Tab
+    with tabs[1]:
+        graph_visualization_tab()
+    
+    # Entity Explorer Tab
+    with tabs[2]:
+        entity_explorer_tab()
+    
+    # Analysis Tab
+    with tabs[3]:
+        analysis_tab()
+    
+    # Settings Tab
+    with tabs[4]:
+        settings_tab()
+    
+    # Show footer
+    st.markdown("---")
+    st.markdown("MagicBook - Created with ❤️ for book lovers and data visualization enthusiasts")
+
+def book_selection_tab():
+    """Book Selection Tab Content"""
+    st.markdown("## Choose a Book")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("### 📚 Load Cached Book")
         
-        for i, entity in enumerate(entities_of_type):
-            is_last = i == len(entities_of_type) - 1
-            prefix = "└── " if is_last else "├── "
-            name = entity.get("name", "Unnamed")
-            key = entity.get("_key", "")
-            tree_text.append(f"│   {prefix}{name} [{key}]")
-    
-    tree_text.append("")
-    
-    # RELATIONSHIPS TREE
-    tree_text.append("RELATIONSHIPS")
-    tree_text.append("=============")
-    
-    rel_types = sorted(list(relationships.keys()))
-    
-    for rel_type in rel_types:
-        rels_of_type = relationships[rel_type]
-        count = len(rels_of_type)
-        tree_text.append(f"├── {rel_type} ({count})")
+        # Display cached books in a dropdown
+        cached_books = get_cached_book_list()
+        selected_book = st.selectbox("Select a cached book:", cached_books)
         
-        for i, rel in enumerate(rels_of_type):
-            is_last = i == len(rels_of_type) - 1
-            prefix = "└── " if is_last else "├── "
-            display_text = format_relationship(rel_type, rel)
-            tree_text.append(f"│   {prefix}{display_text}")
+        if st.button("Load Book", key="load_cached_book_btn"):
+            if selected_book == "No cached books found":
+                st.error("No cached books available. Please upload a new book.")
+            else:
+                load_book(selected_book)
     
-    return "\n".join(tree_text)
+    with col2:
+        st.markdown("### 📄 Upload New Book")
+        
+        uploaded_file = st.file_uploader("Upload PDF Book", type=["pdf"])
+        
+        if uploaded_file:
+            book_name = st.text_input("Book Name", 
+                                     value=uploaded_file.name.replace(".pdf", ""))
+            
+            if st.button("Process Book", key="process_book_btn"):
+                # Define the function to run async task
+                def run_async_function():
+                    loop = asyncio.new_event_loop()
+                    asyncio.set_event_loop(loop)
+                    try:
+                        loop.run_until_complete(process_uploaded_book(uploaded_file, book_name))
+                    finally:
+                        loop.close()
+                
+                # Set processing state
+                st.session_state.is_processing = True
+                st.session_state.processing_status = "Starting book processing..."
+                
+                # Start the thread
+                threading.Thread(target=run_async_function).start()
 
-def format_relationship(rel_type, rel):
-    """Format a relationship based on its type and structure"""
-    if "character_id" in rel and "event_id" in rel:
-        return f"{rel['character_id']} → {rel['event_id']}"
-    elif "character_id" in rel and "location_id" in rel:
-        return f"{rel['character_id']} → {rel['location_id']}"
-    elif "character_id" in rel and "item_id" in rel:
-        return f"{rel['character_id']} → {rel['item_id']}"
-    elif "character_id" in rel and "organization_id" in rel:
-        return f"{rel['character_id']} → {rel['organization_id']}"
-    elif "character1_id" in rel and "character2_id" in rel:
-        return f"{rel['character1_id']} → {rel['character2_id']}"
-    elif "spouse1_id" in rel:
-        spouse2 = rel.get('spouse2_id', 'None')
-        return f"{rel['spouse1_id']} → {spouse2}"
-    elif "lover_id" in rel and "beloved_id" in rel:
-        return f"{rel['lover_id']} → {rel['beloved_id']}"
-    elif "earlier_event_id" in rel and "later_event_id" in rel:
-        return f"{rel['earlier_event_id']} → {rel['later_event_id']}"
+
+    # Display current status
+    if st.session_state.current_book_metadata:
+        st.success(f"Current book: {st.session_state.current_book_metadata.book_name}")
+        with st.expander("Book Details", expanded=False):
+            st.write(st.session_state.current_book_metadata)
+    
+    # Show processing status or error message if any
+    if st.session_state.is_processing:
+        st.info(st.session_state.processing_status)
+    
+    if st.session_state.error_message:
+        st.error(st.session_state.error_message)
+        if st.button("Clear Error"):
+            st.session_state.error_message = ""
+
+def graph_visualization_tab():
+    """Graph Visualization Tab Content"""
+    st.markdown("## Book Graph Visualization")
+    
+    if not st.session_state.current_book_metadata:
+        st.info("Please select or upload a book first.")
+        return
+    
+    st.markdown(f"### Visualizing: {st.session_state.current_book_metadata.book_name}")
+    
+    # Display the graph visualization
+    if st.session_state.current_graph:
+        graph_fig = create_interactive_visualization(
+            st.session_state.current_graph, 
+            st.session_state.current_book_metadata.book_name
+        )
+        
+        if graph_fig:
+            st.plotly_chart(graph_fig, use_container_width=True)
+        else:
+            st.error("Error creating visualization")
+            
+        # Display graph statistics
+        with st.expander("Graph Statistics", expanded=False):
+            st.write(f"**Nodes:** {st.session_state.current_graph.number_of_nodes()}")
+            st.write(f"**Edges:** {st.session_state.current_graph.number_of_edges()}")
+            
+            # Display node types and counts
+            node_types = {}
+            for node, attrs in st.session_state.current_graph.nodes(data=True):
+                entity_type = attrs.get('entity_type', 'Unknown')
+                if entity_type not in node_types:
+                    node_types[entity_type] = 0
+                node_types[entity_type] += 1
+            
+            st.write("**Node Types:**")
+            node_types_df = pd.DataFrame({
+                'Type': list(node_types.keys()),
+                'Count': list(node_types.values())
+            }).sort_values(by='Count', ascending=False)
+            
+            st.dataframe(node_types_df)
+            
+            # Display edge types and counts
+            edge_types = {}
+            for _, _, attrs in st.session_state.current_graph.edges(data=True):
+                rel_type = attrs.get('type', 'Unknown')
+                if rel_type not in edge_types:
+                    edge_types[rel_type] = 0
+                edge_types[rel_type] += 1
+            
+            st.write("**Relationship Types:**")
+            edge_types_df = pd.DataFrame({
+                'Type': list(edge_types.keys()),
+                'Count': list(edge_types.values())
+            }).sort_values(by='Count', ascending=False)
+            
+            st.dataframe(edge_types_df)
     else:
-        keys = list(rel.keys())[:2]
-        return f"{keys[0]}: {rel[keys[0]]}, {keys[1]}: {rel[keys[1]]}"
+        st.warning("Graph not available. There might be an error in processing the book.")
 
-def load_cached_books():
-    """Load metadata of all cached books"""
-    if not st.session_state.BOOK_METADATA_COLLECTION:
-        logging.warning("No cached books available")
-        return []
-    return st.session_state.BOOK_METADATA_COLLECTION
-
-def select_cached_book(book_name):
-    """Select a cached book by name from the collection"""
-    books = load_cached_books()
-    for book in books:
-        if book.book_name == book_name:
-            st.session_state.CURRENT_BOOK_METADATA = book
-            return book
-    logging.error(f"Book '{book_name}' not found in cached collection")
-    return None
-
-def get_cached_book_list():
-    """Get list of cached book names for dropdown"""
-    books = load_cached_books()
-    return [book.book_name for book in books] if books else ["No cached books found"]
-
-def create_graph_from_book(book_metadata_or_path):
-    """Create a NetworkX graph from book metadata or PDF path"""
-    # Create a simple demo graph
-    G = nx.DiGraph()
+def entity_explorer_tab():
+    """Entity Explorer Tab Content"""
+    st.markdown("## Entity Explorer")
     
-    if isinstance(book_metadata_or_path, BookMetadata):
-        book = book_metadata_or_path
-        
-        if book.entities_map:
-            for entity_type, entities in book.entities_map.items():
-                for entity in entities:
-                    G.add_node(entity.get('_key', f"unknown-{time.time()}"), 
-                              type=entity_type, 
-                              name=entity.get('name', 'Unnamed'))
-        
-        if book.relationships_map:
-            for rel_type, relationships in book.relationships_map.items():
-                for rel in relationships:
-                    if "character_id" in rel and "event_id" in rel:
-                        G.add_edge(rel["character_id"], rel["event_id"], type=rel_type)
-                    elif "character1_id" in rel and "character2_id" in rel:
-                        G.add_edge(rel["character1_id"], rel["character2_id"], type=rel_type)
-    else:
-        # Demo graph for PDF upload
-        G.add_node("character1", type="character", name="Character 1")
-        G.add_node("character2", type="character", name="Character 2")
-        G.add_node("location1", type="location", name="Location 1")
-        G.add_edge("character1", "character2", type="knows")
-        G.add_edge("character1", "location1", type="visits")
-        
-        # Sample data
-        entities = {
-            "character": [
-                {"_key": "character1", "name": "Character 1"},
-                {"_key": "character2", "name": "Character 2"}
-            ],
-            "location": [
-                {"_key": "location1", "name": "Location 1"}
-            ]
-        }
-        
-        relationships = {
-            "knows": [
-                {"character1_id": "character1", "character2_id": "character2"}
-            ],
-            "visits": [
-                {"character_id": "character1", "location_id": "location1"}
-            ]
-        }
-        
-        st.session_state.current_entities = entities
-        st.session_state.current_relationships = relationships
+    if not st.session_state.current_book_metadata:
+        st.info("Please select or upload a book first.")
+        return
     
-    return G
-
-def visualize_graph_network(G, title="Book Graph"):
-    """Create a matplotlib visualization of the graph"""
-    plt.figure(figsize=(10, 8))
-    pos = nx.spring_layout(G)
+    book_metadata = st.session_state.current_book_metadata
     
-    node_types = nx.get_node_attributes(G, 'type')
+    if not book_metadata.entities_map or not book_metadata.relationships_map:
+        st.warning("No entities or relationships found in this book.")
+        return
     
-    unique_types = set(node_types.values())
-    color_map = {}
-    colors = plt.cm.tab10.colors
-    for i, type_name in enumerate(unique_types):
-        color_map[type_name] = colors[i % len(colors)]
-    
-    for node_type in unique_types:
-        nodelist = [node for node, data in G.nodes(data=True) if data.get('type') == node_type]
-        nx.draw_networkx_nodes(G, pos, 
-                              nodelist=nodelist,
-                              node_color=color_map[node_type],
-                              node_size=500,
-                              alpha=0.8,
-                              label=node_type)
-    
-    nx.draw_networkx_edges(G, pos, width=1.0, alpha=0.5)
-    
-    node_labels = {node: data.get('name', node) for node, data in G.nodes(data=True)}
-    nx.draw_networkx_labels(G, pos, labels=node_labels, font_size=10)
-    
-    plt.title(title)
-    plt.legend()
-    plt.axis("off")
-    
-    return plt.gcf()
-
-def creare_adb_graph(G, book_name):
-    """Placeholder for creating an Arango database graph"""
-    logging.info(f"Creating ArangoDB graph for book: {book_name}")
-    return True
-
-def handle_cached_book_selection(book_name):
-    """Handle cached book selection from dropdown"""
-    if book_name == "No cached books found":
-        st.error("No cached books available")
-        return None
-    
-    book = select_cached_book(book_name)
-    if not book:
-        st.error(f"Error: Could not find book '{book_name}'")
-        return None
-    
-    G_nx = create_graph_from_book(book)
-    if not G_nx:
-        st.error(f"Error: Could not create graph for book '{book_name}'")
-        return None
-    
-    st.session_state.current_graph = G_nx
-    st.session_state.current_entities = book.entities_map
-    st.session_state.current_relationships = book.relationships_map
-    st.session_state.BOOK_NAME = book.book_name
-    
-    info_text = (
-        f"Book: {book.book_name}\n"
-        f"Author: {book.author}\n"
-        f"Pages: {book.pages_count}\n"
-        f"Processing time: {book.time_to_process}\n\n"
-        f"Entities: {len(book.entities_map) if book.entities_map else 0} types\n"
-        f"Relationships: {len(book.relationships_map) if book.relationships_map else 0} types\n\n"
-        f"Summary: {book.summary}"
+    # Display entity navigation sidebar
+    entity_type = st.selectbox(
+        "Select Entity Type:",
+        options=list(book_metadata.entities_map.keys())
     )
     
-    return info_text
+    # Display entities of selected type
+    if entity_type and entity_type in book_metadata.entities_map:
+        entities = book_metadata.entities_map[entity_type]
+        
+        # Show entity list
+        st.markdown(f"### {entity_type}s ({len(entities)})")
+        
+        # Create a dataframe for better display
+        entity_data = []
+        for entity in entities:
+            entry = {
+                'Key': entity.get('_key', ''),
+                'Name': entity.get('name', 'Unknown')
+            }
+            
+            # Add additional common fields based on entity type
+            if entity_type == 'CHARACTER':
+                entry['Significance'] = entity.get('significance', '')
+                entry['Gender'] = entity.get('gender', '')
+            elif entity_type == 'LOCATION':
+                entry['Type'] = entity.get('type', '')
+                entry['Region'] = entity.get('region', '')
+            elif entity_type == 'EVENT':
+                entry['Type'] = entity.get('type', '')
+            
+            entity_data.append(entry)
+        
+        # Display as a table with filtering
+        if entity_data:
+            entity_df = pd.DataFrame(entity_data)
+            st.dataframe(entity_df)
+            
+            # Entity details view
+            selected_entity_key = st.selectbox(
+                "Select an entity to view details:",
+                options=[e['Key'] for e in entity_data],
+                format_func=lambda x: next((e['Name'] for e in entity_data if e['Key'] == x), x)
+            )
+            
+            if selected_entity_key:
+                selected_entity = next((e for e in entities if e.get('_key') == selected_entity_key), None)
+                
+                if selected_entity:
+                    st.markdown(f"### Details for: {selected_entity.get('name', 'Unknown')}")
+                    
+                    # Show all attributes as a table
+                    st.json(selected_entity)
+                    
+                    # Show relationships involving this entity
+                    st.markdown("### Relationships")
+                    
+                    if st.session_state.current_graph:
+                        # Get incoming edges
+                        incoming_edges = []
+                        for source, target, attrs in st.session_state.current_graph.in_edges(selected_entity_key, data=True):
+                            source_node = st.session_state.current_graph.nodes[source]
+                            incoming_edges.append({
+                                'Source': source_node.get('name', source),
+                                'Source Type': source_node.get('entity_type', 'Unknown'),
+                                'Relationship': attrs.get('type', 'Unknown'),
+                                'Details': str({k: v for k, v in attrs.items() if k != 'type'})
+                            })
+                        
+                        # Get outgoing edges
+                        outgoing_edges = []
+                        for source, target, attrs in st.session_state.current_graph.out_edges(selected_entity_key, data=True):
+                            target_node = st.session_state.current_graph.nodes[target]
+                            outgoing_edges.append({
+                                'Target': target_node.get('name', target),
+                                'Target Type': target_node.get('entity_type', 'Unknown'),
+                                'Relationship': attrs.get('type', 'Unknown'),
+                                'Details': str({k: v for k, v in attrs.items() if k != 'type'})
+                            })
+                        
+                        # Display relationships
+                        if incoming_edges:
+                            st.markdown("#### Incoming Relationships")
+                            st.dataframe(pd.DataFrame(incoming_edges))
+                        
+                        if outgoing_edges:
+                            st.markdown("#### Outgoing Relationships")
+                            st.dataframe(pd.DataFrame(outgoing_edges))
+                        
+                        if not incoming_edges and not outgoing_edges:
+                            st.info("No relationships found for this entity.")
+        else:
+            st.info(f"No {entity_type} entities found in this book.")
 
-def handle_pdf_upload(pdf_file):
-    """Handle PDF upload and processing"""
-    if pdf_file is None:
-        st.error("No PDF file provided")
-        return None
+def analysis_tab():
+    """Analysis Tab Content"""
+    st.markdown("## Book Analysis")
     
-    pdf_bytes = pdf_file.read()
+    if not st.session_state.current_book_metadata:
+        st.info("Please select or upload a book first.")
+        return
     
-    # Demo graph for now
-    G_nx = create_graph_from_book(pdf_bytes)
+    book_metadata = st.session_state.current_book_metadata
     
-    if not G_nx:
-        st.error("Error processing PDF")
-        return None
+    # Create tabs for different analyses
+    analysis_tabs = st.tabs(["Entity Analysis", "Relationship Analysis", "Network Analysis", "Text View"])
     
-    st.session_state.current_graph = G_nx
-    st.session_state.BOOK_NAME = pdf_file.name.replace('.pdf', '')
+    # Entity Analysis Tab
+    with analysis_tabs[0]:
+        st.markdown("### Entity Analysis")
+        
+        if book_metadata.entities_map:
+            # Analyze entities
+            entity_analysis = analyze_book_entities(book_metadata.entities_map)
+            
+            if entity_analysis:
+                # Create pie chart of entity types
+                if 'entity_counts' in entity_analysis:
+                    entity_types = list(entity_analysis['entity_counts'].keys())
+                    entity_counts = list(entity_analysis['entity_counts'].values())
+                    
+                    fig = go.Figure(data=[go.Pie(
+                        labels=entity_types,
+                        values=entity_counts,
+                        hole=.3,
+                        marker_colors=['#3357FF', '#33FFF5', '#A64DFF', '#F5FF33', 
+                                     '#FF5733', '#FF33A8', '#8C8C8C', '#33FF57']
+                    )])
+                    
+                    fig.update_layout(
+                        title="Entity Type Distribution",
+                        height=500
+                    )
+                    
+                    st.plotly_chart(fig, use_container_width=True)
+                
+                # Display main characters
+                if 'main_characters' in entity_analysis and entity_analysis['main_characters']:
+                    st.markdown("#### Main Characters")
+                    for character in entity_analysis['main_characters']:
+                        st.markdown(f"**{character['name']}**: {character['description']}")
+                
+                # Display main locations
+                if 'main_locations' in entity_analysis and entity_analysis['main_locations']:
+                    st.markdown("#### Key Locations")
+                    for location in entity_analysis['main_locations']:
+                        st.markdown(f"**{location['name']}**: {location['description']}")
+                
+                # Display key events
+                if 'key_events' in entity_analysis and entity_analysis['key_events']:
+                    st.markdown("#### Key Events")
+                    for event in entity_analysis['key_events']:
+                        st.markdown(f"**{event['name']}**: {event['summary']}")
+            else:
+                st.warning("No entity analysis available.")
+        else:
+            st.warning("No entities found in this book.")
     
-    entity_count = sum(len(ent_list) for ent_list in st.session_state.current_entities.values()) if st.session_state.current_entities else 0
-    rel_count = sum(len(rel_list) for rel_list in st.session_state.current_relationships.values()) if st.session_state.current_relationships else 0
+    # Relationship Analysis Tab
+    with analysis_tabs[1]:
+        st.markdown("### Relationship Analysis")
+        
+        if book_metadata.relationships_map:
+            # Analyze relationships
+            relationship_analysis = analyze_book_relationships(book_metadata.relationships_map)
+            
+            if relationship_analysis:
+                # Create bar chart of relationship types
+                if 'relationship_counts' in relationship_analysis:
+                    rel_types = list(relationship_analysis['relationship_counts'].keys())
+                    rel_counts = list(relationship_analysis['relationship_counts'].values())
+                    
+                    # If there are too many types, limit to top 10
+                    if len(rel_types) > 10:
+                        sorted_indices = sorted(range(len(rel_counts)), key=lambda i: rel_counts[i], reverse=True)[:10]
+                        rel_types = [rel_types[i] for i in sorted_indices]
+                        rel_counts = [rel_counts[i] for i in sorted_indices]
+                    
+                    fig = go.Figure(data=[go.Bar(
+                        x=rel_types,
+                        y=rel_counts,
+                        marker_color='#4c78a8'
+                    )])
+                    
+                    fig.update_layout(
+                        title="Relationship Type Distribution",
+                        xaxis_title="Relationship Type",
+                        yaxis_title="Count",
+                        height=500,
+                        xaxis=dict(tickangle=-45)
+                    )
+                    
+                    st.plotly_chart(fig, use_container_width=True)
+                
+                # Display key relationship types
+                if 'key_relationship_types' in relationship_analysis:
+                    st.markdown("#### Key Relationship Types")
+                    for rel in relationship_analysis['key_relationship_types']:
+                        st.markdown(f"**{rel['type']}**: {rel['count']} relationships")
+            else:
+                st.warning("No relationship analysis available.")
+        else:
+            st.warning("No relationships found in this book.")
     
-    info_text = (
-        f"Book: {st.session_state.BOOK_NAME}\n"
-        f"Entities extracted: {entity_count}\n"
-        f"Relationships extracted: {rel_count}\n"
-        f"Graph created with {len(G_nx.nodes)} nodes and {len(G_nx.edges)} edges"
-    )
+    # Network Analysis Tab
+    with analysis_tabs[2]:
+        st.markdown("### Network Analysis")
+        
+        if st.session_state.current_graph:
+            G = st.session_state.current_graph
+            
+            # Display graph statistics
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                st.markdown("#### Basic Statistics")
+                st.write(f"**Nodes:** {G.number_of_nodes()}")
+                st.write(f"**Edges:** {G.number_of_edges()}")
+                st.write(f"**Density:** {nx.density(G):.4f}")
+                
+                if nx.is_directed(G):
+                    st.write(f"**Strongly Connected Components:** {len(list(nx.strongly_connected_components(G)))}")
+                    st.write(f"**Weakly Connected Components:** {len(list(nx.weakly_connected_components(G)))}")
+                else:
+                    st.write(f"**Connected Components:** {nx.number_connected_components(G)}")
+            
+            with col2:
+                st.markdown("#### Centrality Measures")
+                
+                # Calculate degree centrality for top nodes
+                degree_centrality = nx.degree_centrality(G)
+                top_degree_nodes = sorted(degree_centrality.items(), key=lambda x: x[1], reverse=True)[:5]
+                
+                st.markdown("**Top 5 Nodes by Degree Centrality:**")
+                for node_id, centrality in top_degree_nodes:
+                    node_name = G.nodes[node_id].get('name', node_id)
+                    st.write(f"- {node_name}: {centrality:.4f}")
+                
+                # Calculate betweenness centrality if not too computationally expensive
+                if G.number_of_nodes() <= 500:  # Limit to smaller graphs
+                    try:
+                        betweenness_centrality = nx.betweenness_centrality(G, k=min(100, G.number_of_nodes()))
+                        top_betweenness_nodes = sorted(betweenness_centrality.items(), key=lambda x: x[1], reverse=True)[:5]
+                        
+                        st.markdown("**Top 5 Nodes by Betweenness Centrality:**")
+                        for node_id, centrality in top_betweenness_nodes:
+                            node_name = G.nodes[node_id].get('name', node_id)
+                            st.write(f"- {node_name}: {centrality:.4f}")
+                    except Exception as e:
+                        st.write("Betweenness centrality calculation failed.")
+            
+            # Advanced network analysis
+            with st.expander("Advanced Network Analysis", expanded=False):
+                st.write("This section contains computationally intensive analyses.")
+                
+                if st.button("Calculate Community Structure"):
+                    try:
+                        with st.spinner("Calculating communities..."):
+                            # Use a simple community detection algorithm
+                            if nx.is_directed(G):
+                                communities = nx.community.greedy_modularity_communities(G.to_undirected())
+                            else:
+                                communities = nx.community.greedy_modularity_communities(G)
+                            
+                            st.write(f"**Found {len(communities)} communities**")
+                            
+                            # Display the top 5 largest communities
+                            for i, community in enumerate(list(communities)[:5]):
+                                community_nodes = list(community)
+                                node_names = [G.nodes[node].get('name', node) for node in community_nodes[:5]]
+                                st.write(f"Community {i+1} ({len(community_nodes)} nodes): {', '.join(node_names)}...")
+                    except Exception as e:
+                        st.error(f"Error calculating communities: {str(e)}")
+        else:
+            st.warning("No graph available for analysis.")
     
-    return info_text
+    # Text View Tab
+    with analysis_tabs[3]:
+        st.markdown("### Text Representation")
+        
+        if book_metadata.entities_map and book_metadata.relationships_map:
+            # Display tree representation
+            tree_text = create_tree_display(book_metadata.entities_map, book_metadata.relationships_map)
+            st.text(tree_text)
+        else:
+            st.warning("No entities or relationships available for text view.")
 
-def save_processed_book(book_name):
-    """Save processed book to cache"""
-    if not st.session_state.current_graph:
-        return "No graph to save"
+def settings_tab():
+    """Settings Tab Content"""
+    st.markdown("## Settings")
+    
+    # Database Connection Settings
+    st.markdown("### Database Connection")
+    
+    db_url = st.text_input("Database URL", value=os.environ.get('DATABASE_HOST', ''))
+    db_username = st.text_input("Database Username", value=os.environ.get('DATABASE_USERNAME', ''))
+    db_password = st.text_input("Database Password", value=os.environ.get('DATABASE_PASSWORD', ''), type="password")
+    
+    if st.button("Test Connection"):
+        # Update environment variables
+        os.environ['DATABASE_HOST'] = db_url
+        os.environ['DATABASE_USERNAME'] = db_username
+        os.environ['DATABASE_PASSWORD'] = db_password
+        
+        # Test connection
+        if is_db_connected():
+            st.success("Successfully connected to database!")
+        else:
+            st.error("Failed to connect to database. Please check your settings.")
+    
+    # ArangoDB Integration
+    st.markdown("### ArangoDB Integration")
+    
+    if st.session_state.current_book_metadata and st.session_state.current_graph:
+        if st.button("Upload to ArangoDB"):
+            book_name = st.session_state.current_book_metadata.book_name
+            with st.spinner(f"Uploading graph for '{book_name}' to ArangoDB..."):
+                db_graph = create_arango_graph(st.session_state.current_graph, book_name)
+                
+                if db_graph:
+                    st.success(f"Successfully uploaded graph for '{book_name}' to ArangoDB!")
+                else:
+                    st.error("Failed to upload graph to ArangoDB.")
+    else:
+        st.info("Please load a book to enable ArangoDB integration.")
+    
+    # Cache Management
+    st.markdown("### Cache Management")
+    
+    # List cached books
+    cached_books = get_cached_book_list()
+    if cached_books and cached_books[0] != "No cached books found":
+        book_to_delete = st.selectbox("Select a book to delete from cache:", cached_books)
+        
+        if st.button("Delete from Cache"):
+            if delete_cached_book(book_to_delete):
+                st.success(f"Successfully deleted '{book_to_delete}' from cache.")
+                if st.session_state.current_book_metadata and st.session_state.current_book_metadata.book_name == book_to_delete:
+                    st.session_state.current_book_metadata = None
+                    st.session_state.current_graph = None
+                    st.session_state.current_book_name = ""
+                    st.warning("Current book was deleted from cache. Please load another book.")
+                    
+                # Refresh cached books list
+                st.experimental_rerun()
+            else:
+                st.error(f"Failed to delete '{book_to_delete}' from cache.")
+    else:
+        st.info("No cached books found.")
+    
+    # Clear All Cache
+    if st.button("Clear All Cache"):
+        data_dir = Path("data")
+        if data_dir.exists():
+            try:
+                # Delete all subdirectories in data directory
+                for subdir in data_dir.iterdir():
+                    if subdir.is_dir():
+                        for file in subdir.iterdir():
+                            file.unlink()
+                        subdir.rmdir()
+                
+                # Reset session state
+                st.session_state.current_book_metadata = None
+                st.session_state.current_graph = None
+                st.session_state.current_book_name = ""
+                
+                st.success("Successfully cleared all cache.")
+                st.experimental_rerun()
+            except Exception as e:
+                st.error(f"Failed to clear cache: {str(e)}")
+        else:
+            st.info("No cache directory found.")
+
+# Helper functions for the UI
+
+def load_book(book_name):
+    """Load a book from cache by name"""
+    try:
+        book_metadata = select_cached_book(book_name)
+        
+        if not book_metadata:
+            st.session_state.error_message = f"Error: Book '{book_name}' not found in cache."
+            return
+        
+        # Create graph from book metadata
+        graph = create_graph_from_book_metadata(book_metadata)
+        
+        if not graph:
+            st.session_state.error_message = "Error: Failed to create graph from book metadata."
+            return
+        
+        # Update session state
+        st.session_state.current_book_metadata = book_metadata
+        st.session_state.current_graph = graph
+        st.session_state.current_book_name = book_name
+        st.session_state.error_message = ""
+        
+        # Show success message
+        st.success(f"Successfully loaded book: {book_name}")
+    except Exception as e:
+        st.session_state.error_message = f"Error loading book: {str(e)}"
+
+async def process_uploaded_book(uploaded_file, book_name):
+    """Process an uploaded PDF book"""
+    if not uploaded_file:
+        st.session_state.error_message = "Error: No file uploaded."
+        return
+    
+    # Save uploaded file temporarily
+    temp_file_path = f"temp_{uploaded_file.name}"
+    with open(temp_file_path, "wb") as f:
+        f.write(uploaded_file.getbuffer())
+    
+    # Set processing state
+    st.session_state.is_processing = True
+    st.session_state.processing_status = "Extracting text from PDF..."
     
     try:
-        creare_adb_graph(st.session_state.current_graph, book_name)
+        # Extract text from PDF
+        book_text = extract_text_from_pdf(temp_file_path)
         
-        book_metadata = BookMetadata(
-            book_name=book_name,
-            author="Extracted from PDF",
-            pages_count=len(st.session_state.current_graph.nodes),
-            time_to_process=f"{time.time()} seconds",
-            summary="Automatically extracted from PDF"
-        )
-        book_metadata.entities_map = st.session_state.current_entities
-        book_metadata.relationships_map = st.session_state.current_relationships
+        if isinstance(book_text, str) and book_text.startswith("Error"):
+            st.session_state.error_message = book_text
+            st.session_state.is_processing = False
+            os.remove(temp_file_path)
+            return
         
-        st.session_state.BOOK_METADATA_COLLECTION.append(book_metadata)
+        # Update status
+        st.session_state.processing_status = "Creating dummy book metadata and graph for demo purposes..."
         
-        return f"Book '{book_name}' saved successfully with {len(st.session_state.current_graph.nodes)} nodes and {len(st.session_state.current_graph.edges)} edges"
+        # Create graph from entities and relationships
+        graph_metadata = await create_graph_from_text(book_text)  # Make sure 'await' is here
+        
+        if not graph_metadata:
+            st.session_state.error_message = "Error: Failed to create graph from book metadata."
+            st.session_state.is_processing = False
+            os.remove(temp_file_path)
+            return
+        
+        # Save book metadata to cache
+        if save_book_metadata(graph_metadata[1]):
+            st.session_state.processing_status = "Book processed and saved to cache."
+        else:
+            st.session_state.processing_status = "Book processed but failed to save to cache."
+        
+        # Update session state
+        st.session_state.current_book_metadata = graph_metadata[1]
+        st.session_state.current_graph = graph_metadata[0]
+        st.session_state.current_book_name = book_name
+        st.session_state.error_message = ""
+        
+        # Clean up
+        os.remove(temp_file_path)
+        
+        # Show success message
+        st.success(f"Successfully processed book: {book_name}")
     except Exception as e:
-        logging.error(f"Error saving book: {e}")
-        return f"Error saving book: {str(e)}"
+        st.session_state.error_message = f"Error processing book: {str(e)}"
+    finally:
+        st.session_state.is_processing = False
 
-def chat_response(message, history):
-    """Chat response function"""
-    if not history:
-        history = []
-    history.append({"user": message, "bot": f"You asked about: {message}"})
-    return history
-
-# Define the Streamlit app
-def main():
-    st.set_page_config(
-        page_title="MagicBook: Book Graph Explorer",
-        page_icon="📚",
-        layout="wide"
-    )
-    
-    # Initialize app state if not set
-    if 'app_state' not in st.session_state:
-        st.session_state.app_state = "choose_book"
-    
-    # Navigation function to switch between states
-    def navigate_to(state):
-        st.session_state.app_state = state
-    
-    # CHOOSE BOOK STATE
-    if st.session_state.app_state == "choose_book":
-        st.title("MagicBook: Dynamic Book Relationship Visualization")
-        st.write("Select a cached book or upload a new PDF to analyze.")
-        
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            st.subheader("Cached Books")
-            cached_books = get_cached_book_list()
-            cached_book_selection = st.selectbox(
-                "Select a cached book",
-                cached_books
-            )
-            
-            load_cached = st.button("Load Cached Book")
-            
-            if load_cached:
-                with st.spinner("Loading book..."):
-                    info_text = handle_cached_book_selection(cached_book_selection)
-                    if info_text:
-                        st.session_state.info_text = info_text
-                        navigate_to("interaction")
-        
-        with col2:
-            st.subheader("Upload New Book")
-            pdf_file = st.file_uploader("Upload PDF Book", type=["pdf"])
-            
-            process_pdf = st.button("Process PDF")
-            
-            if process_pdf and pdf_file is not None:
-                with st.spinner("Processing PDF..."):
-                    # Simulate processing delay
-                    time.sleep(2)
-                    info_text = handle_pdf_upload(pdf_file)
-                    if info_text:
-                        st.session_state.info_text = info_text
-                        navigate_to("interaction")
-    
-    # INTERACTION STATE
-    elif st.session_state.app_state == "interaction":
-        st.title("Book Interaction Interface")
-        
-        # Back button at the top
-        if st.button("← Back to Book Selection"):
-            navigate_to("choose_book")
-        
-        col1, col2 = st.columns([1, 2])
-        
-        with col1:
-            # Show book info
-            st.text_area(
-                "Book Information",
-                value=st.session_state.info_text,
-                height=200,
-                disabled=True
-            )
-            
-            # Show entities and relationships
-            if st.session_state.current_entities and st.session_state.current_relationships:
-                tree_display = create_tree_display(
-                    st.session_state.current_entities,
-                    st.session_state.current_relationships
-                )
-                st.text_area(
-                    "Entities & Relationships",
-                    value=tree_display,
-                    height=400,
-                    disabled=True
-                )
-            
-            # Save book functionality
-            with st.expander("Save Book"):
-                book_name = st.text_input("Book Name", value=st.session_state.BOOK_NAME)
-                
-                if st.button("Save Book to Cache"):
-                    with st.spinner("Saving book..."):
-                        save_status = save_processed_book(book_name)
-                        st.success(save_status)
-        
-        with col2:
-            # Graph visualization
-            if st.session_state.current_graph:
-                st.subheader("Book Graph Visualization")
-                fig = visualize_graph_network(st.session_state.current_graph, st.session_state.BOOK_NAME)
-                st.pyplot(fig)
-            
-            # Chat interface
-            st.subheader("Ask about the book")
-            
-            # Initialize chat history if not exists
-            if 'chat_history' not in st.session_state:
-                st.session_state.chat_history = []
-            
-            # Display chat history
-            for message in st.session_state.chat_history:
-                with st.chat_message("user"):
-                    st.write(message["user"])
-                with st.chat_message("assistant"):
-                    st.write(message["bot"])
-            
-            # Chat input
-            user_input = st.chat_input("Ask a question about the book")
-            
-            if user_input:
-                with st.chat_message("user"):
-                    st.write(user_input)
-                
-                with st.spinner("Thinking..."):
-                    # Process the user's question
-                    st.session_state.chat_history = chat_response(
-                        user_input, 
-                        st.session_state.chat_history
-                    )
-                
-                with st.chat_message("assistant"):
-                    st.write(st.session_state.chat_history[-1]["bot"])
+# Run the app
+if __name__ == "__main__":
+    main()

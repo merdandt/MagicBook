@@ -1,4 +1,5 @@
-from extractor.entity_relationships_schema import RelationshipType
+from model.entity_types import RelationshipType
+
 
 relationships_prompts_map = {
     RelationshipType.Family_PARENT_OF: """

@@ -1,0 +1,28 @@
+{
+  "CHARACTER": [
+    {
+      "_key": "char_01",
+      "name": "Protagonist",
+      "description": "Main character"
+    },
+    {
+      "_key": "char_02",
+      "name": "Antagonist",
+      "description": "Villain"
+    }
+  ],
+  "LOCATION": [
+    {
+      "_key": "loc_01",
+      "name": "Main Setting",
+      "description": "Primary location"
+    }
+  ],
+  "EVENT": [
+    {
+      "_key": "event_01",
+      "name": "Climax",
+      "description": "Major plot event"
+    }
+  ]
+}
