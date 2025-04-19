@@ -1,7 +1,39 @@
 # ... (imports and other code remain the same) ...
 
 import time
+from streamlit.runtime.scriptrunner import get_script_run_ctx
 import streamlit as st
+
+ctx = get_script_run_ctx()
+if ctx is None or ctx._set_page_config_allowed:      # ← not set yet
+    st.set_page_config(page_title="MagicBook",
+                       page_icon="📚",
+                       layout="wide")
+
+# logging setup AFTER page_config
+import logging
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+logger = logging.getLogger(__name__)
+
+# live log placeholder
+log_placeholder = st.sidebar.empty()
+
+class StreamlitHandler(logging.Handler):
+    def __init__(self, placeholder):
+        super().__init__()
+        self.placeholder = placeholder
+        self.lines = []
+
+    def emit(self, record):
+        self.lines.append(self.format(record))
+        self.lines = self.lines[-200:]
+        self.placeholder.code("\n".join(self.lines), language="")
+
+handler = StreamlitHandler(log_placeholder)
+handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+logging.getLogger().addHandler(handler)
+
 import networkx as nx
 import pandas as pd
 import os
@@ -10,15 +42,7 @@ import plotly.graph_objects as go
 from pathlib import Path
 from datetime import datetime
 
-# Set up logging
-logging.basicConfig(level=logging.INFO,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
 
-# Import local modules
-# Assuming these utils/services/models are in the correct path relative to the script
-# If not, adjust sys.path or packaging as needed.
-# For simplicity, let's assume they are found.
 try:
     from utils.file_utils import extract_text_from_pdf
     from utils.embedding import load_embedding_model
@@ -42,13 +66,6 @@ import warnings
 # Filter out the torch.classes warning
 warnings.filterwarnings("ignore", message="Examining the path of torch.classes")
 
-# Set page configuration
-st.set_page_config(
-    page_title="MagicBook: Dynamic Book Relationship Visualization",
-    page_icon="📚",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
 
 # Custom CSS with dark mode support (remains the same)
 st.markdown("""
