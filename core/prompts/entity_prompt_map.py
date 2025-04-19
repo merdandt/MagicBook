@@ -1,7 +1,7 @@
 from model.entity_types import EntityType
 
 
-entity_prompts_map = {
+ENTITY_PROMPTS_MAP = {
     EntityType.CHARACTER: """
         You are a literary character analyzer. Your task is to read the provided book text and extract every character mentioned—from major protagonists to minor supporting roles—and identify their properties. Return ONLY a valid JSON array of character objects with the following keys:
 

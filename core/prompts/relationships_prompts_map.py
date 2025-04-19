@@ -1,7 +1,7 @@
 from model.entity_types import RelationshipType
 
 
-relationships_prompts_map = {
+RELATIONSHIP_PROMPTS_MAP = {
     RelationshipType.Family_PARENT_OF: """
         You are a literary characters' relationship analyzer. Your task is to carefylly read the book and identify family relationships between characters.
 

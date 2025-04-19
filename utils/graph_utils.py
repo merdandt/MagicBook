@@ -1,6 +1,8 @@
 import logging
 import networkx as nx
 
+from model.entity_types import RelationshipType
+
 def extract_edge_ids(rel_type, relationship):
     """
     Extract source and target IDs from a relationship record based on its type.
@@ -92,74 +94,59 @@ def extract_edge_ids(rel_type, relationship):
     
     return None, None
 
-def ensure_consistency(entities, relationships, reference_mappings, threshold=1):
+def ensure_consistency(
+        entities: list[str],
+        relationships: list[str],
+        reference_mappings: dict,
+        threshold: int = 1,
+        log_unknown: bool = True
+    ) -> tuple[list[str], list[str]]:
     """
-    Ensures consistency between entity types and relationship types using a single threshold.
+    Remove relationship names that are not recognised and ensure that every
+    kept relationship’s required entity types are present (adding them when
+    they appear at least `threshold` times).
 
-    For each relationship, check its required entity types (via reference_mappings).
-    - If a required entity type is missing and the number of relationships needing that entity is
-      greater than or equal to the threshold, then add that entity type to the entity list.
-    - Otherwise, remove relationships that require a missing entity.
-
-    Parameters:
-      entities: List[str]
-          List of entity type strings (e.g., ["CHARACTER", "LOCATION", ...]).
-      relationships: List[str]
-          List of relationship type strings.
-      reference_mappings: dict
-          Dictionary mapping relationship names to a dict of required entity references.
-          For example:
-              {
-                "Organization_MEMBER_OF": {
-                    "Characters": ("CHARACTER", some_func),
-                    "Organizations": ("ORGANIZATION", another_func)
-                },
-                ...
-              }
-      threshold: int
-          The minimum number of relationships requiring a missing entity type to add it.
-          Otherwise, any relationship that requires a missing entity (with count below threshold)
-          will be removed.
-
-    Returns:
-      (updated_entities, updated_relationships): tuple
-          The updated list of entity type strings and relationship type strings.
+    Returns
+    -------
+    (updated_entities, updated_relationships)
     """
-    # Use a set for fast lookup.
     entities_set = set(entities)
 
-    # First pass: Count missing occurrences for each entity type across all relationships.
-    missing_counts = {}
+    # ── 1. filter out *unknown* relationships ───────────────────────────
+    valid_relationships: list[str] = []
     for rel in relationships:
-        reqs = reference_mappings.get(rel, {})
-        for key, (req_entity, _) in reqs.items():
+        if rel not in reference_mappings:
+            if log_unknown:
+                logging.warning("Unknown relationship (no prompt/map): %s", rel)
+            continue
+        if rel not in RelationshipType.__members__:         # enum test
+            if log_unknown:
+                logging.warning("Relationship not in enum: %s", rel)
+            continue
+        valid_relationships.append(rel)
+
+    # ── 2. count missing entity occurrences in the valid relationships ──
+    missing_counts: dict[str, int] = {}
+    for rel in valid_relationships:
+        for _, (req_entity, _) in reference_mappings[rel].items():
             if req_entity not in entities_set:
                 missing_counts[req_entity] = missing_counts.get(req_entity, 0) + 1
 
-    # Second pass: Decide whether to keep or remove each relationship.
-    updated_relationships = []
-    for rel in relationships:
-        reqs = reference_mappings.get(rel, {})
-        missing_for_rel = []
-        for key, (req_entity, _) in reqs.items():
-            if req_entity not in entities_set:
-                missing_for_rel.append(req_entity)
-        # For each missing entity in this relationship, check if its count meets the threshold.
-        # If any required entity does not meet the threshold, skip this relationship.
-        remove_rel = False
-        for missing_entity in missing_for_rel:
-            if missing_counts.get(missing_entity, 0) < threshold:
-                remove_rel = True
-                break
-        if remove_rel:
+    # ── 3. build the final relationship list, adding entities as needed ─
+    updated_relationships: list[str] = []
+    for rel in valid_relationships:
+        reqs = reference_mappings[rel]
+        missing_for_rel = [req for _, (req, _) in reqs.items() if req not in entities_set]
+
+        # drop the rel if *any* of its missing entities appear < threshold times
+        if any(missing_counts[req] < threshold for req in missing_for_rel):
             continue
-        # Otherwise, add any missing entity (that meets threshold) to the entities set.
-        for missing_entity in missing_for_rel:
-            entities_set.add(missing_entity)
+
+        # otherwise: keep the rel and add those entities to the set
+        entities_set.update(missing_for_rel)
         updated_relationships.append(rel)
 
-    updated_entities = list(entities_set)
-    return updated_entities, updated_relationships
+    return list(entities_set), updated_relationships
 
 def create_networkx_graph():
     """Create an empty NetworkX MultiDiGraph"""

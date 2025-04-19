@@ -7,12 +7,15 @@ from typing import Dict, List, Any, Optional, Tuple
 
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-from core.extractor import OptimizedEntityRelationshipExtractor
-from core.prompts import relationships_prompts_map
-from core.prompts import entity_prompt_map
+from core.extractor import EntityRelationshipExtractor
+
+from core.prompts.relationships_prompts_map import RELATIONSHIP_PROMPTS_MAP
+from core.prompts.entity_prompt_map import ENTITY_PROMPTS_MAP
+
+from core.prompts.entity_discovery import ENTITY_RELATIONSHIPS_DISCOVERY_SYSTEM_PROMPT, ENTITY_RELATIONSHIPS_DISCOVERY_USER_PROMPT
 from core.refference_mapping import reference_mapping_creator
 from model.book_metadata import BookMetadata
-from model.entity_types import EntityType, RelationshipType
+from model.entity_types import EntityType, RelationshipType, enum_to_string
 from utils.file_utils import extract_text_from_pdf, clean_json_string
 from utils.graph_utils import ensure_consistency
 from core.graph_builder import create_graph_with_embeddings
@@ -20,226 +23,137 @@ from core.visualizer import create_plotly_graph
 
 import streamlit as st
 
-
-# Prompts for entity and relationship discovery
-ENTITY_RELATIONSHIPS_DISCOVERY_SYSTEM_PROMPT = """
-**Role**
-You are a Literary Analysis Expert specializing in narrative structure, character development, and thematic elements.
-
-**Task**
-Analyze the provided book text to:
-1. Extract all significant entities according to the predefined EntityType classification.
-2. Identify relevant relationships between these entities based on the RelationshipType system.
-3. Return a structured JSON object containing both entity lists and applicable relationship types.
-"""
-
-ENTITY_RELATIONSHIPS_DISCOVERY_USER_PROMPT = """
-I need you to analyze a book and extract both its key entities and the relationships between them.
-First, identify all significant entities in the book according to the EntityType enum.
-Then, determine which relationship types from the RelationshipType enum apply to these entities.
-Format your response as a JSON object with "Entities" and "Relationships" keys.
-
-Here is the book text to analyze:
-{book_text}
-
-Remember to follow a careful chain of thought. First identify all entities, then determine their relationships.
-"""
-
 # Initialize LLM client
 BOOK_LLM = ChatGoogleGenerativeAI(
-    model="gemini-2.5-pro-exp-03-25",
+    # model="gemini-2.5-pro-exp-03-25",
+    model="gemini-2.0-flash-lite",
     api_key=st.secrets["GEMINI_API_KEY"],
     temperature=0,
     max_output_tokens=None,
+    
   )
-async def extract_book_from_pdf(pdf_file, progress_callback=None):
+
+def filter_valid_entity_types(entity_types, enum_class):
     """
-    Process a PDF file to extract book entities and relationships
+    Filters a list of entity type strings to include only those that exist in the provided enum.
     
     Args:
-        pdf_file: Path to the PDF file
-        progress_callback: Optional callback function to report progress
+        entity_types: List of entity type strings to filter
+        enum_class: The enum class to check against (e.g., EntityType)
         
     Returns:
-        tuple: (G_nx, entities, relationships, book_metadata)
+        List of valid entity type strings that exist in the enum
     """
-    start_time = time.time()
+    valid_types = []
+    for entity_type in entity_types:
+        try:
+            # Check if the entity type exists in the enum
+            enum_class[entity_type]
+            valid_types.append(entity_type)
+        except KeyError:
+            # Log types that don't exist in the enum
+            logging.warning(f"Entity type '{entity_type}' not found in {enum_class.__name__} enum, skipping")
     
-    # Extract text from PDF
-    if progress_callback:
-        progress_callback("Extracting text from PDF...")
-    
-    book_text = extract_text_from_pdf(pdf_file)
-    if isinstance(book_text, str) and book_text.startswith("Error"):
-        return None, None, None, None
-    
-    # Call LLM to discover entities and relationships
-    if progress_callback:
-        progress_callback("Analyzing text with AI...")
-    
-    try:
-        # Format the messages for the LLM
-        messages = [
-            {"role": "system", "content": ENTITY_RELATIONSHIPS_DISCOVERY_SYSTEM_PROMPT},
-            {"role": "user", "content": ENTITY_RELATIONSHIPS_DISCOVERY_USER_PROMPT.format(book_text=book_text[:10000])}
-        ]
-        
-        # Call the LLM
-        response = BOOK_LLM.invoke(messages)
-        
-        # Clean and parse the returned JSON
-        cleaned_json = clean_json_string(response.content)
-        book_entities_json = json.loads(cleaned_json)
-        
-        if progress_callback:
-            progress_callback("Processing entity and relationship types...")
-        
-        # Ensure consistency in the entities and relationships
-        ensured_entities, ensured_relationships = ensure_consistency(
-            book_entities_json.get('Entities', []),
-            book_entities_json.get('Relationships', []),
-            {},  # Reference mappings would go here
-            threshold=2
-        )
-        
-        # Extract entities and relationships
-        if progress_callback:
-            progress_callback("Extracting entities and relationships...")
-        
-        # In a real implementation, this would call your entity extraction methods
-        # For now, create placeholders
-        entities_data = {entity_type: [] for entity_type in ensured_entities}
-        relationships_data = {rel_type: [] for rel_type in ensured_relationships}
-        
-        # Create graph from extracted data
-        if progress_callback:
-            progress_callback("Building graph...")
-        
-        G_nx = create_graph_with_embeddings(entities_data, relationships_data)
-        
-        # Create book metadata
-        end_time = time.time()
-        processing_time = end_time - start_time
-        
-        book_name = "Extracted Book"  # Get a better name from PDF metadata if possible
-        
-        book_metadata = BookMetadata(
-            book_name=book_name,
-            author="Unknown",  # Extract from PDF metadata if possible
-            pages_count=len(book_text.split('\n')),
-            time_to_process=f"{processing_time:.2f} seconds",
-            summary="Automatically extracted from PDF"
-        )
-        
-        book_metadata.entities_map = entities_data
-        book_metadata.relationships_map = relationships_data
-        
-        return G_nx, entities_data, relationships_data, book_metadata
-        
-    except Exception as e:
-        logging.error(f"Error processing book: {e}")
-        if progress_callback:
-            progress_callback(f"Error: {e}")
-        return None, None, None, None
+    return valid_types
 
 
-
-async def create_graph_from_text(book_text, max_workers=5):
+def filter_valid_relationship_types(relationship_types, enum_class):
     """
-    Create a graph from a book with optimized parallelization of LLM queries.
+    Filters a list of relationship type strings to include only those that exist in the provided enum.
+    
+    Args:
+        relationship_types: List of relationship type strings to filter
+        enum_class: The enum class to check against (e.g., RelationshipType)
+        
+    Returns:
+        List of valid relationship type strings that exist in the enum
+    """
+    valid_types = []
+    for rel_type in relationship_types:
+        try:
+            # Check if the relationship type exists in the enum
+            enum_class[rel_type]
+            valid_types.append(rel_type)
+        except KeyError:
+            # Log types that don't exist in the enum
+            logging.warning(f"Relationship type '{rel_type}' not found in {enum_class.__name__} enum, skipping")
+    
+    return valid_types
+
+
+
+def create_graph_from_text(book_text, status_callback=None):
+    """
+    Create a graph from a book with synchronous processing.
     
     Args:
         book_text: Text content of the book
-        max_workers: Maximum number of concurrent workers for CPU-bound tasks
         
     Returns:
         Tuple of (graph, entities, relationships) or None if an error occurred
     """
     start = time.time()
     print('Starting graph creation...')
-    
-    # Create a ProcessPoolExecutor for CPU-bound tasks (text extraction, JSON parsing)
-    process_executor = ProcessPoolExecutor(max_workers=max_workers)
-    
+
+    if status_callback: status_callback("Extract entities and relationships...")
     try:
-        # Extract text from PDF (CPU-bound) using ProcessPoolExecutor
-        loop = asyncio.get_running_loop()
-        
         # Prepare messages for entity-relationship discovery
         messages = [
-            {"role": "system", "content": ENTITY_RELATIONSHIPS_DISCOVERY_SYSTEM_PROMPT},
+            {"role": "system", "content": ENTITY_RELATIONSHIPS_DISCOVERY_SYSTEM_PROMPT.format(
+                entity_type_enum=enum_to_string(EntityType),
+                relationship_type_enum=enum_to_string(RelationshipType)
+            )},
             {"role": "user", "content": ENTITY_RELATIONSHIPS_DISCOVERY_USER_PROMPT.format(book_text=book_text)}
         ]
         
         # Initial LLM query to discover entities and relationships
-        # This is IO-bound so we use asyncio directly
-        response = await asyncio.to_thread(BOOK_LLM.invoke, messages)
-        
-        print('LLM response received')
-        # Process JSON in separate thread (CPU-bound)
-        cleaned_json = await loop.run_in_executor(
-            process_executor, 
-            clean_json_string, 
-            response.content
-        )
-        
-        book_entities_json = await loop.run_in_executor(
-            process_executor,
-            json.loads,
-            cleaned_json
-        )
-        
+        response = BOOK_LLM.invoke(messages)
+        cleaned_json = clean_json_string(response.content)
+        print("Cleaned JSON:", cleaned_json)
+        book_entities_json = json.loads(cleaned_json)
         reference_mappings = reference_mapping_creator()
         
-        print('Processing entity and relationship types')
-        # Ensure consistency in separate thread (CPU-bound)
-        ensured_entities, ensured_relationships = await loop.run_in_executor(
-            process_executor,
-            ensure_consistency,
+        if status_callback: status_callback(f"Found {len(book_entities_json['Entities'])} entities and {len(book_entities_json['Relationships'])} relationships")
+
+        ensured_entities, ensured_relationships = ensure_consistency(
             book_entities_json['Entities'],
             book_entities_json['Relationships'],
             reference_mappings,
-            2  # threshold
+            threshold=2
         )
-        
-        print('Ensured entities and relationships consistency')
-        # Initialize optimized extractor
-        extractor = OptimizedEntityRelationshipExtractor(
+
+        # Initialize extractor
+        extractor = EntityRelationshipExtractor(
             chat_model=BOOK_LLM,
             entity_types=[EntityType[e] for e in ensured_entities],
             relationship_types=[RelationshipType[r] for r in ensured_relationships],
-            entity_prompts_map=entity_prompt_map,
-            relationship_prompts_map=relationships_prompts_map,
+            entity_prompts_map=ENTITY_PROMPTS_MAP,
+            relationship_prompts_map=RELATIONSHIP_PROMPTS_MAP,
             reference_mappings=reference_mappings,
             book_text=book_text,
-            max_workers=max_workers
+            status_callback=status_callback
         )
         
-        print('Starting entity and relationship extraction')
-        # Extract entities and relationships in parallel
-        filled_entities, filled_relationships = await extractor.extract_all_async()
+        if status_callback: status_callback("Extracting entities and relationships...")
+        # Extract entities and relationships
+        filled_entities, filled_relationships = extractor.extract_all()
         
-        print('Graph creation in progress...')
-        # Create graph with embeddings (CPU-bound)
-        G_nx = await loop.run_in_executor(
-            process_executor,
-            create_graph_with_embeddings,
-            filled_entities, 
+        if status_callback: status_callback("Creating graph with embeddings...")
+        # Create graph with embeddings
+        G_nx = create_graph_with_embeddings(
+            filled_entities,
             filled_relationships
         )
         
         end = time.time()
-        print(f"Time taken to process book: {end - start} seconds")
+        if status_callback: status_callback(f"Time taken to process book: {end - start} seconds")
         return G_nx, extractor.book_metadata
         
     except Exception as e:
         logging.error(f"Error in create_graph_from_book: {e}", exc_info=True)
         return None
-    finally:
-        # Clean up resources
-        process_executor.shutdown(wait=False)
-
-
+        
+        
 def create_graph_from_book_metadata(book_metadata):
     """
     Create a NetworkX graph from book metadata

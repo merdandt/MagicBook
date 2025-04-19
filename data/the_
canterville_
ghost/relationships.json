@@ -1,0 +1,3491 @@
+{
+  "Family_PARENT_OF": [
+    {
+      "parent_id": "CHAR_02",
+      "child_id": "CHAR_07",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_02",
+      "child_id": "CHAR_08",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_02",
+      "child_id": "CHAR_10",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_06",
+      "child_id": "CHAR_07",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_06",
+      "child_id": "CHAR_08",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_06",
+      "child_id": "CHAR_10",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_13",
+      "child_id": "CHAR_12",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_13",
+      "child_id": "CHAR_09",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_18",
+      "child_id": "CHAR_03",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_03",
+      "child_id": "CHAR_09",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    }
+  ],
+  "Family_SIBLING_OF": [
+    {
+      "sibling1_id": "CHAR_07",
+      "sibling2_id": "CHAR_08",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_07",
+      "sibling2_id": "CHAR_10",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_08",
+      "sibling2_id": "CHAR_10",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_02",
+      "sibling2_id": "CHAR_07",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_02",
+      "sibling2_id": "CHAR_08",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_02",
+      "sibling2_id": "CHAR_10",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_03",
+      "sibling2_id": "CHAR_04",
+      "relation": null,
+      "confirmed": false
+    }
+  ],
+  "Family_MARRIED_TO": [
+    {
+      "spouse1_id": "CHAR_03",
+      "spouse2_id": "CHAR_12",
+      "status": "divorced",
+      "political": false,
+      "confirmed": true
+    },
+    {
+      "spouse1_id": "CHAR_06",
+      "spouse2_id": "CHAR_02",
+      "status": "active",
+      "political": false,
+      "confirmed": true
+    },
+    {
+      "spouse1_id": "CHAR_08",
+      "spouse2_id": "CHAR_09",
+      "status": "active",
+      "political": false,
+      "confirmed": true
+    },
+    {
+      "spouse1_id": "CHAR_13",
+      "spouse2_id": "CHAR_12",
+      "status": "widowed",
+      "political": false,
+      "confirmed": true
+    },
+    {
+      "spouse1_id": "CHAR_13",
+      "spouse2_id": "CHAR_19",
+      "status": "divorced",
+      "political": false,
+      "confirmed": true
+    }
+  ],
+  "Emotional_LOVES": [
+    {
+      "lover_id": "CHAR_09",
+      "beloved_id": "CHAR_08",
+      "intensity": 9,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 6",
+        "Chapter 7"
+      ]
+    },
+    {
+      "lover_id": "CHAR_13",
+      "beloved_id": "CHAR_12",
+      "intensity": 10,
+      "unrequited": true,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 5"
+      ]
+    },
+    {
+      "lover_id": "CHAR_08",
+      "beloved_id": "CHAR_13",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 5",
+        "Chapter 7"
+      ]
+    }
+  ],
+  "Emotional_TRUSTS": [
+    {
+      "trustor_id": "CHAR_02",
+      "trusted_id": "CHAR_03",
+      "level": 6,
+      "chapters": [
+        "Chapter 1"
+      ],
+      "source": "Lord Canterville felt it his duty to mention the fact to Mr. Otis, when they came to discuss terms."
+    },
+    {
+      "trustor_id": "CHAR_02",
+      "trusted_id": "CHAR_06",
+      "level": 7,
+      "chapters": [
+        "Chapter 1"
+      ],
+      "source": "Mrs. Otis had never fallen into this error. She had a magnificent constitution, and a really wonderful amount of animal spirits."
+    },
+    {
+      "trustor_id": "CHAR_02",
+      "trusted_id": "CHAR_08",
+      "level": 7,
+      "chapters": [
+        "Chapter 1"
+      ],
+      "source": "Miss Virginia E. Otis was a little girl of fifteen, lithe and lovely as a fawn, and wi th a fine freedom in her large blue eyes."
+    },
+    {
+      "trustor_id": "CHAR_02",
+      "trusted_id": "CHAR_10",
+      "level": 7,
+      "chapters": [
+        "Chapter 1"
+      ],
+      "source": "After Virginia came the twins, who were usually called \"The Stars and Stripes\" as they were always getting swished. They were delightful boys, and with the exception of the worthy Minister the only true republicans of the family."
+    },
+    {
+      "trustor_id": "CHAR_06",
+      "trusted_id": "CHAR_11",
+      "level": 7,
+      "chapters": [
+        "Chapter 1"
+      ],
+      "source": "Mrs. Otis, at Lady Canterville's earnest request, had consented to keep on Mrs. Umney in her former position."
+    },
+    {
+      "trustor_id": "CHAR_08",
+      "trusted_id": "CHAR_13",
+      "level": 8,
+      "chapters": [
+        "Chapter 5"
+      ],
+      "source": "Virginia was filled with pity, and determined to try and comfort him."
+    },
+    {
+      "trustor_id": "CHAR_08",
+      "trusted_id": "CHAR_09",
+      "level": 9,
+      "chapters": [
+        "Chapter 6",
+        "Chapter 7"
+      ],
+      "source": "The little Duke of Cheshire, who was perfectly frantic with anxiety, begged hard to be allowed to go too, but Mr. Otis would not allow him, as he was afraid there might be a scuffle."
+    },
+    {
+      "trustor_id": "CHAR_09",
+      "trusted_id": "CHAR_08",
+      "level": 10,
+      "chapters": [
+        "Chapter 6",
+        "Chapter 7"
+      ],
+      "source": "The Minister could not help smiling at the handsome young scapegrace, and was a good deal touched at his devotion to Virginia"
+    },
+    {
+      "trustor_id": "CHAR_08",
+      "trusted_id": "CHAR_13",
+      "level": 10,
+      "chapters": [
+        "Chapter 7"
+      ],
+      "source": "Poor Sir Simon! I owe him a great deal. Yes, don't laugh, Cecil, I really do. He made me see what Life is, and what Death signifies, and why Love is stronger than both."
+    }
+  ],
+  "Emotional_BETRAYED": [
+    {
+      "betrayer_id": "CHAR_13",
+      "betrayed_id": "CHAR_12",
+      "severity": "High",
+      "motive": "Murder",
+      "chapter": "Chapter 1"
+    },
+    {
+      "betrayer_id": "CHAR_13",
+      "betrayed_id": "CHAR_18",
+      "severity": "High",
+      "motive": "Murder",
+      "chapter": "Chapter 1"
+    },
+    {
+      "betrayer_id": "CHAR_13",
+      "betrayed_id": "CHAR_20",
+      "severity": "High",
+      "motive": "Murder",
+      "chapter": "Chapter 1"
+    },
+    {
+      "betrayer_id": "CHAR_13",
+      "betrayed_id": "CHAR_19",
+      "severity": "High",
+      "motive": "Murder",
+      "chapter": "Chapter 1"
+    },
+    {
+      "betrayer_id": "CHAR_13",
+      "betrayed_id": "CHAR_21",
+      "severity": "High",
+      "motive": "Murder",
+      "chapter": "Chapter 1"
+    },
+    {
+      "betrayer_id": "CHAR_13",
+      "betrayed_id": "CHAR_22",
+      "severity": "High",
+      "motive": "Murder",
+      "chapter": "Chapter 1"
+    },
+    {
+      "betrayer_id": "CHAR_13",
+      "betrayed_id": "CHAR_13",
+      "severity": "High",
+      "motive": "Suicide",
+      "chapter": "Chapter 1"
+    }
+  ],
+  "Interaction_INTERACTED_WITH": [],
+  "Interaction_APPEARED_TOGETHER": [
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 1",
+      "context": "Discussing the sale of Canterville Chase"
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_06",
+      "chapter": "Chapter 1",
+      "context": "Mentioning the ghost's history"
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_07",
+      "chapter": "Chapter 1",
+      "context": "Mentioning the ghost's history"
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 1",
+      "context": "Mentioning the ghost's history"
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 1",
+      "context": "Mentioning the ghost's history"
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_05",
+      "chapter": "Chapter 1",
+      "context": "Mentioning the ghost's history"
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 1",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_06",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 1",
+      "context": "Arriving at Canterville Chase"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 1",
+      "context": "Arriving at Canterville Chase"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 1",
+      "context": "Arriving at Canterville Chase"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 1",
+      "context": "Arriving at Canterville Chase"
+    },
+    {
+      "character1_id": "CHAR_06",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 1",
+      "context": "Meeting the housekeeper"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 1",
+      "context": "Meeting the housekeeper"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 1",
+      "context": "Meeting the housekeeper"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 1",
+      "context": "Meeting the housekeeper"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 1",
+      "context": "Meeting the housekeeper"
+    },
+    {
+      "character1_id": "CHAR_06",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 1",
+      "context": "Discussing the blood stain"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 1",
+      "context": "Discussing the blood stain"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 1",
+      "context": "Discussing the blood stain"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 1",
+      "context": "Discussing the blood stain"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 1",
+      "context": "Discussing the blood stain"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_06",
+      "chapter": "Chapter 1",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 1",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_06",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 1",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 2",
+      "context": "Encountering the ghost"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 2",
+      "context": "Encountering the ghost"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 2",
+      "context": "Encountering the ghost"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 2",
+      "context": "Encountering the ghost"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_07",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_06",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 3",
+      "context": "The ghost's appearance"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 4",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 4",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 4",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 4",
+      "context": "Discussing the ghost"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 5",
+      "context": "Virginia and the ghost"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_06",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_07",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_09",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_07",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_09",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_09",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_07",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 6",
+      "context": "Searching for Virginia"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 6",
+      "context": "Virginia's return"
+    },
+    {
+      "character1_id": "CHAR_06",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 6",
+      "context": "Virginia's return"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 6",
+      "context": "Virginia's return"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 6",
+      "context": "Virginia's return"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 7",
+      "context": "Funeral"
+    },
+    {
+      "character1_id": "CHAR_08",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 7",
+      "context": "Funeral"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 7",
+      "context": "Funeral"
+    },
+    {
+      "character1_id": "CHAR_06",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 7",
+      "context": "Funeral"
+    },
+    {
+      "character1_id": "CHAR_07",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 7",
+      "context": "Funeral"
+    },
+    {
+      "character1_id": "CHAR_10",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 7",
+      "context": "Funeral"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_03",
+      "chapter": "Chapter 7",
+      "context": "Discussing the jewels"
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 7",
+      "context": "Discussing the jewels"
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 7",
+      "context": "Discussing the jewels"
+    },
+    {
+      "character1_id": "CHAR_09",
+      "character2_id": "CHAR_08",
+      "chapter": "Chapter 7",
+      "context": "Discussing the past"
+    }
+  ],
+  "Location_PRESENT_AT": [],
+  "Location_TRAVELED_TO": [],
+  "Location_BATTLE_AT": [
+    {
+      "character_id": "Char_001",
+      "location_id": "LOCA_01",
+      "chapter": "Chapter 1",
+      "battle_outcome": "lose",
+      "side": "Ghost",
+      "casualties": 0
+    },
+    {
+      "character_id": "Char_001",
+      "location_id": "LOCA_05",
+      "chapter": "Chapter 3",
+      "battle_outcome": "lose",
+      "side": "Ghost",
+      "casualties": 0
+    },
+    {
+      "character_id": "Char_001",
+      "location_id": "LOCA_04",
+      "chapter": "Chapter 4",
+      "battle_outcome": "lose",
+      "side": "Ghost",
+      "casualties": 0
+    },
+    {
+      "character_id": "Char_001",
+      "location_id": "LOCA_04",
+      "chapter": "Chapter 4",
+      "battle_outcome": "lose",
+      "side": "Ghost",
+      "casualties": 0
+    }
+  ],
+  "Location_LIVES_IN": [
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_01",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_06",
+      "location_id": "LOCA_01",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_01",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_08",
+      "location_id": "LOCA_01",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_10",
+      "location_id": "LOCA_01",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_01",
+      "start_chapter": "Chapter 1",
+      "end_chapter": "Chapter 7",
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_08",
+      "location_id": "LOCA_03",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_09",
+      "location_id": "LOCA_03",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_08",
+      "location_id": "LOCA_13",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_09",
+      "location_id": "LOCA_13",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_04",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_04",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_05",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 4",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_07",
+      "start_chapter": "Chapter 3",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_08",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_09",
+      "start_chapter": "Chapter 3",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_10",
+      "start_chapter": "Chapter 3",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 4",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_12",
+      "start_chapter": "Chapter 4",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_14",
+      "start_chapter": "Chapter 5",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_15",
+      "start_chapter": "Chapter 5",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_16",
+      "start_chapter": "Chapter 7",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_08",
+      "location_id": "LOCA_18",
+      "start_chapter": "Chapter 7",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_09",
+      "location_id": "LOCA_18",
+      "start_chapter": "Chapter 7",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_08",
+      "location_id": "LOCA_19",
+      "start_chapter": "Chapter 7",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_09",
+      "location_id": "LOCA_19",
+      "start_chapter": "Chapter 7",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_20",
+      "start_chapter": "Chapter 4",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_08",
+      "location_id": "LOCA_21",
+      "start_chapter": "Chapter 4",
+      "end_chapter": null,
+      "status": "temporary"
+    }
+  ],
+  "Event_WITNESSED": [
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_01",
+      "perspective": "Mentioned the ghost to Mr. Otis",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_01",
+      "perspective": "Witnessed the ghost",
+      "chapter": "Chapter 1",
+      "distance": "Indirectly involved"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_03",
+      "perspective": "Noticed the bloodstain",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_03",
+      "perspective": "Witnessed the bloodstain",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_03",
+      "perspective": "Witnessed the bloodstain",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_11",
+      "event_id": "EVEN_03",
+      "perspective": "Explained the origin of the bloodstain",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_04",
+      "perspective": "Removed the bloodstain",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_04",
+      "perspective": "Witnessed the removal of the bloodstain",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_04",
+      "perspective": "Witnessed the removal of the bloodstain",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_11",
+      "event_id": "EVEN_04",
+      "perspective": "Fainted",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_05",
+      "perspective": "Witnessed the reappearance of the bloodstain",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_05",
+      "perspective": "Witnessed the reappearance of the bloodstain",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_05",
+      "perspective": "Witnessed the reappearance of the bloodstain",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_06",
+      "perspective": "Offered the ghost lubricating oil",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_06",
+      "perspective": "Was offered lubricating oil",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_07",
+      "perspective": "Was humiliated",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_07",
+      "perspective": "Threw pillows at the ghost",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_08",
+      "perspective": "Witnessed the ghost's attempt",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_08",
+      "perspective": "Shot the ghost with peashooters",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_08",
+      "perspective": "Offered the ghost medicine",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_08",
+      "perspective": "Was shot with peashooters and offered medicine",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_09",
+      "perspective": "Was frightened by a ghost-like figure",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_10",
+      "perspective": "Tricked the ghost",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_10",
+      "perspective": "Was tricked",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_11",
+      "perspective": "Met the ghost",
+      "chapter": "Chapter 5",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_11",
+      "perspective": "Met Virginia",
+      "chapter": "Chapter 5",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_12",
+      "perspective": "Agreed to help the ghost",
+      "chapter": "Chapter 5",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_12",
+      "perspective": "Was helped by Virginia",
+      "chapter": "Chapter 5",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_13",
+      "perspective": "Searched for Virginia",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_13",
+      "perspective": "Searched for Virginia",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_14",
+      "perspective": "Reappeared",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_14",
+      "perspective": "Witnessed Virginia's reappearance",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_14",
+      "perspective": "Witnessed Virginia's reappearance",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_15",
+      "perspective": "Revealed the ghost's death and the jewels",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_15",
+      "perspective": "Witnessed the discovery of the ghost's remains",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_15",
+      "perspective": "Witnessed the discovery of the ghost's remains",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_16",
+      "perspective": "Attended the burial",
+      "chapter": "Chapter 7",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_17",
+      "perspective": "Married Virginia",
+      "chapter": "Chapter 7",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_17",
+      "perspective": "Married the Duke of Cheshire",
+      "chapter": "Chapter 7",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_18",
+      "perspective": "Visited the grave",
+      "chapter": "Chapter 7",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_18",
+      "perspective": "Visited the grave",
+      "chapter": "Chapter 7",
+      "distance": "Directly involved"
+    }
+  ],
+  "Event_PARTICIPATED_IN": [
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_01",
+      "role": "buyer",
+      "chapter": "Chapter I",
+      "outcome": "Purchased Canterville Chase"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_01",
+      "role": "seller",
+      "chapter": "Chapter I",
+      "outcome": "Sold Canterville Chase"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_02",
+      "role": "arrival",
+      "chapter": "Chapter I",
+      "outcome": "Arrived at Canterville Chase"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_03",
+      "role": "discoverer",
+      "chapter": "Chapter I",
+      "outcome": "Discovered the bloodstain"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_04",
+      "role": "remover",
+      "chapter": "Chapter I",
+      "outcome": "Removed the bloodstain"
+    },
+    {
+      "character_id": "CHAR_11",
+      "event_id": "EVEN_04",
+      "role": "witness",
+      "chapter": "Chapter I",
+      "outcome": "Fainted"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_05",
+      "role": "observer",
+      "chapter": "Chapter II",
+      "outcome": "Observed the reappearance of the bloodstain"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_06",
+      "role": "recipient",
+      "chapter": "Chapter II",
+      "outcome": "Offered the ghost lubricating oil"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_06",
+      "role": "performer",
+      "chapter": "Chapter II",
+      "outcome": "Was humiliated"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_07",
+      "role": "attacker",
+      "chapter": "Chapter II",
+      "outcome": "Humiliated the ghost"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_07",
+      "role": "offerer",
+      "chapter": "Chapter II",
+      "outcome": "Offered medicine to the ghost"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_08",
+      "role": "victim",
+      "chapter": "Chapter III",
+      "outcome": "Was frightened by a fake ghost"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_08",
+      "role": "trickster",
+      "chapter": "Chapter III",
+      "outcome": "Tricked the ghost"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_11",
+      "role": "meeting",
+      "chapter": "Chapter V",
+      "outcome": "Met the ghost"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_12",
+      "role": "helper",
+      "chapter": "Chapter V",
+      "outcome": "Agreed to help the ghost"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_13",
+      "role": "disappearer",
+      "chapter": "Chapter VI",
+      "outcome": "Disappeared"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_14",
+      "role": "reappearer",
+      "chapter": "Chapter VI",
+      "outcome": "Reappeared"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_15",
+      "role": "discoverer",
+      "chapter": "Chapter VI",
+      "outcome": "Revealed the ghost's remains and jewels"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_15",
+      "role": "deceased",
+      "chapter": "Chapter VI",
+      "outcome": "Remains found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_16",
+      "role": "subject",
+      "chapter": "Chapter VII",
+      "outcome": "Was buried"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_17",
+      "role": "bride",
+      "chapter": "Chapter VII",
+      "outcome": "Married"
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_17",
+      "role": "groom",
+      "chapter": "Chapter VII",
+      "outcome": "Married"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_18",
+      "role": "visitor",
+      "chapter": "Chapter VII",
+      "outcome": "Visited the grave"
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_18",
+      "role": "visitor",
+      "chapter": "Chapter VII",
+      "outcome": "Visited the grave"
+    }
+  ],
+  "Event_CAUSED": [
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_03",
+      "intention": "unintentional",
+      "chapter": "I",
+      "method": "murder"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_04",
+      "intention": "unintentional",
+      "chapter": "I",
+      "method": "action"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_05",
+      "intention": "intentional",
+      "chapter": "II",
+      "method": "supernatural"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_06",
+      "intention": "intentional",
+      "chapter": "II",
+      "method": "appearance"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_07",
+      "intention": "unintentional",
+      "chapter": "II",
+      "method": "reaction"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_08",
+      "intention": "intentional",
+      "chapter": "III",
+      "method": "action"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_09",
+      "intention": "intentional",
+      "chapter": "III",
+      "method": "attempt"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_10",
+      "intention": "intentional",
+      "chapter": "III",
+      "method": "trick"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_11",
+      "intention": "unintentional",
+      "chapter": "V",
+      "method": "meeting"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_12",
+      "intention": "indirect",
+      "chapter": "V",
+      "method": "persuasion"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_14",
+      "intention": "indirect",
+      "chapter": "VI",
+      "method": "assistance"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_15",
+      "intention": "unintentional",
+      "chapter": "VI",
+      "method": "death"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_16",
+      "intention": "unintentional",
+      "chapter": "VII",
+      "method": "death"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_17",
+      "intention": "indirect",
+      "chapter": "VII",
+      "method": "legacy"
+    }
+  ],
+  "Event_AFFECTED_BY": [
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_01",
+      "impact": "Felt it his duty to mention the fact to Mr. Otis that the place was haunted.",
+      "chapter": "Chapter 1",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_03",
+      "impact": "Noticed a bloodstain in the library.",
+      "chapter": "Chapter 1",
+      "duration": "Temporary"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_04",
+      "impact": "Removed the bloodstain with Pinkerton's Champion Stain Remover, causing a storm and Mrs. Umney to faint.",
+      "chapter": "Chapter 1",
+      "duration": "Temporary"
+    },
+    {
+      "character_id": "CHAR_11",
+      "event_id": "EVEN_04",
+      "impact": "Fainted after Washington Otis removed the bloodstain.",
+      "chapter": "Chapter 1",
+      "duration": "Temporary"
+    },
+    {
+      "character_id": "CHAR_11",
+      "event_id": "EVEN_04",
+      "impact": "Warned Mr. Otis to beware of some trouble coming to the house.",
+      "chapter": "Chapter 1",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_06",
+      "impact": "Humiliated by the Otis family's reactions to his attempts to scare them, including being offered lubricant and having pillows thrown at him.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_07",
+      "impact": "Humiliated by the Otis family's reactions to his attempts to scare them, including being offered lubricant and having pillows thrown at him.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_08",
+      "impact": "Humiliated by the Otis family's reactions to his attempts to scare them, including being offered lubricant and having pillows thrown at him.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_09",
+      "impact": "Humiliated by the Otis family's reactions to his attempts to scare them, including being offered lubricant and having pillows thrown at him.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_10",
+      "impact": "Humiliated by the Otis family's reactions to his attempts to scare them, including being offered lubricant and having pillows thrown at him.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_11",
+      "impact": "Met Virginia and was pitied by her.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_12",
+      "impact": "Agreed to be helped by Virginia to find peace.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_11",
+      "impact": "Met the ghost in the Tapestry Chamber and pitied him.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_12",
+      "impact": "Agreed to help the ghost find peace by praying for him and fulfilling the prophecy.",
+      "chapter": "Chapter 2",
+      "duration": "Ongoing"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_12",
+      "impact": "Found peace.",
+      "chapter": "Chapter 2",
+      "duration": "Permanent"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_13",
+      "impact": "Disappeared, causing the family to search for her.",
+      "chapter": "Chapter 2",
+      "duration": "Temporary"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_14",
+      "impact": "Reappeared, revealing that she has been with the ghost and that he is dead.",
+      "chapter": "Chapter 2",
+      "duration": "Temporary"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_15",
+      "impact": "Revealed the jewels the ghost gave her.",
+      "chapter": "Chapter 2",
+      "duration": "Temporary"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_18",
+      "impact": "Revealed that she will never tell anyone what happened to her when she was locked up with the ghost.",
+      "chapter": "Chapter 7",
+      "duration": "Permanent"
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_17",
+      "impact": "Married Virginia.",
+      "chapter": "Chapter 7",
+      "duration": "Permanent"
+    }
+  ],
+  "Event_DIED_AT": [
+    {
+      "character_id": "CHAR_12",
+      "event_id": "EVEN_08",
+      "cause": "Murdered by her husband",
+      "chapter": "Chapter 1",
+      "impact": "Her death is the reason for the haunting."
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_16",
+      "cause": "Virginia helps him find peace and he is forgiven.",
+      "chapter": "Chapter 7",
+      "impact": "Ends the haunting and allows the Otis family to live in peace."
+    },
+    {
+      "character_id": "CHAR_17",
+      "event_id": null,
+      "cause": "Shot in a duel",
+      "chapter": "Chapter 4",
+      "impact": "Illustrates the ghost's past and the consequences of his actions."
+    },
+    {
+      "character_id": "CHAR_20",
+      "event_id": null,
+      "cause": "Shot in a duel",
+      "chapter": "Chapter 4",
+      "impact": "Illustrates the ghost's past and the consequences of his actions."
+    },
+    {
+      "character_id": "CHAR_22",
+      "event_id": null,
+      "cause": "Unknown",
+      "chapter": "Chapter 4",
+      "impact": "Illustrates the ghost's past and the consequences of his actions."
+    },
+    {
+      "character_id": "CHAR_23",
+      "event_id": null,
+      "cause": "Apoplexy",
+      "chapter": "Chapter 4",
+      "impact": "Illustrates the ghost's past and the consequences of his actions."
+    },
+    {
+      "character_id": "CHAR_24",
+      "event_id": null,
+      "cause": "Unknown",
+      "chapter": "Chapter 4",
+      "impact": "Illustrates the ghost's past and the consequences of his actions."
+    },
+    {
+      "character_id": "CHAR_25",
+      "event_id": null,
+      "cause": "Unknown",
+      "chapter": "Chapter 4",
+      "impact": "Illustrates the ghost's past and the consequences of his actions."
+    }
+  ],
+  "Organization_MEMBER_OF": [
+    {
+      "character_id": "CHAR_02",
+      "organization_id": "ORGA_02",
+      "role": "Minister",
+      "join_chapter": "Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_05",
+      "organization_id": "ORGA_01",
+      "role": "rector",
+      "join_chapter": "Chapter 1",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_16",
+      "organization_id": "ORGA_03",
+      "role": null,
+      "join_chapter": "Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_17",
+      "organization_id": "ORGA_03",
+      "role": null,
+      "join_chapter": "Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_21",
+      "organization_id": "ORGA_03",
+      "role": null,
+      "join_chapter": "Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_22",
+      "organization_id": "ORGA_03",
+      "role": null,
+      "join_chapter": "Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_23",
+      "organization_id": "ORGA_03",
+      "role": null,
+      "join_chapter": "Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_25",
+      "organization_id": "ORGA_03",
+      "role": null,
+      "join_chapter": "Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_26",
+      "organization_id": "ORGA_03",
+      "role": null,
+      "join_chapter": "Chapter 3",
+      "status": "active"
+    }
+  ],
+  "Concept_HAS_ABILITY": [
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_01",
+      "proficiency": "expert",
+      "chapter": "Chapter 1",
+      "source": "Being a ghost",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "proficiency": "expert",
+      "chapter": "Chapter 1",
+      "source": "Being a ghost",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_07",
+      "proficiency": "expert",
+      "chapter": "Chapter 3",
+      "source": "Being a ghost",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_04",
+      "proficiency": "expert",
+      "chapter": "Chapter 5",
+      "source": "Being a ghost",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_08",
+      "concept_id": "CONC_03",
+      "proficiency": "expert",
+      "chapter": "Chapter 5",
+      "source": "Her own nature",
+      "limitations": null
+    }
+  ],
+  "Concept_BELIEVES_IN": [
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_06",
+      "strength": "Questioning",
+      "chapter": "Chapter 1",
+      "manifestation": "Initially dismisses the existence of ghosts, but later becomes more open to the possibility."
+    },
+    {
+      "character_id": "CHAR_06",
+      "concept_id": "CONC_06",
+      "strength": "Questioning",
+      "chapter": "Chapter 2",
+      "manifestation": "Expresses interest in joining the Psychical Society."
+    },
+    {
+      "character_id": "CHAR_08",
+      "concept_id": "CONC_06",
+      "strength": "Moderate",
+      "chapter": "Chapter 5",
+      "manifestation": "Shows compassion for the ghost and helps him find peace."
+    },
+    {
+      "character_id": "CHAR_08",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 5",
+      "manifestation": "Believes in the power of love to overcome death."
+    },
+    {
+      "character_id": "CHAR_08",
+      "concept_id": "CONC_04",
+      "strength": "Moderate",
+      "chapter": "Chapter 5",
+      "manifestation": "Shows a willingness to help the ghost find peace in death."
+    },
+    {
+      "character_id": "CHAR_08",
+      "concept_id": "CONC_05",
+      "strength": "Moderate",
+      "chapter": "Chapter 5",
+      "manifestation": "Recites the prophecy and understands its meaning."
+    },
+    {
+      "character_id": "CHAR_08",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 7",
+      "manifestation": "Believes that love is stronger than death."
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "strength": "Devout",
+      "chapter": "Chapter 1",
+      "manifestation": "Haunts Canterville Chase."
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_04",
+      "strength": "Moderate",
+      "chapter": "Chapter 5",
+      "manifestation": "Wants to find peace in death."
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_03",
+      "strength": "Questioning",
+      "chapter": "Chapter 5",
+      "manifestation": "Seeks love and forgiveness."
+    }
+  ],
+  "Concept_RESISTS": [
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_06",
+      "success": "Complete",
+      "chapter": "Chapter 1",
+      "method": "Dismissal and skepticism",
+      "cost": "Annoyance of the ghost"
+    },
+    {
+      "character_id": "CHAR_07",
+      "concept_id": "CONC_06",
+      "success": "Complete",
+      "chapter": "Chapter 1",
+      "method": "Pinkerton's Champion Stain Remover and Paragon Detergent",
+      "cost": "None"
+    },
+    {
+      "character_id": "CHAR_06",
+      "concept_id": "CONC_06",
+      "success": "Failing",
+      "chapter": "Chapter 1",
+      "method": "None",
+      "cost": "Fainting"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "success": "Failing",
+      "chapter": "Chapter 2",
+      "method": "Oiling the chains",
+      "cost": "Insult"
+    },
+    {
+      "character_id": "CHAR_10",
+      "concept_id": "CONC_06",
+      "success": "Complete",
+      "chapter": "Chapter 2",
+      "method": "Pillows",
+      "cost": "None"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "success": "Failing",
+      "chapter": "Chapter 3",
+      "method": "Demoniac laughter",
+      "cost": "Indigestion"
+    },
+    {
+      "character_id": "CHAR_06",
+      "concept_id": "CONC_06",
+      "success": "Complete",
+      "chapter": "Chapter 3",
+      "method": "Dr. Dobell's tincture",
+      "cost": "None"
+    },
+    {
+      "character_id": "CHAR_10",
+      "concept_id": "CONC_06",
+      "success": "Complete",
+      "chapter": "Chapter 3",
+      "method": "Peashooters and revolvers",
+      "cost": "None"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "success": "Failing",
+      "chapter": "Chapter 4",
+      "method": "Rising Sun Lubricator",
+      "cost": "Humiliation"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "success": "Failing",
+      "chapter": "Chapter 4",
+      "method": "Butter-slide",
+      "cost": "Severe fall"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "success": "Failing",
+      "chapter": "Chapter 4",
+      "method": "Headless Earl",
+      "cost": "Severe cold"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "success": "Failing",
+      "chapter": "Chapter 4",
+      "method": "Jonas the Graveless",
+      "cost": "Panic"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "success": "Failing",
+      "chapter": "Chapter 4",
+      "method": "Vampire Monk",
+      "cost": "Fear of the twins"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_06",
+      "success": "Complete",
+      "chapter": "Chapter 5",
+      "method": "Virginia's pity and compassion",
+      "cost": "Death"
+    }
+  ],
+  "Event_BEFORE": [
+    {
+      "earlier_event_id": "EVEN_01",
+      "later_event_id": "EVEN_02",
+      "time_gap": "a few weeks",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_02",
+      "later_event_id": "EVEN_03",
+      "time_gap": "immediately",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_03",
+      "later_event_id": "EVEN_04",
+      "time_gap": "immediately",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_04",
+      "later_event_id": "EVEN_05",
+      "time_gap": "the next morning",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_05",
+      "later_event_id": "EVEN_06",
+      "time_gap": "the next night",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_06",
+      "later_event_id": "EVEN_07",
+      "time_gap": "immediately",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_07",
+      "later_event_id": "EVEN_08",
+      "time_gap": "the next night",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_08",
+      "later_event_id": "EVEN_09",
+      "time_gap": "immediately",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_09",
+      "later_event_id": "EVEN_10",
+      "time_gap": "later",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_10",
+      "later_event_id": "EVEN_11",
+      "time_gap": "later",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_11",
+      "later_event_id": "EVEN_12",
+      "time_gap": "immediately",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_12",
+      "later_event_id": "EVEN_13",
+      "time_gap": "immediately",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_13",
+      "later_event_id": "EVEN_14",
+      "time_gap": "later",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_14",
+      "later_event_id": "EVEN_15",
+      "time_gap": "immediately",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_15",
+      "later_event_id": "EVEN_16",
+      "time_gap": "a few days",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_16",
+      "later_event_id": "EVEN_17",
+      "time_gap": "years",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_17",
+      "later_event_id": "EVEN_18",
+      "time_gap": "after the honeymoon",
+      "causality": "unrelated",
+      "narrative_order": true
+    }
+  ],
+  "Event_AFTER": [
+    {
+      "later_event_id": "EVEN_02",
+      "earlier_event_id": "EVEN_01",
+      "time_gap": "a few weeks",
+      "consequence": true,
+      "chapters": [
+        "Chapter 1"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_03",
+      "earlier_event_id": "EVEN_02",
+      "time_gap": "shortly after",
+      "consequence": false,
+      "chapters": [
+        "Chapter 1"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_04",
+      "earlier_event_id": "EVEN_03",
+      "time_gap": "immediately after",
+      "consequence": true,
+      "chapters": [
+        "Chapter 1"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_05",
+      "earlier_event_id": "EVEN_04",
+      "time_gap": "the next morning",
+      "consequence": false,
+      "chapters": [
+        "Chapter 2"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_06",
+      "earlier_event_id": "EVEN_05",
+      "time_gap": "that night",
+      "consequence": false,
+      "chapters": [
+        "Chapter 2"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_07",
+      "earlier_event_id": "EVEN_06",
+      "time_gap": "immediately after",
+      "consequence": true,
+      "chapters": [
+        "Chapter 2"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_08",
+      "earlier_event_id": "EVEN_07",
+      "time_gap": "the next night",
+      "consequence": false,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_09",
+      "earlier_event_id": "EVEN_08",
+      "time_gap": "later",
+      "consequence": false,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_10",
+      "earlier_event_id": "EVEN_09",
+      "time_gap": "later",
+      "consequence": false,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_11",
+      "earlier_event_id": "EVEN_10",
+      "time_gap": "later",
+      "consequence": false,
+      "chapters": [
+        "Chapter 5"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_12",
+      "earlier_event_id": "EVEN_11",
+      "time_gap": "immediately after",
+      "consequence": true,
+      "chapters": [
+        "Chapter 5"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_13",
+      "earlier_event_id": "EVEN_12",
+      "time_gap": "later",
+      "consequence": true,
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_14",
+      "earlier_event_id": "EVEN_13",
+      "time_gap": "later",
+      "consequence": true,
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_15",
+      "earlier_event_id": "EVEN_14",
+      "time_gap": "immediately after",
+      "consequence": true,
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_16",
+      "earlier_event_id": "EVEN_15",
+      "time_gap": "a few days after",
+      "consequence": true,
+      "chapters": [
+        "Chapter 7"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_17",
+      "earlier_event_id": "EVEN_14",
+      "time_gap": "years later",
+      "consequence": true,
+      "chapters": [
+        "Chapter 7"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_18",
+      "earlier_event_id": "EVEN_17",
+      "time_gap": "after the honeymoon",
+      "consequence": false,
+      "chapters": [
+        "Chapter 7"
+      ]
+    }
+  ],
+  "Event_CAUSES": [
+    {
+      "cause_event_id": "EVEN_01",
+      "effect_event_id": "EVEN_02",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "a few weeks"
+    },
+    {
+      "cause_event_id": "EVEN_03",
+      "effect_event_id": "EVEN_04",
+      "directness": "direct",
+      "inevitability": "direct",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_05",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "1 day"
+    },
+    {
+      "cause_event_id": "EVEN_06",
+      "effect_event_id": "EVEN_07",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_07",
+      "effect_event_id": "EVEN_08",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_08",
+      "effect_event_id": "EVEN_09",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_09",
+      "effect_event_id": "EVEN_10",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_10",
+      "effect_event_id": "EVEN_11",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_12",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_12",
+      "effect_event_id": "EVEN_13",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_13",
+      "effect_event_id": "EVEN_14",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_14",
+      "effect_event_id": "EVEN_15",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_15",
+      "effect_event_id": "EVEN_16",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    },
+    {
+      "cause_event_id": "EVEN_14",
+      "effect_event_id": "EVEN_17",
+      "directness": "indirect",
+      "inevitability": "inevitable",
+      "time_gap": "years"
+    },
+    {
+      "cause_event_id": "EVEN_17",
+      "effect_event_id": "EVEN_18",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "immediate"
+    }
+  ],
+  "Event_CAUSED_BY": [
+    {
+      "effect_event_id": "EVEN_04",
+      "cause_event_id": "EVEN_03",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_05",
+      "cause_event_id": "EVEN_04",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_07",
+      "cause_event_id": "EVEN_06",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_08",
+      "cause_event_id": "EVEN_06",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_09",
+      "cause_event_id": "EVEN_08",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_10",
+      "cause_event_id": "EVEN_09",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_13",
+      "cause_event_id": "EVEN_12",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_14",
+      "cause_event_id": "EVEN_13",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_15",
+      "cause_event_id": "EVEN_14",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_16",
+      "cause_event_id": "EVEN_15",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_17",
+      "cause_event_id": "EVEN_14",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_18",
+      "cause_event_id": "EVEN_17",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    }
+  ],
+  "Item_POSSESSES": [
+    {
+      "character_id": "CHAR_03",
+      "item_id": "ITEM_01",
+      "acquisition_chapter": "Chapter 1",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_03",
+      "item_id": "ITEM_02",
+      "acquisition_chapter": "Chapter 1",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_03",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_10",
+      "item_id": "ITEM_04",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_05",
+      "acquisition_chapter": "Chapter 3",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_10",
+      "item_id": "ITEM_06",
+      "acquisition_chapter": "Chapter 3",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_07",
+      "acquisition_chapter": "Chapter 3",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_08",
+      "acquisition_chapter": "Chapter 3",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_06",
+      "item_id": "ITEM_09",
+      "acquisition_chapter": "Chapter 3",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_10",
+      "acquisition_chapter": "Chapter 3",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_11",
+      "acquisition_chapter": "Chapter 4",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_12",
+      "acquisition_chapter": "Chapter 3",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_13",
+      "acquisition_chapter": "Chapter 4",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_14",
+      "acquisition_chapter": "Chapter 4",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_15",
+      "acquisition_chapter": "Chapter 4",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_16",
+      "acquisition_chapter": "Chapter 6",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_17",
+      "acquisition_chapter": "Chapter 7",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_18",
+      "acquisition_chapter": "Chapter 7",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_19",
+      "acquisition_chapter": "Chapter 7",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_20",
+      "acquisition_chapter": "Chapter 5",
+      "current": false,
+      "method": "stolen"
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_21",
+      "acquisition_chapter": "Chapter 1",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_21",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "created"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_22",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_23",
+      "acquisition_chapter": "Chapter 5",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_24",
+      "acquisition_chapter": "Chapter 7",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_09",
+      "item_id": "ITEM_25",
+      "acquisition_chapter": "Chapter 7",
+      "current": false,
+      "method": "found"
+    }
+  ],
+  "Item_CREATED": [
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_01",
+      "chapter": "Chapter 1",
+      "location": "Canterville Chase",
+      "purpose": "To frighten the Dowager Duchess of Bolton",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_02",
+      "chapter": "Chapter 1",
+      "location": "Canterville Chase",
+      "purpose": "Part of the ghost's appearance",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_05",
+      "chapter": "Chapter 3",
+      "location": "Canterville Chase",
+      "purpose": "To frighten the family",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_20",
+      "chapter": "Chapter 5",
+      "location": "Library",
+      "purpose": "To furbish up the blood-stain",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_16",
+      "chapter": "Chapter 6",
+      "location": "Tapestry Chamber",
+      "purpose": "To reward Virginia",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_18",
+      "chapter": "Chapter 7",
+      "location": "Churchyard",
+      "purpose": "To honor Sir Simon",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_19",
+      "chapter": "Chapter 7",
+      "location": "Queen's first drawing-room",
+      "purpose": "The reward of all good little American girls",
+      "materials": []
+    }
+  ],
+  "Item_SEEKS": [
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_03",
+      "motivation": "To oil his chains",
+      "start_chapter": "Chapter 2",
+      "end_chapter": "Chapter 4",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_05",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 3",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_06",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 3",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_07",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 3",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_10",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 3",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_11",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 4",
+      "end_chapter": "Chapter 4",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_12",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 3",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_13",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 4",
+      "end_chapter": "Chapter 4",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_14",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 4",
+      "end_chapter": "Chapter 4",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_15",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 4",
+      "end_chapter": "Chapter 4",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_16",
+      "motivation": "To give to Virginia",
+      "start_chapter": "Chapter 6",
+      "end_chapter": "Chapter 6",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_17",
+      "motivation": "To give to Virginia",
+      "start_chapter": "Chapter 7",
+      "end_chapter": "Chapter 7",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_18",
+      "motivation": "To honor Sir Simon",
+      "start_chapter": "Chapter 7",
+      "end_chapter": "Chapter 7",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_19",
+      "motivation": "To be rewarded for her good deeds",
+      "start_chapter": "Chapter 7",
+      "end_chapter": "Chapter 7",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_20",
+      "motivation": "To restore the blood stain",
+      "start_chapter": "Chapter 5",
+      "end_chapter": "Chapter 5",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_21",
+      "motivation": "To frighten the Otis family",
+      "start_chapter": "Chapter 1",
+      "end_chapter": "Chapter 4",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_22",
+      "motivation": "To find peace",
+      "start_chapter": "Chapter 5",
+      "end_chapter": "Chapter 6",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_23",
+      "motivation": "To find peace",
+      "start_chapter": "Chapter 5",
+      "end_chapter": "Chapter 6",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_24",
+      "motivation": "To find peace",
+      "start_chapter": "Chapter 7",
+      "end_chapter": "Chapter 7",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_09",
+      "item_id": "ITEM_25",
+      "motivation": "To honor Sir Simon",
+      "start_chapter": "Chapter 7",
+      "end_chapter": "Chapter 7",
+      "success": true
+    }
+  ],
+  "Item_DESTROYED": [],
+  "Item_USED_IN": [
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_01",
+      "event_id": null,
+      "chapter": "Chapter 1",
+      "purpose": "Mention of the ghost's actions",
+      "effectiveness": "N/A",
+      "significance": "Introduces the ghost's haunting activities."
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_03",
+      "event_id": null,
+      "chapter": "Chapter 2",
+      "purpose": "To remove the blood stain",
+      "effectiveness": "Success",
+      "significance": "Shows the family's initial attempts to deal with the ghost."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_02",
+      "event_id": null,
+      "chapter": "Chapter 2",
+      "purpose": "To scare Mr. Otis",
+      "effectiveness": "Partial success",
+      "significance": "Illustrates the ghost's initial attempts to scare the family."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_03",
+      "event_id": null,
+      "chapter": "Chapter 2",
+      "purpose": "To scare Mr. Otis",
+      "effectiveness": "Failure",
+      "significance": "Illustrates the ghost's initial attempts to scare the family."
+    },
+    {
+      "character_id": "CHAR_10",
+      "item_id": "ITEM_04",
+      "event_id": null,
+      "chapter": "Chapter 2",
+      "purpose": "To attack the ghost",
+      "effectiveness": "Success",
+      "significance": "Shows the family's retaliation against the ghost."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_05",
+      "event_id": null,
+      "chapter": "Chapter 3",
+      "purpose": "To scare the family",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_10",
+      "item_id": "ITEM_06",
+      "event_id": null,
+      "chapter": "Chapter 3",
+      "purpose": "To attack the ghost",
+      "effectiveness": "Success",
+      "significance": "Shows the family's retaliation against the ghost."
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_07",
+      "event_id": null,
+      "chapter": "Chapter 3",
+      "purpose": "To attack the ghost",
+      "effectiveness": "Success",
+      "significance": "Shows the family's retaliation against the ghost."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_05",
+      "event_id": null,
+      "chapter": "Chapter 3",
+      "purpose": "To scare the family",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_08",
+      "event_id": null,
+      "chapter": "Chapter 4",
+      "purpose": "To scare Washington Otis",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_09",
+      "event_id": null,
+      "chapter": "Chapter 3",
+      "purpose": "To cure the ghost",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_10",
+      "event_id": null,
+      "chapter": "Chapter 3",
+      "purpose": "To scare Washington Otis",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_11",
+      "event_id": null,
+      "chapter": "Chapter 4",
+      "purpose": "To scare the family",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_12",
+      "event_id": null,
+      "chapter": "Chapter 4",
+      "purpose": "To scare the family",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_13",
+      "event_id": null,
+      "chapter": "Chapter 4",
+      "purpose": "To scare the family",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_14",
+      "event_id": null,
+      "chapter": "Chapter 4",
+      "purpose": "To scare the family",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_15",
+      "event_id": null,
+      "chapter": "Chapter 4",
+      "purpose": "To scare the family",
+      "effectiveness": "Failure",
+      "significance": "The ghost's attempt to scare the family fails."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_20",
+      "event_id": null,
+      "chapter": "Chapter 5",
+      "purpose": "To create the blood stain",
+      "effectiveness": "Success",
+      "significance": "Shows the ghost's desperation and Virginia's understanding."
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_16",
+      "event_id": null,
+      "chapter": "Chapter 6",
+      "purpose": "Gift to Virginia",
+      "effectiveness": "N/A",
+      "significance": "Symbolizes the ghost's redemption and gratitude."
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_17",
+      "event_id": null,
+      "chapter": "Chapter 7",
+      "purpose": "Gift to Virginia",
+      "effectiveness": "N/A",
+      "significance": "Symbolizes the ghost's redemption and gratitude."
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_18",
+      "event_id": null,
+      "chapter": "Chapter 7",
+      "purpose": "To honor the ghost",
+      "effectiveness": "N/A",
+      "significance": "Symbolizes the ghost's redemption and gratitude."
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_19",
+      "event_id": null,
+      "chapter": "Chapter 7",
+      "purpose": "Reward for Virginia",
+      "effectiveness": "N/A",
+      "significance": "Symbolizes the ghost's redemption and gratitude."
+    },
+    {
+      "character_id": "CHAR_25",
+      "item_id": "ITEM_25",
+      "event_id": null,
+      "chapter": "Chapter 7",
+      "purpose": "To smoke",
+      "effectiveness": "N/A",
+      "significance": "Shows the Duke's relaxed state."
+    }
+  ],
+  "ItemItem_COMPONENT_OF": [
+    {
+      "component_item_id": "ITEM_01",
+      "composite_item_id": "null",
+      "nature": "physical part",
+      "integration_chapter": "Chapter 1"
+    },
+    {
+      "component_item_id": "ITEM_02",
+      "composite_item_id": "null",
+      "nature": "physical part",
+      "integration_chapter": "Chapter 2"
+    },
+    {
+      "component_item_id": "ITEM_03",
+      "composite_item_id": "ITEM_12",
+      "nature": "tool for maintenance",
+      "integration_chapter": "Chapter 2",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_04",
+      "composite_item_id": "null",
+      "nature": "weapon",
+      "integration_chapter": "Chapter 2"
+    },
+    {
+      "component_item_id": "ITEM_06",
+      "composite_item_id": "null",
+      "nature": "weapon",
+      "integration_chapter": "Chapter 3"
+    },
+    {
+      "component_item_id": "ITEM_07",
+      "composite_item_id": "null",
+      "nature": "weapon",
+      "integration_chapter": "Chapter 3"
+    },
+    {
+      "component_item_id": "ITEM_08",
+      "composite_item_id": "null",
+      "nature": "tool",
+      "integration_chapter": "Chapter 3"
+    },
+    {
+      "component_item_id": "ITEM_09",
+      "composite_item_id": "null",
+      "nature": "remedy",
+      "integration_chapter": "Chapter 3"
+    },
+    {
+      "component_item_id": "ITEM_10",
+      "composite_item_id": "null",
+      "nature": "clothing",
+      "integration_chapter": "Chapter 3"
+    },
+    {
+      "component_item_id": "ITEM_11",
+      "composite_item_id": "null",
+      "nature": "weapon",
+      "integration_chapter": "Chapter 4"
+    },
+    {
+      "component_item_id": "ITEM_12",
+      "composite_item_id": "null",
+      "nature": "weapon",
+      "integration_chapter": "Chapter 3"
+    },
+    {
+      "component_item_id": "ITEM_13",
+      "composite_item_id": "null",
+      "nature": "tool",
+      "integration_chapter": "Chapter 4"
+    },
+    {
+      "component_item_id": "ITEM_14",
+      "composite_item_id": "null",
+      "nature": "tool",
+      "integration_chapter": "Chapter 4"
+    },
+    {
+      "component_item_id": "ITEM_15",
+      "composite_item_id": "null",
+      "nature": "weapon",
+      "integration_chapter": "Chapter 4"
+    },
+    {
+      "component_item_id": "ITEM_16",
+      "composite_item_id": "null",
+      "nature": "jewelry",
+      "integration_chapter": "Chapter 5"
+    },
+    {
+      "component_item_id": "ITEM_17",
+      "composite_item_id": "null",
+      "nature": "jewelry",
+      "integration_chapter": "Chapter 7"
+    },
+    {
+      "component_item_id": "ITEM_18",
+      "composite_item_id": "null",
+      "nature": "jewelry",
+      "integration_chapter": "Chapter 7"
+    },
+    {
+      "component_item_id": "ITEM_19",
+      "composite_item_id": "null",
+      "nature": "jewelry",
+      "integration_chapter": "Chapter 7"
+    },
+    {
+      "component_item_id": "ITEM_20",
+      "composite_item_id": "null",
+      "nature": "tool",
+      "integration_chapter": "Chapter 5"
+    },
+    {
+      "component_item_id": "ITEM_21",
+      "composite_item_id": "null",
+      "nature": "stain",
+      "integration_chapter": "Chapter 1"
+    },
+    {
+      "component_item_id": "ITEM_22",
+      "composite_item_id": "null",
+      "nature": "gold",
+      "integration_chapter": "Chapter 5"
+    },
+    {
+      "component_item_id": "ITEM_23",
+      "composite_item_id": "null",
+      "nature": "leaves",
+      "integration_chapter": "Chapter 5"
+    },
+    {
+      "component_item_id": "ITEM_24",
+      "composite_item_id": "null",
+      "nature": "tombstone",
+      "integration_chapter": "Chapter 7"
+    },
+    {
+      "component_item_id": "ITEM_25",
+      "composite_item_id": "null",
+      "nature": "cigarette",
+      "integration_chapter": "Chapter 7"
+    }
+  ],
+  "ItemLocation_LOCATED_AT": [
+    {
+      "item_id": "ITEM_01",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 1",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_02",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 2",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_03",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 2",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_04",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 2",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_05",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 3",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_06",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 3",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_07",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 3",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_08",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 4",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_09",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 3",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_10",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 3",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_11",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 4",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_12",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 3",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_13",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 4",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_14",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 4",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_15",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 4",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_16",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 6",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_17",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 7",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_18",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 7",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_19",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 7",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_20",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 5",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_21",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 1",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_22",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 2",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_23",
+      "location_id": "LOCA_01",
+      "chapter_range": "Chapter 5",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_24",
+      "location_id": "LOCA_16",
+      "chapter_range": "Chapter 7",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_25",
+      "location_id": "LOCA_21",
+      "chapter_range": "Chapter 4",
+      "hidden": false,
+      "guardian": null
+    }
+  ]
+}

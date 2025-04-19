@@ -41,6 +41,7 @@ class BookMetadata:
         """Update entities and relationships maps"""
         self.entities_map = entities_map
         self.relationships_map = relationships_map
+        return self 
     
     def __str__(self):
         return (f"Book Name: {self.book_name}\n"
