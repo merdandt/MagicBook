@@ -204,6 +204,27 @@ st.markdown("""
     .streamlit-expanderHeader {
         background-color: transparent !important;
     }
+/* ---- Add this block (or merge with the one you already have) ---- */
+.stTabs [data-baseweb="tab"]{
+    /* existing declarations …                                */
+    height: 50px;
+    white-space: pre-wrap;
+    border-radius: 4px 4px 0 0;
+    gap: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /* NEW: horizontal spacing */
+    padding-left: 18px;   /* or whatever looks good */
+    padding-right: 18px;
+}
+
+/* optional: if you only want the text, not the whole tab, spaced */
+.stTabs [data-baseweb="tab"] > div               /* BaseWeb wraps text    */
+{
+    margin-left: 6px;      /* space before label  */
+    margin-right: 6px;     /* space after label   */
+}
 </style>
 """, unsafe_allow_html=True)
 
