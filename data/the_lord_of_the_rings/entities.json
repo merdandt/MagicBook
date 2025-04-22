@@ -1,0 +1,624 @@
+{
+  "CREATURE": [
+    {
+      "name": "Elves",
+      "description": "Fair folk, often seen as wise and magical, with a deep connection to nature.  They are long-lived and some possess great power.",
+      "significance": "Appear throughout the narrative, aiding the hobbits and fighting against Sauron.  They represent the fading magic and beauty of the world.",
+      "_key": "CREA_01"
+    },
+    {
+      "name": "Dwarves",
+      "description": "Short, sturdy folk skilled in crafting and mining. They are tough and value their traditions.",
+      "significance": "Important allies in the fight against Sauron. Gimli, a dwarf, is a member of the Fellowship.",
+      "_key": "CREA_02"
+    },
+    {
+      "name": "Hobbits",
+      "description": "Small, peace-loving folk who enjoy simple pleasures.  Unusually resilient.",
+      "significance": "The main protagonists of the story. Frodo, Sam, Merry, and Pippin are hobbits.",
+      "_key": "CREA_03"
+    },
+    {
+      "name": "Men",
+      "description": "Mortal men, some good, some evil.  They are varied in appearance and culture.",
+      "significance": "Play various roles, both as allies and enemies.  Aragorn and Boromir are important human characters.",
+      "_key": "CREA_04"
+    },
+    {
+      "name": "Dark Lord",
+      "description": "Sauron, a powerful, evil being who desires to control Middle-earth.",
+      "significance": "The primary antagonist of the story.",
+      "_key": "CREA_05"
+    },
+    {
+      "name": "Orcs",
+      "description": "Savage, brutal creatures who serve the Dark Lord.  They come in various breeds and sizes.",
+      "significance": "Sauron's foot soldiers and a constant threat to the protagonists.",
+      "_key": "CREA_06"
+    },
+    {
+      "name": "Trolls",
+      "description": "Large, strong creatures, often dim-witted but sometimes cunning. Some can endure sunlight.",
+      "significance": "Serve as enemies, encountered by the hobbits in Moria and by the Rohirrim in battle.",
+      "_key": "CREA_07"
+    },
+    {
+      "name": "Ringwraiths",
+      "description": "The nine servants of the Dark Lord, bound to his will and wielding deadly power.",
+      "significance": "Relentlessly pursue Frodo and the Ring.",
+      "_key": "CREA_08"
+    },
+    {
+      "name": "Dragons",
+      "description": "Powerful, winged reptiles who breathe fire.  Some are ancient and immensely strong.",
+      "significance": "Smaug, a dragon, plays a role in the backstory, and the firework dragon at Bilbo's party foreshadows later events.",
+      "_key": "CREA_09"
+    },
+    {
+      "name": "Tom Bombadil",
+      "description": "A mysterious and ancient being who is master of wood, water, and hill.",
+      "significance": "Aids the hobbits in the Old Forest but remains detached from the larger conflict.",
+      "_key": "CREA_10"
+    },
+    {
+      "name": "Old Man Willow",
+      "description": "A malevolent tree in the Old Forest with a rotten heart and a cunning mind.",
+      "significance": "Traps the hobbits and represents the dangers of the natural world.",
+      "_key": "CREA_11"
+    },
+    {
+      "name": "Barrow-wights",
+      "description": "Evil spirits that inhabit ancient barrows.",
+      "significance": "Imprison the hobbits and represent the lingering evils of the past.",
+      "_key": "CREA_12"
+    },
+    {
+      "name": "Ents",
+      "description": "Ancient tree-like beings who are shepherds of the trees.",
+      "significance": "Become roused by the destruction of Fangorn and play a crucial role in the war against Saruman.",
+      "_key": "CREA_13"
+    },
+    {
+      "name": "Huorns",
+      "description": "Ents who have become almost entirely tree-like.",
+      "significance": "Participate in the destruction of Isengard and represent the unpredictable nature of Fangorn.",
+      "_key": "CREA_14"
+    },
+    {
+      "name": "Watcher in the Water",
+      "description": "A tentacled creature that dwells in the lake before the West-gate of Moria.",
+      "significance": "Attacks the Fellowship and represents the dangers lurking beneath the mountains.",
+      "_key": "CREA_15"
+    },
+    {
+      "name": "Shelob",
+      "description": "A giant spider who dwells in Cirith Ungol.",
+      "significance": "Traps and poisons Frodo, nearly ending the quest.",
+      "_key": "CREA_16"
+    },
+    {
+      "name": "Wolves",
+      "description": "Savage canines, some of whom serve Sauron.  Some are large and cunning.",
+      "significance": "Attack the Company in the mountains and represent the wild dangers of the world.",
+      "_key": "CREA_17"
+    },
+    {
+      "name": "Wargs",
+      "description": "Evil wolves that often accompany orcs.",
+      "significance": "Participate in the attack on the Company in the mountains.",
+      "_key": "CREA_18"
+    },
+    {
+      "name": "Werewolves",
+      "description": "Men who can transform into wolves.",
+      "significance": "Mentioned as servants of Sauron.",
+      "_key": "CREA_19"
+    }
+  ],
+  "EVENT": [
+    {
+      "name": "Bilbo's Unexpected Party",
+      "type": "ceremony",
+      "summary": "Bilbo Baggins throws a grand eleventy-first birthday party, during which he uses the One Ring to disappear and leave the Shire, surprising and confusing his guests. He leaves Bag End and its contents to his nephew, Frodo.",
+      "_key": "EVEN_01"
+    },
+    {
+      "name": "Gandalf's Revelation",
+      "type": "conversation",
+      "summary": "Gandalf reveals to Frodo the true nature of Bilbo's ring as the One Ring, explaining its history and the danger it poses. He urges Frodo to leave the Shire and take the Ring to Rivendell.",
+      "_key": "EVEN_02"
+    },
+    {
+      "name": "Departure from the Shire",
+      "type": "journey",
+      "summary": "Frodo, Sam, and Pippin leave Bag End secretly, setting out on foot towards Buckleberry Ferry and trying to avoid being seen.",
+      "_key": "EVEN_03"
+    },
+    {
+      "name": "Encounter with a Black Rider",
+      "type": "encounter",
+      "summary": "Frodo and his companions encounter a Black Rider on the road, sensing his pursuit and narrowly avoiding discovery.",
+      "_key": "EVEN_04"
+    },
+    {
+      "name": "Meeting with Gildor",
+      "type": "encounter",
+      "summary": "The hobbits encounter Gildor Inglorion and a company of Elves, who offer them shelter and warn them of the Black Riders. Gildor advises Frodo to make for Rivendell and not to travel alone.",
+      "_key": "EVEN_05"
+    },
+    {
+      "name": "Entering the Old Forest",
+      "type": "journey",
+      "summary": "The hobbits enter the Old Forest through a secret tunnel, encountering the malevolent Old Man Willow and becoming trapped.",
+      "_key": "EVEN_06"
+    },
+    {
+      "name": "Rescue by Tom Bombadil",
+      "type": "rescue",
+      "summary": "Tom Bombadil rescues the hobbits from Old Man Willow and takes them to his house, where they meet Goldberry. Tom's power seems to affect the Ring, but he shows no interest in keeping it.",
+      "_key": "EVEN_07"
+    },
+    {
+      "name": "Escape from the Barrow-wight",
+      "type": "rescue",
+      "summary": "Frodo and his companions are captured by a Barrow-wight, but Frodo remembers Tom's song and calls for help. Tom rescues them and gives them ancient Barrow-blades.",
+      "_key": "EVEN_08"
+    },
+    {
+      "name": "Stay at the Prancing Pony",
+      "type": "encounter",
+      "summary": "The hobbits arrive at Bree and stay at the Prancing Pony, where they meet Strider. Frodo accidentally reveals the Ring's power, drawing unwanted attention.",
+      "_key": "EVEN_09"
+    },
+    {
+      "name": "Strider's Revelation",
+      "type": "conversation",
+      "summary": "Strider reveals himself as Aragorn and offers to guide the hobbits to Rivendell. He warns them of the Black Riders and the growing danger.",
+      "_key": "EVEN_10"
+    },
+    {
+      "name": "Attack at Weathertop",
+      "type": "battle",
+      "summary": "The hobbits are attacked by the Nazgûl at Weathertop. Frodo is wounded by a Morgul blade, and the Ringwraiths are driven off by Strider and fire.",
+      "_key": "EVEN_11"
+    },
+    {
+      "name": "Flight to the Ford",
+      "type": "journey",
+      "summary": "Fleeing the Nazgûl, the hobbits are joined by Glorfindel and race towards Rivendell. Frodo is nearly overtaken at the Ford of Bruinen, but Elrond summons a flood that sweeps away the Ringwraiths and their horses.",
+      "_key": "EVEN_12"
+    },
+    {
+      "name": "Council of Elrond",
+      "type": "ceremony",
+      "summary": "The Council of Elrond discusses the history of the Ring and decides that it must be destroyed in the fires of Mount Doom. The Fellowship of the Ring is formed to undertake this quest.",
+      "_key": "EVEN_13"
+    },
+    {
+      "name": "Journey through Moria",
+      "type": "journey",
+      "summary": "The Fellowship travels through the Mines of Moria, encountering Orcs, trolls, and the Balrog. Gandalf confronts the Balrog on the Bridge of Khazad-dûm and falls into the abyss.",
+      "_key": "EVEN_14"
+    },
+    {
+      "name": "Sojourn in Lothlórien",
+      "type": "journey",
+      "summary": "The Fellowship finds refuge in Lothlórien, where they meet Galadriel and Celeborn. They receive gifts and counsel before continuing their journey.",
+      "_key": "EVEN_15"
+    },
+    {
+      "name": "Breaking of the Fellowship",
+      "type": "battle",
+      "summary": "At Amon Hen, Boromir attempts to take the Ring from Frodo. Frodo escapes, and the Fellowship is scattered by an Orc attack. Boromir is killed defending Merry and Pippin, who are captured.",
+      "_key": "EVEN_16"
+    }
+  ],
+  "ORGANIZATION": [
+    {
+      "name": "White Council",
+      "type": "Council",
+      "description": "A council of Wise, including Gandalf, Saruman, Elrond, and Galadriel, formed to combat the growing power of Sauron.",
+      "significance": "Instrumental in driving Sauron from Dol Guldur, but ultimately unable to prevent his return to Mordor.",
+      "_key": "ORGA_01"
+    },
+    {
+      "name": "Company of the Ring",
+      "type": "Fellowship",
+      "description": "A group of nine individuals, including Frodo, Sam, Gandalf, Aragorn, Legolas, Gimli, Boromir, Merry, and Pippin, formed to destroy the One Ring.",
+      "significance": "Central to the quest to destroy the One Ring and defeat Sauron.",
+      "_key": "ORGA_02"
+    },
+    {
+      "name": "Rangers",
+      "type": "Order",
+      "description": "Wanderers and protectors of the North, skilled in woodcraft and tracking, often working in secret.",
+      "significance": "Aragorn is the chief of the Rangers, and they play a crucial role in protecting the Shire and aiding the quest.",
+      "_key": "ORGA_03"
+    },
+    {
+      "name": "Du´nedain",
+      "type": "Race",
+      "description": "Descendants of Numenoreans, possessing longer lifespans and greater wisdom than other Men. Divided into the Rangers of the North and the people of Gondor.",
+      "significance": "Aragorn's lineage and the history of the Dunedain are central to the narrative.",
+      "_key": "ORGA_04"
+    },
+    {
+      "name": "House of Eorl",
+      "type": "Dynasty",
+      "description": "The ruling family of Rohan, known for their horsemanship and valor.",
+      "significance": "The Rohirrim, led by Theoden and later Eomer, are crucial allies in the fight against Saruman and Sauron.",
+      "_key": "ORGA_05"
+    },
+    {
+      "name": "Ents",
+      "type": "Race",
+      "description": "Ancient tree-like beings, guardians of the forests.",
+      "significance": "Led by Treebeard, the Ents play a pivotal role in the destruction of Isengard.",
+      "_key": "ORGA_06"
+    }
+  ],
+  "ITEM": [
+    {
+      "name": "One Ring",
+      "type": "Artifact",
+      "magical": true,
+      "description": "A golden ring that grants invisibility, prolongs life, and corrupts the wearer. It controls all other Rings of Power.",
+      "origin": "Forged by Sauron in the fires of Mount Doom.",
+      "current_status": "Destroyed",
+      "_key": "ITEM_01"
+    },
+    {
+      "name": "Three Elven Rings",
+      "type": "Artifact",
+      "magical": true,
+      "description": "Three rings held by Elven lords, used for preservation and healing, but tied to the One Ring.",
+      "origin": "Forged by Celebrimbor in Eregion.",
+      "current_status": "Powerless",
+      "_key": "ITEM_02"
+    },
+    {
+      "name": "Seven Dwarf Rings",
+      "type": "Artifact",
+      "magical": true,
+      "description": "Seven rings given to the Dwarf lords, which fueled their greed and desire for vengeance.",
+      "origin": "Forged by the Elven-smiths of Eregion, with Sauron's influence.",
+      "current_status": "Mostly consumed by dragons or reclaimed by Sauron",
+      "_key": "ITEM_03"
+    },
+    {
+      "name": "Nine Rings for Mortal Men",
+      "type": "Artifact",
+      "magical": true,
+      "description": "Nine rings that enslaved men and turned them into the Nazgûl.",
+      "origin": "Forged by the Elven-smiths of Eregion, with Sauron's influence.",
+      "current_status": "Controlled by Sauron",
+      "_key": "ITEM_04"
+    },
+    {
+      "name": "Sting",
+      "type": "Weapon",
+      "magical": true,
+      "description": "An Elvish knife that glows blue when orcs are near. It was Bilbo's sword.",
+      "origin": "Forged by Elves in Gondolin.",
+      "current_status": "Intact, wielded by Frodo",
+      "_key": "ITEM_05"
+    },
+    {
+      "name": "Mithril Coat",
+      "type": "Armor",
+      "magical": false,
+      "description": "A shirt of mail made of mithril, light and strong.",
+      "origin": "Gifted to Bilbo by Thorin Oakenshield.",
+      "current_status": "Intact, worn by Frodo",
+      "_key": "ITEM_06"
+    },
+    {
+      "name": "Andúril",
+      "type": "Weapon",
+      "magical": true,
+      "description": "The reforged sword of Elendil, imbued with the power of the West.",
+      "origin": "Reforged from the shards of Narsil.",
+      "current_status": "Intact, wielded by Aragorn",
+      "_key": "ITEM_07"
+    },
+    {
+      "name": "Narsil",
+      "type": "Weapon",
+      "magical": true,
+      "description": "The sword of Elendil, broken in the battle against Sauron.",
+      "origin": "Forged by Telchar in Nogrod.",
+      "current_status": "Broken, reforged into Andúril",
+      "_key": "ITEM_08"
+    },
+    {
+      "name": "Glamdring",
+      "type": "Weapon",
+      "magical": true,
+      "description": "A sword that glows when orcs are near. It was Gandalf's sword.",
+      "origin": "Found in a troll-hoard.",
+      "current_status": "Intact, wielded by Gandalf",
+      "_key": "ITEM_09"
+    },
+    {
+      "name": "Phial of Galadriel",
+      "type": "Artifact",
+      "magical": true,
+      "description": "A phial containing the light of Eärendil's star, providing light in dark places.",
+      "origin": "Gifted to Frodo by Galadriel.",
+      "current_status": "Intact, kept by Frodo",
+      "_key": "ITEM_10"
+    },
+    {
+      "name": "Horn of Boromir",
+      "type": "Tool",
+      "magical": false,
+      "description": "A great horn whose sound is heard throughout Gondor.",
+      "origin": "An heirloom of the Stewards of Gondor.",
+      "current_status": "Broken",
+      "_key": "ITEM_11"
+    },
+    {
+      "name": "Palantíri",
+      "type": "Artifact",
+      "magical": true,
+      "description": "Seeing-stones that allow communication and viewing of distant places.",
+      "origin": "Made by the Noldor in Eldamar.",
+      "current_status": "Scattered, some lost, some controlled by Sauron",
+      "_key": "ITEM_12"
+    },
+    {
+      "name": "Horn of the Mark",
+      "type": "Artifact",
+      "magical": true,
+      "description": "A horn given to Merry by Éowyn, said to bring joy to friends and fear to enemies.",
+      "origin": "Made by Dwarves, from the hoard of Scatha.",
+      "current_status": "Intact, kept by Merry",
+      "_key": "ITEM_13"
+    }
+  ],
+  "CHARACTER": [
+    {
+      "name": "Bilbo Baggins",
+      "gender": "Male",
+      "age": 111,
+      "alive": true,
+      "status": "Hobbit, former burglar",
+      "description": "A wealthy and eccentric hobbit who made a name for himself after his journey to the Lonely Mountain.",
+      "occupation": "Author, Retired Burglar",
+      "significance": "Main",
+      "_key": "CHAR_01"
+    },
+    {
+      "name": "Frodo Baggins",
+      "gender": "Male",
+      "age": 33,
+      "alive": true,
+      "status": "Hobbit, Ring-bearer",
+      "description": "Bilbo's nephew and heir, tasked with destroying the One Ring.",
+      "occupation": "Ring-bearer",
+      "significance": "Main",
+      "_key": "CHAR_02"
+    },
+    {
+      "name": "Gandalf",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "A powerful wizard and mentor to Frodo.",
+      "occupation": "Wizard",
+      "significance": "Main",
+      "_key": "CHAR_03"
+    },
+    {
+      "name": "Samwise Gamgee",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Hobbit, gardener",
+      "description": "Frodo's loyal gardener and companion.",
+      "occupation": "Gardener",
+      "significance": "Main",
+      "_key": "CHAR_04"
+    },
+    {
+      "name": "Meriadoc Brandybuck",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Hobbit",
+      "description": "Frodo's cousin and companion.",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_05"
+    },
+    {
+      "name": "Peregrin Took",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Hobbit",
+      "description": "Frodo's cousin and companion.",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_06"
+    },
+    {
+      "name": "Gollum",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Creature",
+      "description": "A corrupted hobbit-like creature obsessed with the Ring.",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_07"
+    },
+    {
+      "name": "Aragorn",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Ranger, Heir of Isildur",
+      "description": "A Ranger of the North and a key ally to Frodo.",
+      "occupation": "Ranger",
+      "significance": "Main",
+      "_key": "CHAR_08"
+    },
+    {
+      "name": "Boromir",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Man of Gondor",
+      "description": "A noble warrior from Gondor.",
+      "occupation": "Warrior",
+      "significance": "Supporting",
+      "_key": "CHAR_09"
+    },
+    {
+      "name": "Elrond",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Elf-lord",
+      "description": "The wise lord of Rivendell.",
+      "occupation": "Lord of Rivendell",
+      "significance": "Supporting",
+      "_key": "CHAR_10"
+    },
+    {
+      "name": "Galadriel",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Elf-lady",
+      "description": "The powerful Lady of Lothlórien.",
+      "occupation": "Lady of Lothlórien",
+      "significance": "Supporting",
+      "_key": "CHAR_11"
+    },
+    {
+      "name": "Legolas",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Elf",
+      "description": "An elf from Mirkwood and a member of the Fellowship.",
+      "occupation": "Archer",
+      "significance": "Supporting",
+      "_key": "CHAR_12"
+    },
+    {
+      "name": "Gimli",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Dwarf",
+      "description": "A dwarf from Erebor and a member of the Fellowship.",
+      "occupation": "Warrior",
+      "significance": "Supporting",
+      "_key": "CHAR_13"
+    },
+    {
+      "name": "Tom Bombadil",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": null,
+      "description": "A mysterious and ancient being who dwells in the Old Forest.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_14"
+    },
+    {
+      "name": "Goldberry",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": null,
+      "description": "Tom Bombadil's wife.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_15"
+    },
+    {
+      "name": "Farmer Maggot",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Hobbit, farmer",
+      "description": "A hobbit farmer in the Eastfarthing.",
+      "occupation": "Farmer",
+      "significance": "Minor",
+      "_key": "CHAR_16"
+    },
+    {
+      "name": "Lobelia Sackville-Baggins",
+      "gender": "Female",
+      "age": 100,
+      "alive": false,
+      "status": "Hobbit",
+      "description": "Bilbo's cousin and a constant thorn in his side.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_17"
+    },
+    {
+      "name": "Fredegar Bolger",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Hobbit",
+      "description": "A friend of Frodo.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_18"
+    },
+    {
+      "name": "Barliman Butterbur",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Man, Innkeeper",
+      "description": "The innkeeper of the Prancing Pony in Bree.",
+      "occupation": "Innkeeper",
+      "significance": "Minor",
+      "_key": "CHAR_19"
+    },
+    {
+      "name": "Bill Ferny",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Man, Ruffian",
+      "description": "A shady character in Bree.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_20"
+    },
+    {
+      "name": "Strider",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Ranger",
+      "description": "A Ranger known in Bree.",
+      "occupation": "Ranger",
+      "significance": "Minor",
+      "_key": "CHAR_21"
+    },
+    {
+      "name": "Ham Gamgee",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Hobbit, gardener",
+      "description": "Sam's father and Bilbo's former gardener.",
+      "occupation": "Gardener",
+      "significance": "Minor",
+      "_key": "CHAR_22"
+    }
+  ],
+  "LOCATION": []
+}

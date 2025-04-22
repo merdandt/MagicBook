@@ -1,0 +1,2254 @@
+{
+  "Family_PARENT_OF": [
+    {
+      "parent_id": "CHAR_09",
+      "child_id": "CHAR_02",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_10",
+      "child_id": "CHAR_02",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_05",
+      "child_id": "CHAR_04",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_11",
+      "child_id": "CHAR_15",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_21",
+      "child_id": "CHAR_16",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_39",
+      "child_id": "CHAR_20",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_38",
+      "child_id": "CHAR_20",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_41",
+      "child_id": "CHAR_42",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_53",
+      "child_id": "CHAR_54",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_53",
+      "child_id": "CHAR_55",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_53",
+      "child_id": "CHAR_56",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_57",
+      "child_id": "CHAR_58",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_63",
+      "child_id": "CHAR_62",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_65",
+      "child_id": "CHAR_64",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    }
+  ],
+  "Family_MARRIED_TO": [
+    {
+      "spouse1_id": "CHAR_09",
+      "spouse2_id": "CHAR_10",
+      "status": "deceased",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 1"
+    },
+    {
+      "spouse1_id": "CHAR_12",
+      "spouse2_id": "CHAR_13",
+      "status": "active",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 1"
+    },
+    {
+      "spouse1_id": "CHAR_36",
+      "spouse2_id": "CHAR_37",
+      "status": "active",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 4"
+    },
+    {
+      "spouse1_id": "CHAR_44",
+      "spouse2_id": "CHAR_45",
+      "status": "active",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 6"
+    },
+    {
+      "spouse1_id": "CHAR_89",
+      "spouse2_id": "CHAR_90",
+      "status": "active",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 6"
+    },
+    {
+      "spouse1_id": "CHAR_43",
+      "spouse2_id": "CHAR_54",
+      "status": "active",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 2"
+    },
+    {
+      "spouse1_id": "CHAR_95",
+      "spouse2_id": "CHAR_94",
+      "status": "deceased",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 9"
+    },
+    {
+      "spouse1_id": "CHAR_15",
+      "spouse2_id": null,
+      "status": "active",
+      "political": false,
+      "confirmed": false,
+      "chapter": null
+    }
+  ],
+  "Family_SIBLING_OF": [
+    {
+      "sibling1_id": "CHAR_01",
+      "sibling2_id": "CHAR_27",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_05",
+      "sibling2_id": "CHAR_04",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_09",
+      "sibling2_id": "CHAR_27",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_15",
+      "sibling2_id": "CHAR_31",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_15",
+      "sibling2_id": "CHAR_32",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_15",
+      "sibling2_id": "CHAR_34",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_22",
+      "sibling2_id": "CHAR_23",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_31",
+      "sibling2_id": "CHAR_32",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_31",
+      "sibling2_id": "CHAR_34",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_32",
+      "sibling2_id": "CHAR_34",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_38",
+      "sibling2_id": "CHAR_39",
+      "relation": "full",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_55",
+      "sibling2_id": "CHAR_56",
+      "relation": "full",
+      "confirmed": true
+    }
+  ],
+  "Emotional_LOVES": [
+    {
+      "lover_id": "CHAR_09",
+      "beloved_id": "CHAR_10",
+      "intensity": 7,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1: A LONG-EXPECTED PARTY"
+      ]
+    },
+    {
+      "lover_id": "CHAR_44",
+      "beloved_id": "CHAR_45",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 6: THE OLD FOREST",
+        "Chapter 7: IN THE HOUSE OF TOM BOMBADIL"
+      ]
+    },
+    {
+      "lover_id": "CHAR_95",
+      "beloved_id": "CHAR_94",
+      "intensity": 9,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 6: THE OLD FOREST"
+      ]
+    },
+    {
+      "lover_id": "CHAR_43",
+      "beloved_id": "CHAR_54",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1: MANY MEETINGS"
+      ]
+    }
+  ],
+  "Interaction_INTERACTED_WITH": [
+    {
+      "character1_id": "CHAR_01",
+      "character2_id": "CHAR_19",
+      "interaction_type": "Journey",
+      "chapter": "Prologue",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_01",
+      "character2_id": "CHAR_20",
+      "interaction_type": "Riddle Game",
+      "chapter": "Prologue",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_01",
+      "character2_id": "CHAR_39",
+      "interaction_type": "Riddle Game",
+      "chapter": "Prologue",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_01",
+      "character2_id": "CHAR_03",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 1",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_02",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 1",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_01",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 1",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_01",
+      "character2_id": "CHAR_03",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 1",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_05",
+      "character2_id": "CHAR_01",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 1",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_01",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_03",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_02",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_15",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 3",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_16",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 3",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_17",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 3",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_18",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 3",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 3",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_03",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 3",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_12",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 3",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 3",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_15",
+      "interaction_type": "Journey",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_16",
+      "interaction_type": "Journey",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "interaction_type": "Journey",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_16",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_15",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_16",
+      "character2_id": "CHAR_04",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_36",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_16",
+      "character2_id": "CHAR_36",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_36",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_15",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_16",
+      "character2_id": "CHAR_15",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_15",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 4",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Rescue",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Rescue",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_15",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Rescue",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_15",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_45",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_15",
+      "character2_id": "CHAR_45",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_45",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_46",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Journey",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_15",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Journey",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_16",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Journey",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_44",
+      "interaction_type": "Journey",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_47",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 9",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_15",
+      "character2_id": "CHAR_47",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 9",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_16",
+      "character2_id": "CHAR_47",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 9",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_47",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 9",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_43",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 10",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_03",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 10",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_64",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 12",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_43",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 12",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_52",
+      "interaction_type": "Rescue",
+      "chapter": "Chapter 12",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_03",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 1",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_53",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_57",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_64",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_43",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_62",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_58",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_01",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_43",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 2",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_58",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_43",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_15",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_16",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_62",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_64",
+      "character2_id": "CHAR_90",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_43",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_58",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_62",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_64",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 7",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_43",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_58",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_62",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_64",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_89",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 8",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_91",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_43",
+      "character2_id": "CHAR_91",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_58",
+      "character2_id": "CHAR_91",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_62",
+      "character2_id": "CHAR_91",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_64",
+      "character2_id": "CHAR_91",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_03",
+      "character2_id": "CHAR_91",
+      "interaction_type": "Conversation",
+      "chapter": "Chapter 6",
+      "timestamp": null
+    }
+  ],
+  "Location_PRESENT_AT": [],
+  "Location_LIVES_IN": [
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_04",
+      "start_chapter": "Chapter 1",
+      "end_chapter": "Chapter 1",
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_04",
+      "start_chapter": "Chapter 1",
+      "end_chapter": "Chapter 1",
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_05",
+      "location_id": "LOCA_03",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_06",
+      "location_id": "LOCA_07",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_03",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_08",
+      "location_id": "LOCA_03",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_17",
+      "location_id": "LOCA_03",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_36",
+      "location_id": "LOCA_05",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 5",
+      "end_chapter": "Chapter 5",
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_47",
+      "location_id": "LOCA_13",
+      "start_chapter": "Chapter 9",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_13",
+      "start_chapter": "Chapter 9",
+      "end_chapter": "Chapter 10",
+      "status": "temporary"
+    }
+  ],
+  "Location_TRAVELED_TO": [
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_12",
+      "from_location": "LOCA_02",
+      "start_date": null,
+      "end_date": null,
+      "means": "walking",
+      "chapters": [
+        "Chapter 9"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_15",
+      "from_location": "LOCA_02",
+      "start_date": null,
+      "end_date": null,
+      "means": "walking",
+      "chapters": [
+        "Chapter 3",
+        "Chapter 5"
+      ]
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": null,
+      "from_location": "LOCA_04",
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 1"
+      ]
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": null,
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "PROLOGUE"
+      ]
+    }
+  ],
+  "Event_PARTICIPATED_IN": [
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_01",
+      "role": "host",
+      "chapter": "Chapter 1",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "Inherited Bag End"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_12",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_02",
+      "role": "discoverer",
+      "chapter": "Prologue",
+      "outcome": "Found the One Ring"
+    },
+    {
+      "character_id": "CHAR_20",
+      "event_id": "EVEN_02",
+      "role": "loser",
+      "chapter": "Prologue",
+      "outcome": "Lost the One Ring"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_03",
+      "role": "inheritor",
+      "chapter": "Prologue",
+      "outcome": "Received the One Ring"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_03",
+      "role": "giver",
+      "chapter": "Prologue",
+      "outcome": "Gave away the One Ring"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_04",
+      "role": "receiver",
+      "chapter": "Chapter 2",
+      "outcome": "Learned about the Ring's nature"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_04",
+      "role": "revealer",
+      "chapter": "Chapter 2",
+      "outcome": "Warned Frodo"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_05",
+      "role": "leader",
+      "chapter": "Chapter 3",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_05",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_05",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_05",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_06",
+      "role": "target",
+      "chapter": "Chapter 3",
+      "outcome": "Narrowly escaped"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_06",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Narrowly escaped"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_06",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Narrowly escaped"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_06",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Narrowly escaped"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_07",
+      "role": "hobbit",
+      "chapter": "Chapter 3",
+      "outcome": "Received warning"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_07",
+      "role": "hobbit",
+      "chapter": "Chapter 3",
+      "outcome": "Received warning"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_07",
+      "role": "hobbit",
+      "chapter": "Chapter 3",
+      "outcome": "Received warning"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_07",
+      "role": "hobbit",
+      "chapter": "Chapter 3",
+      "outcome": "Received warning"
+    },
+    {
+      "character_id": "CHAR_46",
+      "event_id": "EVEN_07",
+      "role": "elf",
+      "chapter": "Chapter 3",
+      "outcome": "Gave warning"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_08",
+      "role": "target",
+      "chapter": "Chapter 3",
+      "outcome": "Avoided capture"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_08",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Avoided capture"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_08",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Avoided capture"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_08",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Avoided capture"
+    },
+    {
+      "character_id": "CHAR_36",
+      "event_id": "EVEN_08",
+      "role": "farmer",
+      "chapter": "Chapter 3",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_09",
+      "role": "ring-bearer",
+      "chapter": "Chapter 5",
+      "outcome": "Plan revealed"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_09",
+      "role": "conspirator",
+      "chapter": "Chapter 5",
+      "outcome": "Joined the Fellowship"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_09",
+      "role": "conspirator",
+      "chapter": "Chapter 5",
+      "outcome": "Joined the Fellowship"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_09",
+      "role": "conspirator",
+      "chapter": "Chapter 5",
+      "outcome": "Joined the Fellowship"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_10",
+      "role": "leader",
+      "chapter": "Chapter 5",
+      "outcome": "Reached Crickhollow"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_10",
+      "role": "companion",
+      "chapter": "Chapter 5",
+      "outcome": "Reached Crickhollow"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_10",
+      "role": "companion",
+      "chapter": "Chapter 5",
+      "outcome": "Reached Crickhollow"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_10",
+      "role": "companion",
+      "chapter": "Chapter 5",
+      "outcome": "Reached Crickhollow"
+    },
+    {
+      "character_id": "CHAR_17",
+      "event_id": "EVEN_10",
+      "role": "companion",
+      "chapter": "Chapter 5",
+      "outcome": "Reached Crickhollow"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_11",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Captured, then rescued"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_11",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Captured, then rescued"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_11",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Captured, then rescued"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_11",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Captured, then rescued"
+    },
+    {
+      "character_id": "CHAR_44",
+      "event_id": "EVEN_11",
+      "role": "rescuer",
+      "chapter": "Chapter 6",
+      "outcome": "Rescued hobbits"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_12",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Captured, then rescued"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_12",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Captured, then rescued"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_12",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Captured, then rescued"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_12",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Captured, then rescued"
+    },
+    {
+      "character_id": "CHAR_44",
+      "event_id": "EVEN_12",
+      "role": "rescuer",
+      "chapter": "Chapter 6",
+      "outcome": "Rescued hobbits"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_13",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Escaped the Black Riders"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_13",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Escaped the Black Riders"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_13",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Escaped the Black Riders"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_13",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Escaped the Black Riders"
+    },
+    {
+      "character_id": "CHAR_52",
+      "event_id": "EVEN_13",
+      "role": "elf-lord",
+      "chapter": "Chapter 6",
+      "outcome": "Helped hobbits escape"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_14",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_14",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_14",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_14",
+      "role": "hobbit",
+      "chapter": "Chapter 6",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_52",
+      "event_id": "EVEN_14",
+      "role": "elf-lord",
+      "chapter": "Chapter 6",
+      "outcome": "Helped hobbits escape"
+    },
+    {
+      "character_id": "CHAR_53",
+      "event_id": "EVEN_14",
+      "role": "elf-lord",
+      "chapter": "Chapter 6",
+      "outcome": "Summoned the flood"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_15",
+      "role": "ring-bearer",
+      "chapter": "Chapter 7",
+      "outcome": "Fellowship formed"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_15",
+      "role": "wizard",
+      "chapter": "Chapter 7",
+      "outcome": "Fellowship formed"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_15",
+      "role": "hobbit",
+      "chapter": "Chapter 7",
+      "outcome": "Fellowship formed"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_15",
+      "role": "hobbit",
+      "chapter": "Chapter 7",
+      "outcome": "Fellowship formed"
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_15",
+      "role": "hobbit",
+      "chapter": "Chapter 7",
+      "outcome": "Fellowship formed"
+    },
+    {
+      "character_id": "CHAR_43",
+      "event_id": "EVEN_15",
+      "role": "ranger",
+      "chapter": "Chapter 7",
+      "outcome": "Fellowship formed"
+    },
+    {
+      "character_id": "CHAR_53",
+      "event_id": "EVEN_15",
+      "role": "elf-lord",
+      "chapter": "Chapter 7",
+      "outcome": "Hosted the Council"
+    },
+    {
+      "character_id": "CHAR_52",
+      "event_id": "EVEN_15",
+      "role": "elf-lord",
+      "chapter": "Chapter 7",
+      "outcome": "Attended the Council"
+    },
+    {
+      "character_id": "CHAR_57",
+      "event_id": "EVEN_15",
+      "role": "dwarf",
+      "chapter": "Chapter 7",
+      "outcome": "Attended the Council"
+    },
+    {
+      "character_id": "CHAR_58",
+      "event_id": "EVEN_15",
+      "role": "dwarf",
+      "chapter": "Chapter 7",
+      "outcome": "Attended the Council"
+    },
+    {
+      "character_id": "CHAR_62",
+      "event_id": "EVEN_15",
+      "role": "elf",
+      "chapter": "Chapter 7",
+      "outcome": "Attended the Council"
+    },
+    {
+      "character_id": "CHAR_64",
+      "event_id": "EVEN_15",
+      "role": "man",
+      "chapter": "Chapter 7",
+      "outcome": "Attended the Council"
+    }
+  ],
+  "Event_CAUSED": [
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_01",
+      "intention": "intentional",
+      "chapter": "1",
+      "method": "Organized and hosted the party"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_03",
+      "intention": "intentional",
+      "chapter": "1",
+      "method": "Named Frodo as his heir"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_02",
+      "intention": "unintentional",
+      "chapter": "1",
+      "method": "Got lost in the goblin tunnels and stumbled upon it"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_04",
+      "intention": "intentional",
+      "chapter": "2",
+      "method": "Revealed the Ring's nature to Frodo"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_05",
+      "intention": "indirect",
+      "chapter": "2",
+      "method": "His warning prompted their departure"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_09",
+      "intention": "intentional",
+      "chapter": "5",
+      "method": "Revealed their knowledge of the Ring to Frodo"
+    },
+    {
+      "character_id": "CHAR_44",
+      "event_id": "EVEN_11",
+      "intention": "unintentional",
+      "chapter": "6",
+      "method": "The hobbits trespassed and were trapped"
+    },
+    {
+      "character_id": "CHAR_44",
+      "event_id": "EVEN_12",
+      "intention": "unintentional",
+      "chapter": "6",
+      "method": "The hobbits trespassed and were trapped"
+    },
+    {
+      "character_id": "CHAR_36",
+      "event_id": "EVEN_08",
+      "intention": "unintentional",
+      "chapter": "4",
+      "method": "The hobbits trespassed on his land, leading to the encounter"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_05",
+      "intention": "intentional",
+      "chapter": "1",
+      "method": "Announced his departure and left the Shire"
+    },
+    {
+      "character_id": "CHAR_20",
+      "event_id": "EVEN_02",
+      "intention": "unintentional",
+      "chapter": "1",
+      "method": "Lost the Ring in the goblin tunnels"
+    },
+    {
+      "character_id": "CHAR_39",
+      "event_id": "EVEN_02",
+      "intention": "unintentional",
+      "chapter": "Prologue 4",
+      "method": "Lost the ring while hunting orcs"
+    },
+    {
+      "character_id": "CHAR_53",
+      "event_id": "EVEN_14",
+      "intention": "intentional",
+      "chapter": "12",
+      "method": "Summoned a flood"
+    },
+    {
+      "character_id": "CHAR_53",
+      "event_id": "EVEN_15",
+      "intention": "intentional",
+      "chapter": "Book Two 2",
+      "method": "Called the Council"
+    }
+  ],
+  "Organization_MEMBER_OF": [
+    {
+      "character_id": "CHAR_46",
+      "organization_id": "ORGA_02",
+      "role": "Member",
+      "status": "active"
+    }
+  ],
+  "Organization_LEADER_OF": [
+    {
+      "character_id": "CHAR_19",
+      "organization_id": "ORGA_02",
+      "title": null,
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_25",
+      "organization_id": "ORGA_01",
+      "title": "Thain",
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_77",
+      "organization_id": "ORGA_01",
+      "title": "Mayor",
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_78",
+      "organization_id": "ORGA_03",
+      "title": null,
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_40",
+      "organization_id": null,
+      "title": "Elf-king",
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_41",
+      "organization_id": null,
+      "title": "King of Westernesse",
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_63",
+      "organization_id": null,
+      "title": "Elf-king",
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_95",
+      "organization_id": null,
+      "title": "Elf-king",
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_46",
+      "organization_id": null,
+      "title": null,
+      "start_chapter": "Chapter 6",
+      "end_chapter": null,
+      "leadership_style": null
+    }
+  ],
+  "Item_POSSESSES": [
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_01",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_05",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_06",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_03",
+      "item_id": "ITEM_07",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_43",
+      "item_id": "ITEM_08",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_64",
+      "item_id": "ITEM_09",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_58",
+      "item_id": "ITEM_10",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_62",
+      "item_id": "ITEM_11",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_62",
+      "item_id": "ITEM_12",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_15",
+      "item_id": "ITEM_13",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_16",
+      "item_id": "ITEM_13",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_14",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_16",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_90",
+      "item_id": "ITEM_17",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_43",
+      "item_id": "ITEM_22",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "gifted"
+    }
+  ],
+  "Creature_BELONGS_TO_SPECIES": [
+    {
+      "character_id": "CHAR_01",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": [
+        "Love peace and quiet",
+        "Love good tilled earth",
+        "Do not like machines",
+        "Skilful with tools",
+        "Quick of hearing",
+        "Sharp-eyed",
+        "Nimble and deft",
+        "Art of disappearing swiftly and silently"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": [
+        "Love peace and quiet",
+        "Love good tilled earth",
+        "Do not like machines",
+        "Skilful with tools",
+        "Quick of hearing",
+        "Sharp-eyed",
+        "Nimble and deft",
+        "Art of disappearing swiftly and silently"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": [
+        "Love peace and quiet",
+        "Love good tilled earth",
+        "Do not like machines",
+        "Skilful with tools",
+        "Quick of hearing",
+        "Sharp-eyed",
+        "Nimble and deft",
+        "Art of disappearing swiftly and silently"
+      ]
+    },
+    {
+      "character_id": "CHAR_15",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": [
+        "Love peace and quiet",
+        "Love good tilled earth",
+        "Do not like machines",
+        "Skilful with tools",
+        "Quick of hearing",
+        "Sharp-eyed",
+        "Nimble and deft",
+        "Art of disappearing swiftly and silently"
+      ]
+    },
+    {
+      "character_id": "CHAR_16",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": [
+        "Love peace and quiet",
+        "Love good tilled earth",
+        "Do not like machines",
+        "Skilful with tools",
+        "Quick of hearing",
+        "Sharp-eyed",
+        "Nimble and deft",
+        "Art of disappearing swiftly and silently"
+      ]
+    },
+    {
+      "character_id": "CHAR_17",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": [
+        "Love peace and quiet",
+        "Love good tilled earth",
+        "Do not like machines",
+        "Skilful with tools",
+        "Quick of hearing",
+        "Sharp-eyed",
+        "Nimble and deft",
+        "Art of disappearing swiftly and silently"
+      ]
+    },
+    {
+      "character_id": "CHAR_18",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": [
+        "Love peace and quiet",
+        "Love good tilled earth",
+        "Do not like machines",
+        "Skilful with tools",
+        "Quick of hearing",
+        "Sharp-eyed",
+        "Nimble and deft",
+        "Art of disappearing swiftly and silently"
+      ]
+    },
+    {
+      "character_id": "CHAR_20",
+      "creature_id": "CREA_10",
+      "purity": "Formerly a hobbit",
+      "chapter": "Prologue",
+      "traits": [
+        "Loathsome creature",
+        "Obsessed with the Ring"
+      ]
+    },
+    {
+      "character_id": "CHAR_19",
+      "creature_id": "CREA_02",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_46",
+      "creature_id": "CREA_01",
+      "purity": "Pure-blooded",
+      "chapter": "Three is Company",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_52",
+      "creature_id": "CREA_01",
+      "purity": "Pure-blooded",
+      "chapter": "Flight to the Ford",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_57",
+      "creature_id": "CREA_02",
+      "purity": "Pure-blooded",
+      "chapter": "Many Meetings",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_58",
+      "creature_id": "CREA_02",
+      "purity": "Pure-blooded",
+      "chapter": "Many Meetings",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_62",
+      "creature_id": "CREA_01",
+      "purity": "Pure-blooded",
+      "chapter": "Many Meetings",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_64",
+      "creature_id": "CREA_04",
+      "purity": "Pure-blooded",
+      "chapter": "Many Meetings",
+      "traits": []
+    }
+  ],
+  "Event_BEFORE": [
+    {
+      "earlier_event_id": "EVEN_02",
+      "later_event_id": "EVEN_01",
+      "time_gap": "60 years",
+      "causality": "unrelated",
+      "narrative_order": false
+    },
+    {
+      "earlier_event_id": "EVEN_01",
+      "later_event_id": "EVEN_03",
+      "time_gap": "concurrent",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_03",
+      "later_event_id": "EVEN_04",
+      "time_gap": "years",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_04",
+      "later_event_id": "EVEN_05",
+      "time_gap": "unspecified",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_05",
+      "later_event_id": "EVEN_06",
+      "time_gap": "unspecified",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_06",
+      "later_event_id": "EVEN_07",
+      "time_gap": "unspecified",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_07",
+      "later_event_id": "EVEN_08",
+      "time_gap": "unspecified",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_05",
+      "later_event_id": "EVEN_09",
+      "time_gap": "unspecified",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_09",
+      "later_event_id": "EVEN_10",
+      "time_gap": "unspecified",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_10",
+      "later_event_id": "EVEN_11",
+      "time_gap": "unspecified",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_11",
+      "later_event_id": "EVEN_12",
+      "time_gap": "unspecified",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_12",
+      "later_event_id": "EVEN_13",
+      "time_gap": "unspecified",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_13",
+      "later_event_id": "EVEN_14",
+      "time_gap": "unspecified",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_14",
+      "later_event_id": "EVEN_15",
+      "time_gap": "unspecified",
+      "causality": "direct",
+      "narrative_order": true
+    }
+  ],
+  "Event_AFTER": [
+    {
+      "later_event_id": "EVEN_01",
+      "earlier_event_id": "EVEN_02",
+      "time_gap": "Many years",
+      "consequence": false,
+      "chapters": [
+        "Prologue",
+        "Chapter 1"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_03",
+      "earlier_event_id": "EVEN_01",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 1"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_04",
+      "earlier_event_id": "EVEN_03",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 2"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_05",
+      "earlier_event_id": "EVEN_04",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 2",
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_06",
+      "earlier_event_id": "EVEN_05",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_07",
+      "earlier_event_id": "EVEN_06",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_09",
+      "earlier_event_id": "EVEN_05",
+      "time_gap": "Unknown",
+      "consequence": false,
+      "chapters": [
+        "Chapter 3",
+        "Chapter 5"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_10",
+      "earlier_event_id": "EVEN_09",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 3",
+        "Chapter 5"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_11",
+      "earlier_event_id": "EVEN_10",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_12",
+      "earlier_event_id": "EVEN_11",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 6",
+        "Chapter 8"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_13",
+      "earlier_event_id": "EVEN_12",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 8"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_14",
+      "earlier_event_id": "EVEN_13",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 12"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_15",
+      "earlier_event_id": "EVEN_14",
+      "time_gap": "Unknown",
+      "consequence": true,
+      "chapters": [
+        "Chapter 12",
+        "Book Two Chapter 2"
+      ]
+    }
+  ]
+}

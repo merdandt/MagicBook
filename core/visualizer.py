@@ -182,7 +182,6 @@ def create_plotly_graph(G, book_name):
     # Create the figure
     layout = go.Layout(
         title=book_name,
-        titlefont=dict(size=16),
         showlegend=True,
         hovermode='closest',
         margin=dict(b=20, l=5, r=5, t=40),

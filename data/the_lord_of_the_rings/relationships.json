@@ -1,0 +1,1120 @@
+{
+  "Family_PARENT_OF": [
+    {
+      "parent_id": "CHAR_01",
+      "child_id": "CHAR_02",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    }
+  ],
+  "Family_MARRIED_TO": [
+    {
+      "spouse1_id": "CHAR_01",
+      "spouse2_id": null,
+      "status": "widowed",
+      "political": null,
+      "confirmed": false,
+      "chapter": null
+    },
+    {
+      "spouse1_id": "CHAR_02",
+      "spouse2_id": null,
+      "status": "single",
+      "political": null,
+      "confirmed": true,
+      "chapter": null
+    },
+    {
+      "spouse1_id": "CHAR_17",
+      "spouse2_id": null,
+      "status": "widowed",
+      "political": null,
+      "confirmed": false,
+      "chapter": null
+    },
+    {
+      "spouse1_id": "CHAR_05",
+      "spouse2_id": null,
+      "status": "married",
+      "political": null,
+      "confirmed": true,
+      "chapter": null
+    },
+    {
+      "spouse1_id": "CHAR_14",
+      "spouse2_id": "CHAR_15",
+      "status": "active",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 7"
+    },
+    {
+      "spouse1_id": "CHAR_22",
+      "spouse2_id": null,
+      "status": "married",
+      "political": null,
+      "confirmed": false,
+      "chapter": null
+    }
+  ],
+  "Family_SIBLING_OF": [],
+  "Emotional_LOVES": [
+    {
+      "lover_id": "CHAR_08",
+      "beloved_id": "CHAR_11",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Appendix A"
+      ]
+    },
+    {
+      "lover_id": "CHAR_04",
+      "beloved_id": "CHAR_02",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 2",
+        "Chapter 5",
+        "Chapter 10"
+      ]
+    },
+    {
+      "lover_id": "CHAR_14",
+      "beloved_id": "CHAR_15",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 6",
+        "Chapter 7"
+      ]
+    },
+    {
+      "lover_id": "CHAR_07",
+      "beloved_id": "The One Ring",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2",
+        "Chapter 12"
+      ]
+    }
+  ],
+  "Interaction_INTERACTED_WITH": [],
+  "Location_PRESENT_AT": [],
+  "Location_LIVES_IN": [],
+  "Location_TRAVELED_TO": [],
+  "Event_PARTICIPATED_IN": [
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_01",
+      "role": "host",
+      "chapter": "Chapter 1",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "Inherited Bag End"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_01",
+      "role": "guest",
+      "chapter": "Chapter 1",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_02",
+      "role": "listener",
+      "chapter": "Chapter 2",
+      "outcome": "Learned about the Ring's true nature"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_02",
+      "role": "speaker",
+      "chapter": "Chapter 2",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_03",
+      "role": "leader",
+      "chapter": "Chapter 3",
+      "outcome": "Left Bag End"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_03",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_03",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_03",
+      "role": "companion",
+      "chapter": "Chapter 3",
+      "outcome": "Left the Shire"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_04",
+      "role": "witness",
+      "chapter": "Chapter 5",
+      "outcome": "Felt fear"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "role": "witness",
+      "chapter": "Chapter 5",
+      "outcome": "Felt fear"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_04",
+      "role": "witness",
+      "chapter": "Chapter 5",
+      "outcome": "Felt fear"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_04",
+      "role": "witness",
+      "chapter": "Chapter 5",
+      "outcome": "Felt fear"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_05",
+      "role": "hobbit",
+      "chapter": "Chapter 7",
+      "outcome": "Warned about Black Riders"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_05",
+      "role": "hobbit",
+      "chapter": "Chapter 7",
+      "outcome": "Warned about Black Riders"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_05",
+      "role": "hobbit",
+      "chapter": "Chapter 7",
+      "outcome": "Warned about Black Riders"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_05",
+      "role": "hobbit",
+      "chapter": "Chapter 7",
+      "outcome": "Warned about Black Riders"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_06",
+      "role": "traveler",
+      "chapter": "Chapter 6",
+      "outcome": "Trapped by Old Man Willow"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_06",
+      "role": "traveler",
+      "chapter": "Chapter 6",
+      "outcome": "Trapped by Old Man Willow"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_06",
+      "role": "traveler",
+      "chapter": "Chapter 6",
+      "outcome": "Trapped by Old Man Willow"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_06",
+      "role": "traveler",
+      "chapter": "Chapter 6",
+      "outcome": "Trapped by Old Man Willow"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_07",
+      "role": "captive",
+      "chapter": "Chapter 6",
+      "outcome": "Rescued"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_07",
+      "role": "captive",
+      "chapter": "Chapter 6",
+      "outcome": "Rescued"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_07",
+      "role": "captive",
+      "chapter": "Chapter 6",
+      "outcome": "Rescued"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_07",
+      "role": "captive",
+      "chapter": "Chapter 6",
+      "outcome": "Rescued"
+    },
+    {
+      "character_id": "CHAR_14",
+      "event_id": "EVEN_07",
+      "role": "rescuer",
+      "chapter": "Chapter 6",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_09",
+      "role": "guest",
+      "chapter": "Chapter 9",
+      "outcome": "Drew attention"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_09",
+      "role": "guest",
+      "chapter": "Chapter 9",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_09",
+      "role": "guest",
+      "chapter": "Chapter 9",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_09",
+      "role": "guest",
+      "chapter": "Chapter 9",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_09",
+      "role": "observer",
+      "chapter": "Chapter 9",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_11",
+      "role": "victim",
+      "chapter": "Chapter 11",
+      "outcome": "Wounded"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_11",
+      "role": "companion",
+      "chapter": "Chapter 11",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_11",
+      "role": "companion",
+      "chapter": "Chapter 11",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_11",
+      "role": "companion",
+      "chapter": "Chapter 11",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_11",
+      "role": "protector",
+      "chapter": "Chapter 11",
+      "outcome": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_12",
+      "role": "fleeing",
+      "chapter": "Chapter 12",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_12",
+      "role": "fleeing",
+      "chapter": "Chapter 12",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_12",
+      "role": "fleeing",
+      "chapter": "Chapter 12",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_12",
+      "role": "fleeing",
+      "chapter": "Chapter 12",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_12",
+      "role": "fleeing",
+      "chapter": "Chapter 12",
+      "outcome": "Reached Rivendell"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_16",
+      "role": "ring-bearer",
+      "chapter": "Breaking of the Fellowship",
+      "outcome": "Separated from the Fellowship"
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_16",
+      "role": "aggressor",
+      "chapter": "Breaking of the Fellowship",
+      "outcome": "Death"
+    }
+  ],
+  "Event_CAUSED": [
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_01",
+      "intention": "intentional",
+      "chapter": "1",
+      "method": "Throwing a party"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_02",
+      "intention": "indirect",
+      "chapter": "2",
+      "method": "Leaving the ring for Frodo"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_03",
+      "intention": "indirect",
+      "chapter": "2",
+      "method": "Revealing the nature of the ring and urging Frodo to leave"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_03",
+      "intention": "intentional",
+      "chapter": "2",
+      "method": "Deciding to leave Shire"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_02",
+      "intention": "indirect",
+      "chapter": "2",
+      "method": "His history with the ring"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_04",
+      "intention": "indirect",
+      "chapter": "4",
+      "method": "Telling the Enemy about the Shire"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_09",
+      "intention": "unintentional",
+      "chapter": "9",
+      "method": "Revealing the Ring's power"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_06",
+      "intention": "intentional",
+      "chapter": "6",
+      "method": "Choosing to enter the Old Forest"
+    },
+    {
+      "character_id": "CHAR_14",
+      "event_id": "EVEN_07",
+      "intention": "intentional",
+      "chapter": "6",
+      "method": "Using his power of song"
+    },
+    {
+      "character_id": "CHAR_14",
+      "event_id": "EVEN_08",
+      "intention": "intentional",
+      "chapter": "8",
+      "method": "Using his power of song"
+    },
+    {
+      "character_id": "CHAR_08",
+      "event_id": "EVEN_10",
+      "intention": "intentional",
+      "chapter": "10",
+      "method": "Revealing his identity and offering guidance"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_11",
+      "intention": "indirect",
+      "chapter": "11",
+      "method": "Informing the Enemy of Frodo's location"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_12",
+      "intention": "intentional",
+      "chapter": "12",
+      "method": "Summoning a flood"
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_13",
+      "intention": "intentional",
+      "chapter": "N/A",
+      "method": "Calling the Council"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_14",
+      "intention": "indirect",
+      "chapter": "N/A",
+      "method": "Leading the Fellowship through Moria"
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_16",
+      "intention": "intentional",
+      "chapter": "N/A",
+      "method": "Attempting to take the Ring"
+    }
+  ],
+  "Organization_MEMBER_OF": [
+    {
+      "character_id": "CHAR_02",
+      "organization_id": "ORGA_02",
+      "role": "Ring-bearer",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_03",
+      "organization_id": "ORGA_02",
+      "role": "Guide",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_04",
+      "organization_id": "ORGA_02",
+      "role": "Companion",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_05",
+      "organization_id": "ORGA_02",
+      "role": "Companion",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_06",
+      "organization_id": "ORGA_02",
+      "role": "Companion",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_08",
+      "organization_id": "ORGA_02",
+      "role": "Guide",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_08",
+      "organization_id": "ORGA_03",
+      "role": "Ranger",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_08",
+      "organization_id": "ORGA_04",
+      "role": "Heir of Isildur",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_09",
+      "organization_id": "ORGA_02",
+      "role": "Companion",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_12",
+      "organization_id": "ORGA_02",
+      "role": "Companion",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_13",
+      "organization_id": "ORGA_02",
+      "role": "Companion",
+      "join_chapter": "Book Two, Chapter 3",
+      "status": "active"
+    }
+  ],
+  "Organization_LEADER_OF": [
+    {
+      "character_id": "CHAR_10",
+      "organization_id": null,
+      "title": "Lord of Rivendell",
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_11",
+      "organization_id": null,
+      "title": "Lady of Lothlórien",
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_03",
+      "organization_id": "ORGA_01",
+      "title": null,
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_03",
+      "organization_id": "ORGA_02",
+      "title": null,
+      "start_chapter": "Prologue",
+      "end_chapter": "Book 2, Chapter 10",
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_08",
+      "organization_id": "ORGA_02",
+      "title": null,
+      "start_chapter": "Book 2, Chapter 10",
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_08",
+      "organization_id": "ORGA_03",
+      "title": null,
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_08",
+      "organization_id": "ORGA_04",
+      "title": "Chieftain",
+      "start_chapter": null,
+      "end_chapter": "Appendix A",
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_08",
+      "organization_id": "ORGA_04",
+      "title": "King",
+      "start_chapter": "Appendix A",
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": null,
+      "organization_id": "ORGA_05",
+      "title": null,
+      "start_chapter": null,
+      "end_chapter": null,
+      "leadership_style": null
+    },
+    {
+      "character_id": "CHAR_14",
+      "organization_id": null,
+      "title": "Master",
+      "start_chapter": "Chapter 7",
+      "end_chapter": null,
+      "leadership_style": null
+    }
+  ],
+  "Item_POSSESSES": [
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_01",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_05",
+      "acquisition_chapter": "Not mentioned",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_06",
+      "acquisition_chapter": "Not mentioned",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_01",
+      "acquisition_chapter": "Chapter 1",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_05",
+      "acquisition_chapter": "Chapter 1",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_06",
+      "acquisition_chapter": "Chapter 1",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_10",
+      "acquisition_chapter": "Not mentioned",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_03",
+      "item_id": "ITEM_09",
+      "acquisition_chapter": "Not mentioned",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_05",
+      "item_id": "ITEM_13",
+      "acquisition_chapter": "Not mentioned",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_01",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_07",
+      "acquisition_chapter": "Not mentioned",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_08",
+      "item_id": "ITEM_08",
+      "acquisition_chapter": "Not mentioned",
+      "current": false,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_09",
+      "item_id": "ITEM_11",
+      "acquisition_chapter": "Not mentioned",
+      "current": false,
+      "method": "Not mentioned"
+    }
+  ],
+  "Creature_BELONGS_TO_SPECIES": [
+    {
+      "character_id": "CHAR_01",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_05",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_06",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Prologue",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_07",
+      "creature_id": "CREA_03",
+      "purity": "Corrupted",
+      "chapter": "Prologue",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_10",
+      "creature_id": "CREA_01",
+      "purity": "Half-elven",
+      "chapter": "Foreword",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_11",
+      "creature_id": "CREA_01",
+      "purity": "Pure-blooded",
+      "chapter": "Foreword",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_12",
+      "creature_id": "CREA_01",
+      "purity": "Pure-blooded",
+      "chapter": "Foreword",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_13",
+      "creature_id": "CREA_02",
+      "purity": "Pure-blooded",
+      "chapter": "Foreword",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_16",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Foreword",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_17",
+      "creature_id": "CREA_03",
+      "purity": "Pure-blooded",
+      "chapter": "Foreword",
+      "traits": []
+    }
+  ],
+  "Event_BEFORE": [
+    {
+      "earlier_event_id": "EVEN_01",
+      "later_event_id": "EVEN_02",
+      "time_gap": "A few days",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_02",
+      "later_event_id": "EVEN_03",
+      "time_gap": "A few days",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_03",
+      "later_event_id": "EVEN_04",
+      "time_gap": "A few days",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_04",
+      "later_event_id": "EVEN_05",
+      "time_gap": "A short time",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_05",
+      "later_event_id": "EVEN_06",
+      "time_gap": "A short time",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_06",
+      "later_event_id": "EVEN_07",
+      "time_gap": "A short time",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_07",
+      "later_event_id": "EVEN_08",
+      "time_gap": "A short time",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_08",
+      "later_event_id": "EVEN_09",
+      "time_gap": "A short time",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_09",
+      "later_event_id": "EVEN_10",
+      "time_gap": "A short time",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_10",
+      "later_event_id": "EVEN_11",
+      "time_gap": "A short time",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_11",
+      "later_event_id": "EVEN_12",
+      "time_gap": "A short time",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_12",
+      "later_event_id": "EVEN_13",
+      "time_gap": "A short time",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_13",
+      "later_event_id": "EVEN_14",
+      "time_gap": "A short time",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_14",
+      "later_event_id": "EVEN_15",
+      "time_gap": "A short time",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_15",
+      "later_event_id": "EVEN_16",
+      "time_gap": "A short time",
+      "causality": "unrelated",
+      "narrative_order": true
+    }
+  ],
+  "Event_AFTER": [
+    {
+      "later_event_id": "EVEN_02",
+      "earlier_event_id": "EVEN_01",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_03",
+      "earlier_event_id": "EVEN_02",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 2",
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_04",
+      "earlier_event_id": "EVEN_03",
+      "time_gap": "A short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_05",
+      "earlier_event_id": "EVEN_04",
+      "time_gap": "A short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_06",
+      "earlier_event_id": "EVEN_05",
+      "time_gap": "A short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 3",
+        "Chapter 6"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_07",
+      "earlier_event_id": "EVEN_06",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 6",
+        "Chapter 7"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_08",
+      "earlier_event_id": "EVEN_07",
+      "time_gap": "A short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 7",
+        "Chapter 8"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_09",
+      "earlier_event_id": "EVEN_08",
+      "time_gap": "A short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 8",
+        "Chapter 9"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_10",
+      "earlier_event_id": "EVEN_09",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 9",
+        "Chapter 10"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_11",
+      "earlier_event_id": "EVEN_10",
+      "time_gap": "A short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 10",
+        "Chapter 11"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_12",
+      "earlier_event_id": "EVEN_11",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 11",
+        "Chapter 12"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_13",
+      "earlier_event_id": "EVEN_12",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 12",
+        "Book Two Chapter 2"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_14",
+      "earlier_event_id": "EVEN_13",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Book Two Chapter 2",
+        "Book Two Chapter 5"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_15",
+      "earlier_event_id": "EVEN_14",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Book Two Chapter 5",
+        "Book Two Chapter 6"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_16",
+      "earlier_event_id": "EVEN_15",
+      "time_gap": "A short time",
+      "consequence": false,
+      "chapters": [
+        "Book Two Chapter 6",
+        "Book Two Chapter 10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1594 @@
+{
+  "CREATURE": [
+    {
+      "name": "Wizard",
+      "description": "Humans with magical abilities.",
+      "significance": "Wizards and witches are central to the narrative, driving the plot and forming the magical world.",
+      "_key": "CREA_01"
+    },
+    {
+      "name": "Dark Lord",
+      "description": "An evil wizard who killed Harry's parents.",
+      "significance": "The main antagonist of the series, Voldemort's actions set the story in motion.",
+      "_key": "CREA_02"
+    },
+    {
+      "name": "Muggle",
+      "description": "Non-magical humans.",
+      "significance": "Muggles represent the ordinary world in contrast to the magical world, and Harry's upbringing with the Dursleys highlights this difference.",
+      "_key": "CREA_03"
+    },
+    {
+      "name": "Ghost",
+      "description": "Spirits of deceased wizards and witches that inhabit Hogwarts.",
+      "significance": "Ghosts add to the magical atmosphere of Hogwarts and sometimes offer insights or guidance.",
+      "_key": "CREA_04"
+    },
+    {
+      "name": "Three-headed dog",
+      "description": "A monstrous dog named Fluffy that guards the trapdoor.",
+      "significance": "Fluffy is one of the obstacles protecting the Philosopher's Stone.",
+      "_key": "CREA_05"
+    },
+    {
+      "name": "Cat",
+      "description": "Professor McGonagall can transform into a cat.",
+      "significance": "McGonagall's animagus form allows her to observe events discreetly.",
+      "_key": "CREA_06"
+    },
+    {
+      "name": "Owl",
+      "description": "Used for delivering mail in the wizarding world.",
+      "significance": "Owls are a common means of communication and transportation in the magical world.",
+      "_key": "CREA_07"
+    },
+    {
+      "name": "Gorilla",
+      "description": "An animal at the zoo that resembles Dudley.",
+      "significance": "A humorous comparison highlighting Dudley's physical characteristics.",
+      "_key": "CREA_08"
+    },
+    {
+      "name": "Boa Constrictor",
+      "description": "A snake from Brazil that Harry sets free.",
+      "significance": "The boa constrictor incident demonstrates Harry's unintentional magic.",
+      "_key": "CREA_09"
+    },
+    {
+      "name": "Spider",
+      "description": "Found in Harry's cupboard under the stairs.",
+      "significance": "Spiders symbolize the neglect and unpleasantness of Harry's living conditions.",
+      "_key": "CREA_10"
+    },
+    {
+      "name": "Goblin",
+      "description": "Creatures that run Gringotts Wizarding Bank.",
+      "significance": "Goblins play a crucial role in the wizarding economy and security.",
+      "_key": "CREA_11"
+    },
+    {
+      "name": "Dragon",
+      "description": "Magical creatures said to guard high-security vaults at Gringotts.",
+      "significance": "Dragons are mentioned as powerful and dangerous creatures, adding to the mystique of Gringotts.",
+      "_key": "CREA_12"
+    },
+    {
+      "name": "Troll",
+      "description": "A large, dim-witted creature that enters Hogwarts.",
+      "significance": "The troll incident solidifies the friendship between Harry, Ron, and Hermione.",
+      "_key": "CREA_13"
+    },
+    {
+      "name": "Poltergeist",
+      "description": "A mischievous spirit that causes trouble at Hogwarts.",
+      "significance": "Peeves adds to the chaotic and unpredictable nature of Hogwarts.",
+      "_key": "CREA_14"
+    },
+    {
+      "name": "Centaur",
+      "description": "Creatures that live in the Forbidden Forest and have knowledge of the stars.",
+      "significance": "Centaurs offer cryptic prophecies and warnings, adding a layer of mystery to the narrative.",
+      "_key": "CREA_15"
+    },
+    {
+      "name": "Unicorn",
+      "description": "A magical creature whose blood can keep someone alive at a terrible cost.",
+      "significance": "The unicorn's death and the drinking of its blood highlight the desperation of Voldemort's quest for immortality.",
+      "_key": "CREA_16"
+    },
+    {
+      "name": "Werewolf",
+      "description": "Dangerous creatures mentioned as inhabiting the Forbidden Forest.",
+      "significance": "Werewolves add to the sense of danger and mystery surrounding the Forbidden Forest.",
+      "_key": "CREA_17"
+    },
+    {
+      "name": "Dragon",
+      "description": "Hagrid illegally hatches a Norwegian Ridgeback dragon named Norbert.",
+      "significance": "Norbert's presence creates further complications and risks for Harry and his friends.",
+      "_key": "CREA_18"
+    }
+  ],
+  "EVENT": [
+    {
+      "name": "Harry's Hogwarts Letter Arrives",
+      "type": "discovery",
+      "summary": "Harry Potter, an orphan living with his uncaring relatives, the Dursleys, receives a mysterious letter revealing his true identity as a wizard and his acceptance into Hogwarts School of Witchcraft and Wizardry. This marks the beginning of his journey into the magical world.",
+      "_key": "EVEN_01"
+    },
+    {
+      "name": "Zoo Incident",
+      "type": "magical event",
+      "summary": "During a visit to the zoo, Harry unknowingly communicates with a boa constrictor, causing the glass of its enclosure to disappear and the snake to escape. This event further hints at Harry's magical abilities.",
+      "_key": "EVEN_02"
+    },
+    {
+      "name": "Barrage of Hogwarts Letters",
+      "type": "magical event",
+      "summary": "The Dursleys try to prevent Harry from receiving more Hogwarts letters, but the letters arrive in increasingly bizarre ways, demonstrating the persistence of the magical world in contacting him.",
+      "_key": "EVEN_03"
+    },
+    {
+      "name": "Hagrid's Arrival",
+      "type": "meeting",
+      "summary": "Rubeus Hagrid, the half-giant gamekeeper of Hogwarts, arrives to personally deliver Harry's Hogwarts letter and inform him of his magical heritage and the truth about his parents' death.",
+      "_key": "EVEN_04"
+    },
+    {
+      "name": "Trip to Diagon Alley",
+      "type": "journey",
+      "summary": "Hagrid takes Harry to Diagon Alley, a hidden magical shopping street, to purchase his school supplies, including his wand, robes, and books. Harry experiences the wonder of the wizarding world for the first time.",
+      "_key": "EVEN_05"
+    },
+    {
+      "name": "Journey to Hogwarts",
+      "type": "journey",
+      "summary": "Harry travels to Hogwarts via the Hogwarts Express, departing from the concealed Platform Nine and Three-Quarters. He meets Ron Weasley and Hermione Granger, who become his close friends.",
+      "_key": "EVEN_06"
+    },
+    {
+      "name": "The Sorting Ceremony",
+      "type": "ceremony",
+      "summary": "Upon arrival at Hogwarts, Harry and the other first-year students participate in the Sorting Ceremony, where the Sorting Hat assigns them to their respective houses: Gryffindor, Hufflepuff, Ravenclaw, or Slytherin. Harry is sorted into Gryffindor.",
+      "_key": "EVEN_07"
+    },
+    {
+      "name": "First Flying Lesson",
+      "type": "lesson",
+      "summary": "Harry's natural talent for flying is revealed during his first flying lesson, leading to his selection as the Gryffindor Seeker, the youngest in a century.",
+      "_key": "EVEN_08"
+    },
+    {
+      "name": "The Midnight Duel",
+      "type": "confrontation",
+      "summary": "Harry, Ron, and Hermione encounter a troll in the dungeons on Halloween. They defeat the troll together, solidifying their friendship.",
+      "_key": "EVEN_09"
+    },
+    {
+      "name": "Harry's First Quidditch Match",
+      "type": "sports event",
+      "summary": "Harry plays his first Quidditch match against Slytherin, demonstrating exceptional skill and catching the Golden Snitch to secure a victory for Gryffindor.",
+      "_key": "EVEN_10"
+    },
+    {
+      "name": "Discovering Nicolas Flamel",
+      "type": "discovery",
+      "summary": "Harry, Ron, and Hermione discover the identity of Nicolas Flamel, the creator of the Philosopher's Stone, and realize that the Stone is being kept at Hogwarts.",
+      "_key": "EVEN_11"
+    },
+    {
+      "name": "Norbert the Dragon",
+      "type": "magical creature event",
+      "summary": "Hagrid acquires a Norwegian Ridgeback dragon egg, which hatches and becomes a growing problem. Harry, Ron, and Hermione arrange for Charlie Weasley to take the dragon to Romania.",
+      "_key": "EVEN_12"
+    },
+    {
+      "name": "The Forbidden Forest Incident",
+      "type": "exploration",
+      "summary": "Harry, Ron, Hermione, Neville, and Malfoy serve detention in the Forbidden Forest, where they encounter a dying unicorn and a mysterious cloaked figure drinking its blood. Harry suspects Voldemort's involvement.",
+      "_key": "EVEN_13"
+    },
+    {
+      "name": "Protecting the Stone",
+      "type": "confrontation",
+      "summary": "Harry, Ron, and Hermione believe Snape is trying to steal the Philosopher's Stone and decide to take action. They overcome various magical obstacles set by the teachers to protect the Stone.",
+      "_key": "EVEN_14"
+    },
+    {
+      "name": "Confronting Quirrell and Voldemort",
+      "type": "climax",
+      "summary": "Harry confronts Quirrell, who reveals that Voldemort is possessing him. Harry faces Voldemort and prevents him from obtaining the Philosopher's Stone, which is subsequently destroyed.",
+      "_key": "EVEN_15"
+    }
+  ],
+  "ORGANIZATION": [
+    {
+      "name": "Hogwarts School of Witchcraft and Wizardry",
+      "type": "school",
+      "description": "A school for young witches and wizards",
+      "significance": "The primary setting for the narrative and central to Harry's development as a wizard.",
+      "_key": "ORGA_01"
+    },
+    {
+      "name": "Grunnings",
+      "type": "company",
+      "description": "A company that makes drills, where Mr. Dursley works",
+      "significance": "Minor; establishes Mr. Dursley's character and the Dursleys' ordinary world.",
+      "_key": "ORGA_02"
+    },
+    {
+      "name": "Ministry of Magic",
+      "type": "government",
+      "description": "The governing body of the wizarding world in Britain",
+      "significance": "Mentioned as having offered Dumbledore the position of Minister and as a source of owls for Dumbledore.",
+      "_key": "ORGA_03"
+    },
+    {
+      "name": "Order of Merlin",
+      "type": "order",
+      "description": "A prestigious award in the wizarding world; Dumbledore is a First Class recipient",
+      "significance": "Minor; part of Dumbledore's title.",
+      "_key": "ORGA_04"
+    },
+    {
+      "name": "International Confederation of Wizards",
+      "type": "confederation",
+      "description": "A global organization of wizards; Dumbledore is the Supreme Mugwump",
+      "significance": "Minor; part of Dumbledore's title.",
+      "_key": "ORGA_05"
+    },
+    {
+      "name": "Smeltings",
+      "type": "school",
+      "description": "A private school for boys that Dudley attends",
+      "significance": "Minor; part of the contrast between Harry's and Dudley's lives.",
+      "_key": "ORGA_06"
+    },
+    {
+      "name": "Stonewall High",
+      "type": "school",
+      "description": "The local comprehensive school Harry is supposed to attend",
+      "significance": "Minor; part of the contrast between Harry's intended Muggle life and his wizarding destiny.",
+      "_key": "ORGA_07"
+    },
+    {
+      "name": "Gryffindor",
+      "type": "house",
+      "description": "One of the four houses at Hogwarts, known for bravery, nerve, and chivalry",
+      "significance": "Harry's house; a source of belonging and identity.",
+      "_key": "ORGA_08"
+    },
+    {
+      "name": "Hufflepuff",
+      "type": "house",
+      "description": "One of the four houses at Hogwarts, known for loyalty, hard work, and dedication",
+      "significance": "One of the houses at Hogwarts.",
+      "_key": "ORGA_09"
+    },
+    {
+      "name": "Ravenclaw",
+      "type": "house",
+      "description": "One of the four houses at Hogwarts, known for intelligence, learning, and wisdom",
+      "significance": "One of the houses at Hogwarts.",
+      "_key": "ORGA_10"
+    },
+    {
+      "name": "Slytherin",
+      "type": "house",
+      "description": "One of the four houses at Hogwarts, known for ambition, cunning, and resourcefulness",
+      "significance": "The house associated with Voldemort and Malfoy; often seen as antagonistic to Gryffindor.",
+      "_key": "ORGA_11"
+    },
+    {
+      "name": "Gringotts",
+      "type": "bank",
+      "description": "The wizarding bank run by goblins",
+      "significance": "Where Harry's fortune is kept; plays a role in the mystery of the Philosopher's Stone.",
+      "_key": "ORGA_12"
+    },
+    {
+      "name": "Warlocks' Convention",
+      "type": "convention",
+      "description": "Mentioned in relation to the outlawing of dragon breeding in 1709",
+      "significance": "Explains the illegality of Hagrid's dragon, Norbert.",
+      "_key": "ORGA_13"
+    }
+  ],
+  "ITEM": [
+    {
+      "name": "Letter to Harry",
+      "type": "letter",
+      "magical": true,
+      "description": "A letter written in emerald green ink on yellowish parchment, delivered by owl post, informing Harry Potter of his acceptance into Hogwarts School of Witchcraft and Wizardry.",
+      "origin": "Hogwarts School of Witchcraft and Wizardry",
+      "current_status": "destroyed",
+      "_key": "ITEM_01"
+    },
+    {
+      "name": "Put-Outer",
+      "type": "tool",
+      "magical": true,
+      "description": "A silver cigarette lighter-like device used by Albus Dumbledore to extinguish street lamps.",
+      "origin": "Unknown",
+      "current_status": "intact",
+      "_key": "ITEM_02"
+    },
+    {
+      "name": "Sherbet lemon",
+      "type": "food",
+      "magical": false,
+      "description": "A type of Muggle sweet that Dumbledore enjoys.",
+      "origin": "Muggle world",
+      "current_status": "eaten",
+      "_key": "ITEM_03"
+    },
+    {
+      "name": "Half-moon spectacles",
+      "type": "eyewear",
+      "magical": false,
+      "description": "Worn by Albus Dumbledore.",
+      "origin": "Unknown",
+      "current_status": "intact",
+      "_key": "ITEM_04"
+    },
+    {
+      "name": "Golden watch",
+      "type": "watch",
+      "magical": true,
+      "description": "A watch with twelve hands and planets instead of numbers, owned by Dumbledore.",
+      "origin": "Unknown",
+      "current_status": "intact",
+      "_key": "ITEM_05"
+    },
+    {
+      "name": "Flying motorbike",
+      "type": "vehicle",
+      "magical": true,
+      "description": "A motorbike capable of flight, borrowed by Hagrid from Sirius Black.",
+      "origin": "Unknown, owned by Sirius Black",
+      "current_status": "returned",
+      "_key": "ITEM_06"
+    },
+    {
+      "name": "Bundle of blankets",
+      "type": "blanket",
+      "magical": false,
+      "description": "Used to wrap baby Harry Potter.",
+      "origin": "Unknown",
+      "current_status": "unknown",
+      "_key": "ITEM_07"
+    },
+    {
+      "name": "Smeltings stick",
+      "type": "weapon",
+      "magical": false,
+      "description": "A knobbly stick carried by Smeltings schoolboys, used for hitting each other.",
+      "origin": "Smeltings School",
+      "current_status": "intact",
+      "_key": "ITEM_08"
+    },
+    {
+      "name": "Sellotape",
+      "type": "tool",
+      "magical": false,
+      "description": "Used to hold together Harry's broken glasses.",
+      "origin": "Muggle world",
+      "current_status": "used",
+      "_key": "ITEM_09"
+    },
+    {
+      "name": "Lemon ice lolly",
+      "type": "food",
+      "magical": false,
+      "description": "A cheap treat bought for Harry at the zoo.",
+      "origin": "Zoo vendor",
+      "current_status": "eaten",
+      "_key": "ITEM_10"
+    },
+    {
+      "name": "Knickerbocker glory",
+      "type": "food",
+      "magical": false,
+      "description": "An ice cream dish that Dudley enjoys.",
+      "origin": "Zoo restaurant",
+      "current_status": "eaten",
+      "_key": "ITEM_11"
+    },
+    {
+      "name": "Wizard coins",
+      "type": "currency",
+      "magical": true,
+      "description": "Galleons (gold), Sickles (silver), and Knuts (bronze).",
+      "origin": "Wizarding world",
+      "current_status": "intact",
+      "_key": "ITEM_12"
+    },
+    {
+      "name": "Canary-yellow circus tent",
+      "type": "unknown",
+      "magical": false,
+      "description": "A knitted item Hagrid works on during the train ride.",
+      "origin": "Hagrid's knitting",
+      "current_status": "unknown",
+      "_key": "ITEM_13"
+    },
+    {
+      "name": "Daily Prophet",
+      "type": "newspaper",
+      "magical": false,
+      "description": "The newspaper of the wizarding world.",
+      "origin": "Wizarding world",
+      "current_status": "read",
+      "_key": "ITEM_14"
+    },
+    {
+      "name": "School robes",
+      "type": "clothing",
+      "magical": false,
+      "description": "Plain black work robes worn by Hogwarts students.",
+      "origin": "Madam Malkin's Robes for All Occasions",
+      "current_status": "worn",
+      "_key": "ITEM_15"
+    },
+    {
+      "name": "Pointed hat",
+      "type": "clothing",
+      "magical": false,
+      "description": "A plain black hat for day wear at Hogwarts.",
+      "origin": "Madam Malkin's Robes for All Occasions",
+      "current_status": "worn",
+      "_key": "ITEM_16"
+    },
+    {
+      "name": "Protective gloves",
+      "type": "clothing",
+      "magical": false,
+      "description": "Dragon hide or similar.",
+      "origin": "Unknown",
+      "current_status": "unknown",
+      "_key": "ITEM_17"
+    },
+    {
+      "name": "Winter cloak",
+      "type": "clothing",
+      "magical": false,
+      "description": "Black with silver fastenings.",
+      "origin": "Madam Malkin's Robes for All Occasions",
+      "current_status": "worn",
+      "_key": "ITEM_18"
+    },
+    {
+      "name": "School books",
+      "type": "book",
+      "magical": true,
+      "description": "Textbooks on various magical subjects.",
+      "origin": "Flourish and Blotts",
+      "current_status": "read",
+      "_key": "ITEM_19"
+    },
+    {
+      "name": "Wand",
+      "type": "tool",
+      "magical": true,
+      "description": "Harry's wand is made of holly and phoenix feather, 11 inches long.",
+      "origin": "Ollivanders",
+      "current_status": "intact",
+      "_key": "ITEM_20"
+    },
+    {
+      "name": "Cauldron",
+      "type": "tool",
+      "magical": false,
+      "description": "A pewter cauldron for potion-making.",
+      "origin": "Unknown",
+      "current_status": "used",
+      "_key": "ITEM_21"
+    },
+    {
+      "name": "Phials",
+      "type": "tool",
+      "magical": false,
+      "description": "Glass or crystal phials for storing potions ingredients.",
+      "origin": "Unknown",
+      "current_status": "used",
+      "_key": "ITEM_22"
+    },
+    {
+      "name": "Telescope",
+      "type": "tool",
+      "magical": false,
+      "description": "A brass telescope for astronomy classes.",
+      "origin": "Unknown",
+      "current_status": "used",
+      "_key": "ITEM_23"
+    },
+    {
+      "name": "Brass scales",
+      "type": "tool",
+      "magical": false,
+      "description": "Used for weighing potion ingredients.",
+      "origin": "Unknown",
+      "current_status": "used",
+      "_key": "ITEM_24"
+    },
+    {
+      "name": "Snowy owl",
+      "type": "animal",
+      "magical": false,
+      "description": "Harry's pet owl, named Hedwig.",
+      "origin": "Eeylops Owl Emporium",
+      "current_status": "intact",
+      "_key": "ITEM_25"
+    },
+    {
+      "name": "Chocolate cake",
+      "type": "food",
+      "magical": false,
+      "description": "Hagrid's birthday gift to Harry.",
+      "origin": "Hagrid's baking",
+      "current_status": "eaten",
+      "_key": "ITEM_26"
+    },
+    {
+      "name": "Remembrall",
+      "type": "artifact",
+      "magical": true,
+      "description": "A small glass ball filled with white smoke that turns red when its owner has forgotten something.",
+      "origin": "Neville's grandmother",
+      "current_status": "intact",
+      "_key": "ITEM_27"
+    },
+    {
+      "name": "Nimbus Two Thousand",
+      "type": "broomstick",
+      "magical": true,
+      "description": "Harry's high-quality broomstick.",
+      "origin": "A gift from Professor McGonagall",
+      "current_status": "intact",
+      "_key": "ITEM_28"
+    },
+    {
+      "name": "Cleansweep Seven",
+      "type": "broomstick",
+      "magical": true,
+      "description": "Mentioned as a possible broomstick for Harry.",
+      "origin": "Unknown",
+      "current_status": "unknown",
+      "_key": "ITEM_29"
+    },
+    {
+      "name": "Bertie Bott's Every-Flavour Beans",
+      "type": "food",
+      "magical": true,
+      "description": "Beans with every flavour imaginable, including some unpleasant ones.",
+      "origin": "Honeydukes",
+      "current_status": "eaten",
+      "_key": "ITEM_30"
+    },
+    {
+      "name": "Chocolate Frogs",
+      "type": "food",
+      "magical": true,
+      "description": "Chocolate treats that come with collectible cards of famous witches and wizards.",
+      "origin": "Honeydukes",
+      "current_status": "eaten",
+      "_key": "ITEM_31"
+    },
+    {
+      "name": "Weasley jumper",
+      "type": "clothing",
+      "magical": false,
+      "description": "A hand-knitted jumper Mrs. Weasley makes for Harry.",
+      "origin": "Mrs. Weasley",
+      "current_status": "worn",
+      "_key": "ITEM_32"
+    },
+    {
+      "name": "Invisibility Cloak",
+      "type": "artifact",
+      "magical": true,
+      "description": "A cloak that makes the wearer invisible.",
+      "origin": "Harry's father, James Potter",
+      "current_status": "intact",
+      "_key": "ITEM_33"
+    },
+    {
+      "name": "Wizard crackers",
+      "type": "toy",
+      "magical": true,
+      "description": "Crackers that explode with a bang and release magical items.",
+      "origin": "Wizarding world",
+      "current_status": "used",
+      "_key": "ITEM_34"
+    },
+    {
+      "name": "Dragon egg",
+      "type": "item",
+      "magical": false,
+      "description": "A Norwegian Ridgeback dragon egg Hagrid wins in a card game.",
+      "origin": "Unknown",
+      "current_status": "hatched",
+      "_key": "ITEM_35"
+    },
+    {
+      "name": "Fluffy",
+      "type": "creature",
+      "magical": false,
+      "description": "A three-headed dog owned by Hagrid, guarding the trapdoor to the Philosopher's Stone.",
+      "origin": "Bought by Hagrid from a Greek man",
+      "current_status": "alive",
+      "_key": "ITEM_36"
+    },
+    {
+      "name": "Norbert",
+      "type": "creature",
+      "magical": false,
+      "description": "Hagrid's pet Norwegian Ridgeback dragon.",
+      "origin": "Hatched from the dragon egg",
+      "current_status": "given to Charlie Weasley",
+      "_key": "ITEM_37"
+    },
+    {
+      "name": "Philosopher's Stone",
+      "type": "artifact",
+      "magical": true,
+      "description": "A legendary substance that can turn metal into gold and produce the Elixir of Life.",
+      "origin": "Created by Nicolas Flamel",
+      "current_status": "destroyed",
+      "_key": "ITEM_38"
+    },
+    {
+      "name": "Mirror of Erised",
+      "type": "artifact",
+      "magical": true,
+      "description": "A mirror that shows the viewer their deepest desires.",
+      "origin": "Unknown",
+      "current_status": "moved",
+      "_key": "ITEM_39"
+    }
+  ],
+  "CHARACTER": [
+    {
+      "name": "Harry Potter",
+      "gender": "Male",
+      "age": 11,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Unhappy orphan, skinny, black hair, green eyes, round glasses, lightning bolt scar on forehead.",
+      "occupation": "Student, Seeker",
+      "significance": "Main",
+      "_key": "CHAR_01"
+    },
+    {
+      "name": "Vernon Dursley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Muggle",
+      "description": "Large, beefy man with a moustache, director of Grunnings.",
+      "occupation": "Drill company director",
+      "significance": "Supporting",
+      "_key": "CHAR_02"
+    },
+    {
+      "name": "Petunia Dursley",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Muggle",
+      "description": "Thin, blonde, nosy woman, Harry's aunt.",
+      "occupation": "Homemaker",
+      "significance": "Supporting",
+      "_key": "CHAR_03"
+    },
+    {
+      "name": "Dudley Dursley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Muggle",
+      "description": "Large, spoiled boy, Harry's cousin.",
+      "occupation": "Student",
+      "significance": "Supporting",
+      "_key": "CHAR_04"
+    },
+    {
+      "name": "Albus Dumbledore",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Tall, thin, very old, silver hair and beard, half-moon spectacles, long robes, Headmaster of Hogwarts.",
+      "occupation": "Headmaster",
+      "significance": "Supporting",
+      "_key": "CHAR_05"
+    },
+    {
+      "name": "Minerva McGonagall",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Severe-looking woman, square glasses, black hair in a bun, emerald robes, Deputy Headmistress.",
+      "occupation": "Deputy Headmistress, Teacher",
+      "significance": "Supporting",
+      "_key": "CHAR_06"
+    },
+    {
+      "name": "Rubeus Hagrid",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Half-Giant",
+      "description": "Twice as tall as a normal man, wild, bushy black hair and beard, hands the size of dustbin lids.",
+      "occupation": "Keeper of Keys and Grounds",
+      "significance": "Supporting",
+      "_key": "CHAR_07"
+    },
+    {
+      "name": "Sirius Black",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Wizard",
+      "description": "Lent Hagrid his flying motorbike.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_08"
+    },
+    {
+      "name": "Piers Polkiss",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Muggle",
+      "description": "Scrawny boy, Dudley's friend.",
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_09"
+    },
+    {
+      "name": "Marge Dursley",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Muggle",
+      "description": "Vernon's sister.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_10"
+    },
+    {
+      "name": "Dedalus Diggle",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Man in a violet top hat.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_11"
+    },
+    {
+      "name": "James Potter",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Wizard",
+      "description": "Harry's father.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_12"
+    },
+    {
+      "name": "Lily Potter",
+      "gender": "Female",
+      "age": null,
+      "alive": false,
+      "status": "Witch",
+      "description": "Harry's mother.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_13"
+    },
+    {
+      "name": "Quirinus Quirrell",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Wizard",
+      "description": "Pale young man, twitching eye, wears a turban.",
+      "occupation": "DADA Teacher",
+      "significance": "Supporting",
+      "_key": "CHAR_14"
+    },
+    {
+      "name": "Griphook",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Goblin",
+      "description": "Works at Gringotts.",
+      "occupation": "Banker",
+      "significance": "Minor",
+      "_key": "CHAR_15"
+    },
+    {
+      "name": "Madam Malkin",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": "Squat, smiling, dressed in mauve, owns robe shop.",
+      "occupation": "Shopkeeper",
+      "significance": "Minor",
+      "_key": "CHAR_16"
+    },
+    {
+      "name": "Draco Malfoy",
+      "gender": "Male",
+      "age": 11,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Pale boy, pointed face, drawling voice.",
+      "occupation": "Student",
+      "significance": "Supporting",
+      "_key": "CHAR_17"
+    },
+    {
+      "name": "Vincent Crabbe",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Thickset, mean-looking, Malfoy's friend.",
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_18"
+    },
+    {
+      "name": "Gregory Goyle",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Thickset, mean-looking, Malfoy's friend.",
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_19"
+    },
+    {
+      "name": "Ron Weasley",
+      "gender": "Male",
+      "age": 11,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Tall, thin, gangling, freckles, big hands and feet, long nose, red hair.",
+      "occupation": "Student",
+      "significance": "Main",
+      "_key": "CHAR_20"
+    },
+    {
+      "name": "Fred Weasley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "One of Ron's older twin brothers.",
+      "occupation": "Student, Beater",
+      "significance": "Supporting",
+      "_key": "CHAR_21"
+    },
+    {
+      "name": "George Weasley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "One of Ron's older twin brothers.",
+      "occupation": "Student, Beater",
+      "significance": "Supporting",
+      "_key": "CHAR_22"
+    },
+    {
+      "name": "Ginny Weasley",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": "Ron's younger sister.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_23"
+    },
+    {
+      "name": "Percy Weasley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Ron's older brother, a Prefect.",
+      "occupation": "Student, Prefect",
+      "significance": "Minor",
+      "_key": "CHAR_24"
+    },
+    {
+      "name": "Bill Weasley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Ron's oldest brother.",
+      "occupation": "Gringotts employee",
+      "significance": "Minor",
+      "_key": "CHAR_25"
+    },
+    {
+      "name": "Charlie Weasley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Ron's older brother.",
+      "occupation": "Dragon keeper",
+      "significance": "Minor",
+      "_key": "CHAR_26"
+    },
+    {
+      "name": "Neville Longbottom",
+      "gender": "Male",
+      "age": 11,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Round-faced boy, often loses his toad.",
+      "occupation": "Student",
+      "significance": "Supporting",
+      "_key": "CHAR_27"
+    },
+    {
+      "name": "Hermione Granger",
+      "gender": "Female",
+      "age": 11,
+      "alive": true,
+      "status": "Witch",
+      "description": "Bushy brown hair, large front teeth, very clever.",
+      "occupation": "Student",
+      "significance": "Main",
+      "_key": "CHAR_28"
+    },
+    {
+      "name": "Hannah Abbott",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": "Pink-faced, blonde pigtails.",
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_29"
+    },
+    {
+      "name": "Susan Bones",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_30"
+    },
+    {
+      "name": "Terry Boot",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_31"
+    },
+    {
+      "name": "Mandy Brocklehurst",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_32"
+    },
+    {
+      "name": "Lavender Brown",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_33"
+    },
+    {
+      "name": "Millicent Bulstrode",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_34"
+    },
+    {
+      "name": "Justin Finch-Fletchley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_35"
+    },
+    {
+      "name": "Seamus Finnigan",
+      "gender": "Male",
+      "age": 11,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Sandy hair.",
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_36"
+    },
+    {
+      "name": "Morag MacDougal",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_37"
+    },
+    {
+      "name": "Lisa Turpin",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_38"
+    },
+    {
+      "name": "Blaise Zabini",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_39"
+    },
+    {
+      "name": "Nearly Headless Nick",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Ghost",
+      "description": "Gryffindor ghost.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_40"
+    },
+    {
+      "name": "Bloody Baron",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Ghost",
+      "description": "Slytherin ghost, covered in silver blood.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_41"
+    },
+    {
+      "name": "Fat Friar",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Ghost",
+      "description": "Hufflepuff ghost.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_42"
+    },
+    {
+      "name": "Peeves",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Poltergeist",
+      "description": "A mischievous poltergeist.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_43"
+    },
+    {
+      "name": "Argus Filch",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Muggle",
+      "description": "Caretaker of Hogwarts.",
+      "occupation": "Caretaker",
+      "significance": "Minor",
+      "_key": "CHAR_44"
+    },
+    {
+      "name": "Mrs Norris",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Cat",
+      "description": "Filch's cat.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_45"
+    },
+    {
+      "name": "Pomona Sprout",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": "Dumpy little witch.",
+      "occupation": "Herbology Teacher",
+      "significance": "Minor",
+      "_key": "CHAR_46"
+    },
+    {
+      "name": "Filius Flitwick",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Tiny little wizard.",
+      "occupation": "Charms Teacher",
+      "significance": "Minor",
+      "_key": "CHAR_47"
+    },
+    {
+      "name": "Cuthbert Binns",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Ghost",
+      "description": "History of Magic teacher.",
+      "occupation": "Teacher",
+      "significance": "Minor",
+      "_key": "CHAR_48"
+    },
+    {
+      "name": "Oliver Wood",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Burly fifth-year boy, Gryffindor Quidditch captain.",
+      "occupation": "Student, Quidditch Captain",
+      "significance": "Minor",
+      "_key": "CHAR_49"
+    },
+    {
+      "name": "Severus Snape",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Greasy black hair, hooked nose, sallow skin, teaches Potions.",
+      "occupation": "Potions Master",
+      "significance": "Supporting",
+      "_key": "CHAR_50"
+    },
+    {
+      "name": "Angelina Johnson",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": "Gryffindor Chaser.",
+      "occupation": "Student, Chaser",
+      "significance": "Minor",
+      "_key": "CHAR_51"
+    },
+    {
+      "name": "Lee Jordan",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Commentator for Quidditch matches.",
+      "occupation": "Student, Commentator",
+      "significance": "Minor",
+      "_key": "CHAR_52"
+    },
+    {
+      "name": "Alicia Spinnet",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": "Gryffindor Chaser.",
+      "occupation": "Student, Chaser",
+      "significance": "Minor",
+      "_key": "CHAR_53"
+    },
+    {
+      "name": "Katie Bell",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": "Gryffindor Chaser.",
+      "occupation": "Student, Chaser",
+      "significance": "Minor",
+      "_key": "CHAR_54"
+    },
+    {
+      "name": "Marcus Flint",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Slytherin Quidditch captain.",
+      "occupation": "Student, Quidditch Captain",
+      "significance": "Minor",
+      "_key": "CHAR_55"
+    },
+    {
+      "name": "Adrian Pucey",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Slytherin Chaser.",
+      "occupation": "Student, Chaser",
+      "significance": "Minor",
+      "_key": "CHAR_56"
+    },
+    {
+      "name": "Terence Higgs",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Slytherin Seeker.",
+      "occupation": "Student, Seeker",
+      "significance": "Minor",
+      "_key": "CHAR_57"
+    },
+    {
+      "name": "Miles Bletchley",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Slytherin Keeper.",
+      "occupation": "Student, Keeper",
+      "significance": "Minor",
+      "_key": "CHAR_58"
+    },
+    {
+      "name": "Dean Thomas",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Gryffindor student, West Ham fan.",
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_59"
+    },
+    {
+      "name": "Parvati Patil",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": null,
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_60"
+    },
+    {
+      "name": "Pansy Parkinson",
+      "gender": "Female",
+      "age": null,
+      "alive": true,
+      "status": "Witch",
+      "description": "Hard-faced Slytherin girl.",
+      "occupation": "Student",
+      "significance": "Minor",
+      "_key": "CHAR_61"
+    },
+    {
+      "name": "Nicolas Flamel",
+      "gender": "Male",
+      "age": 665,
+      "alive": true,
+      "status": "Wizard",
+      "description": "Noted alchemist and opera-lover.",
+      "occupation": "Alchemist",
+      "significance": "Minor",
+      "_key": "CHAR_62"
+    },
+    {
+      "name": "Perenelle Flamel",
+      "gender": "Female",
+      "age": 658,
+      "alive": true,
+      "status": "Witch",
+      "description": "Nicolas Flamel's wife.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_63"
+    },
+    {
+      "name": "Ronan",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Centaur",
+      "description": "Red hair and beard, chestnut body.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_64"
+    },
+    {
+      "name": "Bane",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Centaur",
+      "description": "Black hair and body, wilder-looking than Ronan.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_65"
+    },
+    {
+      "name": "Firenze",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Centaur",
+      "description": "Younger centaur, white-blond hair, palomino body, astonishingly blue eyes.",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_66"
+    },
+    {
+      "name": "Fluffy",
+      "gender": null,
+      "age": null,
+      "alive": true,
+      "status": "Magical Creature",
+      "description": "Giant three-headed dog.",
+      "occupation": "Guard dog",
+      "significance": "Minor",
+      "_key": "CHAR_67"
+    },
+    {
+      "name": "Lord Voldemort",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dark Wizard",
+      "description": "Chalk-white face, glaring red eyes, slits for nostrils.",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_68"
+    }
+  ],
+  "LOCATION": [
+    {
+      "name": "Privet Drive",
+      "type": "street",
+      "region": "Little Whinging, Surrey, England",
+      "description": "A quiet, ordinary suburban street where the Dursleys live at number four. It is described as tidy and neat, with well-maintained gardens.  The street represents the mundane, non-magical world that Harry comes from.",
+      "significance": "Harry's childhood home with the Dursleys, representing his difficult upbringing and contrast with the wizarding world.",
+      "_key": "LOCA_01"
+    },
+    {
+      "name": "Number Four, Privet Drive",
+      "type": "house",
+      "region": "Little Whinging, Surrey, England",
+      "description": "The Dursleys' home, a perfectly ordinary suburban house. Inside, it is filled with Dudley's possessions and lacks any indication of Harry's existence or magical background. The house is a symbol of Harry's unhappy childhood and the Dursleys' attempts to suppress his magic.",
+      "significance": "Harry's unhappy childhood home with the Dursleys, a place of neglect and contrast to the warmth and acceptance he finds at Hogwarts.",
+      "_key": "LOCA_02"
+    },
+    {
+      "name": "Cupboard under the Stairs",
+      "type": "small room",
+      "region": "Number Four, Privet Drive",
+      "description": "Harry's small, spider-infested bedroom under the stairs. It symbolizes his low status within the Dursley household and their disregard for his well-being.",
+      "significance": "Symbol of Harry's neglect and mistreatment by the Dursleys.",
+      "_key": "LOCA_03"
+    },
+    {
+      "name": "Hogwarts School of Witchcraft and Wizardry",
+      "type": "school",
+      "region": "Scotland",
+      "description": "A magical boarding school for young witches and wizards, filled with moving staircases, talking portraits, ghosts, and hidden passages. Hogwarts is a place of learning, adventure, and friendship for Harry.",
+      "significance": "Harry's new home and school, a place of wonder and belonging where he learns about his magical heritage and makes lifelong friends.",
+      "_key": "LOCA_04"
+    },
+    {
+      "name": "Diagon Alley",
+      "type": "shopping district",
+      "region": "London, England",
+      "description": "A hidden wizarding shopping street accessible through the Leaky Cauldron. It is where witches and wizards purchase their school supplies, including wands, robes, and books.",
+      "significance": "Harry's first introduction to the wizarding world and its wonders.",
+      "_key": "LOCA_05"
+    },
+    {
+      "name": "The Leaky Cauldron",
+      "type": "pub",
+      "region": "London, England",
+      "description": "A small, grubby pub that serves as the entrance to Diagon Alley. It is a gathering place for witches and wizards.",
+      "significance": "Gateway to Diagon Alley and the wizarding world.",
+      "_key": "LOCA_06"
+    },
+    {
+      "name": "Gringotts Wizarding Bank",
+      "type": "bank",
+      "region": "London, England",
+      "description": "The only bank in the wizarding world, run by goblins. It is located deep underground and is said to be guarded by dragons.",
+      "significance": "Where Harry learns about his inheritance and the existence of the Philosopher's Stone.",
+      "_key": "LOCA_07"
+    },
+    {
+      "name": "Madam Malkin's Robes for All Occasions",
+      "type": "shop",
+      "region": "Diagon Alley",
+      "description": "A shop in Diagon Alley where witches and wizards purchase their robes.",
+      "significance": "Where Harry meets Draco Malfoy for the first time.",
+      "_key": "LOCA_08"
+    },
+    {
+      "name": "Eeylops Owl Emporium",
+      "type": "shop",
+      "region": "Diagon Alley",
+      "description": "A shop that sells owls and other magical creatures.",
+      "significance": "Where Harry buys Hedwig, his snowy owl.",
+      "_key": "LOCA_09"
+    },
+    {
+      "name": "Flourish and Blotts",
+      "type": "bookshop",
+      "region": "Diagon Alley",
+      "description": "A bookshop in Diagon Alley that sells a wide variety of magical books.",
+      "significance": "Where Harry buys his school books.",
+      "_key": "LOCA_10"
+    },
+    {
+      "name": "Ollivanders",
+      "type": "wand shop",
+      "region": "Diagon Alley",
+      "description": "A wand shop owned by Garrick Ollivander, who is known for his expertise in matching wizards with their wands.",
+      "significance": "Where Harry receives his wand, which shares a core with Voldemort's.",
+      "_key": "LOCA_11"
+    },
+    {
+      "name": "Platform Nine and Three-Quarters",
+      "type": "train platform",
+      "region": "King's Cross Station, London",
+      "description": "A hidden platform at King's Cross Station from which the Hogwarts Express departs.",
+      "significance": "The point of departure for Hogwarts, marking Harry's entry into the magical world.",
+      "_key": "LOCA_12"
+    },
+    {
+      "name": "Hogwarts Express",
+      "type": "train",
+      "region": null,
+      "description": "The train that takes students to and from Hogwarts.",
+      "significance": "Mode of transport to Hogwarts, where Harry meets Ron and Hermione.",
+      "_key": "LOCA_13"
+    },
+    {
+      "name": "The Great Hall",
+      "type": "hall",
+      "region": "Hogwarts",
+      "description": "The main dining hall at Hogwarts, where students eat meals and attend important ceremonies like the Sorting Ceremony.",
+      "significance": "Location of the Sorting Ceremony and many other important events.",
+      "_key": "LOCA_14"
+    },
+    {
+      "name": "Gryffindor Common Room",
+      "type": "common room",
+      "region": "Gryffindor Tower, Hogwarts",
+      "description": "A cozy, circular room with squashy armchairs where Gryffindor students relax and socialize.",
+      "significance": "Harry's house common room, a place of comfort and camaraderie.",
+      "_key": "LOCA_15"
+    },
+    {
+      "name": "Hagrid's Hut",
+      "type": "house",
+      "region": "Hogwarts grounds",
+      "description": "A small wooden house on the edge of the Forbidden Forest where Hagrid, the gamekeeper, lives.",
+      "significance": "Where Harry and his friends often visit Hagrid for tea and advice.",
+      "_key": "LOCA_16"
+    },
+    {
+      "name": "Quidditch Pitch",
+      "type": "sports field",
+      "region": "Hogwarts grounds",
+      "description": "The field where Quidditch matches are played.",
+      "significance": "Where Harry practices and plays Quidditch.",
+      "_key": "LOCA_17"
+    },
+    {
+      "name": "The Forbidden Forest",
+      "type": "forest",
+      "region": "Hogwarts grounds",
+      "description": "A dark and dangerous forest on the Hogwarts grounds that is forbidden to students.",
+      "significance": "Where Harry encounters Voldemort drinking unicorn blood and learns about the dangers lurking in the magical world.",
+      "_key": "LOCA_18"
+    },
+    {
+      "name": "Room 17",
+      "type": "hotel room",
+      "region": "Railview Hotel, Cokeworth",
+      "description": "A room in a gloomy hotel where the Dursleys and Harry stay while trying to escape the Hogwarts letters.",
+      "significance": "A temporary hiding place for the Dursleys.",
+      "_key": "LOCA_19"
+    },
+    {
+      "name": "Hut-on-the-Rock",
+      "type": "shack",
+      "region": "The Sea",
+      "description": "A miserable little shack on a rock in the sea where the Dursleys take Harry for his eleventh birthday in a final attempt to escape the Hogwarts letters.",
+      "significance": "Where Hagrid finds Harry and reveals his magical heritage.",
+      "_key": "LOCA_20"
+    },
+    {
+      "name": "Hogsmeade",
+      "type": "village",
+      "region": "Near Hogwarts",
+      "description": "A wizarding village near Hogwarts.",
+      "significance": "Mentioned as the location of the Hog's Head pub.",
+      "_key": "LOCA_21"
+    },
+    {
+      "name": "The Hog's Head",
+      "type": "pub",
+      "region": "Hogsmeade",
+      "description": "A pub in Hogsmeade where Hagrid won Norbert the dragon egg.",
+      "significance": "Where Hagrid encounters the stranger who gives him Norbert.",
+      "_key": "LOCA_22"
+    },
+    {
+      "name": "Mirror of Erised room",
+      "type": "room",
+      "region": "Hogwarts",
+      "description": "A disused classroom where Harry finds the Mirror of Erised.",
+      "significance": "Where Harry sees his family for the first time and learns about his deepest desires.",
+      "_key": "LOCA_23"
+    },
+    {
+      "name": "Hospital Wing",
+      "type": "infirmary",
+      "region": "Hogwarts",
+      "description": "The infirmary at Hogwarts, run by Madam Pomfrey.",
+      "significance": "Where Harry recovers after his encounter with Quirrell and Voldemort.",
+      "_key": "LOCA_24"
+    }
+  ]
+}

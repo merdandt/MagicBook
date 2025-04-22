@@ -1,0 +1,2195 @@
+{
+  "Family_PARENT_OF": [
+    {
+      "parent_id": "CHAR_02",
+      "child_id": "CHAR_04",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_03",
+      "child_id": "CHAR_04",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_12",
+      "child_id": "CHAR_01",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    },
+    {
+      "parent_id": "CHAR_13",
+      "child_id": "CHAR_01",
+      "legitimacy": "legitimate",
+      "confirmed": true
+    }
+  ],
+  "Family_SIBLING_OF": [
+    {
+      "sibling1_id": "CHAR_02",
+      "sibling2_id": "CHAR_03",
+      "relation": "null",
+      "confirmed": false
+    },
+    {
+      "sibling1_id": "CHAR_20",
+      "sibling2_id": "CHAR_21",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_20",
+      "sibling2_id": "CHAR_22",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_20",
+      "sibling2_id": "CHAR_23",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_20",
+      "sibling2_id": "CHAR_24",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_20",
+      "sibling2_id": "CHAR_25",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_20",
+      "sibling2_id": "CHAR_26",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_21",
+      "sibling2_id": "CHAR_22",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_21",
+      "sibling2_id": "CHAR_23",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_21",
+      "sibling2_id": "CHAR_24",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_21",
+      "sibling2_id": "CHAR_25",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_21",
+      "sibling2_id": "CHAR_26",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_22",
+      "sibling2_id": "CHAR_23",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_22",
+      "sibling2_id": "CHAR_24",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_22",
+      "sibling2_id": "CHAR_25",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_22",
+      "sibling2_id": "CHAR_26",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_23",
+      "sibling2_id": "CHAR_24",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_23",
+      "sibling2_id": "CHAR_25",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_23",
+      "sibling2_id": "CHAR_26",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_24",
+      "sibling2_id": "CHAR_25",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_24",
+      "sibling2_id": "CHAR_26",
+      "relation": "full",
+      "confirmed": true
+    },
+    {
+      "sibling1_id": "CHAR_25",
+      "sibling2_id": "CHAR_26",
+      "relation": "full",
+      "confirmed": true
+    }
+  ],
+  "Family_MARRIED_TO": [
+    {
+      "spouse1_id": "CHAR_02",
+      "spouse2_id": "CHAR_03",
+      "status": "active",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 1"
+    },
+    {
+      "spouse1_id": "CHAR_12",
+      "spouse2_id": "CHAR_13",
+      "status": "deceased",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 1"
+    },
+    {
+      "spouse1_id": "CHAR_62",
+      "spouse2_id": "CHAR_63",
+      "status": "active",
+      "political": false,
+      "confirmed": true,
+      "chapter": "Chapter 13"
+    }
+  ],
+  "Emotional_LOVES": [
+    {
+      "lover_id": "CHAR_12",
+      "beloved_id": "CHAR_13",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2",
+        "Chapter 3",
+        "Chapter 4",
+        "Chapter 5",
+        "Chapter 6",
+        "Chapter 7",
+        "Chapter 8",
+        "Chapter 9",
+        "Chapter 10",
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15",
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    },
+    {
+      "lover_id": "CHAR_13",
+      "beloved_id": "CHAR_12",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2",
+        "Chapter 3",
+        "Chapter 4",
+        "Chapter 5",
+        "Chapter 6",
+        "Chapter 7",
+        "Chapter 8",
+        "Chapter 9",
+        "Chapter 10",
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15",
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    },
+    {
+      "lover_id": "CHAR_02",
+      "beloved_id": "CHAR_03",
+      "intensity": 7,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2",
+        "Chapter 3",
+        "Chapter 4",
+        "Chapter 5",
+        "Chapter 6",
+        "Chapter 7",
+        "Chapter 8",
+        "Chapter 9",
+        "Chapter 10",
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15",
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    },
+    {
+      "lover_id": "CHAR_03",
+      "beloved_id": "CHAR_02",
+      "intensity": 7,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2",
+        "Chapter 3",
+        "Chapter 4",
+        "Chapter 5",
+        "Chapter 6",
+        "Chapter 7",
+        "Chapter 8",
+        "Chapter 9",
+        "Chapter 10",
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15",
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    },
+    {
+      "lover_id": "CHAR_03",
+      "beloved_id": "CHAR_04",
+      "intensity": 9,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2",
+        "Chapter 3",
+        "Chapter 4",
+        "Chapter 5",
+        "Chapter 6",
+        "Chapter 7",
+        "Chapter 8",
+        "Chapter 9",
+        "Chapter 10",
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15",
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    },
+    {
+      "lover_id": "CHAR_02",
+      "beloved_id": "CHAR_04",
+      "intensity": 9,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2",
+        "Chapter 3",
+        "Chapter 4",
+        "Chapter 5",
+        "Chapter 6",
+        "Chapter 7",
+        "Chapter 8",
+        "Chapter 9",
+        "Chapter 10",
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15",
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    },
+    {
+      "lover_id": "CHAR_62",
+      "beloved_id": "CHAR_63",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15",
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    },
+    {
+      "lover_id": "CHAR_63",
+      "beloved_id": "CHAR_62",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15",
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    }
+  ],
+  "Interaction_INTERACTED_WITH": [],
+  "Location_PRESENT_AT": [
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_02",
+      "role": "resident",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_02",
+      "role": "resident",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_03",
+      "location_id": "LOCA_02",
+      "role": "resident",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_02",
+      "role": "resident",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_03",
+      "role": "resident",
+      "chapter": "Chapter 2"
+    },
+    {
+      "character_id": "CHAR_05",
+      "location_id": "LOCA_01",
+      "role": "visitor",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_06",
+      "location_id": "LOCA_01",
+      "role": "visitor",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_01",
+      "role": "visitor",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_20",
+      "role": "visitor",
+      "chapter": "Chapter 4"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_20",
+      "role": "visitor",
+      "chapter": "Chapter 4"
+    },
+    {
+      "character_id": "CHAR_03",
+      "location_id": "LOCA_20",
+      "role": "visitor",
+      "chapter": "Chapter 4"
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_20",
+      "role": "visitor",
+      "chapter": "Chapter 4"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_20",
+      "role": "visitor",
+      "chapter": "Chapter 4"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_06",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_06",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_05",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_05",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_07",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_07",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_15",
+      "location_id": "LOCA_07",
+      "role": "resident",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_08",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_16",
+      "location_id": "LOCA_08",
+      "role": "resident",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_17",
+      "location_id": "LOCA_08",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_09",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_09",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_10",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_10",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_11",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_11",
+      "role": "visitor",
+      "chapter": "Chapter 5"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_12",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_20",
+      "location_id": "LOCA_12",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_28",
+      "location_id": "LOCA_12",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_20",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_28",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_21",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_22",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_27",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_17",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_18",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_19",
+      "location_id": "LOCA_13",
+      "role": "visitor",
+      "chapter": "Chapter 6"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_04",
+      "role": "resident",
+      "chapter": "Chapter 7"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_16",
+      "role": "resident",
+      "chapter": "Chapter 8"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_16",
+      "role": "visitor",
+      "chapter": "Chapter 8"
+    },
+    {
+      "character_id": "CHAR_20",
+      "location_id": "LOCA_16",
+      "role": "visitor",
+      "chapter": "Chapter 8"
+    },
+    {
+      "character_id": "CHAR_28",
+      "location_id": "LOCA_16",
+      "role": "visitor",
+      "chapter": "Chapter 8"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_17",
+      "role": "visitor",
+      "chapter": "Chapter 9"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_15",
+      "role": "resident",
+      "chapter": "Chapter 9"
+    },
+    {
+      "character_id": "CHAR_20",
+      "location_id": "LOCA_15",
+      "role": "resident",
+      "chapter": "Chapter 9"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_23",
+      "role": "visitor",
+      "chapter": "Chapter 12"
+    },
+    {
+      "character_id": "CHAR_05",
+      "location_id": "LOCA_23",
+      "role": "visitor",
+      "chapter": "Chapter 12"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_24",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_05",
+      "location_id": "LOCA_24",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_24",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_14",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_22",
+      "role": "visitor",
+      "chapter": "Chapter 14"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_18",
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_28",
+      "location_id": "LOCA_18",
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_20",
+      "location_id": "LOCA_18",
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_27",
+      "location_id": "LOCA_18",
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_17",
+      "location_id": "LOCA_18",
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_18",
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_50",
+      "location_id": "LOCA_18",
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_66",
+      "location_id": "LOCA_18",
+      "role": "resident",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_64",
+      "location_id": "LOCA_18",
+      "role": "resident",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_65",
+      "location_id": "LOCA_18",
+      "role": "resident",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_68",
+      "location_id": "LOCA_18",
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_67",
+      "location_id": "LOCA_04",
+      "role": "resident",
+      "chapter": "Chapter 16"
+    },
+    {
+      "character_id": "CHAR_14",
+      "location_id": "LOCA_04",
+      "role": "resident",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_68",
+      "location_id": "LOCA_04",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    }
+  ],
+  "Location_LIVES_IN": [
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_02",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_03",
+      "start_chapter": "Chapter 1",
+      "end_chapter": "Chapter 3",
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_02",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_03",
+      "location_id": "LOCA_02",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_02",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_16",
+      "start_chapter": "Chapter 4",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_20",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 4",
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_19",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 3",
+      "status": "temporary"
+    }
+  ],
+  "Location_TRAVELED_TO": [
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_06",
+      "from_location": "LOCA_20",
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 5"
+      ]
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_05",
+      "from_location": "LOCA_06",
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 5"
+      ]
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_02",
+      "from_location": "LOCA_05",
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 5"
+      ]
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_12",
+      "from_location": "LOCA_02",
+      "start_date": null,
+      "end_date": null,
+      "means": "car",
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_12",
+      "from_location": "LOCA_02",
+      "start_date": null,
+      "end_date": null,
+      "means": "car",
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_12",
+      "from_location": "LOCA_02",
+      "start_date": null,
+      "end_date": null,
+      "means": "car",
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "character_id": "CHAR_03",
+      "location_id": "LOCA_12",
+      "from_location": "LOCA_02",
+      "start_date": null,
+      "end_date": null,
+      "means": "car",
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_04",
+      "from_location": "LOCA_12",
+      "start_date": null,
+      "end_date": null,
+      "means": "train",
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "character_id": "CHAR_20",
+      "location_id": "LOCA_04",
+      "from_location": "LOCA_12",
+      "start_date": null,
+      "end_date": null,
+      "means": "train",
+      "chapters": [
+        "Chapter 6"
+      ]
+    },
+    {
+      "character_id": "CHAR_28",
+      "location_id": "LOCA_04",
+      "from_location": "LOCA_12",
+      "start_date": null,
+      "end_date": null,
+      "means": "train",
+      "chapters": [
+        "Chapter 6"
+      ]
+    }
+  ],
+  "Event_WITNESSED": [
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_01",
+      "perspective": "Annoyed and suspicious",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_01",
+      "perspective": "Shocked, angry, and worried",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_01",
+      "perspective": "Unaware",
+      "chapter": "Chapter 1",
+      "distance": "Present but oblivious"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_03",
+      "perspective": "Annoyed and determined to prevent it",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_03",
+      "perspective": "Annoyed and worried",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_03",
+      "perspective": "Probably amused but not focused on",
+      "chapter": "Chapter 1",
+      "distance": "Present but not deeply involved"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_04",
+      "perspective": "Angry and resistant",
+      "chapter": "Chapter 4",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_04",
+      "perspective": "Horrified and panicked",
+      "chapter": "Chapter 4",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "perspective": "Frightened and intimidated",
+      "chapter": "Chapter 4",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_04",
+      "perspective": "Confused but intrigued",
+      "chapter": "Chapter 4",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_02",
+      "perspective": "Horrified and vocal about the snake's aggression",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_02",
+      "perspective": "Horrified and vocal about the snake's aggression",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_02",
+      "perspective": "Angry and blaming Harry",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_02",
+      "perspective": "Likely upset but not explicitly stated",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_02",
+      "perspective": "Confused but not upset",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_15",
+      "perspective": "Witnessed the aftermath and was relieved",
+      "chapter": "Chapter 17",
+      "distance": "Indirectly involved (aftermath)"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_15",
+      "perspective": "Directly involved and relieved",
+      "chapter": "Chapter 17",
+      "distance": "Directly involved"
+    }
+  ],
+  "Event_PARTICIPATED_IN": [
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_01",
+      "role": "discoverer",
+      "chapter": "Chapter 1",
+      "outcome": "Learns about his magical heritage"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_01",
+      "role": "bystander",
+      "chapter": "Chapter 1",
+      "outcome": "Unhappy about Harry's magical heritage"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_01",
+      "role": "bystander",
+      "chapter": "Chapter 1",
+      "outcome": "Unhappy about Harry's magical heritage"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_01",
+      "role": "bystander",
+      "chapter": "Chapter 1",
+      "outcome": "Unaware of the events"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_02",
+      "role": "cause",
+      "chapter": "Chapter 2",
+      "outcome": "Gets punished, but discovers more about his abilities"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_02",
+      "role": "bystander",
+      "chapter": "Chapter 2",
+      "outcome": "Angry at Harry"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_02",
+      "role": "bystander",
+      "chapter": "Chapter 2",
+      "outcome": "Angry at Harry"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_02",
+      "role": "victim",
+      "chapter": "Chapter 2",
+      "outcome": "Scared of the snake"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_03",
+      "role": "recipient",
+      "chapter": "Chapter 3",
+      "outcome": "Denied access to the letters"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_03",
+      "role": "interceptor",
+      "chapter": "Chapter 3",
+      "outcome": "Frustrated and determined to keep Harry from Hogwarts"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_03",
+      "role": "interceptor",
+      "chapter": "Chapter 3",
+      "outcome": "Frustrated and determined to keep Harry from Hogwarts"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_03",
+      "role": "bystander",
+      "chapter": "Chapter 3",
+      "outcome": "Curious about the letters"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_04",
+      "role": "recipient",
+      "chapter": "Chapter 4",
+      "outcome": "Learns the truth about his past"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_04",
+      "role": "messenger",
+      "chapter": "Chapter 4",
+      "outcome": "Delivers important information to Harry"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_04",
+      "role": "bystander",
+      "chapter": "Chapter 4",
+      "outcome": "Angry and afraid"
+    },
+    {
+      "character_id": "CHAR_03",
+      "event_id": "EVEN_04",
+      "role": "bystander",
+      "chapter": "Chapter 4",
+      "outcome": "Angry and afraid"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "role": "bystander",
+      "chapter": "Chapter 4",
+      "outcome": "Turned into a pig (temporarily)"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_05",
+      "role": "shopper",
+      "chapter": "Chapter 5",
+      "outcome": "Acquires his school supplies and experiences the wizarding world"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_05",
+      "role": "guide",
+      "chapter": "Chapter 5",
+      "outcome": "Helps Harry navigate Diagon Alley"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_06",
+      "role": "passenger",
+      "chapter": "Chapter 6",
+      "outcome": "Arrives at Hogwarts and makes new friends"
+    },
+    {
+      "character_id": "CHAR_20",
+      "event_id": "EVEN_06",
+      "role": "passenger",
+      "chapter": "Chapter 6",
+      "outcome": "Meets Harry and becomes his friend"
+    },
+    {
+      "character_id": "CHAR_28",
+      "event_id": "EVEN_06",
+      "role": "passenger",
+      "chapter": "Chapter 6",
+      "outcome": "Meets Harry and Ron"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_07",
+      "role": "initiate",
+      "chapter": "Chapter 7",
+      "outcome": "Sorted into Gryffindor"
+    },
+    {
+      "character_id": "CHAR_20",
+      "event_id": "EVEN_07",
+      "role": "initiate",
+      "chapter": "Chapter 7",
+      "outcome": "Sorted into Gryffindor"
+    },
+    {
+      "character_id": "CHAR_28",
+      "event_id": "EVEN_07",
+      "role": "initiate",
+      "chapter": "Chapter 7",
+      "outcome": "Sorted into Gryffindor"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_08",
+      "role": "student",
+      "chapter": "Chapter 9",
+      "outcome": "Discovers his talent for flying and becomes the Gryffindor Seeker"
+    },
+    {
+      "character_id": "CHAR_17",
+      "event_id": "EVEN_08",
+      "role": "student",
+      "chapter": "Chapter 9",
+      "outcome": "Jealous of Harry's flying skills"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_09",
+      "role": "hero",
+      "chapter": "Chapter 9",
+      "outcome": "Solidifies his friendship with Ron and Hermione"
+    },
+    {
+      "character_id": "CHAR_20",
+      "event_id": "EVEN_09",
+      "role": "hero",
+      "chapter": "Chapter 9",
+      "outcome": "Solidifies his friendship with Harry and Hermione"
+    },
+    {
+      "character_id": "CHAR_28",
+      "event_id": "EVEN_09",
+      "role": "hero",
+      "chapter": "Chapter 9",
+      "outcome": "Solidifies her friendship with Harry and Ron"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_10",
+      "role": "athlete",
+      "chapter": "Chapter 11",
+      "outcome": "Wins the match for Gryffindor"
+    },
+    {
+      "character_id": "CHAR_50",
+      "event_id": "EVEN_10",
+      "role": "saboteur",
+      "chapter": "Chapter 11",
+      "outcome": "Fails to prevent Harry from winning"
+    }
+  ],
+  "Event_CAUSED": [
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_02",
+      "intention": "unintentional",
+      "chapter": "2",
+      "method": "Communicating with the boa constrictor"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_01",
+      "intention": "intentional",
+      "chapter": "1",
+      "method": "Sending the letter"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_03",
+      "intention": "intentional",
+      "chapter": "3",
+      "method": "Sending more letters"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_04",
+      "intention": "indirect",
+      "chapter": "3",
+      "method": "Trying to prevent Harry from receiving letters, leading to Hagrid delivering it personally"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_05",
+      "intention": "intentional",
+      "chapter": "5",
+      "method": "Taking Harry to Diagon Alley"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_06",
+      "intention": "intentional",
+      "chapter": "6",
+      "method": "Taking Harry to King's Cross"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_07",
+      "intention": "intentional",
+      "chapter": "7",
+      "method": "Leading the ceremony"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_08",
+      "intention": "unintentional",
+      "chapter": "8",
+      "method": "Displaying natural talent"
+    },
+    {
+      "character_id": "CHAR_14",
+      "event_id": "EVEN_09",
+      "intention": "intentional",
+      "chapter": "9",
+      "method": "Letting the troll in"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_10",
+      "intention": "intentional",
+      "chapter": "11",
+      "method": "Catching the Golden Snitch"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_11",
+      "intention": "intentional",
+      "chapter": "13",
+      "method": "Researching and discovering Nicolas Flamel's identity"
+    },
+    {
+      "character_id": "CHAR_07",
+      "event_id": "EVEN_12",
+      "intention": "unintentional",
+      "chapter": "14",
+      "method": "Acquiring a dragon egg"
+    },
+    {
+      "character_id": "CHAR_06",
+      "event_id": "EVEN_13",
+      "intention": "intentional",
+      "chapter": "15",
+      "method": "Giving detention"
+    },
+    {
+      "character_id": "CHAR_50",
+      "event_id": "EVEN_14",
+      "intention": "intentional",
+      "chapter": "16",
+      "method": "Trying to steal the Stone, causing Harry, Ron, and Hermione to protect it"
+    },
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_15",
+      "intention": "intentional",
+      "chapter": "17",
+      "method": "Confronting Quirrell"
+    },
+    {
+      "character_id": "CHAR_68",
+      "event_id": "EVEN_15",
+      "intention": "intentional",
+      "chapter": "17",
+      "method": "Trying to obtain the Stone"
+    },
+    {
+      "character_id": "CHAR_05",
+      "event_id": "EVEN_15",
+      "intention": "indirect",
+      "chapter": "17",
+      "method": "Putting the Stone in the mirror, leading to its destruction"
+    }
+  ],
+  "Organization_MEMBER_OF": [
+    {
+      "character_id": "CHAR_01",
+      "organization_id": "ORGA_01",
+      "role": "Student",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_01",
+      "organization_id": "ORGA_08",
+      "role": "Seeker",
+      "join_chapter": "Chapter 11",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_02",
+      "organization_id": "ORGA_02",
+      "role": "Director",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_04",
+      "organization_id": "ORGA_01",
+      "role": "Student",
+      "join_chapter": null,
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_04",
+      "organization_id": "ORGA_06",
+      "role": "Student",
+      "join_chapter": null,
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_05",
+      "organization_id": "ORGA_01",
+      "role": "Headmaster",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_05",
+      "organization_id": "ORGA_05",
+      "role": null,
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_06",
+      "organization_id": "ORGA_01",
+      "role": "Deputy Headmistress, Teacher",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_07",
+      "organization_id": "ORGA_01",
+      "role": "Keeper of Keys and Grounds",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_09",
+      "organization_id": "ORGA_06",
+      "role": "Student",
+      "join_chapter": null,
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_14",
+      "organization_id": "ORGA_01",
+      "role": "DADA Teacher",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_15",
+      "organization_id": "ORGA_12",
+      "role": "Banker",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_17",
+      "organization_id": "ORGA_01",
+      "role": "Student",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_17",
+      "organization_id": "ORGA_11",
+      "role": null,
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_18",
+      "organization_id": "ORGA_01",
+      "role": "Student",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_18",
+      "organization_id": "ORGA_11",
+      "role": null,
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_19",
+      "organization_id": "ORGA_01",
+      "role": "Student",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_19",
+      "organization_id": "ORGA_11",
+      "role": null,
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_20",
+      "organization_id": "ORGA_01",
+      "role": "Student",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_20",
+      "organization_id": "ORGA_08",
+      "role": null,
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_21",
+      "organization_id": "ORGA_01",
+      "role": "Student, Beater",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_21",
+      "organization_id": "ORGA_08",
+      "role": "Beater",
+      "join_chapter": null,
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_22",
+      "organization_id": "ORGA_01",
+      "role": "Student, Beater",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_22",
+      "organization_id": "ORGA_08",
+      "role": "Beater",
+      "join_chapter": null,
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_24",
+      "organization_id": "ORGA_01",
+      "role": "Student, Prefect",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_25",
+      "organization_id": "ORGA_12",
+      "role": "Employee",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_27",
+      "organization_id": "ORGA_01",
+      "role": "Student",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_27",
+      "organization_id": "ORGA_08",
+      "role": null,
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_28",
+      "organization_id": "ORGA_01",
+      "role": "Student",
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_28",
+      "organization_id": "ORGA_08",
+      "role": null,
+      "join_chapter": "Chapter 7",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_46",
+      "organization_id": "ORGA_01",
+      "role": "Herbology Teacher",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_47",
+      "organization_id": "ORGA_01",
+      "role": "Charms Teacher",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_48",
+      "organization_id": "ORGA_01",
+      "role": "Teacher",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_49",
+      "organization_id": "ORGA_01",
+      "role": "Student, Quidditch Captain",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_50",
+      "organization_id": "ORGA_01",
+      "role": "Potions Master",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_50",
+      "organization_id": "ORGA_11",
+      "role": "Head of House",
+      "status": "active"
+    },
+    {
+      "character_id": "CHAR_68",
+      "organization_id": "ORGA_11",
+      "role": null,
+      "join_chapter": null,
+      "leave_chapter": null,
+      "status": "former"
+    }
+  ],
+  "Creature_BELONGS_TO_SPECIES": [
+    {
+      "character_id": "CHAR_01",
+      "creature_id": "CREA_01",
+      "purity": "Half-blood",
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_03",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_03",
+      "creature_id": "CREA_03",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "creature_id": "CREA_03",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_05",
+      "creature_id": "CREA_01",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_06",
+      "creature_id": "CREA_01",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_07",
+      "creature_id": "CREA_01",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_12",
+      "creature_id": "CREA_01",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_13",
+      "creature_id": "CREA_01",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_67",
+      "creature_id": "CREA_05",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_45",
+      "creature_id": "CREA_06",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_68",
+      "creature_id": "CREA_02",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_40",
+      "creature_id": "CREA_04",
+      "purity": null,
+      "chapter": "Chapter 2",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_41",
+      "creature_id": "CREA_04",
+      "purity": null,
+      "chapter": "Chapter 2",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_42",
+      "creature_id": "CREA_04",
+      "purity": null,
+      "chapter": "Chapter 2",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_43",
+      "creature_id": "CREA_14",
+      "purity": null,
+      "chapter": "Chapter 2",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_64",
+      "creature_id": "CREA_15",
+      "purity": null,
+      "chapter": "Chapter 11",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_65",
+      "creature_id": "CREA_15",
+      "purity": null,
+      "chapter": "Chapter 11",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_66",
+      "creature_id": "CREA_15",
+      "purity": null,
+      "chapter": "Chapter 11",
+      "traits": []
+    }
+  ],
+  "Item_POSSESSES": [
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_01",
+      "acquisition_chapter": "Chapter 3",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_02",
+      "acquisition_chapter": "Chapter 1",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_05",
+      "item_id": "ITEM_03",
+      "acquisition_chapter": "Chapter 1",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_05",
+      "item_id": "ITEM_04",
+      "acquisition_chapter": "Chapter 1",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_05",
+      "item_id": "ITEM_05",
+      "acquisition_chapter": "Chapter 1",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_06",
+      "acquisition_chapter": "Chapter 1",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_07",
+      "acquisition_chapter": "Chapter 1",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_08",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_03",
+      "item_id": "ITEM_09",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_10",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_11",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_12",
+      "acquisition_chapter": "Chapter 5",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_26",
+      "acquisition_chapter": "Chapter 4",
+      "current": false,
+      "method": "created"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_25",
+      "acquisition_chapter": "Chapter 5",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_20",
+      "acquisition_chapter": "Chapter 5",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_33",
+      "acquisition_chapter": "Chapter 6",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_28",
+      "acquisition_chapter": "Chapter 10",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_27",
+      "item_id": "ITEM_27",
+      "acquisition_chapter": "Chapter 10",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_07",
+      "item_id": "ITEM_35",
+      "acquisition_chapter": "Chapter 10",
+      "current": false,
+      "method": "gifted"
+    }
+  ],
+  "Event_BEFORE": [
+    {
+      "earlier_event_id": "EVEN_01",
+      "later_event_id": "EVEN_02",
+      "time_gap": "A few weeks (within the summer holidays)",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_02",
+      "later_event_id": "EVEN_03",
+      "time_gap": "A few days (within the summer holidays)",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_01",
+      "later_event_id": "EVEN_03",
+      "time_gap": "A few weeks (within the summer holidays)",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_03",
+      "later_event_id": "EVEN_04",
+      "time_gap": "A short time",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_04",
+      "later_event_id": "EVEN_05",
+      "time_gap": "The next day",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_05",
+      "later_event_id": "EVEN_06",
+      "time_gap": "A few weeks (until September 1st)",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_06",
+      "later_event_id": "EVEN_07",
+      "time_gap": "Upon arrival at Hogwarts",
+      "causality": "direct",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_07",
+      "later_event_id": "EVEN_08",
+      "time_gap": "Sometime after the start of term",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_08",
+      "later_event_id": "EVEN_09",
+      "time_gap": "Until Halloween",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_09",
+      "later_event_id": "EVEN_10",
+      "time_gap": "Sometime after Halloween",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_10",
+      "later_event_id": "EVEN_11",
+      "time_gap": "Sometime after the Quidditch match",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_11",
+      "later_event_id": "EVEN_12",
+      "time_gap": "Sometime after discovering Nicolas Flamel",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_12",
+      "later_event_id": "EVEN_13",
+      "time_gap": "Sometime after Norbert's arrival",
+      "causality": "unrelated",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_13",
+      "later_event_id": "EVEN_14",
+      "time_gap": "Sometime after the Forbidden Forest incident",
+      "causality": "indirect",
+      "narrative_order": true
+    },
+    {
+      "earlier_event_id": "EVEN_14",
+      "later_event_id": "EVEN_15",
+      "time_gap": "Immediately following protecting the stone",
+      "causality": "direct",
+      "narrative_order": true
+    }
+  ],
+  "Event_AFTER": [
+    {
+      "later_event_id": "EVEN_02",
+      "earlier_event_id": "EVEN_01",
+      "time_gap": "A few days or weeks",
+      "consequence": false,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_03",
+      "earlier_event_id": "EVEN_01",
+      "time_gap": "A few days or weeks",
+      "consequence": true,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_04",
+      "earlier_event_id": "EVEN_03",
+      "time_gap": "A short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 3",
+        "Chapter 4"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_05",
+      "earlier_event_id": "EVEN_04",
+      "time_gap": "The next day",
+      "consequence": true,
+      "chapters": [
+        "Chapter 4",
+        "Chapter 5"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_06",
+      "earlier_event_id": "EVEN_05",
+      "time_gap": "A short time, likely days",
+      "consequence": false,
+      "chapters": [
+        "Chapter 5",
+        "Chapter 6"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_07",
+      "earlier_event_id": "EVEN_06",
+      "time_gap": "Upon arrival",
+      "consequence": true,
+      "chapters": [
+        "Chapter 6",
+        "Chapter 7"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_08",
+      "earlier_event_id": "EVEN_07",
+      "time_gap": "Some time later",
+      "consequence": false,
+      "chapters": [
+        "Chapter 7",
+        "Chapter 8"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_09",
+      "earlier_event_id": "EVEN_07",
+      "time_gap": "Months, until Halloween",
+      "consequence": false,
+      "chapters": [
+        "Chapter 7",
+        "Chapter 9"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_10",
+      "earlier_event_id": "EVEN_08",
+      "time_gap": "Some time later",
+      "consequence": false,
+      "chapters": [
+        "Chapter 8",
+        "Chapter 10"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_11",
+      "earlier_event_id": "EVEN_10",
+      "time_gap": "Some time later",
+      "consequence": false,
+      "chapters": [
+        "Chapter 10",
+        "Chapter 11"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_12",
+      "earlier_event_id": "EVEN_10",
+      "time_gap": "Some time later",
+      "consequence": false,
+      "chapters": [
+        "Chapter 10",
+        "Chapter 12"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_13",
+      "earlier_event_id": "EVEN_12",
+      "time_gap": "Some time later",
+      "consequence": false,
+      "chapters": [
+        "Chapter 12",
+        "Chapter 13"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_14",
+      "earlier_event_id": "EVEN_13",
+      "time_gap": "Some time later",
+      "consequence": true,
+      "chapters": [
+        "Chapter 13",
+        "Chapter 14"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_15",
+      "earlier_event_id": "EVEN_14",
+      "time_gap": "Soon after",
+      "consequence": true,
+      "chapters": [
+        "Chapter 14",
+        "Chapter 15"
+      ]
+    }
+  ]
+}

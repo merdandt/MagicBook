@@ -25,8 +25,9 @@ import streamlit as st
 
 # Initialize LLM client
 BOOK_LLM = ChatGoogleGenerativeAI(
+    model="gemini-1.5-pro",
     # model="gemini-2.5-pro-exp-03-25",
-    model="gemini-2.0-flash-lite",
+    # model="gemini-2.0-flash-lite",
     api_key=st.secrets["GEMINI_API_KEY"],
     temperature=0,
     max_output_tokens=None,

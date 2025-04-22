@@ -1,0 +1,1796 @@
+{
+  "LOCATION": [
+    {
+      "name": "Mordor",
+      "type": "Land",
+      "region": "Middle-earth",
+      "description": "Also known as the Black Land and the Land of Shadow, Mordor is a dark and desolate land ruled by the Dark Lord Sauron. It is dominated by the Dark Tower of Barad-dûr and Mount Doom, where the One Ring was forged.  A place of evil and fear, it is home to orcs, trolls, and other foul creatures.",
+      "significance": "The ultimate destination of Frodo's quest to destroy the One Ring.",
+      "_key": "LOCA_01"
+    },
+    {
+      "name": "The Shire",
+      "type": "Region",
+      "region": "Middle-earth",
+      "description": "A peaceful and idyllic land inhabited by hobbits. It is characterized by rolling hills, green fields, and the comforts of hobbit-holes. Divided into four Farthings, the Shire is largely self-governing and isolated from the troubles of the wider world.",
+      "significance": "Frodo's homeland and a symbol of the simple life he must leave behind.",
+      "_key": "LOCA_02"
+    },
+    {
+      "name": "Hobbiton",
+      "type": "Village",
+      "region": "The Shire",
+      "description": "A village within the Shire, home to Bilbo and Frodo Baggins at Bag End. It is the location of Bilbo's eleventy-first birthday party and the starting point of Frodo's journey.",
+      "significance": "The initial setting and the place where Frodo inherits the One Ring.",
+      "_key": "LOCA_03"
+    },
+    {
+      "name": "Bag End",
+      "type": "Hobbit-hole",
+      "region": "Hobbiton, The Shire",
+      "description": "Bilbo and Frodo's home, a luxurious hobbit-hole built into The Hill. It is known for its beautiful gardens and rumored to contain vast treasures.",
+      "significance": "Frodo's home and the place where the story begins.",
+      "_key": "LOCA_04"
+    },
+    {
+      "name": "Buckland",
+      "type": "Region",
+      "region": "The Shire",
+      "description": "A region on the eastern border of the Shire, settled by the Brandybuck family. It is bordered by the Brandywine River and the Old Forest.",
+      "significance": "Frodo purchases Crickhollow in Buckland as a decoy destination.",
+      "_key": "LOCA_05"
+    },
+    {
+      "name": "Brandy Hall",
+      "type": "Residence",
+      "region": "Buckland, The Shire",
+      "description": "The ancestral home of the Brandybuck family, a large and sprawling residence with numerous rooms and tunnels. Frodo spent part of his childhood there.",
+      "significance": "Frodo's childhood home and a place associated with the Brandybuck family.",
+      "_key": "LOCA_06"
+    },
+    {
+      "name": "Bywater",
+      "type": "Village",
+      "region": "The Shire",
+      "description": "A village near Hobbiton, located beside a grey pool. It is mentioned as a place where news and rumors spread.",
+      "significance": "A neighboring village to Hobbiton, part of the Shire community.",
+      "_key": "LOCA_07"
+    },
+    {
+      "name": "The Ivy Bush",
+      "type": "Inn",
+      "region": "Bywater, The Shire",
+      "description": "A small inn on the Bywater road, where locals gather to discuss news and events. Ham Gamgee, the Gaffer, often holds forth there.",
+      "significance": "A place of local gossip and information exchange.",
+      "_key": "LOCA_08"
+    },
+    {
+      "name": "Michel Delving",
+      "type": "Township",
+      "region": "The Shire",
+      "description": "The chief township of the Shire, located on the White Downs. It is home to the Mathom-house, a museum of hobbit artifacts.",
+      "significance": "The main administrative center of the Shire.",
+      "_key": "LOCA_09"
+    },
+    {
+      "name": "The Old Forest",
+      "type": "Forest",
+      "region": "Middle-earth",
+      "description": "A dense and ancient forest bordering Buckland. Its trees are described as being sentient and hostile to strangers.",
+      "significance": "Frodo and his companions travel through it as a shortcut to avoid the Black Riders.",
+      "_key": "LOCA_10"
+    },
+    {
+      "name": "Crickhollow",
+      "type": "House",
+      "region": "Buckland, The Shire",
+      "description": "A small house purchased by Frodo as a decoy destination. It is located in the country beyond Bucklebury.",
+      "significance": "Frodo's temporary home and a key part of his plan to leave the Shire secretly.",
+      "_key": "LOCA_11"
+    },
+    {
+      "name": "Bree",
+      "type": "Village",
+      "region": "Bree-land, Middle-earth",
+      "description": "A village east of the Shire, inhabited by both Men and hobbits. It is an ancient meeting place of roads and home to the Prancing Pony inn.",
+      "significance": "The hobbits stop at Bree on their journey and meet Strider (Aragorn).",
+      "_key": "LOCA_12"
+    },
+    {
+      "name": "The Prancing Pony",
+      "type": "Inn",
+      "region": "Bree, Bree-land",
+      "description": "An inn in Bree kept by Barliman Butterbur. It is a gathering place for locals, travelers, and Rangers.",
+      "significance": "Frodo and his companions stay at the Prancing Pony and encounter danger.",
+      "_key": "LOCA_13"
+    },
+    {
+      "name": "Chetwood",
+      "type": "Forest",
+      "region": "Bree-land, Middle-earth",
+      "description": "A forest near Bree, mentioned as a place where some hobbits live.",
+      "significance": "Part of the Bree-land and a place the hobbits pass through on their journey.",
+      "_key": "LOCA_14"
+    },
+    {
+      "name": "Rivendell",
+      "type": "Valley",
+      "region": "Middle-earth",
+      "description": "Also known as Imladris, Rivendell is a hidden valley and the last homely house east of the Sea. It is home to Elrond and the Elves.",
+      "significance": "A place of refuge and healing for Frodo, where the Council of Elrond takes place.",
+      "_key": "LOCA_15"
+    },
+    {
+      "name": "The Barrow-downs",
+      "type": "Hills",
+      "region": "Middle-earth",
+      "description": "A range of hills east of the Old Forest, known for the Barrow-wights that inhabit the ancient barrows.",
+      "significance": "Frodo and his companions encounter danger and are captured by a Barrow-wight.",
+      "_key": "LOCA_16"
+    },
+    {
+      "name": "Woodhall",
+      "type": "Village",
+      "region": "The Shire",
+      "description": "A village in the Shire, located near the Woody End.",
+      "significance": "A landmark on the hobbits' journey through the Shire.",
+      "_key": "LOCA_17"
+    },
+    {
+      "name": "Tower Hills",
+      "type": "Hills",
+      "region": "The Shire",
+      "description": "Hills beyond the western marches of the Shire, where three Elf-towers can be seen.",
+      "significance": "A landmark and a reminder of the Elves' presence in Middle-earth.",
+      "_key": "LOCA_18"
+    },
+    {
+      "name": "Grey Havens",
+      "type": "Harbours",
+      "region": "Middle-earth",
+      "description": "Harbours located west of the Shire, from which Elven ships sail to Valinor.",
+      "significance": "The departure point for Elves leaving Middle-earth.",
+      "_key": "LOCA_19"
+    },
+    {
+      "name": "Misty Mountains",
+      "type": "Mountain Range",
+      "region": "Middle-earth",
+      "description": "A vast mountain range that runs through Middle-earth. It is home to Orcs, trolls, and other dangers.",
+      "significance": "A major geographical barrier and a place of peril for the travelers.",
+      "_key": "LOCA_20"
+    },
+    {
+      "name": "Mirkwood",
+      "type": "Forest",
+      "region": "Middle-earth",
+      "description": "A large and dark forest in the East of Middle-earth, once known as Greenwood the Great. It is home to spiders, Orcs, and other evil creatures.",
+      "significance": "A place of darkness and danger, mentioned in connection with the Enemy's growing power.",
+      "_key": "LOCA_21"
+    },
+    {
+      "name": "Anduin",
+      "type": "River",
+      "region": "Middle-earth",
+      "description": "The Great River of Middle-earth, flowing from the north to the south. It is an important waterway and a boundary between lands.",
+      "significance": "The hobbits travel on the Anduin after leaving Lothlórien.",
+      "_key": "LOCA_22"
+    },
+    {
+      "name": "Lothlórien",
+      "type": "Forest",
+      "region": "Middle-earth",
+      "description": "Also known as Lórien, it is a realm of the Elves, ruled by Celeborn and Galadriel. It is a place of beauty and magic, where the trees have golden leaves in autumn.",
+      "significance": "The Company finds refuge and receives gifts in Lothlórien.",
+      "_key": "LOCA_23"
+    },
+    {
+      "name": "Moria",
+      "type": "Mines",
+      "region": "Misty Mountains, Middle-earth",
+      "description": "Also known as Khazad-dûm, Moria is an ancient Dwarven city and mine complex beneath the Misty Mountains. It is now a dark and dangerous place.",
+      "significance": "The Company travels through Moria and encounters the Balrog.",
+      "_key": "LOCA_24"
+    },
+    {
+      "name": "Caras Galadhon",
+      "type": "City",
+      "region": "Lothlórien, Middle-earth",
+      "description": "The Elven city in Lothlórien, where Celeborn and Galadriel dwell. It is described as a city of trees with many flets and lights.",
+      "significance": "The center of Lothlórien and the place where the Company meets Galadriel.",
+      "_key": "LOCA_25"
+    },
+    {
+      "name": "Cerin Amroth",
+      "type": "Hill",
+      "region": "Lothlórien, Middle-earth",
+      "description": "A hill in Lothlórien covered with green grass and mallorn trees. It is the heart of the ancient realm and the mound of Amroth.",
+      "significance": "A place of beauty and memory in Lothlórien.",
+      "_key": "LOCA_26"
+    },
+    {
+      "name": "Isengard",
+      "type": "Fortress",
+      "region": "Middle-earth",
+      "description": "A fortress located in a circular valley surrounded by sheer rocks. It is home to Orthanc, a tall tower of stone.",
+      "significance": "Saruman dwells in Isengard and betrays Gandalf.",
+      "_key": "LOCA_27"
+    },
+    {
+      "name": "Orthanc",
+      "type": "Tower",
+      "region": "Isengard, Middle-earth",
+      "description": "A tall tower of stone in Isengard, built by the Men of Númenor. It is Saruman's stronghold.",
+      "significance": "Gandalf is imprisoned on top of Orthanc by Saruman.",
+      "_key": "LOCA_28"
+    },
+    {
+      "name": "Rohan",
+      "type": "Land",
+      "region": "Middle-earth",
+      "description": "Also known as the Riddermark, Rohan is a land of horsemen, allied with Gondor. It is located between the Misty Mountains and the White Mountains.",
+      "significance": "Gandalf travels to Rohan to seek aid and finds Shadowfax.",
+      "_key": "LOCA_29"
+    },
+    {
+      "name": "Edoras",
+      "type": "City",
+      "region": "Rohan, Middle-earth",
+      "description": "The capital city of Rohan, where the king dwells.",
+      "significance": "Gandalf visits Edoras on his way to the Shire.",
+      "_key": "LOCA_30"
+    },
+    {
+      "name": "Emyn Muil",
+      "type": "Hills",
+      "region": "Middle-earth",
+      "description": "A range of bleak hills east of the Anduin, bordering the Dead Marshes.",
+      "significance": "The Company travels through the Emyn Muil after leaving Lothlórien.",
+      "_key": "LOCA_31"
+    },
+    {
+      "name": "Rauros",
+      "type": "Waterfalls",
+      "region": "Anduin, Middle-earth",
+      "description": "Great falls on the Anduin, where the River thunders down from Nen Hithoel.",
+      "significance": "A major landmark on the Anduin and a point where the Fellowship breaks.",
+      "_key": "LOCA_32"
+    },
+    {
+      "name": "Amon Hen",
+      "type": "Hill",
+      "region": "Emyn Muil, Middle-earth",
+      "description": "One of the three peaks at the southern end of Nen Hithoel, known as the Hill of Sight. It has an ancient high seat on its summit.",
+      "significance": "Frodo climbs Amon Hen and is tempted by the Ring.",
+      "_key": "LOCA_33"
+    },
+    {
+      "name": "Amon Lhaw",
+      "type": "Hill",
+      "region": "Emyn Muil, Middle-earth",
+      "description": "One of the three peaks at the southern end of Nen Hithoel, known as the Hill of Hearing.",
+      "significance": "A landmark near Amon Hen.",
+      "_key": "LOCA_34"
+    },
+    {
+      "name": "Tol Brandir",
+      "type": "Island",
+      "region": "Anduin, Middle-earth",
+      "description": "A tall island in the Anduin, also known as the Tindrock. It is located near the falls of Rauros.",
+      "significance": "A major landmark on the Anduin and a point where the Fellowship must choose its path.",
+      "_key": "LOCA_35"
+    },
+    {
+      "name": "Parth Galen",
+      "type": "Lawn",
+      "region": "Amon Hen, Middle-earth",
+      "description": "A green lawn at the foot of Amon Hen, a fair place in the summer days of old.",
+      "significance": "The Company camps at Parth Galen and makes the decision to break the Fellowship.",
+      "_key": "LOCA_36"
+    },
+    {
+      "name": "Minas Tirith",
+      "type": "City",
+      "region": "Gondor, Middle-earth",
+      "description": "Originally Minas Anor, the Tower of the Setting Sun, it was renamed Minas Tirith, the Tower of Guard, after the fall of Minas Ithil. It is the capital of Gondor.",
+      "significance": "Boromir's home city and a major stronghold of Men.",
+      "_key": "LOCA_37"
+    }
+  ],
+  "CHARACTER": [
+    {
+      "name": "Bilbo Baggins",
+      "gender": "Male",
+      "age": 111,
+      "alive": true,
+      "status": "Hobbit, wealthy",
+      "description": "Old hobbit, fond of his garden and the Shire, formerly adventurous",
+      "occupation": "Retired burglar, author",
+      "significance": "Supporting",
+      "_key": "CHAR_01"
+    },
+    {
+      "name": "Frodo Baggins",
+      "gender": "Male",
+      "age": 33,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Bilbo's heir, fond of the Shire",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_02"
+    },
+    {
+      "name": "Gandalf",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Wizard",
+      "description": "Old wizard, friend of hobbits",
+      "occupation": "Wizard",
+      "significance": "Main",
+      "_key": "CHAR_03"
+    },
+    {
+      "name": "Sam Gamgee",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, gardener",
+      "description": "Frodo's gardener, fond of stories",
+      "occupation": "Gardener",
+      "significance": "Main",
+      "_key": "CHAR_04"
+    },
+    {
+      "name": "Ham Gamgee",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, gardener",
+      "description": "Sam's father, Bilbo's former gardener",
+      "occupation": "Gardener",
+      "significance": "Minor",
+      "_key": "CHAR_05"
+    },
+    {
+      "name": "Old Noakes",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "From Bywater",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_06"
+    },
+    {
+      "name": "Daddy Twofoot",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Gaffer Gamgee's neighbor",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_07"
+    },
+    {
+      "name": "Sandyman",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, miller",
+      "description": "Hobbiton miller",
+      "occupation": "Miller",
+      "significance": "Minor",
+      "_key": "CHAR_08"
+    },
+    {
+      "name": "Drogo Baggins",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Hobbit",
+      "description": "Frodo's father",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_09"
+    },
+    {
+      "name": "Primula Brandybuck",
+      "gender": "Female",
+      "age": null,
+      "alive": false,
+      "status": "Hobbit",
+      "description": "Frodo's mother",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_10"
+    },
+    {
+      "name": "Gorbadoc Brandybuck",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Primula's father",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_11"
+    },
+    {
+      "name": "Otho Sackville-Baggins",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Hobbit",
+      "description": "Bilbo's cousin, wanted Bag End",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_12"
+    },
+    {
+      "name": "Lobelia Sackville-Baggins",
+      "gender": "Female",
+      "age": 100,
+      "alive": true,
+      "status": "Hobbit",
+      "description": "Otho's wife, dislikes Bilbo and Frodo",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_13"
+    },
+    {
+      "name": "Odo Proudfoot",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Has large, furry feet",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_14"
+    },
+    {
+      "name": "Meriadoc Brandybuck",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Frodo's friend, called Merry",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_15"
+    },
+    {
+      "name": "Peregrin Took",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Frodo's friend, called Pippin",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_16"
+    },
+    {
+      "name": "Folco Boffin",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Frodo's friend",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_17"
+    },
+    {
+      "name": "Fredegar Bolger",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Frodo's friend, called Fatty",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_18"
+    },
+    {
+      "name": "Thorin Oakenshield",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dwarf, King under the Mountain",
+      "description": "Leader of the dwarves on the quest for Erebor",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_19"
+    },
+    {
+      "name": "Gollum",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Creature",
+      "description": "Loathsome creature, former hobbit, obsessed with the Ring",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_20"
+    },
+    {
+      "name": "Bandobras Took",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Known as Bullroarer, very tall hobbit",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_21"
+    },
+    {
+      "name": "Marcho",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, Fallohide",
+      "description": "One of the Fallohide brothers who founded the Shire",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_22"
+    },
+    {
+      "name": "Blanco",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, Fallohide",
+      "description": "One of the Fallohide brothers who founded the Shire",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_23"
+    },
+    {
+      "name": "Tobold Hornblower",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "First to grow pipe-weed in the Shire",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_24"
+    },
+    {
+      "name": "Isengrim the Second",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, Thain",
+      "description": "Thain of the Shire during Tobold Hornblower's time",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_25"
+    },
+    {
+      "name": "Adelard Took",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Received an umbrella from Bilbo",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_26"
+    },
+    {
+      "name": "Dora Baggins",
+      "gender": "Female",
+      "age": 99,
+      "alive": true,
+      "status": "Hobbit",
+      "description": "Drogo's sister, wrote Bilbo long letters",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_27"
+    },
+    {
+      "name": "Milo Burrows",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Never answered letters",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_28"
+    },
+    {
+      "name": "Angelica",
+      "gender": "Female",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, Baggins",
+      "description": "Young Baggins, considered herself beautiful",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_29"
+    },
+    {
+      "name": "Hugo Bracegirdle",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Borrowed books and didn't return them",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_30"
+    },
+    {
+      "name": "Rory Brandybuck",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Received wine from Bilbo",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_31"
+    },
+    {
+      "name": "Esmeralda Brandybuck",
+      "gender": "Female",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Rory Brandybuck's daughter-in-law",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_32"
+    },
+    {
+      "name": "Everard Took",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Danced at Bilbo's party",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_33"
+    },
+    {
+      "name": "Melilot Brandybuck",
+      "gender": "Female",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Danced at Bilbo's party",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_34"
+    },
+    {
+      "name": "Sancho Proudfoot",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Odo Proudfoot's grandson",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_35"
+    },
+    {
+      "name": "Farmer Maggot",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, farmer",
+      "description": "Farmer, keeps ferocious dogs",
+      "occupation": "Farmer",
+      "significance": "Supporting",
+      "_key": "CHAR_36"
+    },
+    {
+      "name": "Mrs. Maggot",
+      "gender": "Female",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Farmer Maggot's wife",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_37"
+    },
+    {
+      "name": "Déagol",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Hobbit-like creature",
+      "description": "Sméagol's friend, found the Ring",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_38"
+    },
+    {
+      "name": "Sméagol",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit-like creature",
+      "description": "Later known as Gollum, murdered Déagol for the Ring",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_39"
+    },
+    {
+      "name": "Gil-galad",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Elf-king",
+      "description": "Overthrew Sauron with Elendil",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_40"
+    },
+    {
+      "name": "Elendil",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Man, King of Westernesse",
+      "description": "Overthrew Sauron with Gil-galad",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_41"
+    },
+    {
+      "name": "Isildur",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Man",
+      "description": "Elendil's son, cut the Ring from Sauron's hand",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_42"
+    },
+    {
+      "name": "Aragorn",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Ranger, heir of Isildur",
+      "description": "Also called Strider, helped Gandalf find Gollum",
+      "occupation": "Ranger",
+      "significance": "Main",
+      "_key": "CHAR_43"
+    },
+    {
+      "name": "Tom Bombadil",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Master of wood, water, and hill",
+      "description": "Enigmatic and ancient being",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_44"
+    },
+    {
+      "name": "Goldberry",
+      "gender": "Female",
+      "age": null,
+      "alive": null,
+      "status": "River-daughter",
+      "description": "Tom Bombadil's wife",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_45"
+    },
+    {
+      "name": "Gildor Inglorion",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Leader of the Elves encountered in the Woody End",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_46"
+    },
+    {
+      "name": "Barliman Butterbur",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man, Innkeeper",
+      "description": "Innkeeper of the Prancing Pony",
+      "occupation": "Innkeeper",
+      "significance": "Supporting",
+      "_key": "CHAR_47"
+    },
+    {
+      "name": "Nob",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit",
+      "description": "Servant at the Prancing Pony",
+      "occupation": "Servant",
+      "significance": "Minor",
+      "_key": "CHAR_48"
+    },
+    {
+      "name": "Bob",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man or Hobbit",
+      "description": "Works at the Prancing Pony",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_49"
+    },
+    {
+      "name": "Bill Ferny",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man",
+      "description": "Untrustworthy resident of Bree",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_50"
+    },
+    {
+      "name": "Harry",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man",
+      "description": "Gatekeeper of Bree",
+      "occupation": "Gatekeeper",
+      "significance": "Minor",
+      "_key": "CHAR_51"
+    },
+    {
+      "name": "Glorfindel",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf-lord",
+      "description": "Elf from Rivendell, sent to look for Frodo",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_52"
+    },
+    {
+      "name": "Elrond",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf-lord",
+      "description": "Lord of Rivendell",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_53"
+    },
+    {
+      "name": "Arwen",
+      "gender": "Female",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Elrond's daughter, called Evenstar",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_54"
+    },
+    {
+      "name": "Elladan",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Elrond's son",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_55"
+    },
+    {
+      "name": "Elrohir",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Elrond's son",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_56"
+    },
+    {
+      "name": "Glóin",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Dwarf",
+      "description": "One of Thorin's companions",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_57"
+    },
+    {
+      "name": "Gimli",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Dwarf",
+      "description": "Glóin's son",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_58"
+    },
+    {
+      "name": "Erestor",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Counselor of Elrond",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_59"
+    },
+    {
+      "name": "Galdor",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Elf from the Grey Havens",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_60"
+    },
+    {
+      "name": "Círdan",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Shipwright",
+      "occupation": "Shipwright",
+      "significance": "Minor",
+      "_key": "CHAR_61"
+    },
+    {
+      "name": "Legolas",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Messenger from Thranduil",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_62"
+    },
+    {
+      "name": "Thranduil",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf-king",
+      "description": "King of the Elves of Northern Mirkwood",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_63"
+    },
+    {
+      "name": "Boromir",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man",
+      "description": "From Gondor",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_64"
+    },
+    {
+      "name": "Denethor",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man",
+      "description": "Lord of Minas Tirith",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_65"
+    },
+    {
+      "name": "Balin",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dwarf",
+      "description": "Led an expedition to Moria",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_66"
+    },
+    {
+      "name": "Ori",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dwarf",
+      "description": "Went to Moria with Balin",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_67"
+    },
+    {
+      "name": "Óin",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dwarf",
+      "description": "Went to Moria with Balin",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_68"
+    },
+    {
+      "name": "Celebrimbor",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Maker of the Three Rings",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_69"
+    },
+    {
+      "name": "Anárion",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Man",
+      "description": "Isildur's brother, son of Elendil",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_70"
+    },
+    {
+      "name": "Ohtar",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man",
+      "description": "Isildur's esquire",
+      "occupation": "Esquire",
+      "significance": "Minor",
+      "_key": "CHAR_71"
+    },
+    {
+      "name": "Valandil",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man",
+      "description": "Isildur's heir",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_72"
+    },
+    {
+      "name": "Meneldil",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Man",
+      "description": "Isildur's nephew",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_73"
+    },
+    {
+      "name": "Radagast",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Wizard",
+      "description": "The Brown, one of Gandalf's order",
+      "occupation": "Wizard",
+      "significance": "Minor",
+      "_key": "CHAR_74"
+    },
+    {
+      "name": "Saruman",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Wizard",
+      "description": "The White, head of Gandalf's order, has turned traitor",
+      "occupation": "Wizard",
+      "significance": "Supporting",
+      "_key": "CHAR_75"
+    },
+    {
+      "name": "Gwaihir",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Eagle",
+      "description": "The Windlord, rescued Gandalf from Orthanc",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_76"
+    },
+    {
+      "name": "Will Whitfoot",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Hobbit, Mayor",
+      "description": "Mayor of Michel Delving",
+      "occupation": "Mayor",
+      "significance": "Minor",
+      "_key": "CHAR_77"
+    },
+    {
+      "name": "Dáin",
+      "gender": "Male",
+      "age": 250,
+      "alive": true,
+      "status": "Dwarf-king",
+      "description": "King under the Mountain",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_78"
+    },
+    {
+      "name": "Dwalin",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Dwarf",
+      "description": "One of Thorin's companions",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_79"
+    },
+    {
+      "name": "Dori",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Dwarf",
+      "description": "One of Thorin's companions",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_80"
+    },
+    {
+      "name": "Nori",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Dwarf",
+      "description": "One of Thorin's companions",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_81"
+    },
+    {
+      "name": "Bifur",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Dwarf",
+      "description": "One of Thorin's companions",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_82"
+    },
+    {
+      "name": "Bofur",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Dwarf",
+      "description": "One of Thorin's companions",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_83"
+    },
+    {
+      "name": "Bombur",
+      "gender": "Male",
+      "age": null,
+      "alive": true,
+      "status": "Dwarf",
+      "description": "One of Thorin's companions, very fat",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_84"
+    },
+    {
+      "name": "Frár",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dwarf",
+      "description": "One of Balin's companions in Moria",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_85"
+    },
+    {
+      "name": "Lóni",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dwarf",
+      "description": "One of Balin's companions in Moria",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_86"
+    },
+    {
+      "name": "Náli",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dwarf",
+      "description": "One of Balin's companions in Moria",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_87"
+    },
+    {
+      "name": "Flói",
+      "gender": "Male",
+      "age": null,
+      "alive": false,
+      "status": "Dwarf",
+      "description": "One of Balin's companions in Moria",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_88"
+    },
+    {
+      "name": "Celeborn",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf-lord",
+      "description": "Lord of Lothlórien, Galadriel's husband",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_89"
+    },
+    {
+      "name": "Galadriel",
+      "gender": "Female",
+      "age": null,
+      "alive": null,
+      "status": "Elf-lady",
+      "description": "Lady of Lothlórien, keeper of Nenya",
+      "occupation": null,
+      "significance": "Main",
+      "_key": "CHAR_90"
+    },
+    {
+      "name": "Haldir",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Elf of Lothlórien, guides the Company",
+      "occupation": null,
+      "significance": "Supporting",
+      "_key": "CHAR_91"
+    },
+    {
+      "name": "Rúmil",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Haldir's brother",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_92"
+    },
+    {
+      "name": "Orophin",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Haldir's brother",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_93"
+    },
+    {
+      "name": "Nimrodel",
+      "gender": "Female",
+      "age": null,
+      "alive": null,
+      "status": "Elf",
+      "description": "Elf-maiden of Lothlórien, lost in the mountains",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_94"
+    },
+    {
+      "name": "Amroth",
+      "gender": "Male",
+      "age": null,
+      "alive": null,
+      "status": "Elf-king",
+      "description": "Nimrodel's lover",
+      "occupation": null,
+      "significance": "Minor",
+      "_key": "CHAR_95"
+    }
+  ],
+  "CREATURE": [
+    {
+      "name": "Elves",
+      "description": "Fair folk, often associated with magic, music, and immortality.  Various kinds of elves are mentioned, including High Elves (Noldor, Sindar), Silvan Elves (Galadhrim, Wood-elves), and others.",
+      "significance": "Play a crucial role in the history and lore of Middle-earth, possessing wisdom and power. They aid the hobbits and other members of the Fellowship.",
+      "_key": "CREA_01"
+    },
+    {
+      "name": "Dwarves",
+      "description": "Stout, skilled craftspeople and miners, known for their love of gold and their intricate works of metal and stone.",
+      "significance": "Bilbo's original adventure involved dwarves, and Gimli represents the dwarves in the Fellowship. They are impacted by the events surrounding the Ring.",
+      "_key": "CREA_02"
+    },
+    {
+      "name": "Hobbits",
+      "description": "Small, peace-loving folk, fond of simple pleasures and comfortable lives.",
+      "significance": "The main protagonists of the story, including Bilbo and Frodo, are hobbits. Their involvement in the quest is unexpected but crucial.",
+      "_key": "CREA_03"
+    },
+    {
+      "name": "Men",
+      "description": "Humans, varying in their cultures and allegiances. Some are allies of the free peoples, while others are under the sway of Sauron.",
+      "significance": "Men play a significant role in the conflicts of Middle-earth, both as allies and enemies. Boromir and Aragorn represent Men in the Fellowship.",
+      "_key": "CREA_04"
+    },
+    {
+      "name": "Dark Lord",
+      "description": "Sauron, the primary antagonist, a powerful sorcerer who created the One Ring and seeks to dominate Middle-earth.",
+      "significance": "The driving force behind the conflict, his search for the Ring motivates the entire plot.",
+      "_key": "CREA_05"
+    },
+    {
+      "name": "Orcs",
+      "description": "Savage, brutal creatures who serve Sauron.",
+      "significance": "Common enemies encountered throughout the journey, representing the pervasive threat of Sauron's forces.",
+      "_key": "CREA_06"
+    },
+    {
+      "name": "Trolls",
+      "description": "Large, dim-witted creatures, often encountered in mountainous regions.",
+      "significance": "Obstacles and enemies encountered by the hobbits and their companions.",
+      "_key": "CREA_07"
+    },
+    {
+      "name": "Dragons",
+      "description": "Powerful, winged reptiles who hoard treasure and breathe fire.",
+      "significance": "Dragons play a role in the backstory of The Hobbit and are mentioned as creatures of the past.",
+      "_key": "CREA_08"
+    },
+    {
+      "name": "Ringwraiths",
+      "description": "The Nine Servants of Sauron, also known as Black Riders or Nazgûl, once mortal men who were corrupted by the Nine Rings.",
+      "significance": "Relentless pursuers of Frodo and the Ring, representing a constant and terrifying threat.",
+      "_key": "CREA_09"
+    },
+    {
+      "name": "Gollum",
+      "description": "A wretched creature, once a hobbit-like being, who was corrupted and twisted by the One Ring.",
+      "significance": "Gollum's history is intertwined with the Ring, and he plays a significant role in its fate.",
+      "_key": "CREA_10"
+    },
+    {
+      "name": "Tree-men",
+      "description": "Giants, also known as Ents, who inhabit forests and are ancient and powerful.",
+      "significance": "Mentioned in rumors and tales, though not directly encountered in The Fellowship of the Ring.",
+      "_key": "CREA_11"
+    },
+    {
+      "name": "Wolves",
+      "description": "Wild and dangerous predators, sometimes allied with Orcs.",
+      "significance": "Creatures of the wild that pose a threat to travelers, particularly in the colder regions.",
+      "_key": "CREA_12"
+    },
+    {
+      "name": "Wargs",
+      "description": "Evil wolves, often used as mounts by Orcs.",
+      "significance": "Enemies encountered by the Company, particularly in the mountainous regions.",
+      "_key": "CREA_13"
+    },
+    {
+      "name": "Werewolves",
+      "description": "Shapeshifters who can transform into wolves.",
+      "significance": "Mentioned as servants of the Enemy, though not directly encountered in The Fellowship of the Ring.",
+      "_key": "CREA_14"
+    },
+    {
+      "name": "Barrow-wights",
+      "description": "Evil spirits that inhabit ancient barrows or burial mounds.",
+      "significance": "Dangerous creatures encountered by the hobbits on the Barrow-downs.",
+      "_key": "CREA_15"
+    },
+    {
+      "name": "Old Man Willow",
+      "description": "A malevolent and ancient willow tree in the Old Forest.",
+      "significance": "A dangerous and cunning creature encountered by the hobbits in the Old Forest.",
+      "_key": "CREA_16"
+    },
+    {
+      "name": "Tom Bombadil",
+      "description": "A mysterious and ancient being who is master of wood, water, and hill.",
+      "significance": "A unique and enigmatic figure who aids the hobbits in the Old Forest, but remains detached from the larger conflict.",
+      "_key": "CREA_17"
+    },
+    {
+      "name": "Goldberry",
+      "description": "The River-daughter, Tom Bombadil's wife.",
+      "significance": "A beautiful and benevolent being associated with nature and the River Withywindle.",
+      "_key": "CREA_18"
+    },
+    {
+      "name": "Watcher in the Water",
+      "description": "A monstrous creature that dwells in the lake outside the West-gate of Moria.",
+      "significance": "A dangerous creature that guards the entrance to Moria and attacks the Fellowship.",
+      "_key": "CREA_19"
+    },
+    {
+      "name": "Balrog",
+      "description": "A powerful demon of fire and shadow, a creature of Morgoth from the ancient world.",
+      "significance": "Durin's Bane, the Balrog of Moria, is a formidable foe that confronts Gandalf and causes his fall.",
+      "_key": "CREA_20"
+    },
+    {
+      "name": "Eagles",
+      "description": "Giant birds of prey that sometimes aid the free peoples.",
+      "significance": "Allies who provide information and assistance, particularly to Gandalf.",
+      "_key": "CREA_21"
+    },
+    {
+      "name": "Crebain",
+      "description": "Large black crows used as spies by Saruman.",
+      "significance": "Creatures used by the Enemy to gather information and track the Fellowship.",
+      "_key": "CREA_22"
+    }
+  ],
+  "ORGANIZATION": [
+    {
+      "name": "White Council",
+      "type": "Council",
+      "description": "A council of Wise, including Gandalf and Saruman, that opposed the Dark Lord.",
+      "significance": "Drove the evil power from Mirkwood, but it later returned to Mordor.",
+      "_key": "ORGA_01"
+    },
+    {
+      "name": "House of Finrod",
+      "type": "Elven House",
+      "description": "An Elven house or kindred, to which Gildor Inglorion belongs.",
+      "significance": "Gildor and his companions aid Frodo and his companions in the Woody End.",
+      "_key": "ORGA_02"
+    },
+    {
+      "name": "Wandering Companies",
+      "type": "Elven Groups",
+      "description": "Groups of Elves who wander and keep watch.",
+      "significance": "Gildor promises to inform them of Frodo's journey.",
+      "_key": "ORGA_03"
+    }
+  ],
+  "EVENT": [
+    {
+      "name": "Bilbo's Unexpected Party",
+      "type": "ceremony",
+      "summary": "Bilbo Baggins throws a grand eleventy-first birthday party, surprising his guests with an unexpected announcement of his departure and a magical disappearance.",
+      "_key": "EVEN_01"
+    },
+    {
+      "name": "Finding the Ring",
+      "type": "discovery",
+      "summary": "Bilbo Baggins finds the One Ring in the goblin tunnels under the Misty Mountains during his journey with Thorin Oakenshield and company. He plays a riddle game with Gollum to escape and keeps the ring's true nature a secret for many years.",
+      "_key": "EVEN_02"
+    },
+    {
+      "name": "Frodo Inherits the Ring",
+      "type": "inheritance",
+      "summary": "Bilbo leaves the Shire and his possessions, including the One Ring, to his nephew Frodo.",
+      "_key": "EVEN_03"
+    },
+    {
+      "name": "Gandalf's Warning",
+      "type": "revelation",
+      "summary": "Gandalf reveals the true nature of the One Ring to Frodo, explaining its history and the danger it poses.",
+      "_key": "EVEN_04"
+    },
+    {
+      "name": "Departure from the Shire",
+      "type": "journey",
+      "summary": "Frodo, Sam, Merry, and Pippin leave Bag End secretly to avoid the Black Riders.",
+      "_key": "EVEN_05"
+    },
+    {
+      "name": "Encounter with the Black Rider",
+      "type": "threat",
+      "summary": "The hobbits encounter a Black Rider on the road and narrowly avoid being discovered.",
+      "_key": "EVEN_06"
+    },
+    {
+      "name": "Meeting with Gildor",
+      "type": "encounter",
+      "summary": "The hobbits meet Gildor Inglorion and his company of Elves, who offer them shelter and warn them of the growing danger.",
+      "_key": "EVEN_07"
+    },
+    {
+      "name": "Encounter at Farmer Maggot's",
+      "type": "encounter",
+      "summary": "The hobbits encounter a Black Rider at Farmer Maggot's farm, but are mistaken for Frodo by Merry Brandybuck, who has come to meet them.",
+      "_key": "EVEN_08"
+    },
+    {
+      "name": "Conspiracy Revealed",
+      "type": "revelation",
+      "summary": "Merry, Pippin, and Sam reveal to Frodo that they know about the Ring and his plan to leave the Shire, and they insist on joining him.",
+      "_key": "EVEN_09"
+    },
+    {
+      "name": "Escape to Crickhollow",
+      "type": "journey",
+      "summary": "The hobbits arrive at Crickhollow, Frodo's new house in Buckland, but are forced to leave quickly due to the Black Riders' pursuit.",
+      "_key": "EVEN_10"
+    },
+    {
+      "name": "Old Forest and the Willow-man",
+      "type": "ordeal",
+      "summary": "The hobbits become trapped by Old Man Willow in the Old Forest, but are rescued by Tom Bombadil.",
+      "_key": "EVEN_11"
+    },
+    {
+      "name": "Barrow-wight Encounter",
+      "type": "ordeal",
+      "summary": "The hobbits are captured by a Barrow-wight, but Frodo remembers Tom's song and calls for help, leading to their rescue.",
+      "_key": "EVEN_12"
+    },
+    {
+      "name": "Meeting Glorfindel",
+      "type": "encounter",
+      "summary": "The hobbits meet Glorfindel, an Elf-lord sent from Rivendell, who helps them escape the Black Riders.",
+      "_key": "EVEN_13"
+    },
+    {
+      "name": "Flight to the Ford",
+      "type": "chase",
+      "summary": "The hobbits, pursued by the Black Riders, flee to the Ford of Bruinen, where a flood summoned by Elrond sweeps away the Ringwraiths.",
+      "_key": "EVEN_14"
+    },
+    {
+      "name": "Council of Elrond",
+      "type": "meeting",
+      "summary": "Representatives of the Free Peoples meet at Rivendell to discuss the One Ring and decide its fate. The Fellowship of the Ring is formed to take the Ring to Mordor.",
+      "_key": "EVEN_15"
+    }
+  ],
+  "ITEM": [
+    {
+      "name": "One Ring",
+      "type": "Artifact",
+      "magical": true,
+      "description": "A ring of gold that makes its wearer invisible and grants power according to their stature. It corrupts the hearts of those who possess it, especially mortals, and its primary effect on them is to extend their lifespan while diminishing their vitality. It also draws the Ringwraiths towards its bearer.",
+      "origin": "Forged by Sauron in the fires of Mount Doom to control all other Rings of Power.",
+      "current_status": "In Frodo's possession",
+      "_key": "ITEM_01"
+    },
+    {
+      "name": "Three Elven Rings",
+      "type": "Artifact",
+      "magical": true,
+      "description": "Three rings of power hidden from Sauron, used for understanding, making, and healing.",
+      "origin": "Forged by Celebrimbor in Eregion.",
+      "current_status": "Hidden",
+      "_key": "ITEM_02"
+    },
+    {
+      "name": "Seven Dwarf Rings",
+      "type": "Artifact",
+      "magical": true,
+      "description": "Rings of power given to the Dwarf lords.",
+      "origin": "Forged by Celebrimbor in Eregion.",
+      "current_status": "Mostly consumed by dragons or recovered by Sauron",
+      "_key": "ITEM_03"
+    },
+    {
+      "name": "Nine Rings for Mortal Men",
+      "type": "Artifact",
+      "magical": true,
+      "description": "Rings of power that ensnared men and turned them into the Ringwraiths.",
+      "origin": "Forged by Celebrimbor in Eregion.",
+      "current_status": "Held by the Nazgûl",
+      "_key": "ITEM_04"
+    },
+    {
+      "name": "Sting",
+      "type": "Weapon",
+      "magical": true,
+      "description": "An Elvish knife that glows blue when Orcs are near.",
+      "origin": "Found by Bilbo in a troll hoard.",
+      "current_status": "Given to Frodo by Bilbo",
+      "_key": "ITEM_05"
+    },
+    {
+      "name": "Mithril Coat",
+      "type": "Armor",
+      "magical": false,
+      "description": "A shirt of mail made of mithril, light and strong, able to turn blades.",
+      "origin": "A gift from Thorin to Bilbo, made by Dwarves.",
+      "current_status": "Given to Frodo by Bilbo",
+      "_key": "ITEM_06"
+    },
+    {
+      "name": "Glamdring",
+      "type": "Weapon",
+      "magical": true,
+      "description": "Gandalf's sword, the mate of Orcrist; glows when Orcs are near.",
+      "origin": "Found by Gandalf in a troll hoard.",
+      "current_status": "Wielded by Gandalf",
+      "_key": "ITEM_07"
+    },
+    {
+      "name": "Andúril",
+      "type": "Weapon",
+      "magical": true,
+      "description": "The reforged sword of Elendil, broken in the fight against Sauron.",
+      "origin": "Originally Narsil, wielded by Elendil.",
+      "current_status": "Wielded by Aragorn",
+      "_key": "ITEM_08"
+    },
+    {
+      "name": "Boromir's Horn",
+      "type": "Tool",
+      "magical": false,
+      "description": "A great horn whose sound is meant to inspire courage and fear in the enemies of Gondor.",
+      "origin": "Heirloom of the Stewards of Gondor.",
+      "current_status": "Carried by Boromir",
+      "_key": "ITEM_09"
+    },
+    {
+      "name": "Gimli's Axe",
+      "type": "Weapon",
+      "magical": false,
+      "description": "A broad-bladed axe.",
+      "origin": "Dwarvish make.",
+      "current_status": "Wielded by Gimli",
+      "_key": "ITEM_10"
+    },
+    {
+      "name": "Legolas' Bow",
+      "type": "Weapon",
+      "magical": false,
+      "description": "A bow and quiver of arrows.",
+      "origin": null,
+      "current_status": "Wielded by Legolas",
+      "_key": "ITEM_11"
+    },
+    {
+      "name": "Legolas' Knife",
+      "type": "Weapon",
+      "magical": false,
+      "description": "A long white knife.",
+      "origin": null,
+      "current_status": "Worn by Legolas",
+      "_key": "ITEM_12"
+    },
+    {
+      "name": "Barrow Blades",
+      "type": "Weapon",
+      "magical": false,
+      "description": "Swords taken from the barrow.",
+      "origin": "From the barrow-wight's hoard.",
+      "current_status": "Carried by Merry and Pippin",
+      "_key": "ITEM_13"
+    },
+    {
+      "name": "Phial of Galadriel",
+      "type": "Artifact",
+      "magical": true,
+      "description": "A small crystal phial containing the light of Eärendil's star.",
+      "origin": "Given by Galadriel.",
+      "current_status": "Given to Frodo",
+      "_key": "ITEM_14"
+    },
+    {
+      "name": "Elven Rope",
+      "type": "Tool",
+      "magical": false,
+      "description": "Rope made of hithlain, strong and light.",
+      "origin": "Made by the Elves of Lothlórien.",
+      "current_status": "Given to the Company",
+      "_key": "ITEM_15"
+    },
+    {
+      "name": "Box of Earth",
+      "type": "Artifact",
+      "magical": true,
+      "description": "A box containing blessed earth from Galadriel's orchard.",
+      "origin": "Given by Galadriel.",
+      "current_status": "Given to Sam",
+      "_key": "ITEM_16"
+    },
+    {
+      "name": "Nenya",
+      "type": "Artifact",
+      "magical": true,
+      "description": "One of the Three Elven Rings, the Ring of Adamant.",
+      "origin": "Made by Celebrimbor in Eregion.",
+      "current_status": "Worn by Galadriel",
+      "_key": "ITEM_17"
+    },
+    {
+      "name": "Lembas",
+      "type": "Food",
+      "magical": false,
+      "description": "Elven waybread, more strengthening than any food made by Men.",
+      "origin": "Made by the Elves of Lothlórien.",
+      "current_status": "Given to the Company",
+      "_key": "ITEM_18"
+    },
+    {
+      "name": "Elvish Cloaks",
+      "type": "Clothing",
+      "magical": false,
+      "description": "Cloaks made of a special silken stuff that helps wearers blend in with their surroundings.",
+      "origin": "Made by Galadriel and her maidens.",
+      "current_status": "Given to the Company",
+      "_key": "ITEM_19"
+    },
+    {
+      "name": "Morgul Knife",
+      "type": "Weapon",
+      "magical": true,
+      "description": "A knife used by the Ringwraiths, its wounds turn the victim into a wraith.",
+      "origin": null,
+      "current_status": "Broken by Frodo, a fragment remained in his shoulder",
+      "_key": "ITEM_20"
+    },
+    {
+      "name": "Book of Mazarbul",
+      "type": "Book",
+      "magical": false,
+      "description": "A record of the fortunes of Balin's folk in Moria.",
+      "origin": "Written by Balin's folk.",
+      "current_status": "Found by the Company",
+      "_key": "ITEM_21"
+    },
+    {
+      "name": "Elessar",
+      "type": "Jewelry",
+      "magical": false,
+      "description": "A green Elfstone set in a silver brooch shaped like an eagle.",
+      "origin": "Originally given by Galadriel to her daughter Celebrían.",
+      "current_status": "Given to Aragorn",
+      "_key": "ITEM_22"
+    }
+  ]
+}
