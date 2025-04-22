@@ -23,16 +23,59 @@ from core.visualizer import create_plotly_graph
 
 import streamlit as st
 
-# Initialize LLM client
-BOOK_LLM = ChatGoogleGenerativeAI(
-    model="gemini-1.5-pro",
-    # model="gemini-2.5-pro-exp-03-25",
-    # model="gemini-2.0-flash-lite",
-    api_key=st.secrets["GEMINI_API_KEY"],
-    temperature=0,
-    max_output_tokens=None,
+# # Initialize LLM client
+# BOOK_LLM = ChatGoogleGenerativeAI(
+#     model="gemini-1.5-pro",
+#     # model="gemini-2.5-pro-exp-03-25",
+#     # model="gemini-2.0-flash-lite",
+#     api_key=st.secrets["GEMINI_API_KEY"],
+#     temperature=0,
+#     max_output_tokens=None,
     
-  )
+#   )
+
+def create_llm_client(status_callback):
+    """
+    Create a new instance of the LLM client.
+    
+    Returns:
+        ChatGoogleGenerativeAI: The LLM client instance
+    """
+    # --- Get API Key and Model from Session State ---
+    api_key = st.session_state.get('gemini_api_key')
+    selected_model = st.session_state.get('selected_gemini_model', "gemini-2.0-flash-lite") # Default just in case
+
+    if not api_key:
+        error_msg = "Gemini API Key not found in session state. Please configure it in Settings."
+        logging.error(error_msg)
+        if status_callback: status_callback(f"Error: {error_msg}")
+        st.session_state.error_message = error_msg # Set error message for UI
+        return None
+
+    logging.info(f"Using Gemini Model: {selected_model}")
+    if status_callback: status_callback(f"Initializing LLM ({selected_model})...")
+
+    try:
+        llm = ChatGoogleGenerativeAI(
+            model=selected_model,
+            api_key=api_key,
+            temperature=0,
+            max_output_tokens=None,
+            # Add other necessary configurations if any
+        )
+        # Optional: Simple check if the model is available (might require a dummy call)
+        # try: llm.invoke("test") except...
+        logging.info("ChatGoogleGenerativeAI client initialized successfully.")
+        
+        return llm
+
+    except Exception as e:
+        error_msg = f"An unexpected error occurred during LLM initialization: {e}"
+        logging.error(error_msg, exc_info=True)
+        if status_callback: status_callback(f"Error: {error_msg}")
+        st.session_state.error_message = error_msg
+        return None
+    
 
 def filter_valid_entity_types(entity_types, enum_class):
     """
@@ -107,8 +150,10 @@ def create_graph_from_text(book_text, status_callback=None):
             {"role": "user", "content": ENTITY_RELATIONSHIPS_DISCOVERY_USER_PROMPT.format(book_text=book_text)}
         ]
         
-        # Initial LLM query to discover entities and relationships
-        response = BOOK_LLM.invoke(messages)
+        llm = create_llm_client(status_callback)
+        if not llm:
+            return None
+        response = llm.invoke(messages)
         cleaned_json = clean_json_string(response.content)
         print("Cleaned JSON:", cleaned_json)
         book_entities_json = json.loads(cleaned_json)
@@ -125,7 +170,7 @@ def create_graph_from_text(book_text, status_callback=None):
 
         # Initialize extractor
         extractor = EntityRelationshipExtractor(
-            chat_model=BOOK_LLM,
+            chat_model=llm,
             entity_types=[EntityType[e] for e in ensured_entities],
             relationship_types=[RelationshipType[r] for r in ensured_relationships],
             entity_prompts_map=ENTITY_PROMPTS_MAP,

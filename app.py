@@ -60,6 +60,10 @@ except ImportError as e:
     # You might want to exit or handle this more gracefully
     st.stop()
 
+if 'gemini_api_key' not in st.session_state:
+    st.session_state.gemini_api_key = st.secrets.get("GEMINI_API_KEY", "")
+if 'selected_gemini_model' not in st.session_state:
+    st.session_state.selected_gemini_model = "emini-2.0-flash-lite" # Default model
 
 import warnings
 
@@ -295,16 +299,17 @@ def book_selection_tab():
 
     col1, col2 = st.columns(2)
 
+    # --- Cached Book Section (col1 remains the same) ---
     with col1:
         st.markdown("### 📚 Load Cached Book")
         cached_books = get_cached_book_list()
 
         if not cached_books or cached_books[0] == "No cached books found":
-            st.info("No cached books found. Upload a new book to get started.")
+            st.info("No cached books found. Upload a new book or configure API access to process one.") # Added note about API
         else:
-            # Use session state to preserve selection across reruns if needed
+            # ... (selectbox and load button logic remains the same) ...
             if 'selected_cached_book' not in st.session_state:
-                st.session_state.selected_cached_book = cached_books[0]
+                 st.session_state.selected_cached_book = cached_books[0] if cached_books else None # Handle empty cache
 
             selected_book = st.selectbox(
                 "Select a book from cache:",
@@ -315,55 +320,84 @@ def book_selection_tab():
             st.session_state.selected_cached_book = selected_book # Update state on change
 
             if st.button("Load Book", key="load_book_btn"):
-                if selected_book:
+                if selected_book and selected_book != "No cached books found":
                     with st.spinner(f"Loading '{selected_book}'..."):
-                        load_book(selected_book) # Call the loading function directly
-                        # No st.rerun() needed here, spinner context manager handles UI update exit
+                        load_book(selected_book)
                 else:
-                    st.warning("Please select a book to load.")
+                    st.warning("Please select a valid book to load.")
 
 
+    # --- Upload New Book Section (col2) ---
     with col2:
         st.markdown("### 📄 Upload New Book")
+        st.markdown("Requires a Gemini API Key for processing.") # Added explanation
+
+        # --- MOVED: Gemini API Key Input ---
+        st.session_state.gemini_api_key = st.text_input(
+            "Gemini API Key",
+            value=st.session_state.gemini_api_key,
+            type="password",
+            help="Enter your Google Generative AI API Key. Get one from Google AI Studio. This is required to process new books."
+        )
+        # --- MOVED: Gemini Model Selection ---
+        model_options = {
+            "Gemini 1.5 Pro (Balanced)": "gemini-1.5-pro",
+            "Gemini 2.0 Flash Light (Fastest, Less Accurate)": "gemini-2.0-flash-lite",
+            "Gemini 2.5 Pro Exp (Potentially Most Accurate, Slow - Experimental)": "gemini-2.5-pro-exp-03-25",
+        }
+        model_display_names = list(model_options.keys())
+        try:
+            current_model_display_name = next(k for k, v in model_options.items() if v == st.session_state.selected_gemini_model)
+            current_index = model_display_names.index(current_model_display_name)
+        except (StopIteration, ValueError):
+            current_index = 0
+            st.session_state.selected_gemini_model = model_options[model_display_names[0]]
+
+        selected_model_display_name = st.selectbox(
+            "Select Gemini Model:",
+            options=model_display_names,
+            index=current_index,
+            help="Choose the Gemini model to use for processing. Models vary in speed, cost, and accuracy."
+        )
+        st.session_state.selected_gemini_model = model_options[selected_model_display_name]
+        # --- End MOVED Gemini Settings ---
+
+        st.markdown("---") # Separator before file uploader
+
         uploaded_file = st.file_uploader("Upload PDF Book", type=["pdf"])
 
         if uploaded_file:
-            default_book_name = Path(uploaded_file.name).stem # Use pathlib for cleaner name extraction
+            default_book_name = Path(uploaded_file.name).stem
             book_name = st.text_input("Book Name", value=default_book_name)
 
             if st.button("Process Book", key="process_book_btn"):
-                if not book_name:
+                # Check for API Key before processing (this check remains crucial)
+                if not st.session_state.get('gemini_api_key'):
+                     st.error("⚠️ Gemini API Key is missing. Please enter it above.")
+                elif not book_name:
                     st.error("Please enter a name for the book.")
                 else:
-                    # --- SYNCHRONOUS PROCESSING ---
+                    # Synchronous processing logic (remains the same)
                     st.session_state.processing_status = "Initializing processing..."
-                    st.session_state.error_message = "" # Clear previous errors
-
-                    # Use st.spinner for visual feedback during the synchronous operation
+                    st.session_state.error_message = ""
                     with st.spinner(st.session_state.processing_status):
-                        # Directly call the processing function. It will block until done.
-                        # The update_status callback will update the spinner text.
                         process_uploaded_book(uploaded_file, book_name, update_status)
+                    # Rerun is handled in process_uploaded_book's finally block
 
-                    # After process_uploaded_book finishes (or raises an error),
-                    # the st.rerun() call inside its finally block will refresh the UI.
-
-    # Display current status or error message
+    # Display current status or error message (remains the same)
     if st.session_state.error_message:
         st.error(st.session_state.error_message)
-        # Add a button to clear the error manually if needed
         if st.button("Clear Error Message"):
             st.session_state.error_message = ""
             st.rerun()
 
     if st.session_state.current_book_metadata:
         st.success(f"Current book loaded: **{st.session_state.current_book_metadata.book_name}**")
+        # ... (expander with book details remains the same) ...
         with st.expander("Book Details", expanded=False):
-            # Check attributes before accessing them
             if hasattr(st.session_state.current_book_metadata, 'file_name') and st.session_state.current_book_metadata.file_name:
                  st.write(f"**Original File:** {st.session_state.current_book_metadata.file_name}")
 
-            # --- ADDED CHECK for processing_date ---
             if hasattr(st.session_state.current_book_metadata, 'processing_date') and st.session_state.current_book_metadata.processing_date:
                 st.write(f"**Processing Date:** {st.session_state.current_book_metadata.processing_date}")
             else:
@@ -380,8 +414,9 @@ def book_selection_tab():
             total_relationships = sum(len(v) for v in rel_map.values()) if rel_map else 0
             st.write(f"**Total Relationships:** {total_relationships}")
 
-    elif not st.session_state.error_message: # Don't show info if an error is displayed
-        st.info("Upload a new book or load one from the cache.")
+    elif not st.session_state.error_message:
+        # Updated info message
+        st.info("Upload a new book (requires API key above) or load one from the cache.")
 
 
 # ... (graph_visualization_tab remains the same) ...
