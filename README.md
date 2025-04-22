@@ -1,4 +1,5 @@
 # MagicBook: Book Relationship Visualization and Analysis
+[Demo](https://magic-book.streamlit.app/)
 
 MagicBook is an AI-powered tool that transforms literary analysis by extracting and visualizing narrative networks from books. Using Google's Gemini AI, it identifies characters, locations, events, and their interconnections, presenting them as interactive graph visualizations that reveal the underlying structure of stories.
 
@@ -155,3 +156,8 @@ This project is open source and available under the MIT License.
 - **JSON Serialization**: For entity and relationship data persistence
 - **Hash-based Caching**: Efficient lookup mechanisms for processed book data
 - **Database Operations**: Connection pooling and query optimization
+
+## Next Steps
+- Integrate ArangoDB for graph persistence, querying, and scalable storage.
+- Build a Natural Language Query Bot that leverages the narrative graph to answer questions like "Which characters interact most with [Entity]?"
+- Enable Conversational Exploration of any book: allow users to ask questions and navigate the story through natural language, powered by the underlying graph knowledge.
