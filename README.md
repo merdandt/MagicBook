@@ -2,6 +2,12 @@
 
 MagicBook is an AI-powered tool that transforms literary analysis by extracting and visualizing narrative networks from books. Using Google's Gemini AI, it identifies characters, locations, events, and their interconnections, presenting them as interactive graph visualizations that reveal the underlying structure of stories.
 
+## Video explanation
+1. https://www.loom.com/share/804ca7a7fb52473aa291f321cfe14ac4?sid=eb22a037-d7c2-4aa7-b2db-b08bd9b09ac2
+2. https://www.loom.com/share/2f43dbce3f5941ca8e250a4a072b9b6d?sid=828b9675-df33-41cb-b506-0e864cbd69bb
+3. https://www.loom.com/share/38712b2c80cd434fa9a6c96104f018b8?sid=d8f26f70-aa14-4d3d-97ec-4f70203ca369
+4. https://www.loom.com/share/815d52b2153f4954872386139f5dbf7a?sid=255033b3-7dea-4eb9-b8fc-dbf8e7d0948c
+
 ## How It Works
 
 1. **Upload a Book**: Load a PDF book directly into the application
