@@ -1,0 +1,4866 @@
+{
+  "Family_PARENT_OF": [
+    {
+      "parent_id": "CHAR_01",
+      "child_id": "CHAR_04",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_01",
+      "child_id": "CHAR_02",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    },
+    {
+      "parent_id": "CHAR_09",
+      "child_id": "CHAR_09",
+      "legitimacy": "legitimate",
+      "confirmed": false
+    }
+  ],
+  "Family_SIBLING_OF": [
+    {
+      "sibling1_id": "CHAR_01",
+      "sibling2_id": "CHAR_04",
+      "relation": "full",
+      "confirmed": false
+    }
+  ],
+  "Emotional_LOVES": [
+    {
+      "lover_id": "CHAR_01",
+      "beloved_id": "CHAR_03",
+      "intensity": 9,
+      "unrequited": false,
+      "chapters": [
+        "To Leon Werth"
+      ]
+    },
+    {
+      "lover_id": "CHAR_02",
+      "beloved_id": "CHAR_20",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 7",
+        "Chapter 8",
+        "Chapter 9",
+        "Chapter 21",
+        "Chapter 26"
+      ]
+    },
+    {
+      "lover_id": "CHAR_02",
+      "beloved_id": "CHAR_17",
+      "intensity": 8,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 21"
+      ]
+    },
+    {
+      "lover_id": "CHAR_04",
+      "beloved_id": "CHAR_02",
+      "intensity": 10,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 2",
+        "Chapter 3",
+        "Chapter 4",
+        "Chapter 5",
+        "Chapter 6",
+        "Chapter 7",
+        "Chapter 24",
+        "Chapter 25",
+        "Chapter 26",
+        "Chapter 27"
+      ]
+    },
+    {
+      "lover_id": "CHAR_17",
+      "beloved_id": "CHAR_02",
+      "intensity": 9,
+      "unrequited": false,
+      "chapters": [
+        "Chapter 21"
+      ]
+    }
+  ],
+  "Emotional_TRUSTS": [
+    {
+      "trustor_id": "CHAR_01",
+      "trusted_id": "CHAR_03",
+      "level": 10,
+      "chapters": [
+        "To Leon Werth"
+      ],
+      "source": "Dedication of the book to Leon Werth, calling him the best friend in the world."
+    },
+    {
+      "trustor_id": "CHAR_04",
+      "trusted_id": "CHAR_02",
+      "level": 9,
+      "chapters": [
+        "Chapter 2",
+        "Chapter 24",
+        "Chapter 25",
+        "Chapter 26"
+      ],
+      "source": "The narrator trusts the little prince enough to share his water and help him."
+    },
+    {
+      "trustor_id": "CHAR_02",
+      "trusted_id": "CHAR_04",
+      "level": 9,
+      "chapters": [
+        "Chapter 2",
+        "Chapter 24",
+        "Chapter 25",
+        "Chapter 26"
+      ],
+      "source": "The little prince trusts the narrator enough to share his story and ask for help."
+    },
+    {
+      "trustor_id": "CHAR_02",
+      "trusted_id": "CHAR_17",
+      "level": 8,
+      "chapters": [
+        "Chapter 21"
+      ],
+      "source": "The little prince trusts the fox enough to be tamed by him."
+    },
+    {
+      "trustor_id": "CHAR_17",
+      "trusted_id": "CHAR_02",
+      "level": 8,
+      "chapters": [
+        "Chapter 21"
+      ],
+      "source": "The fox trusts the little prince enough to be tamed by him."
+    },
+    {
+      "trustor_id": "CHAR_02",
+      "trusted_id": "CHAR_15",
+      "level": 7,
+      "chapters": [
+        "Chapter 17"
+      ],
+      "source": "The little prince trusts the snake enough to let it bite him."
+    }
+  ],
+  "Emotional_BETRAYED": [
+    {
+      "betrayer_id": "CHAR_04",
+      "betrayed_id": "CHAR_02",
+      "severity": "High",
+      "motive": "The narrator's inability to understand the little prince's perspective and the little prince's eventual departure.",
+      "chapter": "Chapter 26"
+    },
+    {
+      "betrayer_id": "CHAR_20",
+      "betrayed_id": "CHAR_02",
+      "severity": "Medium",
+      "motive": "The rose's vanity and demanding nature led the little prince to doubt her and leave his planet.",
+      "chapter": "Chapter 8"
+    },
+    {
+      "betrayer_id": "CHAR_15",
+      "betrayed_id": "CHAR_02",
+      "severity": "High",
+      "motive": "The snake's role in the little prince's return to his planet, which involved a fatal bite.",
+      "chapter": "Chapter 26"
+    }
+  ],
+  "Interaction_INTERACTED_WITH": [],
+  "Interaction_APPEARED_TOGETHER": [
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_05",
+      "chapter": "Chapter 1",
+      "context": "Narrator describes drawing a boa constrictor swallowing an elephant."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_06",
+      "chapter": "Chapter 1",
+      "context": "Narrator describes drawing a boa constrictor swallowing an elephant."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 2",
+      "context": "Narrator meets the little prince in the desert."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 3",
+      "context": "The little prince and the narrator discuss the little prince's origins."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 4",
+      "context": "The narrator and the little prince discuss the little prince's planet."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 5",
+      "context": "The little prince and the narrator discuss baobabs."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 6",
+      "context": "The little prince and the narrator discuss sunsets."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 7",
+      "context": "The little prince and the narrator discuss the thorns of flowers."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 8",
+      "context": "The little prince and the narrator discuss the rose."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 9",
+      "context": "The little prince prepares to leave his planet."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_09",
+      "chapter": "Chapter 10",
+      "context": "The little prince visits the king."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 11",
+      "context": "The little prince visits the conceited man."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 12",
+      "context": "The little prince visits the tippler."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_12",
+      "chapter": "Chapter 13",
+      "context": "The little prince visits the businessman."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 14",
+      "context": "The little prince visits the lamplighter."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_14",
+      "chapter": "Chapter 15",
+      "context": "The little prince visits the geographer."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 16",
+      "context": "The narrator discusses the Earth's lamplighters."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_15",
+      "chapter": "Chapter 17",
+      "context": "The little prince meets the snake."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_16",
+      "chapter": "Chapter 18",
+      "context": "The little prince meets a flower in the desert."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_17",
+      "chapter": "Chapter 21",
+      "context": "The little prince befriends the fox."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_18",
+      "chapter": "Chapter 22",
+      "context": "The little prince encounters a railway switchman."
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_19",
+      "chapter": "Chapter 23",
+      "context": "The little prince encounters a merchant."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 24",
+      "context": "The narrator and the little prince search for water."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 25",
+      "context": "The narrator and the little prince find a well."
+    },
+    {
+      "character1_id": "CHAR_04",
+      "character2_id": "CHAR_02",
+      "chapter": "Chapter 26",
+      "context": "The little prince prepares to return to his planet."
+    }
+  ],
+  "Interaction_MET_AT": [
+    {
+      "character1_id": "CHAR_01",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 1",
+      "location": "France",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_01",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 2",
+      "location": "Desert of Sahara",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 2",
+      "location": "Desert of Sahara",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 3",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 6",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 7",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 24",
+      "location": "Desert of Sahara",
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 25",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_04",
+      "chapter": "Chapter 26",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_15",
+      "chapter": "Chapter 17",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_16",
+      "chapter": "Chapter 18",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_17",
+      "chapter": "Chapter 21",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_18",
+      "chapter": "Chapter 22",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_19",
+      "chapter": "Chapter 23",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_09",
+      "chapter": "Chapter 10",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_10",
+      "chapter": "Chapter 11",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_11",
+      "chapter": "Chapter 12",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_12",
+      "chapter": "Chapter 13",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_13",
+      "chapter": "Chapter 14",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_14",
+      "chapter": "Chapter 15",
+      "location": null,
+      "timestamp": null
+    },
+    {
+      "character1_id": "CHAR_02",
+      "character2_id": "CHAR_20",
+      "chapter": "Chapter 20",
+      "location": null,
+      "timestamp": null
+    }
+  ],
+  "Location_PRESENT_AT": [
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_01",
+      "role": "resident",
+      "chapter": null
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_02",
+      "role": "resident",
+      "chapter": "To Leon Werth"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_03",
+      "role": "resident",
+      "chapter": "Introduction"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_04",
+      "role": "resident",
+      "chapter": "Introduction"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_05",
+      "role": "resident",
+      "chapter": "Introduction"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_06",
+      "role": "visitor",
+      "chapter": "Chapter 2"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_07",
+      "role": "visitor",
+      "chapter": "Chapter 2"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_08",
+      "role": "visitor",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_09",
+      "role": "visitor",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_11",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_17",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "role": "visitor",
+      "chapter": "Chapter 2"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_10",
+      "role": "resident",
+      "chapter": "Chapter 3"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_17",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_03",
+      "location_id": "LOCA_02",
+      "role": "resident",
+      "chapter": "To Leon Werth"
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_06",
+      "role": "visitor",
+      "chapter": "Chapter 2"
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_07",
+      "role": "visitor",
+      "chapter": "Chapter 2"
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_11",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_17",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_05",
+      "location_id": "LOCA_17",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_06",
+      "location_id": null,
+      "role": "mentioned",
+      "chapter": "Chapter 1"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": null,
+      "role": "mentioned",
+      "chapter": "Chapter 4"
+    },
+    {
+      "character_id": "CHAR_08",
+      "location_id": null,
+      "role": "mentioned",
+      "chapter": "Chapter 7"
+    },
+    {
+      "character_id": "CHAR_09",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 10"
+    },
+    {
+      "character_id": "CHAR_10",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 11"
+    },
+    {
+      "character_id": "CHAR_11",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 12"
+    },
+    {
+      "character_id": "CHAR_12",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 13"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 14"
+    },
+    {
+      "character_id": "CHAR_14",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 15"
+    },
+    {
+      "character_id": "CHAR_15",
+      "location_id": "LOCA_17",
+      "role": "visitor",
+      "chapter": "Chapter 17"
+    },
+    {
+      "character_id": "CHAR_16",
+      "location_id": "LOCA_10",
+      "role": "resident",
+      "chapter": "Chapter 8"
+    },
+    {
+      "character_id": "CHAR_16",
+      "location_id": "LOCA_11",
+      "role": "visitor",
+      "chapter": "Chapter 18"
+    },
+    {
+      "character_id": "CHAR_17",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 21"
+    },
+    {
+      "character_id": "CHAR_18",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 22"
+    },
+    {
+      "character_id": "CHAR_19",
+      "location_id": null,
+      "role": "visitor",
+      "chapter": "Chapter 23"
+    },
+    {
+      "character_id": "CHAR_20",
+      "location_id": "LOCA_23",
+      "role": "resident",
+      "chapter": "Chapter 20"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_25",
+      "role": "visitor",
+      "chapter": "Chapter 25"
+    }
+  ],
+  "Location_TRAVELED_TO": [
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_02",
+      "from_location": "LOCA_01",
+      "start_date": "1900",
+      "end_date": "1940",
+      "means": "airmail routes",
+      "chapters": []
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_03",
+      "from_location": "LOCA_02",
+      "start_date": "1940",
+      "end_date": "1943",
+      "means": "escaped",
+      "chapters": []
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_04",
+      "from_location": "LOCA_03",
+      "start_date": "1943",
+      "end_date": "1944",
+      "means": "rejoined the air force",
+      "chapters": []
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_05",
+      "from_location": "LOCA_04",
+      "start_date": "1944",
+      "end_date": "1944",
+      "means": "reconnaissance mission",
+      "chapters": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": "plane crash",
+      "chapters": [
+        "Chapter 2"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_10",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "from_location": "LOCA_10",
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 3"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_08",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 10",
+        "Chapter 11",
+        "Chapter 12",
+        "Chapter 13",
+        "Chapter 14",
+        "Chapter 15"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_17",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 17"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_18",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 17"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_19",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 17"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_20",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 17"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 18"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 19"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 20"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 21"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 22"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 23"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 24"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 24"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 25"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 25"
+      ]
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 26"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "location_id": "LOCA_06",
+      "from_location": null,
+      "start_date": null,
+      "end_date": null,
+      "means": null,
+      "chapters": [
+        "Chapter 26"
+      ]
+    }
+  ],
+  "Location_BATTLE_AT": [
+    {
+      "character_id": "Antoine de Saint -Exupér y",
+      "location_id": "LOCA_05",
+      "chapter": "Chapter 17",
+      "battle_outcome": "lose",
+      "side": "himself"
+    }
+  ],
+  "Location_LIVES_IN": [
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_01",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_02",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_03",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_04",
+      "start_chapter": "Chapter 1",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 2",
+      "end_chapter": "Chapter 27",
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_10",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 9",
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 9",
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 2",
+      "end_chapter": "Chapter 27",
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 26",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 2",
+      "end_chapter": "Chapter 27",
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_07",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 4",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_09",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 10",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_10",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 11",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_11",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 12",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_12",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 13",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_13",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 14",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_14",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 15",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 17",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 18",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 19",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 20",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 21",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 22",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 23",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 24",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 25",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 26",
+      "end_chapter": null,
+      "status": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "location_id": "LOCA_11",
+      "start_chapter": "Chapter 26",
+      "end_chapter": null,
+      "status": "permanent"
+    },
+    {
+      "character_id": "CHAR_01",
+      "location_id": "LOCA_06",
+      "start_chapter": "Chapter 27",
+      "end_chapter": null,
+      "status": "temporary"
+    }
+  ],
+  "Event_WITNESSED": [
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_03",
+      "perspective": "Sharing his childhood experiences and opinions about grown-ups.",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "perspective": "Meeting the little prince and being asked to draw a sheep.",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_05",
+      "perspective": "Learning about the little prince's origins.",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_06",
+      "perspective": "Speculating on Asteroid B-612.",
+      "chapter": "Chapter 4",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_07",
+      "perspective": "Hearing the little prince's warning about baobabs.",
+      "chapter": "Chapter 5",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_08",
+      "perspective": "Discussing sunsets with the little prince.",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_09",
+      "perspective": "Learning about the little prince's love for a rose.",
+      "chapter": "Chapter 7",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_10",
+      "perspective": "Hearing the story of the rose's arrival.",
+      "chapter": "Chapter 8",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_11",
+      "perspective": "Witnessing the little prince's departure.",
+      "chapter": "Chapter 9",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_19",
+      "perspective": "Witnessing the little prince's encounter with the snake.",
+      "chapter": "Chapter 17",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_24",
+      "perspective": "Searching for water with the little prince.",
+      "chapter": "Chapter 24",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_25",
+      "perspective": "Finding the well and discussing the little prince's return.",
+      "chapter": "Chapter 25",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_26",
+      "perspective": "Witnessing the little prince's return to his planet.",
+      "chapter": "Chapter 26",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_28",
+      "perspective": "Reflecting on the little prince's departure.",
+      "chapter": "Chapter 27",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_03",
+      "perspective": "Sharing his childhood experiences and opinions about grown-ups.",
+      "chapter": "Chapter 1",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "perspective": "Meeting the little prince and being asked to draw a sheep.",
+      "chapter": "Chapter 2",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_05",
+      "perspective": "Learning about the little prince's origins.",
+      "chapter": "Chapter 3",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_06",
+      "perspective": "Speculating on Asteroid B-612.",
+      "chapter": "Chapter 4",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_07",
+      "perspective": "Hearing the little prince's warning about baobabs.",
+      "chapter": "Chapter 5",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_08",
+      "perspective": "Discussing sunsets with the little prince.",
+      "chapter": "Chapter 6",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_09",
+      "perspective": "Learning about the little prince's love for a rose.",
+      "chapter": "Chapter 7",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_10",
+      "perspective": "Hearing the story of the rose's arrival.",
+      "chapter": "Chapter 8",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_11",
+      "perspective": "Witnessing the little prince's departure.",
+      "chapter": "Chapter 9",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_19",
+      "perspective": "Witnessing the little prince's encounter with the snake.",
+      "chapter": "Chapter 17",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_24",
+      "perspective": "Searching for water with the little prince.",
+      "chapter": "Chapter 24",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_25",
+      "perspective": "Finding the well and discussing the little prince's return.",
+      "chapter": "Chapter 25",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_26",
+      "perspective": "Witnessing the little prince's return to his planet.",
+      "chapter": "Chapter 26",
+      "distance": "Directly involved"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_28",
+      "perspective": "Reflecting on the little prince's departure.",
+      "chapter": "Chapter 27",
+      "distance": "Directly involved"
+    }
+  ],
+  "Event_PARTICIPATED_IN": [
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_03",
+      "role": "narrator",
+      "chapter": "Chapter 1",
+      "outcome": "Introduces his ideas about grown-ups."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "role": "narrator",
+      "chapter": "Chapter 2",
+      "outcome": "Crashes in the desert and meets the little prince."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_04",
+      "role": "protagonist",
+      "chapter": "Chapter 2",
+      "outcome": "Meets the narrator and asks him to draw a sheep."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_05",
+      "role": "narrator",
+      "chapter": "Chapter 3",
+      "outcome": "Learns about the little prince's origins."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_05",
+      "role": "protagonist",
+      "chapter": "Chapter 3",
+      "outcome": "Shares information about his home planet."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_06",
+      "role": "narrator",
+      "chapter": "Chapter 4",
+      "outcome": "Speculates about the little prince's home planet."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_07",
+      "role": "protagonist",
+      "chapter": "Chapter 5",
+      "outcome": "Warns about the dangers of baobabs."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_08",
+      "role": "narrator",
+      "chapter": "Chapter 6",
+      "outcome": "Discusses sunsets with the little prince."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_08",
+      "role": "protagonist",
+      "chapter": "Chapter 6",
+      "outcome": "Shares his fondness for sunsets."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_09",
+      "role": "narrator",
+      "chapter": "Chapter 7",
+      "outcome": "Learns about the secret of the little prince's life."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_09",
+      "role": "protagonist",
+      "chapter": "Chapter 7",
+      "outcome": "Reveals his love for the rose."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_10",
+      "role": "narrator",
+      "chapter": "Chapter 8",
+      "outcome": "Learns about the rose's arrival."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_11",
+      "role": "protagonist",
+      "chapter": "Chapter 9",
+      "outcome": "Decides to leave his planet."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_12",
+      "role": "protagonist",
+      "chapter": "Chapter 10",
+      "outcome": "Visits the king."
+    },
+    {
+      "character_id": "CHAR_09",
+      "event_id": "EVEN_12",
+      "role": "king",
+      "chapter": "Chapter 10",
+      "outcome": "Rules over everything."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_13",
+      "role": "protagonist",
+      "chapter": "Chapter 11",
+      "outcome": "Visits the conceited man."
+    },
+    {
+      "character_id": "CHAR_10",
+      "event_id": "EVEN_13",
+      "role": "conceited man",
+      "chapter": "Chapter 11",
+      "outcome": "Wants to be admired."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_14",
+      "role": "protagonist",
+      "chapter": "Chapter 12",
+      "outcome": "Visits the tippler."
+    },
+    {
+      "character_id": "CHAR_11",
+      "event_id": "EVEN_14",
+      "role": "tippler",
+      "chapter": "Chapter 12",
+      "outcome": "Drinks to forget his shame."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_15",
+      "role": "protagonist",
+      "chapter": "Chapter 13",
+      "outcome": "Visits the businessman."
+    },
+    {
+      "character_id": "CHAR_12",
+      "event_id": "EVEN_15",
+      "role": "businessman",
+      "chapter": "Chapter 13",
+      "outcome": "Owns stars and is obsessed with numbers."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_16",
+      "role": "protagonist",
+      "chapter": "Chapter 14",
+      "outcome": "Visits the lamplighter."
+    },
+    {
+      "character_id": "CHAR_13",
+      "event_id": "EVEN_16",
+      "role": "lamplighter",
+      "chapter": "Chapter 14",
+      "outcome": "Works tirelessly."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_17",
+      "role": "protagonist",
+      "chapter": "Chapter 15",
+      "outcome": "Visits the geographer."
+    },
+    {
+      "character_id": "CHAR_14",
+      "event_id": "EVEN_17",
+      "role": "geographer",
+      "chapter": "Chapter 15",
+      "outcome": "Does not explore and learns about ephemeral things."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_18",
+      "role": "narrator",
+      "chapter": "Chapter 16",
+      "outcome": "Discusses the Earth and its inhabitants."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_19",
+      "role": "protagonist",
+      "chapter": "Chapter 17",
+      "outcome": "Meets the snake."
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_19",
+      "role": "snake",
+      "chapter": "Chapter 17",
+      "outcome": "Offers to help the little prince return to his planet."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_20",
+      "role": "protagonist",
+      "chapter": "Chapter 18",
+      "outcome": "Meets a flower in the desert."
+    },
+    {
+      "character_id": "CHAR_16",
+      "event_id": "EVEN_20",
+      "role": "flower",
+      "chapter": "Chapter 18",
+      "outcome": "Tells him about the men."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_21",
+      "role": "protagonist",
+      "chapter": "Chapter 19",
+      "outcome": "Encounters an echo."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_22",
+      "role": "protagonist",
+      "chapter": "Chapter 20",
+      "outcome": "Discovers a garden of roses."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_23",
+      "role": "protagonist",
+      "chapter": "Chapter 21",
+      "outcome": "Befriends the fox."
+    },
+    {
+      "character_id": "CHAR_17",
+      "event_id": "EVEN_23",
+      "role": "fox",
+      "chapter": "Chapter 21",
+      "outcome": "Teaches him about taming and establishing ties."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_24",
+      "role": "protagonist",
+      "chapter": "Chapter 22",
+      "outcome": "Encounters a railway switchman."
+    },
+    {
+      "character_id": "CHAR_18",
+      "event_id": "EVEN_24",
+      "role": "railway switchman",
+      "chapter": "Chapter 22",
+      "outcome": "Sorts travelers."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_25",
+      "role": "protagonist",
+      "chapter": "Chapter 23",
+      "outcome": "Meets a merchant."
+    },
+    {
+      "character_id": "CHAR_19",
+      "event_id": "EVEN_25",
+      "role": "merchant",
+      "chapter": "Chapter 23",
+      "outcome": "Sells pills to quench thirst."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_26",
+      "role": "narrator",
+      "chapter": "Chapter 24",
+      "outcome": "Searches for water with the little prince."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_26",
+      "role": "protagonist",
+      "chapter": "Chapter 24",
+      "outcome": "Searches for water with the narrator."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_27",
+      "role": "narrator",
+      "chapter": "Chapter 25",
+      "outcome": "Finds a well with the little prince."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_27",
+      "role": "protagonist",
+      "chapter": "Chapter 25",
+      "outcome": "Finds a well with the narrator and discusses his return."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_28",
+      "role": "narrator",
+      "chapter": "Chapter 26",
+      "outcome": "Witnesses the little prince's return."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_28",
+      "role": "protagonist",
+      "chapter": "Chapter 26",
+      "outcome": "Returns to his planet."
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_28",
+      "role": "snake",
+      "chapter": "Chapter 26",
+      "outcome": "Helps the little prince return to his planet."
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_29",
+      "role": "narrator",
+      "chapter": "Chapter 27",
+      "outcome": "Reflects on the little prince's departure."
+    }
+  ],
+  "Event_CAUSED": [
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "intention": "unintentional",
+      "chapter": "2",
+      "method": "plane crash"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "intention": "unintentional",
+      "chapter": "2",
+      "method": "engine failure"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_04",
+      "intention": "unintentional",
+      "chapter": "2",
+      "method": "asking the narrator to draw a sheep"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_05",
+      "intention": "unintentional",
+      "chapter": "3",
+      "method": "showing the little prince his airplane"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_06",
+      "intention": "unintentional",
+      "chapter": "4",
+      "method": "telling the little prince about the grown-ups' focus on figures"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_07",
+      "intention": "intentional",
+      "chapter": "5",
+      "method": "warning about the dangers of baobabs"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_08",
+      "intention": "unintentional",
+      "chapter": "6",
+      "method": "discussing sunsets"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_09",
+      "intention": "unintentional",
+      "chapter": "7",
+      "method": "revealing his love for the rose"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_11",
+      "intention": "intentional",
+      "chapter": "9",
+      "method": "deciding to leave his planet"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_12",
+      "intention": "unintentional",
+      "chapter": "10",
+      "method": "visiting the king"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_13",
+      "intention": "unintentional",
+      "chapter": "11",
+      "method": "visiting the conceited man"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_14",
+      "intention": "unintentional",
+      "chapter": "12",
+      "method": "visiting the tippler"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_15",
+      "intention": "unintentional",
+      "chapter": "13",
+      "method": "visiting the businessman"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_16",
+      "intention": "unintentional",
+      "chapter": "14",
+      "method": "visiting the lamplighter"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_17",
+      "intention": "unintentional",
+      "chapter": "15",
+      "method": "visiting the geographer"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_19",
+      "intention": "unintentional",
+      "chapter": "17",
+      "method": "meeting the snake"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_20",
+      "intention": "unintentional",
+      "chapter": "18",
+      "method": "meeting the flower"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_21",
+      "intention": "unintentional",
+      "chapter": "19",
+      "method": "climbing the mountain"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_22",
+      "intention": "unintentional",
+      "chapter": "20",
+      "method": "discovering the rose garden"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_23",
+      "intention": "unintentional",
+      "chapter": "21",
+      "method": "befriending the fox"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_24",
+      "intention": "unintentional",
+      "chapter": "22",
+      "method": "encountering the switchman"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_25",
+      "intention": "unintentional",
+      "chapter": "23",
+      "method": "meeting the merchant"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_26",
+      "intention": "unintentional",
+      "chapter": "24",
+      "method": "searching for water with the little prince"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_27",
+      "intention": "unintentional",
+      "chapter": "25",
+      "method": "finding the well with the little prince"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_28",
+      "intention": "intentional",
+      "chapter": "26",
+      "method": "returning to his planet"
+    },
+    {
+      "character_id": "CHAR_15",
+      "event_id": "EVEN_28",
+      "intention": "indirect",
+      "chapter": "26",
+      "method": "allowing the little prince to be bitten"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_29",
+      "intention": "unintentional",
+      "chapter": "27",
+      "method": "drawing the muzzle for the sheep"
+    }
+  ],
+  "Event_AFFECTED_BY": [
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_03",
+      "impact": "Shares his childhood experiences and opinions about grown-ups.",
+      "chapter": "Chapter 1",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "impact": "Crashes in the desert and meets the little prince.",
+      "chapter": "Chapter 2",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_04",
+      "impact": "Is asked to draw a sheep.",
+      "chapter": "Chapter 2",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_07",
+      "impact": "Learns about the dangers of baobabs.",
+      "chapter": "Chapter 5",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_09",
+      "impact": "Learns about the secret of the little prince's life.",
+      "chapter": "Chapter 7",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_24",
+      "impact": "Searches for a well in the desert with the little prince.",
+      "chapter": "Chapter 24",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_25",
+      "impact": "Finds a well with the little prince.",
+      "chapter": "Chapter 25",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_26",
+      "impact": "Witnesses the little prince's return to his planet.",
+      "chapter": "Chapter 26",
+      "duration": "permanent"
+    },
+    {
+      "character_id": "CHAR_04",
+      "event_id": "EVEN_27",
+      "impact": "Reflects on the little prince's departure and the mystery of the rose and the sheep.",
+      "chapter": "Chapter 27",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_04",
+      "impact": "Meets the narrator and asks him to draw a sheep.",
+      "chapter": "Chapter 2",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_05",
+      "impact": "Shares his origins with the narrator.",
+      "chapter": "Chapter 3",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_07",
+      "impact": "Warns about the dangers of baobabs.",
+      "chapter": "Chapter 5",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_09",
+      "impact": "Shares the secret of his life with the narrator.",
+      "chapter": "Chapter 7",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_11",
+      "impact": "Decides to leave his planet.",
+      "chapter": "Chapter 9",
+      "duration": "permanent"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_12",
+      "impact": "Visits a king.",
+      "chapter": "Chapter 10",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_13",
+      "impact": "Visits a conceited man.",
+      "chapter": "Chapter 11",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_14",
+      "impact": "Visits a tippler.",
+      "chapter": "Chapter 12",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_15",
+      "impact": "Visits a businessman.",
+      "chapter": "Chapter 13",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_16",
+      "impact": "Visits a lamplighter.",
+      "chapter": "Chapter 14",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_17",
+      "impact": "Visits a geographer.",
+      "chapter": "Chapter 15",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_19",
+      "impact": "Meets a snake.",
+      "chapter": "Chapter 17",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_20",
+      "impact": "Meets a flower.",
+      "chapter": "Chapter 18",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_22",
+      "impact": "Discovers a garden of roses.",
+      "chapter": "Chapter 20",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_23",
+      "impact": "Befriends a fox.",
+      "chapter": "Chapter 21",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_24",
+      "impact": "Searches for a well in the desert with the narrator.",
+      "chapter": "Chapter 24",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_25",
+      "impact": "Finds a well with the narrator.",
+      "chapter": "Chapter 25",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_26",
+      "impact": "Returns to his planet.",
+      "chapter": "Chapter 26",
+      "duration": "permanent"
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_26",
+      "impact": "Consoles the narrator.",
+      "chapter": "Chapter 26",
+      "duration": "temporary"
+    },
+    {
+      "character_id": "CHAR_20",
+      "event_id": "EVEN_11",
+      "impact": "Is left alone on the little prince's planet.",
+      "chapter": "Chapter 9",
+      "duration": "ongoing"
+    },
+    {
+      "character_id": "CHAR_17",
+      "event_id": "EVEN_23",
+      "impact": "Is tamed by the little prince.",
+      "chapter": "Chapter 21",
+      "duration": "ongoing"
+    }
+  ],
+  "Event_BORN_AT": [
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_02",
+      "significance": "Born in Lyon, France",
+      "chapter": "Announcement",
+      "circumstances": "Born on June 29, 1900"
+    }
+  ],
+  "Event_DIED_AT": [
+    {
+      "character_id": "CHAR_01",
+      "event_id": "EVEN_01",
+      "cause": "Shot down on a reconnaissance mission",
+      "chapter": "Chapter 2",
+      "impact": "Author's death frames the story's context."
+    },
+    {
+      "character_id": "CHAR_02",
+      "event_id": "EVEN_28",
+      "cause": "Snake bite",
+      "chapter": "Chapter 26",
+      "impact": "The Little Prince's physical departure, leaving the narrator to reflect on their relationship."
+    }
+  ],
+  "Organization_MEMBER_OF": [
+    {
+      "character_id": "CHAR_07",
+      "organization_id": "ORGA_01",
+      "role": "Astronomer",
+      "join_chapter": "Chapter 4",
+      "status": "former"
+    }
+  ],
+  "Organization_LEADER_OF": [
+    {
+      "character_id": "CHAR_09",
+      "organization_id": null,
+      "title": "King",
+      "start_chapter": "Chapter 10",
+      "end_chapter": null,
+      "leadership_style": "Absolute monarch"
+    }
+  ],
+  "Organization_FOUNDED_BY": [],
+  "Creature_BELONGS_TO_SPECIES": [
+    {
+      "character_id": "CHAR_05",
+      "creature_id": "CREA_01",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_06",
+      "creature_id": "CREA_02",
+      "purity": null,
+      "chapter": "Chapter 1",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_03",
+      "purity": null,
+      "chapter": "Chapter 2",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_03",
+      "purity": null,
+      "chapter": "Chapter 3",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_04",
+      "purity": null,
+      "chapter": "Chapter 5",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_05",
+      "purity": null,
+      "chapter": "Chapter 7",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_03",
+      "purity": null,
+      "chapter": "Chapter 7",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_05",
+      "purity": null,
+      "chapter": "Chapter 8",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_09",
+      "purity": null,
+      "chapter": "Chapter 9",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_03",
+      "purity": null,
+      "chapter": "Chapter 20",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_13",
+      "purity": null,
+      "chapter": "Chapter 21",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_05",
+      "purity": null,
+      "chapter": "Chapter 21",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_03",
+      "purity": null,
+      "chapter": "Chapter 21",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_08",
+      "purity": null,
+      "chapter": "Chapter 30",
+      "traits": []
+    },
+    {
+      "character_id": "CHAR_02",
+      "creature_id": "CREA_12",
+      "purity": null,
+      "chapter": "Chapter 26",
+      "traits": []
+    }
+  ],
+  "Creature_CONTROLLED_BY": [
+    {
+      "creature_id": "CREA_04",
+      "controller_id": "CHAR_02",
+      "method": "care",
+      "chapter": "Chapter 5",
+      "strength": "partial"
+    },
+    {
+      "creature_id": "CREA_03",
+      "controller_id": "CHAR_02",
+      "method": "care",
+      "chapter": "Chapter 7",
+      "strength": "partial"
+    },
+    {
+      "creature_id": "CREA_05",
+      "controller_id": "CHAR_02",
+      "method": "care",
+      "chapter": "Chapter 8",
+      "strength": "partial"
+    },
+    {
+      "creature_id": "CREA_03",
+      "controller_id": "CHAR_02",
+      "method": "muzzle",
+      "chapter": "Chapter 25",
+      "strength": "partial"
+    }
+  ],
+  "Creature_ALLIED_WITH": [
+    {
+      "creature_id": "CREA_01",
+      "ally_id": "CHAR_04",
+      "nature": "Informal",
+      "chapter": "Chapter 1",
+      "motivation": "Narrator's childhood memory"
+    },
+    {
+      "creature_id": "CREA_02",
+      "ally_id": "CHAR_04",
+      "nature": "Informal",
+      "chapter": "Chapter 1",
+      "motivation": "Narrator's childhood memory"
+    },
+    {
+      "creature_id": "CREA_01",
+      "ally_id": "CHAR_04",
+      "nature": "Informal",
+      "chapter": "Chapter 2",
+      "motivation": "Little Prince's request"
+    },
+    {
+      "creature_id": "CREA_03",
+      "ally_id": "CHAR_02",
+      "nature": "Informal",
+      "chapter": "Chapter 2",
+      "motivation": "Little Prince's need for a sheep"
+    },
+    {
+      "creature_id": "CREA_03",
+      "ally_id": "CHAR_02",
+      "nature": "Informal",
+      "chapter": "Chapter 3",
+      "motivation": "Little Prince's need for a sheep"
+    },
+    {
+      "creature_id": "CREA_04",
+      "ally_id": "CHAR_02",
+      "nature": "Informal",
+      "chapter": "Chapter 5",
+      "motivation": "Little Prince's concern for his planet"
+    },
+    {
+      "creature_id": "CREA_05",
+      "ally_id": "CHAR_02",
+      "nature": "Informal",
+      "chapter": "Chapter 7",
+      "motivation": "Little Prince's love for the rose"
+    },
+    {
+      "creature_id": "CREA_03",
+      "ally_id": "CREA_05",
+      "nature": "Informal",
+      "chapter": "Chapter 7",
+      "motivation": "Little Prince's concern for the rose"
+    },
+    {
+      "creature_id": "CREA_05",
+      "ally_id": "CHAR_02",
+      "nature": "Informal",
+      "chapter": "Chapter 8",
+      "motivation": "Rose's need for care"
+    },
+    {
+      "creature_id": "CREA_05",
+      "ally_id": "CHAR_02",
+      "nature": "Informal",
+      "chapter": "Chapter 9",
+      "motivation": "Rose's need for care"
+    },
+    {
+      "creature_id": "CREA_03",
+      "ally_id": "CHAR_02",
+      "nature": "Informal",
+      "chapter": "Chapter 25",
+      "motivation": "Little Prince's responsibility for the rose"
+    },
+    {
+      "creature_id": "CREA_03",
+      "ally_id": "CHAR_04",
+      "nature": "Informal",
+      "chapter": "Chapter 25",
+      "motivation": "Little Prince's responsibility for the rose"
+    },
+    {
+      "creature_id": "CREA_12",
+      "ally_id": "CHAR_02",
+      "nature": "Temporary",
+      "chapter": "Chapter 26",
+      "motivation": "Snake's role in the Little Prince's return"
+    },
+    {
+      "creature_id": "CREA_13",
+      "ally_id": "CHAR_02",
+      "nature": "Informal",
+      "chapter": "Chapter 21",
+      "motivation": "Fox's desire for friendship"
+    }
+  ],
+  "Concept_HAS_ABILITY": [
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_02",
+      "proficiency": "expert",
+      "chapter": "Chapter 1",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_02",
+      "proficiency": "expert",
+      "chapter": "Chapter 1",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_02",
+      "proficiency": "expert",
+      "chapter": "Chapter 2",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_09",
+      "proficiency": "limited",
+      "chapter": "Chapter 2",
+      "source": "life experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_09",
+      "proficiency": "limited",
+      "chapter": "Chapter 3",
+      "source": "life experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_09",
+      "proficiency": "limited",
+      "chapter": "Chapter 4",
+      "source": "life experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_09",
+      "proficiency": "expert",
+      "chapter": "Chapter 5",
+      "source": "life experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_04",
+      "proficiency": "limited",
+      "chapter": "Chapter 7",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_04",
+      "proficiency": "limited",
+      "chapter": "Chapter 7",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "proficiency": "expert",
+      "chapter": "Chapter 8",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_04",
+      "proficiency": "expert",
+      "chapter": "Chapter 8",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "proficiency": "expert",
+      "chapter": "Chapter 9",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_09",
+      "concept_id": "CONC_09",
+      "proficiency": "limited",
+      "chapter": "Chapter 10",
+      "source": "position of power",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_10",
+      "concept_id": "CONC_09",
+      "proficiency": "limited",
+      "chapter": "Chapter 11",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_11",
+      "concept_id": "CONC_04",
+      "proficiency": "limited",
+      "chapter": "Chapter 12",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_12",
+      "concept_id": "CONC_09",
+      "proficiency": "limited",
+      "chapter": "Chapter 13",
+      "source": "position of power",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_09",
+      "proficiency": "limited",
+      "chapter": "Chapter 14",
+      "source": "duty",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_14",
+      "concept_id": "CONC_09",
+      "proficiency": "limited",
+      "chapter": "Chapter 15",
+      "source": "duty",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_15",
+      "concept_id": "CONC_04",
+      "proficiency": "expert",
+      "chapter": "Chapter 17",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_15",
+      "concept_id": "CONC_04",
+      "proficiency": "expert",
+      "chapter": "Chapter 17",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_17",
+      "concept_id": "CONC_06",
+      "proficiency": "expert",
+      "chapter": "Chapter 21",
+      "source": "natural ability",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_04",
+      "proficiency": "limited",
+      "chapter": "Chapter 24",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_04",
+      "proficiency": "limited",
+      "chapter": "Chapter 24",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_04",
+      "proficiency": "limited",
+      "chapter": "Chapter 25",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_04",
+      "proficiency": "limited",
+      "chapter": "Chapter 25",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_04",
+      "proficiency": "expert",
+      "chapter": "Chapter 26",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_04",
+      "proficiency": "expert",
+      "chapter": "Chapter 26",
+      "source": "emotional experience",
+      "limitations": null
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_02",
+      "proficiency": "expert",
+      "chapter": "Chapter 27",
+      "source": "natural ability",
+      "limitations": null
+    }
+  ],
+  "Concept_BELIEVES_IN": [
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_01",
+      "strength": "Moderate",
+      "chapter": "Chapter 1",
+      "manifestation": "The narrator reflects on how grown-ups fail to understand the world as children do."
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_02",
+      "strength": "Moderate",
+      "chapter": "Chapter 1",
+      "manifestation": "The narrator expresses how he gave up his dream of being a painter because grown-ups did not understand his drawings."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_02",
+      "strength": "Devout",
+      "chapter": "Chapter 2",
+      "manifestation": "The little prince asks the narrator to draw a sheep, showing his belief in the power of imagination."
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_02",
+      "strength": "Moderate",
+      "chapter": "Chapter 2",
+      "manifestation": "The narrator draws the sheep, showing his willingness to engage with the little prince's imaginative world."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_08",
+      "strength": "Moderate",
+      "chapter": "Chapter 3",
+      "manifestation": "The little prince's questions about the narrator's plane and his origin reveal his curiosity about the nature of reality."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_07",
+      "strength": "Moderate",
+      "chapter": "Chapter 3",
+      "manifestation": "The little prince's questions about the sheep and the box reveal his search for meaning in the world."
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_01",
+      "strength": "Moderate",
+      "chapter": "Chapter 4",
+      "manifestation": "The narrator reflects on how grown-ups are only interested in figures and numbers, not in the essential things in life."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_06",
+      "strength": "Moderate",
+      "chapter": "Chapter 5",
+      "manifestation": "The little prince is concerned about the baobabs and their potential to destroy his planet, showing his belief in the importance of taking care of one's environment."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_06",
+      "strength": "Moderate",
+      "chapter": "Chapter 5",
+      "manifestation": "The little prince explains the importance of pulling up baobabs, showing his belief in the importance of responsibility."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_07",
+      "strength": "Devout",
+      "chapter": "Chapter 6",
+      "manifestation": "The little prince loves sunsets and finds comfort in them, showing his belief in the importance of finding beauty and meaning in life."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_05",
+      "strength": "Devout",
+      "chapter": "Chapter 7",
+      "manifestation": "The little prince is upset that the flower's thorns are of no use, showing his belief in the importance of love and the value of things."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 7",
+      "manifestation": "The little prince is upset about the flower and the sheep, showing his belief in the importance of love and responsibility."
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_03",
+      "strength": "Moderate",
+      "chapter": "Chapter 7",
+      "manifestation": "The narrator is ashamed of his own behavior and realizes the importance of the little prince's feelings."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 8",
+      "manifestation": "The little prince cares for his rose, showing his belief in the importance of love and responsibility."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 8",
+      "manifestation": "The little prince is hurt by the rose's vanity, showing his belief in the importance of love and responsibility."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 9",
+      "manifestation": "The little prince prepares to leave his planet, showing his belief in the importance of responsibility and the need to move on."
+    },
+    {
+      "character_id": "CHAR_09",
+      "concept_id": "CONC_09",
+      "strength": "Devout",
+      "chapter": "Chapter 10",
+      "manifestation": "The king believes in his own authority and the importance of being obeyed."
+    },
+    {
+      "character_id": "CHAR_10",
+      "concept_id": "CONC_10",
+      "strength": "Devout",
+      "chapter": "Chapter 11",
+      "manifestation": "The conceited man believes in the importance of being admired."
+    },
+    {
+      "character_id": "CHAR_11",
+      "concept_id": "CONC_04",
+      "strength": "Devout",
+      "chapter": "Chapter 12",
+      "manifestation": "The tippler drinks to forget, showing his belief in the power of escapism."
+    },
+    {
+      "character_id": "CHAR_12",
+      "concept_id": "CONC_09",
+      "strength": "Devout",
+      "chapter": "Chapter 13",
+      "manifestation": "The businessman believes in the importance of owning things and being accurate."
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_09",
+      "strength": "Devout",
+      "chapter": "Chapter 14",
+      "manifestation": "The lamplighter believes in the importance of following orders."
+    },
+    {
+      "character_id": "CHAR_14",
+      "concept_id": "CONC_09",
+      "strength": "Devout",
+      "chapter": "Chapter 15",
+      "manifestation": "The geographer believes in the importance of recording eternal things."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 21",
+      "manifestation": "The little prince befriends the fox, showing his belief in the importance of love and responsibility."
+    },
+    {
+      "character_id": "CHAR_17",
+      "concept_id": "CONC_06",
+      "strength": "Devout",
+      "chapter": "Chapter 21",
+      "manifestation": "The fox explains the meaning of 'tame', showing his belief in the importance of establishing ties."
+    },
+    {
+      "character_id": "CHAR_17",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 21",
+      "manifestation": "The fox explains the importance of the time spent with the little prince, showing his belief in the importance of love and responsibility."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 21",
+      "manifestation": "The little prince understands that his rose is unique because of the time he spent with her, showing his belief in the importance of love and responsibility."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_05",
+      "strength": "Devout",
+      "chapter": "Chapter 21",
+      "manifestation": "The little prince learns the fox's secret: what is essential is invisible to the eye, showing his belief in the importance of the heart."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 21",
+      "manifestation": "The little prince understands that he is responsible for his rose, showing his belief in the importance of love and responsibility."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_07",
+      "strength": "Devout",
+      "chapter": "Chapter 22",
+      "manifestation": "The little prince reflects on the meaning of life and the importance of finding what one is looking for."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_07",
+      "strength": "Devout",
+      "chapter": "Chapter 23",
+      "manifestation": "The little prince reflects on the meaning of life and the importance of finding what one is looking for."
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_07",
+      "strength": "Moderate",
+      "chapter": "Chapter 24",
+      "manifestation": "The narrator reflects on the meaning of life and the importance of finding what one is looking for."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_05",
+      "strength": "Devout",
+      "chapter": "Chapter 25",
+      "manifestation": "The little prince explains that one must look with the heart, showing his belief in the importance of the heart."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 26",
+      "manifestation": "The little prince accepts his fate, showing his belief in the importance of responsibility and love."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_05",
+      "strength": "Devout",
+      "chapter": "Chapter 26",
+      "manifestation": "The little prince explains that what is essential is invisible to the eye, showing his belief in the importance of the heart."
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "strength": "Devout",
+      "chapter": "Chapter 26",
+      "manifestation": "The little prince explains that he will be in the stars, showing his belief in the importance of love and the connection between people."
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_03",
+      "strength": "Moderate",
+      "chapter": "Chapter 27",
+      "manifestation": "The narrator reflects on the little prince and the importance of love and responsibility."
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_05",
+      "strength": "Moderate",
+      "chapter": "Chapter 27",
+      "manifestation": "The narrator reflects on the little prince and the importance of the heart."
+    }
+  ],
+  "Concept_RESISTS": [],
+  "Concept_INFLUENCED_BY": [
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_02",
+      "nature": "Inspiring",
+      "chapter": "Chapter 1",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_01",
+      "nature": "Confusing",
+      "chapter": "Chapter 1",
+      "awareness": false,
+      "resistance": "Low"
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_02",
+      "nature": "Inspiring",
+      "chapter": "Chapter 2",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_07",
+      "nature": "Inspiring",
+      "chapter": "Chapter 2",
+      "awareness": false,
+      "resistance": "Low"
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_09",
+      "nature": "Inspiring",
+      "chapter": "Chapter 5",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_09",
+      "nature": "Inspiring",
+      "chapter": "Chapter 5",
+      "awareness": false,
+      "resistance": "Low"
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_04",
+      "nature": "Inspiring",
+      "chapter": "Chapter 7",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_04",
+      "nature": "Inspiring",
+      "chapter": "Chapter 7",
+      "awareness": false,
+      "resistance": "Low"
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_03",
+      "nature": "Confusing",
+      "chapter": "Chapter 8",
+      "awareness": false,
+      "resistance": "Low"
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_04",
+      "nature": "Inspiring",
+      "chapter": "Chapter 8",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_07",
+      "nature": "Inspiring",
+      "chapter": "Chapter 9",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_09",
+      "concept_id": "CONC_09",
+      "nature": "Corrupting",
+      "chapter": "Chapter 10",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_10",
+      "concept_id": "CONC_09",
+      "nature": "Corrupting",
+      "chapter": "Chapter 11",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_11",
+      "concept_id": "CONC_04",
+      "nature": "Corrupting",
+      "chapter": "Chapter 12",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_12",
+      "concept_id": "CONC_09",
+      "nature": "Corrupting",
+      "chapter": "Chapter 13",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_13",
+      "concept_id": "CONC_09",
+      "nature": "Confusing",
+      "chapter": "Chapter 14",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_14",
+      "concept_id": "CONC_09",
+      "nature": "Confusing",
+      "chapter": "Chapter 15",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_06",
+      "nature": "Inspiring",
+      "chapter": "Chapter 21",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_17",
+      "concept_id": "CONC_06",
+      "nature": "Inspiring",
+      "chapter": "Chapter 21",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_06",
+      "nature": "Inspiring",
+      "chapter": "Chapter 21",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_04",
+      "concept_id": "CONC_04",
+      "nature": "Inspiring",
+      "chapter": "Chapter 26",
+      "awareness": false,
+      "resistance": "None"
+    },
+    {
+      "character_id": "CHAR_02",
+      "concept_id": "CONC_04",
+      "nature": "Inspiring",
+      "chapter": "Chapter 26",
+      "awareness": false,
+      "resistance": "None"
+    }
+  ],
+  "Event_BEFORE": [],
+  "Event_AFTER": [
+    {
+      "later_event_id": "EVEN_04",
+      "earlier_event_id": "EVEN_03",
+      "time_gap": "6 years",
+      "consequence": true,
+      "chapters": [
+        "Chapter 1",
+        "Chapter 2"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_05",
+      "earlier_event_id": "EVEN_04",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 2",
+        "Chapter 3"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_06",
+      "earlier_event_id": "EVEN_05",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 3",
+        "Chapter 4"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_07",
+      "earlier_event_id": "EVEN_06",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 4",
+        "Chapter 5"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_08",
+      "earlier_event_id": "EVEN_07",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 5",
+        "Chapter 6"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_09",
+      "earlier_event_id": "EVEN_08",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 6",
+        "Chapter 7"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_10",
+      "earlier_event_id": "EVEN_09",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 7",
+        "Chapter 8"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_11",
+      "earlier_event_id": "EVEN_10",
+      "time_gap": "a short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 8",
+        "Chapter 9"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_12",
+      "earlier_event_id": "EVEN_11",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 9",
+        "Chapter 10"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_13",
+      "earlier_event_id": "EVEN_12",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 10",
+        "Chapter 11"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_14",
+      "earlier_event_id": "EVEN_13",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 11",
+        "Chapter 12"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_15",
+      "earlier_event_id": "EVEN_14",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 12",
+        "Chapter 13"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_16",
+      "earlier_event_id": "EVEN_15",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 13",
+        "Chapter 14"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_17",
+      "earlier_event_id": "EVEN_16",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 14",
+        "Chapter 15"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_18",
+      "earlier_event_id": "EVEN_17",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 15",
+        "Chapter 16"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_19",
+      "earlier_event_id": "EVEN_18",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 16",
+        "Chapter 17"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_20",
+      "earlier_event_id": "EVEN_19",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 17",
+        "Chapter 18"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_21",
+      "earlier_event_id": "EVEN_20",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 18",
+        "Chapter 19"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_22",
+      "earlier_event_id": "EVEN_21",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 19",
+        "Chapter 20"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_23",
+      "earlier_event_id": "EVEN_22",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 20",
+        "Chapter 21"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_24",
+      "earlier_event_id": "EVEN_23",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 21",
+        "Chapter 22"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_25",
+      "earlier_event_id": "EVEN_24",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 22",
+        "Chapter 23"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_26",
+      "earlier_event_id": "EVEN_25",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 23",
+        "Chapter 24"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_27",
+      "earlier_event_id": "EVEN_26",
+      "time_gap": "a short time",
+      "consequence": false,
+      "chapters": [
+        "Chapter 24",
+        "Chapter 25"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_28",
+      "earlier_event_id": "EVEN_27",
+      "time_gap": "a short time",
+      "consequence": true,
+      "chapters": [
+        "Chapter 25",
+        "Chapter 26"
+      ]
+    },
+    {
+      "later_event_id": "EVEN_29",
+      "earlier_event_id": "EVEN_28",
+      "time_gap": "6 years",
+      "consequence": false,
+      "chapters": [
+        "Chapter 26",
+        "Chapter 27"
+      ]
+    }
+  ],
+  "Event_SIMULTANEOUS_WITH": [
+    {
+      "event1_id": "EVEN_04",
+      "event2_id": "EVEN_05",
+      "exact": false,
+      "significance": "The beginning of the narrator's understanding of the little prince's origins.",
+      "awareness": "The narrator is aware of the little prince's origins, and the little prince is aware of the narrator's questions."
+    },
+    {
+      "event1_id": "EVEN_04",
+      "event2_id": "EVEN_06",
+      "exact": false,
+      "significance": "The narrator's and the little prince's discussion about the little prince's origins.",
+      "awareness": "The narrator is aware of the little prince's origins, and the little prince is aware of the narrator's questions."
+    },
+    {
+      "event1_id": "EVEN_06",
+      "event2_id": "EVEN_07",
+      "exact": false,
+      "significance": "The little prince's warnings about the baobabs, which is a lesson for the narrator.",
+      "awareness": "The narrator is aware of the little prince's warnings, and the little prince is aware of the narrator's attention."
+    },
+    {
+      "event1_id": "EVEN_07",
+      "event2_id": "EVEN_08",
+      "exact": false,
+      "significance": "The little prince and the narrator's conversation about sunsets.",
+      "awareness": "Both are aware of each other's presence and conversation."
+    },
+    {
+      "event1_id": "EVEN_08",
+      "event2_id": "EVEN_09",
+      "exact": false,
+      "significance": "The little prince's revelation of the secret of his life.",
+      "awareness": "The narrator is aware of the little prince's secret, and the little prince is aware of the narrator's attention."
+    },
+    {
+      "event1_id": "EVEN_10",
+      "event2_id": "EVEN_11",
+      "exact": false,
+      "significance": "The little prince's decision to leave his planet.",
+      "awareness": "The little prince is aware of his departure, and the narrator is aware of the little prince's departure."
+    },
+    {
+      "event1_id": "EVEN_12",
+      "event2_id": "EVEN_13",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on different planets.",
+      "awareness": "The little prince is aware of the king, and the king is aware of the little prince. The little prince is aware of the conceited man, and the conceited man is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_13",
+      "event2_id": "EVEN_14",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on different planets.",
+      "awareness": "The little prince is aware of the conceited man, and the conceited man is aware of the little prince. The little prince is aware of the tippler, and the tippler is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_14",
+      "event2_id": "EVEN_15",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on different planets.",
+      "awareness": "The little prince is aware of the tippler, and the tippler is aware of the little prince. The little prince is aware of the businessman, and the businessman is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_15",
+      "event2_id": "EVEN_16",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on different planets.",
+      "awareness": "The little prince is aware of the businessman, and the businessman is aware of the little prince. The little prince is aware of the lamplighter, and the lamplighter is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_16",
+      "event2_id": "EVEN_17",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on different planets.",
+      "awareness": "The little prince is aware of the lamplighter, and the lamplighter is aware of the little prince. The little prince is aware of the geographer, and the geographer is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_19",
+      "event2_id": "EVEN_20",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on Earth.",
+      "awareness": "The little prince is aware of the snake, and the snake is aware of the little prince. The little prince is aware of the flower, and the flower is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_20",
+      "event2_id": "EVEN_21",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on Earth.",
+      "awareness": "The little prince is aware of the flower, and the flower is aware of the little prince. The little prince is aware of the echo, and the echo is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_21",
+      "event2_id": "EVEN_22",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on Earth.",
+      "awareness": "The little prince is aware of the echo. The little prince is aware of the roses, and the roses are aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_22",
+      "event2_id": "EVEN_23",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on Earth.",
+      "awareness": "The little prince is aware of the roses, and the roses are aware of the little prince. The little prince is aware of the fox, and the fox is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_23",
+      "event2_id": "EVEN_24",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on Earth.",
+      "awareness": "The little prince is aware of the fox, and the fox is aware of the little prince. The little prince is aware of the switchman, and the switchman is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_24",
+      "event2_id": "EVEN_25",
+      "exact": false,
+      "significance": "The little prince's encounters with different characters on Earth.",
+      "awareness": "The little prince is aware of the switchman, and the switchman is aware of the little prince. The little prince is aware of the merchant, and the merchant is aware of the little prince."
+    },
+    {
+      "event1_id": "EVEN_26",
+      "event2_id": "EVEN_27",
+      "exact": false,
+      "significance": "The narrator and the little prince's search for water and their discussion about the little prince's return.",
+      "awareness": "Both are aware of each other's presence and actions."
+    },
+    {
+      "event1_id": "EVEN_27",
+      "event2_id": "EVEN_28",
+      "exact": false,
+      "significance": "The little prince's return to his planet.",
+      "awareness": "The narrator is aware of the little prince's return, and the little prince is aware of the narrator's presence."
+    }
+  ],
+  "Event_OVERLAPS_WITH": [
+    {
+      "event1_id": "EVEN_03",
+      "event2_id": "EVEN_04",
+      "extent": "Beginning",
+      "interaction": "The narrator's childhood experiences influence his encounter with the little prince.",
+      "perspective": "Revealed through the narrator's reflections."
+    },
+    {
+      "event1_id": "EVEN_04",
+      "event2_id": "EVEN_05",
+      "extent": "Middle",
+      "interaction": "The meeting with the little prince leads to learning about his origins.",
+      "perspective": "Revealed through the narrator's questions and the little prince's answers."
+    },
+    {
+      "event1_id": "EVEN_04",
+      "event2_id": "EVEN_26",
+      "extent": "Middle",
+      "interaction": "The crash landing sets the stage for the journey to find water.",
+      "perspective": "Revealed through the narrator's experience."
+    },
+    {
+      "event1_id": "EVEN_05",
+      "event2_id": "EVEN_06",
+      "extent": "Middle",
+      "interaction": "Learning about the little prince's origins leads to speculation about his home.",
+      "perspective": "Revealed through the narrator's questions and the little prince's answers."
+    },
+    {
+      "event1_id": "EVEN_09",
+      "event2_id": "EVEN_10",
+      "extent": "Middle",
+      "interaction": "The revelation of the rose's importance is intertwined with the backstory of her arrival.",
+      "perspective": "Revealed through the little prince's story."
+    },
+    {
+      "event1_id": "EVEN_19",
+      "event2_id": "EVEN_20",
+      "extent": "Middle",
+      "interaction": "The little prince's encounters with the snake and the flower are part of his journey.",
+      "perspective": "Revealed through the little prince's experiences."
+    },
+    {
+      "event1_id": "EVEN_24",
+      "event2_id": "EVEN_25",
+      "extent": "Middle",
+      "interaction": "The encounter with the switchman and the merchant are part of the little prince's journey.",
+      "perspective": "Revealed through the little prince's experiences."
+    },
+    {
+      "event1_id": "EVEN_26",
+      "event2_id": "EVEN_27",
+      "extent": "Middle",
+      "interaction": "The search for water leads to the discovery of the well.",
+      "perspective": "Revealed through the narrator's and the little prince's shared experience."
+    },
+    {
+      "event1_id": "EVEN_26",
+      "event2_id": "EVEN_28",
+      "extent": "Middle",
+      "interaction": "The search for water is a precursor to the little prince's return.",
+      "perspective": "Revealed through the narrator's and the little prince's shared experience."
+    },
+    {
+      "event1_id": "EVEN_27",
+      "event2_id": "EVEN_28",
+      "extent": "Middle",
+      "interaction": "Finding the well leads to the discussion of the little prince's return.",
+      "perspective": "Revealed through the narrator's and the little prince's shared experience."
+    },
+    {
+      "event1_id": "EVEN_28",
+      "event2_id": "EVEN_29",
+      "extent": "End",
+      "interaction": "The little prince's return is followed by the narrator's reflections.",
+      "perspective": "Revealed through the narrator's experience."
+    }
+  ],
+  "Event_CAUSES": [
+    {
+      "cause_event_id": "EVEN_03",
+      "effect_event_id": "EVEN_05",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_03",
+      "effect_event_id": "EVEN_06",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_07",
+      "effect_event_id": "EVEN_08",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_07",
+      "effect_event_id": "EVEN_09",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_09",
+      "effect_event_id": "EVEN_11",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_12",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_13",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_14",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_15",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_16",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_17",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_18",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_19",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_20",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_21",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_22",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_23",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_24",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_25",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_26",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_27",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_28",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_05",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_07",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_08",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_09",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_11",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_26",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_27",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_04",
+      "effect_event_id": "EVEN_28",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_05",
+      "effect_event_id": "EVEN_06",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_05",
+      "effect_event_id": "EVEN_07",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_05",
+      "effect_event_id": "EVEN_08",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_05",
+      "effect_event_id": "EVEN_09",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_05",
+      "effect_event_id": "EVEN_11",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_05",
+      "effect_event_id": "EVEN_26",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_05",
+      "effect_event_id": "EVEN_27",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_05",
+      "effect_event_id": "EVEN_28",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_07",
+      "effect_event_id": "EVEN_09",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_07",
+      "effect_event_id": "EVEN_11",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_07",
+      "effect_event_id": "EVEN_26",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_07",
+      "effect_event_id": "EVEN_27",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_07",
+      "effect_event_id": "EVEN_28",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_09",
+      "effect_event_id": "EVEN_11",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_09",
+      "effect_event_id": "EVEN_26",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_09",
+      "effect_event_id": "EVEN_27",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_09",
+      "effect_event_id": "EVEN_28",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_26",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_27",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "long"
+    },
+    {
+      "cause_event_id": "EVEN_11",
+      "effect_event_id": "EVEN_28",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_19",
+      "effect_event_id": "EVEN_28",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_21",
+      "effect_event_id": "EVEN_22",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_22",
+      "effect_event_id": "EVEN_23",
+      "directness": "direct",
+      "inevitability": "inevitable",
+      "time_gap": "short"
+    },
+    {
+      "cause_event_id": "EVEN_23",
+      "effect_event_id": "EVEN_28",
+      "directness": "indirect",
+      "inevitability": "indirect",
+      "time_gap": "short"
+    }
+  ],
+  "Event_CAUSED_BY": [
+    {
+      "effect_event_id": "EVEN_04",
+      "cause_event_id": "EVEN_03",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_05",
+      "cause_event_id": "EVEN_04",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_06",
+      "cause_event_id": "EVEN_05",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_07",
+      "cause_event_id": "EVEN_05",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_08",
+      "cause_event_id": "EVEN_05",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_09",
+      "cause_event_id": "EVEN_05",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_10",
+      "cause_event_id": "EVEN_09",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_11",
+      "cause_event_id": "EVEN_10",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_12",
+      "cause_event_id": "EVEN_11",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_13",
+      "cause_event_id": "EVEN_11",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_14",
+      "cause_event_id": "EVEN_11",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_15",
+      "cause_event_id": "EVEN_11",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_16",
+      "cause_event_id": "EVEN_11",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_17",
+      "cause_event_id": "EVEN_11",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_19",
+      "cause_event_id": "EVEN_18",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_20",
+      "cause_event_id": "EVEN_18",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_21",
+      "cause_event_id": "EVEN_18",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_22",
+      "cause_event_id": "EVEN_18",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_23",
+      "cause_event_id": "EVEN_18",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_24",
+      "cause_event_id": "EVEN_18",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_25",
+      "cause_event_id": "EVEN_18",
+      "predictability": "High",
+      "intention": false,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_26",
+      "cause_event_id": "EVEN_25",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_27",
+      "cause_event_id": "EVEN_26",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    },
+    {
+      "effect_event_id": "EVEN_28",
+      "cause_event_id": "EVEN_27",
+      "predictability": "High",
+      "intention": true,
+      "recognition": "Publicly acknowledged"
+    }
+  ],
+  "Item_POSSESSES": [
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_01",
+      "acquisition_chapter": "Chapter 1",
+      "current": true,
+      "method": "created"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_02",
+      "acquisition_chapter": "Chapter 1",
+      "current": true,
+      "method": "created"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_04",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_04",
+      "acquisition_chapter": "Chapter 2",
+      "current": false,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_06",
+      "acquisition_chapter": "Chapter 2",
+      "current": true,
+      "method": "gifted"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_07",
+      "acquisition_chapter": "Chapter 3",
+      "current": false,
+      "method": "offered"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_08",
+      "acquisition_chapter": "Chapter 3",
+      "current": false,
+      "method": "offered"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_09",
+      "acquisition_chapter": "Chapter 3",
+      "current": true,
+      "method": "inherited"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_10",
+      "acquisition_chapter": "Chapter 4",
+      "current": true,
+      "method": "bought"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_11",
+      "acquisition_chapter": "Chapter 4",
+      "current": true,
+      "method": "bought"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_12",
+      "acquisition_chapter": "Chapter 5",
+      "current": true,
+      "method": "created"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_13",
+      "acquisition_chapter": "Chapter 8",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_14",
+      "acquisition_chapter": "Chapter 8",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_09",
+      "item_id": "ITEM_17",
+      "acquisition_chapter": "Chapter 10",
+      "current": true,
+      "method": "worn"
+    },
+    {
+      "character_id": "CHAR_09",
+      "item_id": "ITEM_19",
+      "acquisition_chapter": "Chapter 10",
+      "current": true,
+      "method": "worn"
+    },
+    {
+      "character_id": "CHAR_11",
+      "item_id": "ITEM_20",
+      "acquisition_chapter": "Chapter 12",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_11",
+      "item_id": "ITEM_21",
+      "acquisition_chapter": "Chapter 12",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_12",
+      "item_id": "ITEM_22",
+      "acquisition_chapter": "Chapter 13",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_19",
+      "item_id": "ITEM_23",
+      "acquisition_chapter": "Chapter 23",
+      "current": true,
+      "method": "sold"
+    },
+    {
+      "character_id": "CHAR_13",
+      "item_id": "ITEM_24",
+      "acquisition_chapter": "Chapter 14",
+      "current": true,
+      "method": "used"
+    },
+    {
+      "character_id": "CHAR_18",
+      "item_id": "ITEM_25",
+      "acquisition_chapter": "Chapter 22",
+      "current": true,
+      "method": "used"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_26",
+      "acquisition_chapter": "Chapter 25",
+      "current": true,
+      "method": "created"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_27",
+      "acquisition_chapter": "Chapter 26",
+      "current": true,
+      "method": "found"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_28",
+      "acquisition_chapter": "Chapter 26",
+      "current": true,
+      "method": "worn"
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_29",
+      "acquisition_chapter": "Chapter 25",
+      "current": true,
+      "method": "created"
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_30",
+      "acquisition_chapter": "Chapter 27",
+      "current": false,
+      "method": "lost"
+    }
+  ],
+  "Item_CREATED": [
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_01",
+      "chapter": "Chapter 1",
+      "location": null,
+      "purpose": null,
+      "materials": [
+        "colored pencil"
+      ]
+    },
+    {
+      "character_id": "CHAR_01",
+      "item_id": "ITEM_02",
+      "chapter": "Chapter 1",
+      "location": null,
+      "purpose": null,
+      "materials": [
+        "colored pencil"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_03",
+      "chapter": "Chapter 1",
+      "location": null,
+      "purpose": null,
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_04",
+      "chapter": "Chapter 2",
+      "location": "Desert of Sahara",
+      "purpose": "Draw a sheep",
+      "materials": [
+        "paper",
+        "fountain-pen"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_05",
+      "chapter": "Chapter 2",
+      "location": "Desert of Sahara",
+      "purpose": "Draw a sheep",
+      "materials": [
+        "paper",
+        "fountain-pen"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_06",
+      "chapter": "Chapter 2",
+      "location": null,
+      "purpose": "House for the sheep",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_07",
+      "chapter": "Chapter 3",
+      "location": null,
+      "purpose": "Tie the sheep",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_08",
+      "chapter": "Chapter 3",
+      "location": null,
+      "purpose": "Tie the sheep",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_09",
+      "chapter": "Chapter 4",
+      "location": null,
+      "purpose": null,
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_10",
+      "chapter": "Chapter 4",
+      "location": null,
+      "purpose": "Draw portraits",
+      "materials": [
+        "paints",
+        "pencils"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_11",
+      "chapter": "Chapter 4",
+      "location": null,
+      "purpose": "Draw portraits",
+      "materials": [
+        "paints",
+        "pencils"
+      ]
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_12",
+      "chapter": "Chapter 5",
+      "location": null,
+      "purpose": "Show how to deal with baobabs",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_13",
+      "chapter": "Chapter 8",
+      "location": null,
+      "purpose": "Protect the rose",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_14",
+      "chapter": "Chapter 8",
+      "location": null,
+      "purpose": "Protect the rose",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_29",
+      "chapter": "Chapter 7",
+      "location": null,
+      "purpose": "Protect the flower",
+      "materials": []
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_30",
+      "chapter": "Chapter 25",
+      "location": null,
+      "purpose": "Muzzle for the sheep",
+      "materials": []
+    }
+  ],
+  "Item_SEEKS": [
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_01",
+      "motivation": "To show the grown-ups his drawing",
+      "start_chapter": "Chapter 1",
+      "end_chapter": "Chapter 1",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_02",
+      "motivation": "To show the grown-ups his drawing",
+      "start_chapter": "Chapter 1",
+      "end_chapter": "Chapter 1",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_04",
+      "motivation": "To draw a sheep",
+      "start_chapter": "Chapter 2",
+      "end_chapter": "Chapter 2",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_05",
+      "motivation": "To draw a sheep",
+      "start_chapter": "Chapter 2",
+      "end_chapter": "Chapter 2",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_06",
+      "motivation": "To house the sheep",
+      "start_chapter": "Chapter 2",
+      "end_chapter": "Chapter 2",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_07",
+      "motivation": "To tie the sheep",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 3",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_08",
+      "motivation": "To tie the sheep",
+      "start_chapter": "Chapter 3",
+      "end_chapter": "Chapter 3",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_12",
+      "motivation": "To warn about the baobabs",
+      "start_chapter": "Chapter 5",
+      "end_chapter": "Chapter 5",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_13",
+      "motivation": "To protect the rose",
+      "start_chapter": "Chapter 8",
+      "end_chapter": "Chapter 8",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_14",
+      "motivation": "To protect the rose",
+      "start_chapter": "Chapter 8",
+      "end_chapter": "Chapter 8",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_02",
+      "item_id": "ITEM_29",
+      "motivation": "To protect the rose",
+      "start_chapter": "Chapter 24",
+      "end_chapter": "Chapter 24",
+      "success": true
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_29",
+      "motivation": "To protect the rose",
+      "start_chapter": "Chapter 25",
+      "end_chapter": "Chapter 25",
+      "success": false
+    },
+    {
+      "character_id": "CHAR_04",
+      "item_id": "ITEM_30",
+      "motivation": "To protect the rose",
+      "start_chapter": "Chapter 27",
+      "end_chapter": "Chapter 27",
+      "success": false
+    }
+  ],
+  "Item_DESTROYED": [],
+  "Item_USED_IN": [],
+  "ItemItem_COMPONENT_OF": [
+    {
+      "component_item_id": "ITEM_01",
+      "composite_item_id": "ITEM_01",
+      "nature": "drawing",
+      "integration_chapter": "Chapter 1",
+      "required_for_function": false
+    },
+    {
+      "component_item_id": "ITEM_02",
+      "composite_item_id": "ITEM_02",
+      "nature": "drawing",
+      "integration_chapter": "Chapter 1",
+      "required_for_function": false
+    },
+    {
+      "component_item_id": "ITEM_04",
+      "composite_item_id": "ITEM_04",
+      "nature": "tool",
+      "integration_chapter": "Chapter 2",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_05",
+      "composite_item_id": "ITEM_04",
+      "nature": "tool",
+      "integration_chapter": "Chapter 2",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_06",
+      "composite_item_id": "ITEM_06",
+      "nature": "tool",
+      "integration_chapter": "Chapter 2",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_07",
+      "composite_item_id": "ITEM_07",
+      "nature": "tool",
+      "integration_chapter": "Chapter 3",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_08",
+      "composite_item_id": "ITEM_08",
+      "nature": "tool",
+      "integration_chapter": "Chapter 3",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_10",
+      "composite_item_id": "ITEM_10",
+      "nature": "tool",
+      "integration_chapter": "Chapter 4",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_11",
+      "composite_item_id": "ITEM_10",
+      "nature": "tool",
+      "integration_chapter": "Chapter 4",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_13",
+      "composite_item_id": "ITEM_13",
+      "nature": "tool",
+      "integration_chapter": "Chapter 8",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_14",
+      "composite_item_id": "ITEM_14",
+      "nature": "tool",
+      "integration_chapter": "Chapter 8",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_29",
+      "composite_item_id": "ITEM_29",
+      "nature": "tool",
+      "integration_chapter": "Chapter 25",
+      "required_for_function": true
+    },
+    {
+      "component_item_id": "ITEM_30",
+      "composite_item_id": "ITEM_29",
+      "nature": "tool",
+      "integration_chapter": "Chapter 25",
+      "required_for_function": true
+    }
+  ],
+  "ItemItem_COUNTERS": [
+    {
+      "item_id": "ITEM_01",
+      "countered_item_id": "ITEM_01",
+      "method": "Grown-ups' lack of understanding",
+      "effectiveness": "Complete misunderstanding",
+      "source": "Chapter 1"
+    },
+    {
+      "item_id": "ITEM_02",
+      "countered_item_id": "ITEM_02",
+      "method": "Grown-ups' lack of understanding",
+      "effectiveness": "Complete misunderstanding",
+      "source": "Chapter 1"
+    },
+    {
+      "item_id": "ITEM_01",
+      "countered_item_id": "ITEM_02",
+      "method": "Drawing of the inside of the boa constrictor",
+      "effectiveness": "Ineffective, still misunderstood",
+      "source": "Chapter 1"
+    },
+    {
+      "item_id": "ITEM_04",
+      "countered_item_id": "ITEM_08",
+      "method": "Box",
+      "effectiveness": "Effective, provides shelter",
+      "source": "Chapter 3"
+    },
+    {
+      "item_id": "ITEM_04",
+      "countered_item_id": "ITEM_07",
+      "method": "Box",
+      "effectiveness": "Effective, provides shelter",
+      "source": "Chapter 3"
+    },
+    {
+      "item_id": "ITEM_12",
+      "countered_item_id": "ITEM_05",
+      "method": "Warning about baobabs",
+      "effectiveness": "Preventing the baobabs from destroying the planet",
+      "source": "Chapter 5"
+    },
+    {
+      "item_id": "ITEM_13",
+      "countered_item_id": "ITEM_05",
+      "method": "Glass globe",
+      "effectiveness": "Protecting the rose from drafts",
+      "source": "Chapter 8"
+    },
+    {
+      "item_id": "ITEM_14",
+      "countered_item_id": "ITEM_05",
+      "method": "Screen",
+      "effectiveness": "Protecting the rose from drafts",
+      "source": "Chapter 8"
+    },
+    {
+      "item_id": "ITEM_29",
+      "countered_item_id": "ITEM_05",
+      "method": "Muzzle",
+      "effectiveness": "Preventing the sheep from eating the rose",
+      "source": "Chapter 7"
+    },
+    {
+      "item_id": "ITEM_30",
+      "countered_item_id": "ITEM_05",
+      "method": "Muzzle",
+      "effectiveness": "Preventing the sheep from eating the rose",
+      "source": "Chapter 7"
+    }
+  ],
+  "ItemLocation_LOCATED_AT": [
+    {
+      "item_id": "ITEM_01",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 1",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_02",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 1",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_03",
+      "location_id": "LOCA_06",
+      "chapter_range": "Chapter 2",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_04",
+      "location_id": "LOCA_06",
+      "chapter_range": "Chapter 2",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_05",
+      "location_id": "LOCA_06",
+      "chapter_range": "Chapter 2",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_06",
+      "location_id": "LOCA_06",
+      "chapter_range": "Chapter 2",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_09",
+      "location_id": "LOCA_10",
+      "chapter_range": "Chapter 4",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_12",
+      "location_id": "LOCA_10",
+      "chapter_range": "Chapter 5",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_15",
+      "location_id": "LOCA_10",
+      "chapter_range": "Chapter 9",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_16",
+      "location_id": "LOCA_10",
+      "chapter_range": "Chapter 9",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_19",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 10",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_20",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 12",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_21",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 12",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_22",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 13",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_24",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 14",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_25",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 14",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_26",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 15",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_27",
+      "location_id": "LOCA_06",
+      "chapter_range": "Chapter 26",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_28",
+      "location_id": "LOCA_02",
+      "chapter_range": "Chapter 26",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_29",
+      "location_id": "LOCA_06",
+      "chapter_range": "Chapter 25",
+      "hidden": false,
+      "guardian": null
+    },
+    {
+      "item_id": "ITEM_30",
+      "location_id": "LOCA_06",
+      "chapter_range": "Chapter 27",
+      "hidden": false,
+      "guardian": null
+    }
+  ],
+  "ItemLocation_ORIGINATED_FROM": [
+    {
+      "item_id": "ITEM_01",
+      "location_id": "LOCA_02",
+      "creation_date": "When I was six years old",
+      "creator": "Narrator",
+      "significance": "First drawing, showing the narrator's early artistic endeavors."
+    },
+    {
+      "item_id": "ITEM_02",
+      "location_id": "LOCA_02",
+      "creation_date": "When I was six years old",
+      "creator": "Narrator",
+      "significance": "Second drawing, illustrating the narrator's attempt to explain his first drawing."
+    },
+    {
+      "item_id": "ITEM_09",
+      "location_id": "LOCA_10",
+      "creation_date": "Unknown",
+      "creator": "Unknown",
+      "significance": "The little prince's home planet."
+    },
+    {
+      "item_id": "ITEM_12",
+      "location_id": "LOCA_02",
+      "creation_date": "Unknown",
+      "creator": "Narrator",
+      "significance": "Drawing of the baobabs, illustrating the danger they pose."
+    }
+  ]
+}
